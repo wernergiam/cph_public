@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basic Bootstrap Template</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<style>
+.ch-box {
+	border: 1px solid #dde2e4;
+}
+.table > thead:nth-child(1) > tr:nth-child(1) {
+	border-top: 1px solid #dde2e4;
+	border-bottom: 1px solid #dde2e4;
+	color: #c4c6c6;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-style: none;
+}
+h4 {
+	font-weight: bold;
+	padding: 8px; 
+	margin: 0px;
+}
+.nav, .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	border-style: none ! important;
+	line-height: 1.42857143;
+	vertical-align: top;
+	height: 37px;
+}
+</style>
+</head>
+<body>
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-md-7 ch-box" style="padding: 0px;">
+    			<h4>Choose Payment Option</h4>
+    			<ul class="nav nav-tabs">
+        			<li class="active"><a href="#">Stripe</a></li>
+        			<li><a href="#">Paypal</a></li>
+        			<li><a href="#">Offline</a></li>
+    			</ul>
+    		</div>
+    		<div class="col-md-1" style="padding: 0px;">
+    		</div>
+    		<div class="col-md-4 ch-box" style="padding: 0px; float: right;">
+   				<h4>Order Summary</h4>
+   				<table class="table">
+   					<thead>
+            			<tr>
+                			<th>Order</th>
+                			<th>Quantity</th>
+                			<th>Price</th>
+			            </tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+                			<td>Seiko Prospex Automatic 200m Divers Blue Monster Watch SRP581K1 . SRP581</td>
+                			<td>1</td>
+                			<td>319</td>
+                		</tr>
+                	</tbody>
+   				</table>
+    		</div>
+    	</div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>                       
