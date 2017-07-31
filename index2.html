@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basic Bootstrap Template</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<style>
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+hr {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.pull-right {
+	float: right;
+}
+</style>
+</head>
+<body>    
+    <!-- Header -->
+    <div class="container-fluid">
+    	<div class="navbar-header">
+        	<img width="213px" height="100 px" src="images/cph_logo_03.jpeg" />
+    	</div>
+    	<div class="navbar">
+    	</div>
+	</div>
+	
+	<div class="container-fluid">
+    <div class="border row">
+        <div class="col-sm-6 col-md-4">
+        	<div class="panel panel-default">
+	            <div class="panel-heading">
+	                <h3 class="panel-title">Choose Payment Option</h3>
+	            </div>
+	            <div class="panel-body" style="line-height:2.5em;">
+	            </div>
+			</div>
+        </div>
+
+        <div class="col-sm-6 col-md-8">
+   	        <div class="panel panel-default">
+	            <div class="panel-heading">
+	                <h3 class="panel-title">Order Details</h3>
+	            </div>
+	            <div class="panel-body" style="line-height:2.5em;">
+	            	<div class="row">
+	            		<div class="col-sm-4 col-md-2">
+	            			<span><b>Order ID: </b></span>
+	            		</div>	
+	            		<div class="col-sm-8 col-md-4">
+	            			<span>636370976545991389</span>
+	            		</div>
+	            		<div class="col-sm-4 col-md-2">
+	            			<span><b>Order Date: </b></span>
+	            		</div>
+	            		<div class="col-sm-8 col-md-4"">
+	            			<span>31/7/2017 11:34:15 AM</span>
+	            		</div>
+	            		<div class="col-sm-4 col-md-2">
+	            			<span><b>Merchant: </b></span>
+	            		</div>
+	            		<div class="col-sm-8 col-md-10">
+	            			<span>Starhub Paypal</span>
+	            		</div>
+	            	</div>
+	            	<div class="row">
+	            		<div class="col-sm-10 col-md-10 text-right">
+	            			<span><b>Total</b></span>
+	            		</div>
+	            		<div class="col-sm-2 col-md-2">
+	            			&nbsp;
+	            		</div>
+	            		<div class="clearfix visible-sm-block"></div>
+	            	</div>
+	            		<hr>
+	            	<div  class="row">
+	            		<div class="col-sm-2 col-md-10 text-right">
+	            			<span><b>Currency</b></span>
+	            		</div>
+	            		<div class="col-sm-2 col-md-2">
+	            			<span><b>SGD</b></span>
+	            		</div>
+	            		<div class="clearfix visible-sm-block"></div>
+	            	</div>
+	            		<hr>
+	            	<div class="row">
+	            		<div class="col-md-10 text-right">
+	            			<span><b>Total Amount</b></span>
+	            		</div>
+	            		<div class="col-md-2">
+	            			<span><b>319</b></span>
+	            		</div>
+	            		<div class="clearfix visible-sm-block"></div>
+	            	</div>
+	            </div>
+			</div>
+        </div>
+    </div>
+	</div>
+    
+    <!--
+    <div class="container">
+        
+<div class="border row">
+    <div class="border col-sm-8">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Order Details</h3>
+            </div>
+
+            <div class="panel-body" style="line-height:2.5em;">
+                <div class="form-group" id="table2">
+                    <table style="width:100%;">
+                        <tr>
+                            <td width="150px"><b>Order ID</b>:</td>
+                            <td>636370976545991389</td>
+                            <td width="100px"></td>
+                            <td width="150px">Order Date:</td>
+                            <td>31/7/2017 11:34:15 AM</td>
+                        </tr>
+
+                        <tr>
+                            <td>Merchant:</td>
+                            <td>starhub paypal</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="5">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th style="text-align: right;">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <td colspan="3"></td>
+                                            <td align="right"><b>Currency</b>:</td>
+                                            <td align="right"><b>SGD</b></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="3"></td>
+                                            <td align="right"><b>Total Amount</b>:</td>
+                                            <td align="right"><b>200.40</b></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <p>
+            <span style="color: red; font-weight: bold;">IMPORTANT:</span><br />
+            * DO NOT close this browser while payment is in progress.<br />
+            * DO NOT browser buttons (example: Back, Refresh or Stop) while payment is in progress.
+        </p>
+
+        <div id="card-button-container" class="footerNavWrap clearfix">
+            <form id="ToSubmitForm" action="/payment/RedirectToPaypal" method="post">
+                <input id="MerchantID" name="MerchantID" type="hidden" value="" />
+                <input id="ApplicationMerchantCode" name="ApplicationMerchantCode" type="hidden" value="9bd7b7e9-37db-4218-a9ad-10247c5a56bc" />
+                <input id="Currency" name="Currency" type="hidden" value="SGD" />
+                <input id="PaymentDescription" name="PaymentDescription" type="hidden" value="Paying bills la." />
+                <input id="TotalAmount" name="TotalAmount" type="hidden" value="200.40" />
+                <input id="CPHCancelUrl" name="CPHCancelUrl" type="hidden" value="http://localhost:41120/Payment/PaypalCancel" />
+                <input id="CPHNotifyUrl" name="CPHNotifyUrl" type="hidden" value="http://localhost:41120/Payment/PaypalNotify" />
+                <input id="CPHReturnUrl" name="CPHReturnUrl" type="hidden" value="http://localhost:41120/payment/PaypalReturn" />
+                <input data-val="true" data-val-required="The PaymentRequestID field is required." id="PaymentRequestID" name="PaymentRequestID" type="hidden" value="57" />
+
+                <input class="btn btn-success paycancelbutton" value="Pay Now" OnClick="PaymentChoice()">
+
+                <a href="http://localhost:40274/" style="cursor: pointer; cursor: "hand">
+                    <input class="btn btn-danger paycancelbutton" type="button" value="Cancel">
+                </a>
+            </form>
+        </div>
+    </div>
+
+    <div class="border col-sm-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Select Your Payment Method</h3>
+            </div>
+
+            <div class="panel-body">
+                <div>
+                    <div class="row form-group payment-chooser">
+                        <div class="payment-chooser-container">
+                            <div class="payment-chooser-item" id="Paypal">
+                                <img src="/images/paypal-mark.jpg" class="img-rounded col-md-12" alt="paypal">
+                                <div id="testing" class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
+                                    <span class="title">Paypal</span>
+                                    <input type="radio" name="payment" value="paypal">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <div class="payment-chooser-container">
+                            <div class="payment-chooser-item">
+                                <img src="/images/logo-cybersource.png" class="img-rounded col-md-12" alt="cybersource">
+                                <div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
+                                    <span class="title">Cybersource</span>
+                                    <input type="radio" name="payment" value="cybersource">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <div class="payment-chooser-container">
+                            <div class="payment-chooser-item">
+                                <img src="/images/icon-enets.png" class="img-rounded col-md-12" alt="enets">
+                                <div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
+                                    <span class="title">eNets</span>
+                                    <input type="radio" name="payment" value="enets">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <div class="payment-chooser-container">
+                            <div class="payment-chooser-item">
+                                <img src="/images/Stripe-Logo.png" class="img-rounded col-md-12" alt="stripe">
+                                <div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
+                                    <span class="title">Stripe</span>
+                                    <input type="radio" name="payment" value="stripe">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <div class="payment-chooser-container">
+                            <div class="payment-chooser-item">
+                                <img src="/images/logo-visa.png" class="img-rounded col-md-12" alt="visa">
+                                <div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
+                                    <span class="title">Visa</span>
+                                    <input type="radio" name="payment" value="visa">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <div class="payment-chooser-container">
+                            <div class="payment-chooser-item">
+                                <img src="/images/logo-mastercard.png" class="img-rounded col-md-12" alt="mastercard">
+                                <div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
+                                    <span class="title">Mastercard</span>
+                                    <input type="radio" name="payment" value="mastercard">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <div class="payment-chooser-container">
+                            <div class="payment-chooser-item">
+                                <img src="/images/offline.png" class="img-rounded col-md-12" alt="offline">
+                                <div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
+                                    <span class="title">Offline</span>
+                                    <input type="radio" name="payment" value="offline">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>        
+    </div>
+    -->
+
+    <!-- Footer -->
+    <footer class="footer navbar-default">
+    <div class="container">
+        <p class="navbar-text pull-left">2017 &copy; Common Payment Hub</p>
+    </div>
+	</footer>
+    
+
+	<!--    
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://checkout.stripe.com/v2/checkout.js"></script>
+    <script src="/js/app-payment.js"></script>
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
