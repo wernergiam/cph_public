@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basic Bootstrap Template</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<style>
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+p, span, label, td {
+	word-wrap: break-word;
+}
+
+ul {
+	padding: 15px;
+	padding-top: 0px; 
+	padding-bottom: 0px; 
+	line-height:1.5em;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    /* Force table to not be like tables anymore */
+	#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#no-more-tables tr { border: 0px solid #ccc; }
+ 
+	#no-more-tables td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 0px solid #eee; 
+		position: relative;
+		padding-left: 40%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	#no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#no-more-tables td:before { content: attr(data-title); }
+}
+
+.col-md-12 {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.nav > li > a {
+    padding: 0px 0px !important;
+}
+
+</style>
+
+</head>
+<body>    
+    <!-- Header -->
+    <div class="container-fluid">
+    	<div class="navbar-header">
+        	<img width="213px" height="100 px" src="images/cph_logo_03.jpeg" />
+    	</div>
+    	<div class="navbar">
+    	</div>
+	</div>
+	
+	<div class="container-fluid">
+    <div class="border row">
+        <div class="col-sm-6 col-md-6">
+        	<div class="panel panel-default">
+	            <div class="panel-heading">
+	                <h3 class="panel-title">Choose Payment Option</h3>
+	            </div>
+	            <div class="panel-body" style="line-height:2.5em;">
+	            	<ul class="nav nav-pills">
+	            		<li class="active"><a href="#"><img alt="" src="images/icons8-Stripe-48.png" class="img-responsive"></img></a></li>
+	            		<li><a href="#"><img alt="" src="images/icons8-PayPal-48.png" class="img-responsive"></img></a></li>
+	            	</ul>
+	            	<div id="stripe-content">
+			        	<span>Put stripe content here</span>
+			        	<br>
+			        	<button type="button" class="btn btn-success">Pay Now</button>
+			        	<button type="button" class="btn btn-danger">Cancel</button>
+			        </div>
+			        <div id="paypal-content">
+			        	<span>You will need to login to your Paypal account.</span>
+			        	<br>
+			        	<button type="button" class="btn btn-success">Pay Now</button>
+			        	<button type="button" class="btn btn-danger">Cancel</button>
+			        </div>
+	            	<span>
+	            		<b>IMPORTANT:</b>
+	            		<ul style="padding-top: 0px; line-height:1.5em;">
+	            			<li>DO NOT close this browser while payment is in progress.</li>
+	            			<li>DO NOT browser buttons (example: Back, Refresh or Stop) while payment is in progress.</li>
+	            		</ul>
+	            	</span>
+	            </div>
+			</div>
+        </div>
+        
+        <div class="col-sm-6 col-md-6">
+   	        <div class="panel panel-default">
+	            <div class="panel-heading">
+	                <h3 class="panel-title">Order Details</h3>
+	            </div>
+	            <div class="panel-body" style="line-height:2.5em;">
+	            	<div id="no-more-tables">
+	            		<table class="col-md-12 table">
+	            			<thead>
+		            			<tr>
+		                			<th>Order ID</th>
+		                			<th>Merchant</th>
+		                			<th>Order Date</th>
+		                			<th>Price</th>
+					            </tr>
+		        			</thead>
+		        			<tbody>
+		        				<tr>
+		                			<td data-title="Order ID">63637097654599138999999999</td>
+		                			<td data-title="Merchant">starhub paypal</td>
+		                			<td data-title="Order Date">31/7/2017 11:34:15 AM
+		                			<td data-title="Price">319</td>
+		                		</tr>
+		                		<tr style="border-bottom:1px solid lightgrey">
+		                			<td colspan="4"><b>Total Amount: </b><span class="pull-right">SGD $319</span></td>
+		                		</tr>
+		                	</tbody>
+	            		</table>
+	            	</div>
+	            </div>
+			</div>
+        </div>
+    </div>
+	</div>
+
+    <!-- Footer -->
+    <footer class="footer navbar-default">
+    <div class="container">
+        <p class="navbar-text pull-left">2017 &copy; Common Payment Hub</p>
+    </div>
+	</footer>
+    
+
+	<!--    
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://checkout.stripe.com/v2/checkout.js"></script>
+    <script src="/js/app-payment.js"></script>
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -33,10 +33,18 @@ hr {
 	margin-bottom: 5px;
 }
 
-.pull-right {
-	float: right;
+span {
+	word-wrap: break-word;
+}
+
+ul {
+	padding: 15px;
+	padding-top: 0px; 
+	padding-bottom: 0px; 
+	line-height:1.5em;
 }
 </style>
+
 </head>
 <body>    
     <!-- Header -->
@@ -50,17 +58,40 @@ hr {
 	
 	<div class="container-fluid">
     <div class="border row">
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6">
         	<div class="panel panel-default">
 	            <div class="panel-heading">
 	                <h3 class="panel-title">Choose Payment Option</h3>
 	            </div>
 	            <div class="panel-body" style="line-height:2.5em;">
+	            	<ul class="nav nav-pills">
+	            		<li class="active"><a href="#"><img alt="" src="images/icons8-Stripe-48.png" class="img-responsive"></img></a></li>
+	            		<li><a href="#"><img alt="" src="images/icons8-PayPal-48.png" class="img-responsive"></img></a></li>
+	            	</ul>
+	            	<div id="stripe-content">
+			        	<span>Put stripe content here</span>
+			        	<br>
+			        	<button type="button" class="btn btn-success">Pay Now</button>
+			        	<button type="button" class="btn btn-danger">Cancel</button>
+			        </div>
+			        <div id="paypal-content">
+			        	<span>You will need to login to your Paypal account.</span>
+			        	<br>
+			        	<button type="button" class="btn btn-success">Pay Now</button>
+			        	<button type="button" class="btn btn-danger">Cancel</button>
+			        </div>
+	            	<span>
+	            		<b>IMPORTANT:</b>
+	            		<ul style="padding-top: 0px; line-height:1.5em;">
+	            			<li>DO NOT close this browser while payment is in progress.</li>
+	            			<li>DO NOT browser buttons (example: Back, Refresh or Stop) while payment is in progress.</li>
+	            		</ul>
+	            	</span>
 	            </div>
 			</div>
         </div>
-
-        <div class="col-sm-6 col-md-8">
+        
+        <div class="col-sm-6 col-md-6">
    	        <div class="panel panel-default">
 	            <div class="panel-heading">
 	                <h3 class="panel-title">Order Details</h3>
@@ -70,51 +101,32 @@ hr {
 	            		<div class="col-sm-4 col-md-2">
 	            			<span><b>Order ID: </b></span>
 	            		</div>	
-	            		<div class="col-sm-8 col-md-4">
+	            		<div class="col-sm-8 col-md-3">
 	            			<span>636370976545991389</span>
 	            		</div>
-	            		<div class="col-sm-4 col-md-2">
+	            		<div class="col-sm-4 col-md-3">
 	            			<span><b>Order Date: </b></span>
 	            		</div>
 	            		<div class="col-sm-8 col-md-4"">
 	            			<span>31/7/2017 11:34:15 AM</span>
 	            		</div>
-	            		<div class="col-sm-4 col-md-2">
+	            		<div class="col-sm-4 col-md-3">
 	            			<span><b>Merchant: </b></span>
 	            		</div>
-	            		<div class="col-sm-8 col-md-10">
+	            		<div class="col-sm-8 col-md-4">
 	            			<span>Starhub Paypal</span>
 	            		</div>
 	            	</div>
+	            	<hr>
 	            	<div class="row">
-	            		<div class="col-sm-10 col-md-10 text-right">
-	            			<span><b>Total</b></span>
+	            		<div class="col-xs-8 col-sm-8 col-md-8">
+	            			<span><b>Total Amount: </b></span>
 	            		</div>
-	            		<div class="col-sm-2 col-md-2">
-	            			&nbsp;
+	            		<div class="col-xs-4 col-sm-4 col-md-4">
+	            			<span><b>SGD</b> $319</span>
 	            		</div>
-	            		<div class="clearfix visible-sm-block"></div>
 	            	</div>
-	            		<hr>
-	            	<div  class="row">
-	            		<div class="col-sm-2 col-md-10 text-right">
-	            			<span><b>Currency</b></span>
-	            		</div>
-	            		<div class="col-sm-2 col-md-2">
-	            			<span><b>SGD</b></span>
-	            		</div>
-	            		<div class="clearfix visible-sm-block"></div>
-	            	</div>
-	            		<hr>
-	            	<div class="row">
-	            		<div class="col-md-10 text-right">
-	            			<span><b>Total Amount</b></span>
-	            		</div>
-	            		<div class="col-md-2">
-	            			<span><b>319</b></span>
-	            		</div>
-	            		<div class="clearfix visible-sm-block"></div>
-	            	</div>
+	            	<hr>
 	            </div>
 			</div>
         </div>
