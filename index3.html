@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <!-- Optional Bootstrap theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="css/hover.css">
 <style>
 html {
     position: relative;
@@ -95,19 +96,43 @@ ul {
 }
 
 .nav > li > a {
-    padding: 0px 0px !important;
+    padding: 4px 20px !important;
+}
+
+.hvr-border-fade {
+    box-shadow: inset 0 0 0 4px white, 0 0 1px transparent;
+}
+
+.nav>li>a:hover {
+    background-color: white;
+}
+
+.nav>li>a:focus {
+	background-color: #337ab7;
+}
+
+.hvr-border-fade:hover {
+    box-shadow: inset 0 0 0 2px #337ab7, 0 0 1px transparent;
+}
+
+.hvr-border-fade:focus {
+    box-shadow: inset 0 0 0 2px #337ab7, 0 0 1px transparent;
+}
+
+.payment-dialog {
+	border: 1px solid lightgrey;
+	border-radius: 4px;
+	padding: 15px;
+	
 }
 
 </style>
-
 </head>
 <body>    
     <!-- Header -->
     <div class="container-fluid">
     	<div class="navbar-header">
-        	<img width="213px" height="100 px" src="images/cph_logo_03.jpeg" />
-    	</div>
-    	<div class="navbar">
+        	<img width="190 px" height="89 px" src="images/cph_logo_01a.jpg" />
     	</div>
 	</div>
 	
@@ -120,20 +145,23 @@ ul {
 	            </div>
 	            <div class="panel-body" style="line-height:2.5em;">
 	            	<ul class="nav nav-pills">
-	            		<li class="active"><a href="#"><img alt="" src="images/icons8-Stripe-48.png" class="img-responsive"></img></a></li>
-	            		<li><a href="#"><img alt="" src="images/icons8-PayPal-48.png" class="img-responsive"></img></a></li>
+	            		<li><a id="stripe-option" class="hvr-border-fade" href="#"><img alt="" src="images/icons8-Stripe-48.png" class="img-responsive"></img></a></li>
+	            		<li><a id="paypal-option" class="hvr-border-fade" href="#"><img alt="" src="images/icons8-PayPal-48.png" class="img-responsive"></img></a></li>
 	            	</ul>
-	            	<div id="stripe-content">
+	            	<div id="stripe-option-content" class="payment-dialog">
 			        	<span>Put stripe content here</span>
 			        	<br>
 			        	<button type="button" class="btn btn-success">Pay Now</button>
 			        	<button type="button" class="btn btn-danger">Cancel</button>
 			        </div>
-			        <div id="paypal-content">
+			        <div id="paypal-option-content"  class="payment-dialog">
 			        	<span>You will need to login to your Paypal account.</span>
 			        	<br>
 			        	<button type="button" class="btn btn-success">Pay Now</button>
 			        	<button type="button" class="btn btn-danger">Cancel</button>
+			        </div>
+			        <div id="no-option-content" class="payment-dialog">
+			        	<span>There are no payment option configured.</span>
 			        </div>
 	            	<span>
 	            		<b>IMPORTANT:</b>
@@ -169,8 +197,8 @@ ul {
 		                			<td data-title="Order Date">31/7/2017 11:34:15 AM
 		                			<td data-title="Price">319</td>
 		                		</tr>
-		                		<tr style="border-bottom:1px solid lightgrey">
-		                			<td colspan="4"><b>Total Amount: </b><span class="pull-right">SGD $319</span></td>
+		                		<tr style="border-bottom:1px solid crimson">
+		                			<td colspan="4" style="color: crimson;"><b>Total Amount: </b><span class="pull-right">SGD $319</span></td>
 		                		</tr>
 		                	</tbody>
 	            		</table>
@@ -183,9 +211,9 @@ ul {
 
     <!-- Footer -->
     <footer class="footer navbar-default">
-    <div class="container">
-        <p class="navbar-text pull-left">2017 &copy; Common Payment Hub</p>
-    </div>
+	    <div class="container">
+	        <p class="navbar-text pull-left">2017 &copy; Common Payment Hub</p>
+	    </div>
 	</footer>
     
 
@@ -197,6 +225,16 @@ ul {
     -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+	<script>
+		$(document).ready(function() {
+			$('#stripe-option-content').show();
+			$('#stripe-option-content').siblings('div').hide();
+			$('.nav>li>a').click(function() {
+				console.log($(this).attr('id'));
+				$('#' + $(this).attr('id') + '-content').show();
+				$('#' + $(this).attr('id') + '-content').siblings('div').hide();
+			});
+		});
+	</script>
 </body>
 </html>
