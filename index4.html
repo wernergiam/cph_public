@@ -9,6 +9,7 @@
 <!-- Optional Bootstrap theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link rel="stylesheet" href="css/hover.css">
+<link href="css/magic-check.css" rel="stylesheet">
 <style>
 html {
     position: relative;
@@ -126,6 +127,13 @@ ul {
 	
 }
 
+.payment-dialog:hover {
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 15px;
+	
+}
+
 .payment-option:hover {
 	background-color: lightgrey;
 }
@@ -155,32 +163,34 @@ ul {
 	            <div class="panel-body">
 					<div class="form-group radio payment-option">
 						<label>
-    					<input type="radio" name="paymentOption" id="paymentOption1" value="stripe" checked>Stripe
-    					</label>
-    					<img alt="Stripe" src="images/icons8-Stripe-48.png" class="img-responsive pull-right"></img>
+    					<input type="radio" name="paymentOption" id="paymentOption1" value="stripe">Stripe
     					<br>
     					<p>Secure payment using your visa, maestro, american express.</p>
+    					</label>
+    					<img alt="Paypal" src="images/icons8-Stripe-48.png" class="img-responsive pull-right"></img>
 					</div>
 					<div class="form-group radio payment-option">
 						<label>
     					<input type="radio" name="paymentOption" id="paymentOption2" value="paypal">Paypal
+    					<br>
+    					<p>Safe payment online. You will need to login to your Paypal account.</p>
     					</label>
     					<img alt="Paypal" src="images/icons8-Paypal-48.png" class="img-responsive pull-right"></img>
-    					<br>
-    					<span>You will need to login to your Paypal account.</span>
 					</div>
-	            	<div id="stripe-option-content" class="form payment-dialog">
-			        	<p>Put stripe content here</p>
+	            	<div id="stripe-option-content" class="form-group payment-dialog">
+			        	<label>Put stripe content here</label>
+			        	<img alt="credit card" src="images/credit-cards-beacon.gif.gif" class="img-responsive pull-right"></img>
 			        	<br>
 			        	<button type="button" class="btn btn-success">Pay Now</button>
 			        	<button type="button" class="btn btn-danger">Cancel</button>
 			        </div>
-			        <div id="paypal-option-content"  class="form payment-dialog">
-			        	<span>You will need to login to your Paypal account.</span>
+			        <div id="paypal-option-content"  class="form-group payment-dialog">
+			        	<label>You will be redirect to Paypal for login.</label>
 			        	<br>
 			        	<button type="button" class="btn btn-success">Pay Now</button>
 			        	<button type="button" class="btn btn-danger">Cancel</button>
 			        </div>
+			        <div class="form-group">
 	            	<p>
 	            		<strong>IMPORTANT:</strong>
 	            		<ul style="padding-top: 0px; line-height:1.5em;">
@@ -188,6 +198,7 @@ ul {
 	            			<li>DO NOT browser buttons (example: Back, Refresh or Stop) while payment is in progress.</li>
 	            		</ul>
 	            	</p>
+	            </div>
 	            </div>
 			</div>
         </div>
