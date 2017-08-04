@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basic Bootstrap Template</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<style>
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+p, label, span {
+	word-wrap: break-word;
+}
+
+.order-container {
+	background-color: #f2f2f2;
+	padding: 4px 15px 0px;
+}
+
+.order-total {
+	color: red;
+}
+
+</style>
+</head>
+<body>    
+    <!-- Header -->
+    <div class="container-fluid">
+	</div>
+    <div class="container-fluid">
+    	<div class="order-container">
+    		<h3><strong>Order Details</strong></h3>
+    		<br>
+    		<form>
+  				<div class="form-group row order-detail">
+    				<label class="col-sm-2 col-md-1">Order Id</label>
+    				<div class="col-sm-10 col-md-11">
+      					<span class="form-control-static">63637097654599138999999999</span>
+    				</div>
+  				</div>
+  				<div class="form-group row order-detail">
+    				<label class="col-sm-2 col-md-1">Merchant</label>
+    				<div class="col-sm-10 col-md-11">
+      					<span class="form-control-static">Starhub Paypal</span>
+    				</div>
+  				</div>
+  				<div class="form-group row order-detail">
+    				<label class="col-sm-2 col-md-1">Order Date</label>
+    				<div class="col-sm-10 col-md-11">
+      					<span class="form-control-static">31/7/2017 11:34:15 AM</span>
+    				</div>
+  				</div>
+  				<div class="form-group row order-total">
+    				<label class="col-sm-2 col-md-1">Total</label>
+    				<div class="col-sm-10 col-md-11">
+      					<span class="form-control-static"><strong>319</strong></span>
+    				</div>
+  				</div>
+  			</form>
+    	</div>
+	</div>
+    <!-- Footer -->
+    <footer class="footer">
+    	<hr style="color: black; border-width: 5px;">
+	    <div class="container">
+	    	<hr style="color: black; border-width: 5px;">
+	        <p class="navbar-text pull-left">2017 &copy; Common Payment Hub</p>
+	    </div>
+	</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function() {
+			$('.payment-dialog').hide();
+			$('input[name=paymentOption]').click(function() {
+				console.log($(this).attr('value'));
+				$('#' + $(this).attr('value') + '-option-content').show();
+				$('#' + $(this).attr('value') + '-option-content').siblings('.payment-dialog').hide();
+			});
+			/*
+			$('#paymentOption1').click(function() {
+				console.log($(this).attr('value'));
+				$('#' + $(this).attr('value') + '-option-content').show();
+				$('#' + $(this).attr('value') + '-option-content').siblings('.payment-dialog').hide();
+			});
+			$('#paymentOption2').click(function() {
+				console.log($(this).attr('value'));
+				$('#' + $(this).attr('value') + '-option-content').show();
+				$('#' + $(this).attr('value') + '-option-content').siblings('.payment-dialog').hide();
+			});
+			*/
+		});
+	</script>
+</body>
+</html>
