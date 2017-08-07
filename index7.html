@@ -45,23 +45,48 @@ p, label, span, h4, h5 {
 }
 
 .pay-now-button {
-	background-color: #ac6975; 
+	background-color: #8f4552; 
 	color: white;
 	font-weight: bold;
 }
 
-.pay-now-cancel:hover {
-	background-color: #e5e5e5; 
+.pay-now-button:hover, .pay-now-button:focus {
+	background-color: #458f82; 
+	color: white;
+	font-weight: bold;
+}
+
+.pay-now-cancel:hover, .pay-now-cancel:focus {
+	background-color: #d1d1d1; 
 }
 
 .pay-now-cancel {
-	background-color: #f5f5f5; 
+	/*f5f5f5*/
+	background-color: #efefef; 
 }
 
 .payment-button {
-	background-color: #ac6975; 
+	/*ac6975*/
+	background-color: #8f4552; 
 	color: white;
 	font-weight: bold;
+}
+
+.payment-button:hover, .payment-button:focus {
+	/*81787A  cfb53b e6be8a*/
+	background-color: #458f82; 
+	color: white;
+	font-weight: bold;
+}
+
+.payment-option-selected {
+	background-color: #8f8245; 
+	color: white;
+	font-weight: bold;
+}
+
+.btn:active, .btn:focus, .btn:hover {
+	outline: none;
 }
 
 </style>
@@ -77,7 +102,7 @@ p, label, span, h4, h5 {
 	</div>
     <div class="container-fluid">
     	<div class="row flex-row">
-    		<div class="col-xs-12 col-md-8" style="padding-bottom: 10px; padding-top: 10px; background-color: #f5f5f5; /*background-color: grey;*/ border-radius: 10px 0px 0px 10px;">
+    		<div class="col-xs-12 col-md-8" style="padding-bottom: 10px; padding-top: 10px; background-color: #efefef; height: 375px; /*background-color: grey;*/ border-radius: 10px 0px 0px 10px;">
     			<nav class="nav" style="padding-bottom: 10px;">
     				<button id="stripe-option" type="button" class="btn payment-button">Stripe</button>
     				<button id="paypal-option" type="button" class="btn payment-button">Paypal</button>
@@ -116,28 +141,28 @@ p, label, span, h4, h5 {
 	    			</div>
 	    		</div>
     		</div>
-    		<div class="col-xs-12 col-md-4" style="border-radius: 0px 10px 10px 0px;background-color:#8f4552; color: white; display: inline;">
+    		<div class="col-xs-12 col-md-4" style="border-radius: 0px 10px 10px 0px;background-color:#8f4552; color: white; display: inline; height: 375px;">
     			<div style="padding: 15px 0px 15px;
     border-bottom: 1px solid #817C79;">
    				<b>Order Summary</b>
     			</div>
     			<div style="padding: 15px 0px 15px;
     border-bottom: 1px solid #817C79;">
-    				Ref No:<br>
+    				<small>Ref No:</small><br>
     				<b>636370976545991999999 9999999</b>
     			</div>
     			<div style="padding: 15px 0px 15px;
     border-bottom: 1px solid #817C79;">
-    				Date:<br>
+    				<small>Date:</small><br>
     				<b>31 Jul 2017 11:34:15 AM</b>
     			</div>
     			<div style="padding: 15px 0px 15px;
     border-bottom: 1px solid #817C79;">
-    				Merchant:<br>
+    				<small>Merchant:</small><br>
     				<b>Starhub Paypal</b>
     			</div>
     			<div style="padding: 15px 0px 15px;">
-    				Amount:<br>
+    				<small>Amount:</small><br>
     				<b>SGD 319</b>
     			</div>
     		</div>
@@ -158,12 +183,8 @@ p, label, span, h4, h5 {
 				console.log($(this).attr('id'));
 				$('#' + $(this).attr('id') + '-dialog').show();
 				$('#' + $(this).attr('id') + '-dialog').siblings('.payment-dialog').hide();
-				$('#' + $(this).attr('id')).siblings('.payment-option').removeClass('payment-option-selected');
-				$('#' + $(this).attr('id')).addClass('payment-option-selected');
-								
-				//'$('#' + $(this).attr('id')).removeClass('payment-option-unselected');
-				//$('#' + $(this).attr('id')).siblings('.payment-option').addClass('payment-option-unselected');
-				
+				//$('#' + $(this).attr('id')).siblings('.payment-button').removeClass('payment-option-selected');
+				//$('#' + $(this).attr('id')).addClass('payment-option-selected');
 			});
 		});
 	</script>
