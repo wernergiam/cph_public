@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basic Bootstrap Template</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<style>
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    width: 80%;
+    margin: auto;
+    /*background: #f3f3f3;*/
+    font-family: Lato,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+ 	/*   
+    background-color: #f5f5f5;
+    */                        
+    background-color: white;
+    font-size: 10px;
+    margin: auto;
+}
+
+p, label, span, h4, h5 {
+	word-wrap: break-word;
+}
+</style>
+</head>
+<body>    
+    <!-- Header -->
+    <div class="container-fluid">
+    	<div>
+	    	<div class="navbar-header xs-col-12">
+	        	<img width="190 px" height="89 px" src="images/cph_logo_01a.jpg" />
+	    	</div>
+	    </div>
+	</div>
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-md-4" style="border-radius: 5px 0px 0px 5px;background-color:#8f4552; color: white; display: inline;">
+    			<div style="padding: 10px 0px 10px;
+    border-bottom: 1px solid lightgrey;">
+   				<b>Order Summary</b>
+    			</div>
+    			<div style="padding: 10px 0px 10px;
+    border-bottom: 1px solid lightgrey;">
+    				Ref No:<br>
+    				<b>636370976545991999999 9999999</b>
+    			</div>
+    			<div style="padding: 10px 0px 10px;
+    border-bottom: 1px solid lightgrey;">
+    				Date:<br>
+    				<b>31 Jul 2017 11:34:15 AM</b>
+    			</div>
+    			<div style="padding: 10px 0px 10px;
+    border-bottom: 1px solid lightgrey;">
+    				Merchant:<br>
+    				<b>Starhub Paypal</b>
+    			</div>
+    			<div style="padding: 10px 0px 10px;">
+    				Amount:<br>
+    				<b>SGD 319</b>
+    			</div>
+    		</div>
+    		<div class="col-md-4" style="display: inline; background-color: #f5f5f5; border-radius: 0px 5px 5px 0px;">
+    			<ul class="nav nav-pills">
+  					<li role="presentation" class="active"><img alt="Stripe" src="images/icons8-Stripe-Original-48.png" class="img-responsive"></img></li>
+  					<li role="presentation"><img alt="Paypal" src="images/icons8-Paypal-Original-48.png" class="img-responsive"></img></li>
+				</ul>
+	    		<div id="stripe-option-dialog" " class="panel panel-default payment-dialog">
+	    			<div class="panel-body">
+	    				<img alt="Stripe" src="images/icons8-Stripe-Original-48.png" class="img-responsive pull-right"></img>
+	    				<form>
+	    					<div class="form-group">
+	    						<input type="email" class="form-control" placeholder="Email Address">
+	    					</div>
+	    					<div class="form-group">
+	    						<input type="text" class="form-control" placeholder="Credit Card Number">
+	    					</div>
+	    					<div class="form-group">       
+	    						<div class="form-inline">
+	    						<input type="text" class="form-control" style="width: 30%;" placeholder="CVV">   
+	    						<input type="text" class="form-control" style="width: 68.5%;" placeholder="Expiry Date">
+	    						</div>
+		    				</div>
+	    					<div>
+	    						<button type="button" class="btn pay-now-button">Pay Now</button>
+	    						<button type="button" class="btn pay-now-cancel">Cancel</button>
+    						</div>
+
+	    				</form>
+	    			</div>
+	    		</div>
+	    		<div id="paypal-option-dialog" class="panel panel-default payment-dialog">
+	    			<div class="panel-body">
+	    				<img alt="Paypal" src="images/icons8-Paypal-Original-48.png" class="img-responsive pull-right"></img>
+	    				<p>You will be redirect to Paypal for login.</p>
+	    					<div>
+	    						<button type="button" class="btn pay-now-button">Pay Now</button>
+	    						<button type="button" class="btn pay-now-cancel">Cancel</button>
+	    					</div>
+	    			</div>
+	    		</div>
+    		</div>
+    	</div>
+	</div>
+    <!-- Footer -->
+    <footer class="footer">
+	   	<p class="navbar-text pull-left">2017 &copy; Common Payment Hub</p>
+	</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function() {
+			//$('.payment-dialog').hide();
+			$('.payment-option').click(function() {
+				console.log($(this).attr('id'));
+				$('#' + $(this).attr('id') + '-dialog').show();
+				$('#' + $(this).attr('id') + '-dialog').siblings('.payment-dialog').hide();
+				$('#' + $(this).attr('id')).siblings('.payment-option').removeClass('payment-option-selected');
+				$('#' + $(this).attr('id')).addClass('payment-option-selected');
+								
+				//'$('#' + $(this).attr('id')).removeClass('payment-option-unselected');
+				//$('#' + $(this).attr('id')).siblings('.payment-option').addClass('payment-option-unselected');
+				
+			});
+		});
+	</script>
+</body>
+</html>
