@@ -182,6 +182,20 @@ p, label, span, h4, h5 {
 .pay-now-cancel {
 	background-color: #f5f5f5; 
 }
+
+@media only screen and (min-width: 768px) {
+	.xs-separator {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.xs-separator {
+		display: block;
+		padding: inherit;
+	}
+}
+
 </style>
 </head>
 <body>    
@@ -259,7 +273,10 @@ p, label, span, h4, h5 {
 	            </div>
 	    	</div>
 	    	</div>
-	    </div>			
+	    </div>		
+   	    	<div id="xs-separator" class="xs-separator">
+	    	</div>	
+	
 			<div class="col-sm-5">
 				<div class="payment-order">
 					<div class="order-header">
@@ -268,8 +285,8 @@ p, label, span, h4, h5 {
 			    	<div class="order-container">
 			    		<div class="row order-detail">
 			    			<span style="display: block; padding-bottom: 5px;"><b style="color: #8f4552;">Ref No: </b>636370976545991999999 9999999</span>
-			    			<span style="display: block; font-size: 12px; padding-bottom: 5px;">Starhub Paypal</span>
-			    			<span style="font-size: 12px;">31 Jul 2017 11:34:15 AM</span>
+			    			<span style="display: block; font-size: 12px; padding-bottom: 5px; color: blue;">Starhub Paypal</span>
+			    			<span style="font-size: 12px; color: blue;">31 Jul 2017 11:34:15 AM</span>
 			    		</div>
 		  				<div class="row order-total">
 		  					<div class="col-12">

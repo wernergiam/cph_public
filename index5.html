@@ -9,19 +9,6 @@
 <!-- Optional Bootstrap theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <style>
-@media only screen and (max-width: 800px) {
-	#xs-separator div {
-		display: none;
-	}
-}
-
-@media only screen and (min-width: 800px) {
-	#xs-separator div {
-		display: block;
-		padding: inherit;
-	}
-}
-
 html {
     position: relative;
     min-height: 100%;
@@ -195,6 +182,20 @@ p, label, span {
 .pay-now-cancel {
 	background-color: #f5f5f5; 
 }
+
+@media only screen and (min-width: 768px) {
+	.xs-separator {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.xs-separator {
+		display: block;
+		padding: inherit;
+	}
+}
+
 </style>
 </head>
 <body>    
@@ -273,7 +274,7 @@ p, label, span {
 	    	</div>
 	    	</div>
 	    </div>		
-	    	<div id="xs-separator">
+	    	<div id="xs-separator" class="xs-separator">
 	    	</div>	
 			<div class="col-sm-6">
 				<div class="payment-order">
