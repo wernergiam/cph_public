@@ -17,7 +17,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-    width: 70%;
+    width: 80%;
     margin: auto;
     /*background: #f3f3f3;*/
     font-family: Lato,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
@@ -70,6 +70,7 @@ p, label, span, h4, h5 {
 	background-color: #8f4552; 
 	color: white;
 	font-weight: bold;
+	border-radius: 5px;
 }
 
 .payment-button:hover, .payment-button:focus {
@@ -89,6 +90,61 @@ p, label, span, h4, h5 {
 	outline: none;
 }
 
+.payment-option-panel {
+	padding-bottom: 10px; 
+	padding-top: 10px; 
+	background-color: #efefef; 
+	height: 420px; /*background-color: grey;*/ 
+	border-radius: 10px 0px 0px 10px;
+}
+
+.order-detail-panel {
+	border-radius: 0px 10px 10px 0px;
+	background-color:#8f4552; 
+	color: white; 
+	display: inline; 
+	height: 420px;"
+}
+
+.order-detail {
+	padding: 15px 0px 15px;
+    border-bottom: 1px solid #817C79;
+}
+
+.order-detail-amount {
+	padding: 15px 0px 15px;
+}
+
+.payment-detail {
+	padding-left: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+	.xs-separator {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.xs-separator {
+		display: block;
+		padding: 5px;
+	}
+	
+	.order-detail-panel {
+		border-radius: 10px 10px 10px 10px;
+	}
+	
+	.payment-option-panel {
+		border-radius: 10px 10px 10px 10px;
+		height: 550px;
+	}
+	
+	.payment-detail {
+		padding-left: 0px;	
+	}
+}
+
 </style>
 </head>
 <body>    
@@ -101,69 +157,100 @@ p, label, span, h4, h5 {
 	    </div>
 	</div>
     <div class="container-fluid">
-    	<div class="row flex-row">
-    		<div class="col-xs-12 col-md-8" style="padding-bottom: 10px; padding-top: 10px; background-color: #efefef; height: 375px; /*background-color: grey;*/ border-radius: 10px 0px 0px 10px;">
+    	<div class="row">
+    		<div class="col-xs-12 col-md-8 payment-option-panel">
     			<nav class="nav" style="padding-bottom: 10px;">
     				<button id="stripe-option" type="button" class="btn payment-button">Stripe</button>
     				<button id="paypal-option" type="button" class="btn payment-button">Paypal</button>
     			</nav>
 	    		<div id="stripe-option-dialog" " class="panel panel-default payment-dialog">
 	    			<div class="panel-body">
-	    				<img alt="Stripe" src="images/icons8-Stripe-Original-48.png" class="img-responsive pull-right"></img>
+	    				<img alt="Stripe" src="images/icons8-Stripe-Original-48.png" class="img-responsive"></img>
 	    				<form>
-	    					<div class="form-group">
-	    						<input type="email" class="form-control" placeholder="Email Address">
-	    					</div>
-	    					<div class="form-group">
-	    						<input type="text" class="form-control" placeholder="Credit Card Number">
-	    					</div>
-	    					<div class="form-group">
-	    						<input type="text" class="form-control" placeholder="CVV">   
-	    					</div>
-	    					<div class="form-group">
-	    						<input type="text" class="form-control" placeholder="Expiry Date">
-	    					</div>
-	    					<div>
-	    						<button type="button" class="btn pay-now-button">Pay Now</button>
-	    						<button type="button" class="btn pay-now-cancel">Cancel</button>
+	    					<div class="form-row">
+		    					<div class="col-md-12 form-group payment-detail">
+		    						<input type="email" class="form-control" placeholder="Email Address" size="20">
+		    					</div>
+		    				</div>
+		    				<div class="form-row">
+		    					<div class="col-md-12 form-group payment-detail">
+		    						<input type="text" class="form-control" placeholder="Credit Card Number" size="20">
+		    					</div>
+		    				</div>
+	    					<div class="form-row">
+		    					<div class="col-md-4 form-group payment-detail">
+		    						<input type="text" class="form-control" placeholder="CVV">   
+		    					</div>
+		    					<div class="col-md-4 form-group payment-detail">
+		    						<input type="text" class="form-control" placeholder="MM">
+		    					</div>
+		    					<div class="col-md-4 form-group payment-detail">
+		    						<input type="text" class="form-control" placeholder="YYYY">
+		    					</div>
+		    				</div>
+	    					<div class="form-row">
+	    						<div class="col-md-12">
+    								<button type="button" class="btn pay-now-button pull-right">Pay Now</button>
+	    							<button type="button" class="btn pay-now-cancel pull-right" style="margin-right: 5px">Cancel</button>
+	    						</div>
     						</div>
 	    				</form>
 	    			</div>
 	    		</div>
 	    		<div id="paypal-option-dialog" class="panel panel-default payment-dialog">
 	    			<div class="panel-body">
-	    				<img alt="Paypal" src="images/icons8-Paypal-Original-48.png" class="img-responsive pull-right"></img>
-	    				<p>You will be redirect to Paypal for login.</p>
-	    					<div>
-	    						<button type="button" class="btn pay-now-button">Pay Now</button>
-	    						<button type="button" class="btn pay-now-cancel">Cancel</button>
+	    				<img alt="Paypal" src="images/icons8-Paypal-Original-48.png" class="img-responsive"></img>
+	    				<div class="form-row">
+	    					<div class="col-md-12" style="padding-left: 0px;">
+	    						<p><br>You will be redirect to Paypal for login.</p>
 	    					</div>
+	    				</div>	
+	    				<div class="form-row">
+	    					<div class="col-md-12">
+	    						<button type="button" class="btn pay-now-button pull-right">Pay Now</button>
+	    						<button type="button" class="btn pay-now-cancel pull-right" style="margin-right: 5px">Cancel</button>
+	    					</div>
+	    				</div>
+	    				
 	    			</div>
 	    		</div>
+	        	<div>
+	            	<p style="color: #8f4552">
+	            		<strong>IMPORTANT</strong>
+	            		<ul style="padding-top: 0px; padding-left: 15px; line-height:1.5em; text-align: justify; font-size: 12px;">
+	            			<li>DO NOT close this browser while payment is in progress.</li>
+	            			<li>DO NOT click browser buttons (e.g.: Back, Refresh or Stop) while payment is in progress.</li>
+	            		</ul>
+	            	</p>
+	            </div>
     		</div>
-    		<div class="col-xs-12 col-md-4" style="border-radius: 0px 10px 10px 0px;background-color:#8f4552; color: white; display: inline; height: 375px;">
-    			<div style="padding: 15px 0px 15px;
-    border-bottom: 1px solid #817C79;">
+   	    	<div id="xs-separator" class="xs-separator"></div>
+    		<div class="col-xs-12 col-md-4 order-detail-panel">
+    			<div class="order-detail">
    				<b>Order Summary</b>
     			</div>
-    			<div style="padding: 15px 0px 15px;
-    border-bottom: 1px solid #817C79;">
-    				<small>Ref No:</small><br>
-    				<b>636370976545991999999 9999999</b>
+    			<div class="order-detail">
+    				<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+    				<span><small>Ref No:</small><span>
+    				<p style="padding-left: 18px"><b>636370976545991999999 9999999</b></p>
     			</div>
-    			<div style="padding: 15px 0px 15px;
-    border-bottom: 1px solid #817C79;">
-    				<small>Date:</small><br>
-    				<b>31 Jul 2017 11:34:15 AM</b>
+    			<div class="order-detail">
+    				<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+    				<span><small>Date:</small></span>
+    				<p style="padding-left: 18px"><b>31 Jul 2017 11:34:15 AM</b><p>
+    			</span>
     			</div>
-    			<div style="padding: 15px 0px 15px;
-    border-bottom: 1px solid #817C79;">
-    				<small>Merchant:</small><br>
-    				<b>Starhub Paypal</b>
+    			<div class="order-detail">
+    				<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+    				<span><small>Merchant:</small><br></span>
+    				<p style="padding-left: 17px"><b>Starhub Paypal</b></p>
+    			</span>
     			</div>
-    			<div style="padding: 15px 0px 15px;">
-    				<small>Amount:</small><br>
-    				<b>SGD 319</b>
+    			<div class="order-detail-amount">
+    				<span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+    				<span><small>Amount:</small><br></span>
+    				<p style="padding-left: 17px"><b>SGD 319</b></p>
+    			</span>
     			</div>
     		</div>
     	</div>

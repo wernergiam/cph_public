@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basic Bootstrap Template</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<style>
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    width: 80%;
+    margin: auto;
+    /*background: #f3f3f3;*/
+    font-family: Lato,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+ 	/*   
+    background-color: #f5f5f5;
+    */                        
+    background-color: white;
+    font-size: 10px;
+    margin: auto;
+}
+
+p, label, span, h4, h5 {
+	word-wrap: break-word;
+}
+
+.order-container {
+    background-color: #f7f7f7;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 15px 15px 4px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.order-header {
+	padding: 5px;
+	background-color:  #8f4552;
+	color: white;
+	padding-left: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.order-detail {
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.order-detail div {
+	padding-left: 0px;
+	padding-right: 10px;
+}
+	
+.order-detail label {
+	padding-left: 5px;
+}
+
+.order-detail label, span {
+	color: black;
+}
+
+.order-total {
+	text-align: center;
+	/*
+	background-color: #f8eff0;
+	*/
+	background-color: #f7f7f7;
+	padding: 5px;
+	padding-left: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.order-total h1 {
+	display: inline-block;
+}
+
+.payment-order {
+	/*b5b5b5*/
+	box-shadow: 2px 2px 2px #d4d4d4;
+	background-color: black
+}
+
+.payment-container {
+    background-color: #f7f7f7;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 15px 15px 4px;
+}
+
+.payment-header {
+	padding: 5px;
+	background-color: #8f4552;
+	color: white;
+	padding-left: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.payment-option p {
+	width: 90%;
+}
+
+.payment-dialog form {
+	width: 80%;
+}
+
+.payment-option:hover {
+	/*border: 2px solid lightgrey;*/
+	background-color: #e5e5e5;
+	color: black; 
+}
+
+.payment-option:focus {
+	border: 2px solid #8f4552;
+	background-color: #8f4552;
+	color: white;
+}
+
+.payment-option:active {
+	border: 2px solid #e5e5e5
+	background-color: #e5e5e5;
+	color: black;
+}
+
+.payment-option-selected {
+	border: 2px solid #dbc5c1;
+	background-color: #e5e5e5;
+	color: black;
+}	
+
+.payment-option-unselected {
+	-webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -ms-filter: blur(4px);
+    -o-filter: blur(4px);
+    filter: blur(4px);
+}	
+.row {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.pay-now-button:hover {
+	background-color: #8f4552; 
+	color: white; 
+	font-weight: bold;
+}
+
+.pay-now-button {
+	background-color: #ac6975; 
+	color: white;
+	font-weight: bold;
+}
+
+.pay-now-cancel:hover {
+	background-color: #e5e5e5; 
+}
+
+.pay-now-cancel {
+	background-color: #f5f5f5; 
+}
+
+
+
+
+
+
+
+
+/*  bhoechie tab */
+div.bhoechie-tab-container{
+width: 100%;
+background-color: #f7f7f7;
+  z-index: 10;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border:1px solid #ddd;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+div.bhoechie-tab-menu{
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a .glyphicon,
+div.bhoechie-tab-menu div.list-group>a .fa {
+  color: #5A55A3;
+}
+div.bhoechie-tab-menu div.list-group>a:first-child{
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a:last-child{
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a.active,
+div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group>a.active .fa{
+  background-color: #8f4552;
+  background-image: #8f4552;
+  color: #ffffff;
+}
+div.bhoechie-tab-menu div.list-group>a.active:after{
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #8f4552;
+}
+
+div.bhoechie-tab-content{
+  background-color: #f7f7f7;
+  /* border: 1px solid #eeeeee; */
+  padding-left: 20px;
+  padding-top: 10px;
+  height: 100%;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active){
+  display: none;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover
+{
+background-image: linear-gradient(to bottom,#8f4552 0,#8f4552 100%);
+	background-color: #8f4552;
+}
+
+.bhoechie-tab{
+  background-color: #f7f7f7;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 100%;
+}
+</style>
+</head>
+<body>    
+    <!-- Header -->
+    <div class="container-fluid">
+    	<div>
+	    	<div class="navbar-header xs-col-12">
+	        	<img width="190 px" height="89 px" src="images/cph_logo_01a.jpg" />
+	    	</div>
+	    </div>
+	</div>
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-sm-7">
+    		<div class="col-lg-9 col-md-8 col-sm-8 col-xs-9 bhoechie-tab-container">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu">
+              <div class="list-group">
+                <a href="#" class="list-group-item active text-center">
+                  <img alt="Paypal" src="images/icons8-Stripe-Original-64.png"></img><br/>Stripe
+                </a>
+                <a href="#" class="list-group-item text-center">
+                  <img alt="Paypal" src="images/icons8-Paypal-Original-64.png"></img><br/>Paypal
+                </a>
+                
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bhoechie-tab">
+                <!-- stripe section -->
+                <div class="bhoechie-tab-content active">
+                    <center>
+                      <div class="panel-body">
+	    				<form>
+	    					<div class="form-group">
+	    						<input type="email" class="form-control" placeholder="Email Address">
+	    					</div>
+	    					<div class="form-group">
+	    						<input type="text" class="form-control" placeholder="Stripe Credit Card Number">
+	    					</div>
+	    					<div>
+	    						<button type="button" class="btn pay-now-button">Pay Now</button>
+	    						<button type="button" class="btn pay-now-cancel">Cancel</button>
+	    					</div>
+	    				</form>
+	    			</div>
+                    </center>
+                </div>
+				
+                <!-- paypal section -->
+                <div class="bhoechie-tab-content">
+                    <center>
+                      <div class="panel-body">
+	    				<p>You will be redirect to Paypal for login.</p>
+	    					<div>
+	    						<button type="button" class="btn pay-now-button">Pay Now</button>
+	    						<button type="button" class="btn pay-now-cancel">Cancel</button>
+	    					</div>
+	    			</div>
+                    </center>
+                </div>
+    
+                <!-- hotel search -->
+                <div class="bhoechie-tab-content">
+                    <center>
+                      <h2 style="margin-top: 0;color:#55518a">Cybersource</h2>
+                    </center>
+                </div>
+                <div class="bhoechie-tab-content">
+                    <center>
+                      <h2 style="margin-top: 0;color:#55518a">Visa</h2>
+                    </center>
+                </div>
+                <div class="bhoechie-tab-content">
+                    <center>
+                      <h1 class="glyphicon glyphicon-credit-card" style="font-size:12em;color:#55518a"></h1>
+                      <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+                      <h3 style="margin-top: 0;color:#55518a">Credit Card</h3>
+                    </center>
+                </div>
+            </div>
+        </div>
+	    </div>			
+			<div class="col-sm-5">
+				<div class="payment-order">
+					<div class="order-header">
+	    				<h4>Order Details</h4>
+					</div>
+			    	<div class="order-container">
+			    		<div class="row order-detail">
+			    			<span style="display: block; padding-bottom: 5px;"><b style="color: #8f4552;">Application Reference No: </b>636370976545991999999 9999999</span>
+			    			<span style="display: block; font-size: 12px; padding-bottom: 5px;">Merchant: Starhub Paypal</span>
+			    			<span style="font-size: 12px;">Date: 31 Jul 2017 11:34:15 AM</span>
+			    		</div>
+		  				<div class="row order-total">
+		  					<div class="col-12">
+		  						<p style="color: #8f4552; font-size: 40px;">TOTAL <b>SGD 319</b><p>
+		  					</div>
+		  				</div>
+					</div>
+				</div>
+	    	</div>
+	    </div>
+	</div>
+    <!-- Footer -->
+    <footer class="footer">
+	   	<p class="navbar-text pull-left">2017 &copy; Common Payment Hub</p>
+	</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function() {
+			$('.payment-dialog').hide();
+			$('.payment-option').click(function() {
+				console.log($(this).attr('id'));
+				$('#' + $(this).attr('id') + '-dialog').show();
+				$('#' + $(this).attr('id') + '-dialog').siblings('.payment-dialog').hide();
+				$('#' + $(this).attr('id')).siblings('.payment-option').removeClass('payment-option-selected');
+				$('#' + $(this).attr('id')).addClass('payment-option-selected');
+								
+				//'$('#' + $(this).attr('id')).removeClass('payment-option-unselected');
+				//$('#' + $(this).attr('id')).siblings('.payment-option').addClass('payment-option-unselected');
+				
+			});
+		});
+		
+		$(document).ready(function() {
+    $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
+        e.preventDefault();
+        $(this).siblings('a.active').removeClass("active");
+        $(this).addClass("active");
+        var index = $(this).index();
+        $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
+        $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
+    });
+});
+	</script>
+</body>
+</html>
