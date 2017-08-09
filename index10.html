@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basic Bootstrap Template</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    width: 80%;
+    margin: auto;
+    /*background: #f3f3f3;*/
+    font-family: Lato,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: white;
+    font-size: 10px;
+    margin: auto;
+}
+
+p, label, span, h4, h5 {
+	word-wrap: break-word;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+	background-color: #8f4552;
+	color: white;
+}
+
+.nav-pills>li>a:hover, 
+.nav-pills>li>a:focus {
+	background-color: grey;
+	color: white;
+}
+
+.nav>li>a {
+	padding: 8px 15px;
+	color: #8f4552;
+}
+
+.btn:active, .btn:focus, .btn:hover {
+	outline: none;
+}
+
+.pay-now-button {
+	background-color: #8f4552; 
+	color: white;
+	font-weight: bold;
+}
+
+.pay-now-button:hover, .pay-now-button:focus {
+	background-color: #458f82; 
+	color: white;
+	font-weight: bold;
+}
+
+.pay-now-cancel:hover, .pay-now-cancel:focus {
+	background-color: #d1d1d1; 
+}
+
+.pay-now-cancel {
+	/*f5f5f5*/
+	background-color: #efefef; 
+}
+
+.payment-option-container {
+	padding-bottom: 10px;
+}
+
+.payment-icon {
+	color: #8f4552; 
+	padding-right: 5px;
+}
+
+.payment-icon-selected {
+	color: white; 
+	padding-right: 5px;
+}
+
+
+.payment-option-panel {
+	padding-bottom: 10px; 
+	padding-top: 10px; 
+	background-color: #efefef; 
+	height: 420px;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.order-detail-panel {
+	border-radius: 0px 10px 10px 0px;
+	background-color:#8f4552; 
+	color: white; 
+	display: inline; 
+	height: 420px;"
+}
+
+.order-detail {
+	padding: 15px 0px 15px;
+    border-bottom: 1px solid #817C79;
+}
+
+.order-detail-amount {
+	padding: 15px 0px 15px;
+}
+
+@media only screen and (min-width: 768px) {
+	.xs-separator {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.xs-separator {
+		display: block;
+		padding: 5px;
+	}
+	
+	.order-detail-panel {
+		display: none;
+		/*border-radius: 10px 10px 10px 10px;*/
+	}
+	
+	.payment-option-panel {
+		border-radius: 10px 10px 10px 10px;
+		height: auto;
+	}
+}
+
+</style>
+</head>
+<body>    
+    <!-- Header -->
+    <div class="container-fluid">
+    	<div>
+	    	<div class="navbar-header xs-col-12">
+	        	<img width="190 px" height="89 px" src="images/cph_logo_01a.jpg" />
+	    	</div>
+	    </div>
+	</div>
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-xs-12 col-sm-8 col-md-8 payment-option-panel">
+    			<ul class="nav nav-pills payment-option-container">
+    				<li id="stripe-li" class="active">
+    					<a id="stripe" class="payment-option" data-toggle="pill" href="#stripe-option-dialog">
+    						<i class="fa fa-credit-card"></i>&nbsp;Stripe
+    					</a>
+    				</li>
+    				<li id="paypal-li">
+    					<a id="paypal" class="payment-option" data-toggle="pill" href="#paypal-option-dialog">
+    						<i class="fa fa-paypal"></i>&nbsp;Paypal					
+    					</a>
+    				</li>
+    			</ul>
+    			<div class="tab-content">
+		    		<div id="stripe-option-dialog" class="panel panel-default payment-dialog tab-pane fade in active">
+		    			<div class="panel-body">
+		    				<img alt="Stripe" src="images/icons8-Stripe-Original-48.png" class="img-responsive" style="padding-left: 15px;"></img>
+		    				<form>
+		    					<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+			    						<input type="email" class="form-control" placeholder="Email Address" size="20">
+			    					</div>
+			    				</div>
+			    				<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+			    						<input type="text" class="form-control" placeholder="Credit Card Number" size="20">
+			    					</div>
+			    				</div>
+		    					<div class="form-row">
+			    					<div class="col-md-4 form-group payment-detail">
+			    						<input type="text" class="form-control" placeholder="CVV">   
+			    					</div>
+			    					<div class="col-md-8 form-group payment-detail">
+			    						<input type="text" class="form-control" placeholder="MM/YYYY">
+			    					</div>
+			    				</div>
+		    					<div class="form-row">
+		    						<div class="col-md-12">
+	    								<button type="button" class="btn pay-now-button pull-right">Pay Now</button>
+		    							<button type="button" class="btn pay-now-cancel pull-right" style="margin-right: 5px">Cancel</button>
+		    						</div>
+	    						</div>
+		    				</form>
+		    			</div>
+		    		</div>
+		    		<div id="paypal-option-dialog" class="panel panel-default payment-dialog tab-pane fade">
+		    			<div class="panel-body">
+		    				<img alt="Paypal" src="images/icons8-Paypal-Original-48.png" class="img-responsive" style="padding-left: 15px;"></img>
+		    				<div class="form-row">
+		    					<div class="col-md-12 form-group payment-detail">
+		    						<span>You will be redirect to Paypal for login.</span>
+		    					</div>
+		    				</div>	
+		    				<div class="form-row">
+		    					<div class="col-md-12">
+		    						<button type="button" class="btn pay-now-button pull-right">Pay Now</button>
+		    						<button type="button" class="btn pay-now-cancel pull-right" style="margin-right: 5px">Cancel</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</div>
+    			</div>
+   			
+	        	<div>
+	            	<p style="color: #8f4552">
+	            		<strong>IMPORTANT</strong>
+	            		<ul style="padding-top: 0px; padding-left: 15px; line-height:1.5em; text-align: justify; font-size: 12px;">
+	            			<li>DO NOT close this browser while payment is in progress.</li>
+	            			<li>DO NOT click browser buttons (e.g.: Back, Refresh or Stop) while payment is in progress.</li>
+	            		</ul>
+	            	</p>
+	            </div>
+    		</div>
+   	    	<div id="xs-separator" class="xs-separator"></div>
+    		<div class="col-xs-12 col-sm-4 col-md-4 order-detail-panel">
+    			<div class="order-detail">
+   				<b>Order Summary</b>
+    			</div>
+    			<div class="order-detail">
+    				<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+    				<span><small>Ref No:</small><span>
+    				<p style="padding-left: 18px"><b>636370976545991999999 9999999</b></p>
+    			</div>
+    			<div class="order-detail">
+    				<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+    				<span><small>Date:</small></span>
+    				<p style="padding-left: 18px"><b>31 Jul 2017 11:34:15 AM</b><p>
+    			</span>
+    			</div>
+    			<div class="order-detail">
+    				<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+    				<span><small>Merchant:</small><br></span>
+    				<p style="padding-left: 17px"><b>Starhub Paypal</b></p>
+    			</span>
+    			</div>
+    			<div class="order-detail">
+    				<span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+    				<span><small>Amount:</small><br></span>
+    				<p style="padding-left: 17px; font-size: 200%;"><b>SGD 319.00</b></p>
+    			</span>
+    			</div>
+    		</div>
+    	</div>
+	</div>
+    <!-- Footer -->
+    <footer class="footer">
+	   	<p class="navbar-text pull-left">2017 &copy; Common Payment Hub</p>
+	</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function() {
+			$('.active > i').addClass("payment-icon-selected");
+			$('.active').siblings('i').addClass("payment-icon");
+			$('.payment-option-container').click(function() {
+				$(this).removeClass("payment-icon").addClass("payment-icon-selected");
+				$(this).siblings('i').removeClass("payment-icon-selected").addClass("payment-icon");
+			});
+		});
+	</script>
+</body>
+</html>
