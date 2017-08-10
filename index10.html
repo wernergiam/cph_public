@@ -64,13 +64,13 @@ p, label, span, h4, h5 {
 	outline: none;
 }
 
-.pay-now-button {
+.pay-now-button, .pay-now-button:active, .pay-now-button:focus, .pay-now-button:visited {
 	background-color: #8f4552; 
 	color: white;
 	font-weight: bold;
 }
 
-.pay-now-button:hover, .pay-now-button:focus {
+.pay-now-button:hover {
 	background-color: #458f82; 
 	color: white;
 	font-weight: bold;
@@ -81,7 +81,6 @@ p, label, span, h4, h5 {
 }
 
 .pay-now-cancel {
-	/*f5f5f5*/
 	background-color: #efefef; 
 }
 
@@ -98,7 +97,6 @@ p, label, span, h4, h5 {
 	color: white; 
 	padding-right: 5px;
 }
-
 
 .payment-option-panel {
 	padding-bottom: 10px; 
@@ -125,21 +123,36 @@ p, label, span, h4, h5 {
 	padding: 15px 0px 15px;
 }
 
+.order-detail-summary-panel {
+	background-color:#8f4552; 
+	color: white; 
+	border-radius: 10px 10px 10px 10px;
+	margin-bottom: 5px;
+}
+
 @media only screen and (min-width: 768px) {
-	.xs-separator {
+	.order-detail-summary-panel {
 		display: none;
 	}
 }
 
+@media only screen and (max-width: 1023px) {
+	.payment-option-panel {
+		height: 485px;
+	}
+
+	.order-detail-panel {
+		height: 485px;
+	}
+}
+
 @media only screen and (max-width: 767px) {
-	.xs-separator {
-		display: block;
-		padding: 5px;
+	.order-detail-summary-panel {
+		display: inherit;
 	}
 	
 	.order-detail-panel {
 		display: none;
-		/*border-radius: 10px 10px 10px 10px;*/
 	}
 	
 	.payment-option-panel {
@@ -161,6 +174,11 @@ p, label, span, h4, h5 {
 	</div>
     <div class="container-fluid">
     	<div class="row">
+    		<div class="col-xs-12 order-detail-summary-panel">
+    			<span>Ref No:&nbsp;<b>636370976545991999999 9999999</b></span><br>
+    			<span>Starhub Paypal 31 Jul 2017 11:34:15 AM</span><br>
+    			<span>Amount:&nbsp;<b>SGD 319.00</b></span>
+    		</div>
     		<div class="col-xs-12 col-sm-8 col-md-8 payment-option-panel">
     			<ul class="nav nav-pills payment-option-container">
     				<li id="stripe-li" class="active">
@@ -234,10 +252,9 @@ p, label, span, h4, h5 {
 	            	</p>
 	            </div>
     		</div>
-   	    	<div id="xs-separator" class="xs-separator"></div>
     		<div class="col-xs-12 col-sm-4 col-md-4 order-detail-panel">
     			<div class="order-detail">
-   				<b>Order Summary</b>
+   					<b>Order Summary</b>
     			</div>
     			<div class="order-detail">
     				<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
