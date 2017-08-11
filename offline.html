@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basic Bootstrap Template</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    width: 80%;
+    margin: auto;
+    /*background: #f3f3f3;*/
+    font-family: Lato,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: white;
+    font-size: 10px;
+    margin: auto;
+}
+
+p, label, span, h4, h5 {
+	word-wrap: break-word;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+	background-color: #8f4552;
+	color: white;
+}
+
+.nav-pills>li>a:hover, 
+.nav-pills>li>a:focus {
+	background-color: grey;
+	color: white;
+}
+
+.nav>li>a {
+	padding: 8px 15px;
+	color: #8f4552;
+}
+
+.btn:active, .btn:focus, .btn:hover {
+	outline: none;
+}
+
+.pay-now-button, .pay-now-button:active, .pay-now-button:focus, .pay-now-button:visited {
+	background-color: #8f4552; 
+	color: white;
+	font-weight: bold;
+}
+
+.pay-now-button:hover {
+	background-color: #458f82; 
+	color: white;
+	font-weight: bold;
+}
+
+.pay-now-cancel:hover, .pay-now-cancel:focus {
+	background-color: #d1d1d1; 
+}
+
+.pay-now-cancel {
+	background-color: #efefef; 
+}
+
+.payment-option-container {
+	padding-bottom: 10px;
+}
+
+.payment-icon {
+	color: #8f4552; 
+	padding-right: 5px;
+}
+
+.payment-icon-selected {
+	color: white; 
+	padding-right: 5px;
+}
+
+.payment-option-panel {
+	padding-bottom: 10px; 
+	padding-top: 10px; 
+	background-color: #efefef; 
+	height: auto;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.order-detail-panel {
+	border-radius: 0px 10px 10px 0px;
+	background-color:#8f4552; 
+	color: white; 
+	display: inline; 
+	height: 420px;"
+}
+
+.order-detail {
+	padding: 15px 0px 15px;
+    border-bottom: 1px solid #817C79;
+}
+
+.order-detail-amount {
+	padding: 15px 0px 15px;
+}
+
+.order-detail-summary-panel {
+	background-color:#8f4552; 
+	color: white; 
+	border-radius: 10px 10px 10px 10px;
+	margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+	.order-detail-summary-panel {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.payment-option-panel {
+		height: 485px;
+	}
+
+	.order-detail-panel {
+		height: 485px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.order-detail-summary-panel {
+		display: inherit;
+	}
+	
+	.order-detail-panel {
+		display: none;
+	}
+	
+	.payment-option-panel {
+		border-radius: 10px 10px 10px 10px;
+		height: auto;
+	}
+}
+
+</style>
+</head>
+<body>    
+    <!-- Header -->
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-md-2">
+    		</div>
+	    	<div class="navbar-header md-col-8">
+	        	<img width="190 px" height="89 px" src="images/cph_logo_01a.jpg" />
+	    	</div>
+    		<div class="col-md-2">
+    		</div>
+	    </div>
+	</div>
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-md-2">
+    		</div>
+    		<div class="col-xs-12 col-sm-8 col-md-8 payment-option-panel">
+    			<ul class="nav nav-pills payment-option-container">
+    				<li id="cash-li" class="active">
+    					<a id="cash" class="payment-option" data-toggle="pill" href="#cash-option-dialog">
+    						Cash
+    					</a>
+    				</li>
+    				<li id="cheque-li">
+    					<a id="cheque" class="payment-option" data-toggle="pill" href="#cheque-option-dialog">
+    						Cheque
+    					</a>
+    				</li>
+    			</ul>
+    			<div class="tab-content">
+		    		<div id="cash-option-dialog" class="panel panel-default payment-dialog tab-pane fade in active">
+		    			<div class="panel-body">
+		    				<i class="fa fa-money" style="font-size: 40px; padding-left: 15px; padding-bottom: 5px;"></i>
+		    				<form class="form-horizontal">
+		    					<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+			    						<label class="col-md-3 control-label">Billing Ref No</label>
+			    						<div class="col-md-9">
+			    							<input type="text" class="form-control" placeholder="Billing Ref No" size="20">
+			    						</div>
+			    					</div>
+			    				</div>
+		    					<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+			    						<label class="col-md-3 control-label">Description</label>
+			    						<div class="col-md-9">
+			    							<input type="text" class="form-control" placeholder="Invoice Description" size="20">
+			    						</div>
+			    					</div>
+			    				</div>
+			    				<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+		    							<label class="col-md-3 control-label">Billing Amount</label>
+			    						<div class="col-md-3">
+				    						<select class="form-control">
+				    							<option>SGD</option>
+				    							<option>MYR</option>
+				    							<option>CNY</option>
+				    							<option>USD</option>
+				    						</select>
+				    					</div>
+				    					<div class="col-md-6">
+			    							<input type="text" class="form-control" placeholder="Billed Amount">
+			    						</div>
+			    					</div>
+			    				</div>
+			    				<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+			    						<label class="col-md-3 control-label">Paid Amount</label>
+			    						<div class="col-md-9">
+			    							<input type="text" class="form-control" placeholder="Paid Amount">
+			    						</div>
+			    					</div>
+			    				</div>
+		    					<div class="form-row">
+		    						<div class="col-md-12" style="padding-right: 45px;">
+	    								<button type="button" class="btn pay-now-button pull-right">Pay Now</button>
+		    							<button type="button" class="btn pay-now-cancel pull-right" style="margin-right: 5px">Cancel</button>
+		    						</div>
+	    						</div>
+		    				</form>
+		    			</div>
+		    		</div>
+		    		<div id="cheque-option-dialog" class="panel panel-default payment-dialog tab-pane fade">
+		    			<div class="panel-body">
+		    				<img src="images/icons8-Paycheque-48.png" class="img-responsive" style="padding-left: 15px;"></img>
+		    				<form class="form-horizontal">
+		    					<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+			    						<label class="col-md-3 control-label">Billing Ref No</label>
+			    						<div class="col-md-9">
+			    							<input type="text" class="form-control" placeholder="Billing Ref No" size="20">
+			    						</div>
+			    					</div>
+			    				</div>
+		    					<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+			    						<label class="col-md-3 control-label">Description</label>
+			    						<div class="col-md-9">
+			    							<input type="text" class="form-control" placeholder="Invoice Description" size="20">
+			    						</div>
+			    					</div>
+			    				</div>
+			    				<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+		    							<label class="col-md-3 control-label">Billing Amount</label>
+			    						<div class="col-md-3">
+				    						<select class="form-control">
+				    							<option>SGD</option>
+				    							<option>MYR</option>
+				    							<option>CNY</option>
+				    							<option>USD</option>
+				    						</select>
+				    					</div>
+				    					<div class="col-md-6">
+			    							<input type="text" class="form-control" placeholder="Billed Amount">
+			    						</div>
+			    					</div>
+			    				</div>
+			    				<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+			    						<label class="col-md-3 control-label">Cheque No</label>
+			    						<div class="col-md-9">
+			    							<input type="text" class="form-control" placeholder="Cheque No">
+			    						</div>
+			    					</div>
+			    				</div>
+			    				<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+			    						<label class="col-md-3 control-label">Bank Name</label>
+			    						<div class="col-md-9">
+			    							<input type="text" class="form-control" placeholder="Bank Name">
+			    						</div>
+			    					</div>
+			    				</div>
+			    				<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+			    						<label class="col-md-3 control-label">Paid Amount</label>
+			    						<div class="col-md-9">
+			    							<input type="text" class="form-control" placeholder="Paid Amount">
+			    						</div>
+			    					</div>
+			    				</div>
+			    				<div class="form-row">
+			    					<div class="col-md-12 form-group payment-detail">
+			    						<label class="col-md-3 control-label">Cheque Upload</label>
+			    						<div class="col-md-9">
+			    							<span class="btn btn-default btn-file">
+    											<input type="file">
+											</span>
+			    						</div>
+			    					</div>
+			    				</div>
+		    					<div class="form-row">
+		    						<div class="col-md-12" style="padding-right: 45px;">
+	    								<button type="button" class="btn pay-now-button pull-right">Pay Now</button>
+		    							<button type="button" class="btn pay-now-cancel pull-right" style="margin-right: 5px">Cancel</button>
+		    						</div>
+	    						</div>
+		    				</form>
+		    			</div>
+		    		</div>
+    			</div>
+   			
+	        	<div>
+	            	<p style="color: #8f4552">
+	            		<strong>IMPORTANT</strong>
+	            		<ul style="padding-top: 0px; padding-left: 15px; line-height:1.5em; text-align: justify; font-size: 12px;">
+	            			<li>DO NOT close this browser while payment is in progress.</li>
+	            			<li>DO NOT click browser buttons (e.g.: Back, Refresh or Stop) while payment is in progress.</li>
+	            		</ul>
+	            	</p>
+	            </div>
+    		</div>
+    		<div class="col-md-2">
+    		</div>
+    	</div>
+	</div>
+    <!-- Footer -->
+    <footer class="footer">
+	   	<p class="navbar-text">2017 &copy; Common Payment Hub</p>
+	</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function() {
+			$('.active > i').addClass("payment-icon-selected");
+			$('.active').siblings('i').addClass("payment-icon");
+			$('.payment-option-container').click(function() {
+				$(this).removeClass("payment-icon").addClass("payment-icon-selected");
+				$(this).siblings('i').removeClass("payment-icon-selected").addClass("payment-icon");
+			});
+		});
+	</script>
+</body>
+</html>
