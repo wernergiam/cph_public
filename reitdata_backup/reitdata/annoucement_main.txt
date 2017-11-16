@@ -1,0 +1,6396 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="${locale}" xml:lang="${locale}" ${bidi.dir.attribute}>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!-- rel=dynamic-content indicates an element that is replaced with the contents produced by the specified href.
+	 dyn-cs:* URIs are resolved using the WP DynamicContentSpotMappings resource environment provider. These values can
+	 also be set using theme metadata if a theme is specified in the URI (e.g. @tl:oid:theme_unique_name). -->
+<!--link rel="dynamic-content" href="co:head"-->
+
+<title>Company Disclosure & Information | SGX</title>
+      <meta name='title' content='Company Information - Company Announcements' />
+    
+      <meta name='keywords' content='company announcement , company announcements' />
+    
+      <meta name='description' content='Get Announcements from Companies Listed On SGX.' />
+     
+
+<script charset="UTF-8">
+	var tempSgxPortalHref = location.href;
+	if(tempSgxPortalHref.indexOf ('sgxweb_ch') > 0)
+	{	
+		document.write("<style type='text/css'>");
+		document.write("@import 'http://css.sgx.com/sgxv2/css/sgx_styles_theme_ch.css';");
+		document.write("</style>");
+	}else{
+		document.write("<style type='text/css'>");
+		document.write("@import 'http://css.sgx.com/sgxv2/css/sgx_styles_theme.css';");
+		document.write("</style>");
+	}
+</script>
+<script type="text/javascript" src="/sgxv2/js/dojo/dojo/dojo.js" djConfig="parseOnLoad: true" charset="utf-8"></script>
+<script type="text/javascript" src="/sgxv2/js/dojo/dojo/sgxdojo_v2.js" djConfig="isDebug:false, parseOnLoad: true" charset="utf-8"></script>
+<script type="text/javascript" src="http://res.sgx.com/sgxv2/js/cookie/sgxcookie.js"></script>
+<script type="text/javascript" src="/sgxv2/js/jquery-1.7.2.min.js"></script>
+
+<link id="com.ibm.lotus.NavStateUrl" rel="alternate" href="/wps/portal/sgxweb/home/company_disclosure/company_announcements/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNHB1NPAycDSwNLNwtDDxdw8J8Xdw8DC2cDYAKIpEV-Icamht4hjoFmjiFhRp6O5oQp98AB3A0IKQ_XD8KVQkWF6ApCDMAKfB3Cg4OCzMMdDWGKsDjhoLc0AiDTE9FALmdFJw!/dl5/d5/L2dJQSEvUUt3QS80SmlFL1o2XzJBQTRIMEMwOTA4RzgwSUVWVk1ERkgxOEMw/" />
+
+<link rel="bookmark" title='Company Announcements' href='/wps/portal/sgxweb/home/company_disclosure/company_announcements/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNHB1NPAycDSwNLNwtDDxdw8J8Xdw8DC2cDYAKIpEV-Icamht4hjoFmjiFhRp6O5oQp98AB3A0IKQ_XD8KVQkWF6ApCDMAKfB3Cg4OCzMMdDWGKsDjhoLc0AiDTE9FALmdFJw!/dl5/d5/L2dJQSEvUUt3QS80SmlFL1o2XzJBQTRIMEMwOTA4RzgwSUVWVk1ERkgxOEMw/' hreflang="en"/>
+
+
+<link href="/sgxv2/image/theme/sgxPortal.ico" rel="shortcut icon">
+<meta property="og:image" content="http://img.sgx.com/sgxv2/image/theme/sgxPortal.png"/>
+<style>html{display:none;}</style>
+<script type="text/javascript">
+if(self==top) {document.documentElement.style.display = 'block';}
+else {top.location = self.location;}
+</script>
+<!-- rendering is delegated to the specified href for each locale --><!--START LOCALE LINKS-->
+<!--link rel="alternate" href="nls/theme_en.html" hreflang="en"-->
+<!--END LOCALE LINKS-->
+<link href="/sgxv2/css/popup.css" rel="stylesheet" type="text/css" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30434208-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+<body class="tundra">
+
+	<!-- Google Tag Manager -->
+	 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-57F9X5"
+	 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+	{'gtm.start': new Date().getTime(),event:'gtm.js'} 
+	);var f=d.getElementsByTagName(s)[0],
+	 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	 })(window,document,'script','dataLayer','GTM-57F9X5');</script>
+	 <!-- End Google Tag Manager -->
+
+
+<div id="FLYPrent" class="wptheme-FLYParent">
+<header role="banner">
+<table id="wptheme-pageWrapper" border="0" cellpadding="0" cellspacing="0" width="1000" style="overflow:hidden;">
+  <tr>
+	<td>
+		
+
+
+<div class="hdrWrapper">
+<a class="homeMap" id="iconLink" title="SGX Home" href="/en"></a>
+<div class="lockHdrWrapper">
+<div class="hdrNavWrapper">    
+<ul>  
+	
+    
+ 
+
+
+
+    
+	
+    
+    <li>
+	     
+            <a href='/aboutus'>
+            About Us</a>
+        
+    </li>
+	
+    
+    
+          
+	
+	
+	<li>|</li>
+    <li>
+	     
+            <a href='/investorrelations'>
+            Investor Relations</a>
+        
+    </li>
+	
+    
+    
+          
+	
+	
+	<li>|</li>
+    <li>
+	     
+            <a href='/careers'>
+            Careers</a>
+        
+    </li>
+	
+    
+    
+          
+	
+	
+	<li>|</li>
+    <li>
+	     
+            <a href='/sgxnet'>
+            SGXNet</a>
+        
+    </li>
+	
+    
+    
+          
+	
+	
+	<li>|</li>
+    <li>
+	     
+            <a href='/contact_us'>
+            Contact Us</a>
+        
+    </li>
+	
+    
+    
+          
+	
+	
+	<li>|</li>
+    <li>
+	     
+            <a href='/faqs'>
+            FAQs</a>
+        
+    </li>
+	
+    
+    
+    
+
+
+
+</ul>
+</div>
+<div class="hdrNavWrapper">
+<ul>
+	<li><a href="/en">English</a></li>
+	<li>|</li>   
+	<li><a href="/ch">&#20013;&#25991;</a></li>
+</ul>
+</div>
+
+<div id="hdrTag" style="display:none" class="hdrTag"></div>
+<div id="hdrTag_ch" style="display:none" class="hdrTag_ch"></div>
+
+
+<script charset="UTF-8">
+function sgx_banner_search_submit(){
+        var sgxSearchURL = "/wps/portal/sgxweb/home/search";
+        var tempSgxPortalHref = location.href;
+	    var sgxhost = location.hostname;
+
+		if (tempSgxPortalHref.indexOf ("sgxweb_ch") > 0) {
+                sgxSearchURL = "/wps/portal/sgxweb_ch/home/search";
+        }
+        else if (tempSgxPortalHref.indexOf("sgxweb") > 0){
+                sgxSearchURL = "/wps/portal/sgxweb/home/search";
+        }   
+
+		location.replace( 'http://' + sgxhost + sgxSearchURL );
+  
+	}
+   
+window.onload = function(){
+      // alert("navigator.appName ==>"+navigator.appName);
+       var pathArray = window.location.pathname.split( '/' );
+       if(pathArray[3]=="sgxweb_ch"){
+        document.getElementById('search_button_ch').style.display='';
+		document.getElementById('iconLink').href="/ch"
+    }
+else{
+        document.getElementById('search_button').style.display='';
+    }
+}
+</script>     
+        <div id="search_button" style="display:none" class="hdrSearchBtn" onclick='javascript:sgx_banner_search_submit();'></div>
+        <div id="search_button_ch" style="display:none" class="hdrSearchBtn_ch" onclick='javascript:sgx_banner_search_submit();'></div>
+
+
+</div>
+<!--lockHdrWrapper--></div>
+  
+
+
+
+
+
+
+   
+
+
+
+
+
+
+<div class="clearfix" id="top-nav-wrapper">
+<script>
+	var nodeCounter;  
+</script>
+ 
+	<ul class="clearfix" id="topnav">
+	
+	
+		<li class="first-level" id="nav-01">
+		 
+			 
+			<a class="first-level" href="/wps/portal/sgxweb/home/marketinfo">Market Information</a>
+			<div id="drop01" class="topnav-dd-outer drop01" ><div class="topnav-dd-inner clearfix">
+				<div id="drop01">
+				
+			 
+   				<table border="0" cellspacing="0" cellpadding="0"  style="margin:15px 5px 10px 15px">
+   					<tbody>
+   					<tr>
+   					<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+								
+							<script>
+								var divId = 'drop01';
+								var columnNo = '1'
+								nodeCounter = 1;
+							</script>	
+					
+					
+   				
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/marketinfo/securities">Securities</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/securities/stocks">Stocks</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/securities/adr">ADRs</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/securities/company_warrants">Company Warrants</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/securities/reits">REITs</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/securities/share_buyback">Share Buyback</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/securities/etfs">ETFs</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/securities/daily_leverage_certificates">Daily Leverage Certificates</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/securities/leveraged_inverse">Leveraged and Inverse Products</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/securities/structured_warrants">Structured Warrants</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/marketinfo/fixed_income">Fixed Income</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/fixed_income/bonds">Retail Bonds</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/fixed_income/preference_shares">Retail Preference Shares</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/fixed_income/sgs">SGS Bonds</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/marketinfo/derivatives">Derivatives</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+					<script>
+							nodeCounter++;
+					</script>
+					</table>
+					</td>
+					</tr>
+						
+						</tbody>
+						</table>
+						</td>
+						<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+							<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						
+					
+   						
+   						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/derivatives/delayed_prices">Delayed Prices</a></td></tr>
+						 	
+   				 		 
+		   				 		<tr>
+								<td>&nbsp;</td>
+									<td class="navlevel2" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		   				 	
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/marketinfo/derivatives/delayed_prices/futures">Futures</a></td></tr>
+		   				 		
+		   				 		 
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/marketinfo/derivatives/delayed_prices/options">Options</a></td></tr>
+		   				 		
+		   				 		 
+		   				 		 </table>
+		   				 		 </td>
+		   				 		 </tr>
+		   				 	
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/derivatives/Nlt">Negotiated Large Trade</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNHB1NPAycDSwNLNwtDDxdw8J8Xdw8DN1DDPQLsh0VAUdRZ9U!/">Pace of Roll</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/derivatives/finalsettlement">Final Settlement Price</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/marketinfo/indices">Indices</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/indices/indices">Indices</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/indices/sti_constituents">STI Constituents</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/marketinfo/marking_of_sell_orders">Marking of Sell Orders</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/marketinfo/sector_summary">Sector Summary</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/marketinfo/market_summary">Market Summary</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/marketinfo/circuit_breaker">Circuit Breaker</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/marketinfo/market_statistics">Market Statistics</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/marketinfo/position_papers">Position Papers</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+						<script>
+							nodeCounter++;
+						</script>
+						</tbody>
+						</table>
+						</td>
+						<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+						
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/marketinfo/historical_data">Historical Data</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/historical_data/securities">Securities</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/marketinfo/historical_data/derivatives">Derivatives</a></td></tr>
+						 	
+   				 		 
+		   				 		<tr>
+								<td>&nbsp;</td>
+									<td class="navlevel2" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		   				 	
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/marketinfo/historical_data/derivatives/time_sales">Time & Sales Data</a></td></tr>
+		   				 		
+		   				 		 
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/marketinfo/historical_data/derivatives/daily_data">Daily Data Download</a></td></tr>
+		   				 		
+		   				 		 
+		   				 		 </table>
+		   				 		 </td>
+		   				 		 </tr>
+		   				 	
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+   				 	</tbody>
+   				 	</table>
+   				 	</td>
+   				 	</tr>
+   				 	</tbody>
+   				 	</table>
+					
+					
+					<script>
+						
+						
+						if(columnNo>4){
+						
+							if(nodeCounter == 1){
+							
+							document.getElementById(divId).style.marginLeft = "-177px";
+							
+							}
+							if(nodeCounter == 2){
+							
+							document.getElementById(divId).style.marginLeft = "-377px";
+							
+							}
+							if(nodeCounter >= 3){
+							
+							document.getElementById(divId).style.marginLeft = "-577px";
+							
+							}
+						
+						}
+						function dropdown(){
+							var a =document.getElementsByName('select');
+							alert(a.length);
+							for(i=0;i<a.length;i++){
+							alert(a[0]);
+								
+							}
+						}
+						
+					</script>
+   				
+   				
+			</div>
+   	</div>
+	</div>
+   			</li>
+   			
+		<li class="first-level" id="nav-01">
+		 
+			 
+			<a class="first-level" href="/wps/portal/sgxweb/home/company_disclosure">Company Information</a>
+			<div id="drop02" class="topnav-dd-outer drop02" ><div class="topnav-dd-inner clearfix">
+				<div id="drop01">
+				
+			 
+   				<table border="0" cellspacing="0" cellpadding="0"  style="margin:15px 5px 10px 15px">
+   					<tbody>
+   					<tr>
+   					<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+								
+							<script>
+								var divId = 'drop02';
+								var columnNo = '2'
+								nodeCounter = 1;
+							</script>	
+					
+					
+   				
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/stockfacts">StockFacts</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/all_in_one">All In One</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/all_in_one/warrants">Warrants</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/all_in_one/fixed-income">Fixed Income</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/all_in_one/others">Other Products</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/all_in_one/daily-leverage-certificates">Daily Leverage Certificates</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/company_announcements">Company Announcements</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/ipos">IPOs</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/ipos/ipo_prospectus">IPO Prospectus</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/ipos/ipo_performance">IPO Performance</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/corporate%20information">Corporate Information</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/corporate_action">Corporate Action</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/meeting_schedules">Meeting Schedules</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/annual_financial">Annual / Financial Reports</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/prospectus_circulars">Prospectus / Circulars / Offer Documents</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+						<script>
+							nodeCounter++;
+						</script>
+						</tbody>
+						</table>
+						</td>
+						<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+						
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/assistance_programme">Assistance Programme</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/stock_indiceslist">Stock / Indices List</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/secondary_listings">Secondary Listings</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/watchlist">Watch-List</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/cdp_buying_info">CDP Buying-In Info</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/isin_code_download">ISIN Code Download </a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/catalodge">Catalodge</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/catalodge/company">By Company</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/catalodge/status">By Status</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/catalodge/offer">By Offer Type</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/catalodge/lodgement">By Lodgement Date</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/catalodge/publish">By Publish Date</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/company_disclosure/catalist_co_sponsors">Catalist Companies & Sponsors</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/catalist_co_sponsors/company">Sponsorship History By Company</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/company_disclosure/catalist_co_sponsors/sponsor">Sponsorship History By Sponsor</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+   				 	</tbody>
+   				 	</table>
+   				 	</td>
+   				 	</tr>
+   				 	</tbody>
+   				 	</table>
+					
+					
+					<script>
+						
+						
+						if(columnNo>4){
+						
+							if(nodeCounter == 1){
+							
+							document.getElementById(divId).style.marginLeft = "-177px";
+							
+							}
+							if(nodeCounter == 2){
+							
+							document.getElementById(divId).style.marginLeft = "-377px";
+							
+							}
+							if(nodeCounter >= 3){
+							
+							document.getElementById(divId).style.marginLeft = "-577px";
+							
+							}
+						
+						}
+						function dropdown(){
+							var a =document.getElementsByName('select');
+							alert(a.length);
+							for(i=0;i<a.length;i++){
+							alert(a[0]);
+								
+							}
+						}
+						
+					</script>
+   				
+   				
+			</div>
+   	</div>
+	</div>
+   			</li>
+   			
+		<li class="first-level" id="nav-01">
+		 
+			 
+			<a class="first-level" href="/wps/portal/sgxweb/home/products">Products</a>
+			<div id="drop03" class="topnav-dd-outer drop03" ><div class="topnav-dd-inner clearfix">
+				<div id="drop01">
+				
+			 
+   				<table border="0" cellspacing="0" cellpadding="0"  style="margin:15px 5px 10px 15px">
+   					<tbody>
+   					<tr>
+   					<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+								
+							<script>
+								var divId = 'drop03';
+								var columnNo = '3'
+								nodeCounter = 1;
+							</script>	
+					
+					
+   				
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/products/securities">Securities</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/securities/at_a_glance">At a Glance</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/securities/about-securities">About Securities</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/securities/stocks">Stocks</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/securities/reits-bt">REITs & Business Trust</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/securities/etfs">ETFs</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/securities/leveraged-inverse-products">Leveraged and Inverse Products</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/securities/daily-leverage-certificates">Daily Leverage Certificates</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/securities/structured-warrants">Structured Warrants</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/securities/adrs">American Depositary Receipts</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/products/fixed_income">Fixed Income</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/fixed_income/retail">Retail</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/fixed_income/institutional">Institutional</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/fixed_income/eval-bond-price">Evaluated Bond Price</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/fixed_income/list-of-bonds-securities">List of available bonds/fixed income securities</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+						<script>
+							nodeCounter++;
+						</script>
+						</tbody>
+						</table>
+						</td>
+						<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+						
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/products/derivatives">Derivatives</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/derivatives/at-a-glance">At a Glance</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/derivatives/about-derivatives">About Derivatives</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/derivatives/platforms">Platforms</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/derivatives/financials">Financial Products</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/derivatives/commodities">Commodities Products</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/products/derivatives/contracts-comparator">Contracts Comparator</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+   				 	</tbody>
+   				 	</table>
+   				 	</td>
+   				 	</tr>
+   				 	</tbody>
+   				 	</table>
+					
+					
+					<script>
+						
+						
+						if(columnNo>4){
+						
+							if(nodeCounter == 1){
+							
+							document.getElementById(divId).style.marginLeft = "-177px";
+							
+							}
+							if(nodeCounter == 2){
+							
+							document.getElementById(divId).style.marginLeft = "-377px";
+							
+							}
+							if(nodeCounter >= 3){
+							
+							document.getElementById(divId).style.marginLeft = "-577px";
+							
+							}
+						
+						}
+						function dropdown(){
+							var a =document.getElementsByName('select');
+							alert(a.length);
+							for(i=0;i<a.length;i++){
+							alert(a[0]);
+								
+							}
+						}
+						
+					</script>
+   				
+   				
+			</div>
+   	</div>
+	</div>
+   			</li>
+   			
+		<li class="first-level" id="nav-01">
+		 
+			 
+			<a class="first-level" href="/wps/portal/sgxweb/home/services">Services</a>
+			<div id="drop04" class="topnav-dd-outer drop04" ><div class="topnav-dd-inner clearfix">
+				<div id="drop01">
+				
+			 
+   				<table border="0" cellspacing="0" cellpadding="0"  style="margin:15px 5px 10px 15px">
+   					<tbody>
+   					<tr>
+   					<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+								
+							<script>
+								var divId = 'drop04';
+								var columnNo = '4'
+								nodeCounter = 1;
+							</script>	
+					
+					
+   				
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/services/overview">Overview</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/services/market-data">Market Data</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/services/market-data/market-data-policy">Market Data Policy</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/services/market-data/data-feeds">Data Feeds</a></td></tr>
+						 	
+   				 		 
+		   				 		<tr>
+								<td>&nbsp;</td>
+									<td class="navlevel2" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		   				 	
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/services/market-data/data-feeds/smdf">Securities Market Direct Feed (SMDF)</a></td></tr>
+		   				 		
+		   				 		 
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/services/market-data/data-feeds/dmdf">Derivatives Market Direct Feed (DMDF)</a></td></tr>
+		   				 		
+		   				 		 
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/services/market-data/data-feeds/post-trade">Post-Trade Data Feed</a></td></tr>
+		   				 		
+		   				 		 
+		   				 		 </table>
+		   				 		 </td>
+		   				 		 </tr>
+		   				 	
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/services/market-data/sgx-news">SGX News</a></td></tr>
+						 	
+   				 		 
+		   				 		<tr>
+								<td>&nbsp;</td>
+									<td class="navlevel2" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		   				 	
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/services/market-data/sgx-news/sgx-news-via-xml">SGXNews via XML</a></td></tr>
+		   				 		
+		   				 		 
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/services/market-data/sgx-news/sgx-news-via-swift">SGXNews via SWIFT Network</a></td></tr>
+		   				 		
+		   				 		 
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/services/market-data/sgx-news/eod-corporate-actions-service">End of Day Corporate Actions Service</a></td></tr>
+		   				 		
+		   				 		 
+		   				 		 </table>
+		   				 		 </td>
+		   				 		 </tr>
+		   				 	
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/services/market-data/history-reference-data">Historical & Reference Data</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/services/market-data/our-data-vendors">Our Data Vendors</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/services/market-connectivity">Market Connectivity</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/services/market-connectivity/co-location">Co-Location</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+					<script>
+							nodeCounter++;
+					</script>
+					</table>
+					</td>
+					</tr>
+						
+						</tbody>
+						</table>
+						</td>
+						<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+							<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						
+					
+   						
+   						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/services/market-connectivity/managed-network-services">Managed Network Services </a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/services/market-connectivity/offshore-connectivity">Offshore Connectivity (Liquidity Hubs)</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/services/market-connectivity/dedicated-network-gateway">Dedicated Network Gateway</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/services/market-connectivity/access">Access</a></td></tr>
+						 	
+   				 		 
+		   				 		<tr>
+								<td>&nbsp;</td>
+									<td class="navlevel2" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		   				 	
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/services/market-connectivity/access/securities-trading">Securities Trading</a></td></tr>
+		   				 		
+		   				 		 
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/services/market-connectivity/access/derivatives-trading">Derivatives Trading </a></td></tr>
+		   				 		
+		   				 		 
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/services/market-connectivity/access/clearing">Clearing</a></td></tr>
+		   				 		
+		   				 		 
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/services/market-connectivity/access/risk-management">Risk Management</a></td></tr>
+		   				 		
+		   				 		 
+		   				 		 </table>
+		   				 		 </td>
+		   				 		 </tr>
+		   				 	
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/services/sgx-index-edge">SGX Index Edge</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/services/advertise-with-us">Advertise with Us</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/services/advertise-with-us/online">Online</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/services/advertise-with-us/print-media">Print Media</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+   				 	</tbody>
+   				 	</table>
+   				 	</td>
+   				 	</tr>
+   				 	</tbody>
+   				 	</table>
+					
+					
+					<script>
+						
+						
+						if(columnNo>4){
+						
+							if(nodeCounter == 1){
+							
+							document.getElementById(divId).style.marginLeft = "-177px";
+							
+							}
+							if(nodeCounter == 2){
+							
+							document.getElementById(divId).style.marginLeft = "-377px";
+							
+							}
+							if(nodeCounter >= 3){
+							
+							document.getElementById(divId).style.marginLeft = "-577px";
+							
+							}
+						
+						}
+						function dropdown(){
+							var a =document.getElementsByName('select');
+							alert(a.length);
+							for(i=0;i<a.length;i++){
+							alert(a[0]);
+								
+							}
+						}
+						
+					</script>
+   				
+   				
+			</div>
+   	</div>
+	</div>
+   			</li>
+   			
+		<li class="first-level" id="nav-01">
+		 
+			 
+			<a class="first-level" href="/wps/portal/sgxweb/home/trading">Trading</a>
+			<div id="drop05" class="topnav-dd-outer drop05" ><div class="topnav-dd-inner clearfix">
+				<div id="drop01">
+				
+			 
+   				<table border="0" cellspacing="0" cellpadding="0"  style="margin:15px 5px 10px 15px">
+   					<tbody>
+   					<tr>
+   					<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+								
+							<script>
+								var divId = 'drop05';
+								var columnNo = '5'
+								nodeCounter = 1;
+							</script>	
+					
+					
+   				
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/trading/securities">Securities</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/trading/securities/trading_settlement">Trading & Settlement</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/trading/securities/trading_hours_calendar">Trading Hours & Calendar</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/trading/securities/cdp">CDP</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/trading/securities/membership">Membership</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/trading/securities/trading_safeguards">Trading Safeguards</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/trading/securities/dual_currency_trading">Dual Currency Trading</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/trading/securities/reach_order_types">Reach Order Types</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/trading/securities/market_makers_liquidity_providers">Market Makers & Liquidity Providers</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/trading/securities/sbl">Securities Borrowing and Lending (SBL)</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/trading/derivatives">Derivatives</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/trading/derivatives/trading_facility">Trading Facility</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/trading/derivatives/trading_hours_calendar">Trading Hours & Calendar</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/trading/derivatives/membership">Membership</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+   				 	</tbody>
+   				 	</table>
+   				 	</td>
+   				 	</tr>
+   				 	</tbody>
+   				 	</table>
+					
+					
+					<script>
+						
+						
+						if(columnNo>4){
+						
+							if(nodeCounter == 1){
+							
+							document.getElementById(divId).style.marginLeft = "-177px";
+							
+							}
+							if(nodeCounter == 2){
+							
+							document.getElementById(divId).style.marginLeft = "-377px";
+							
+							}
+							if(nodeCounter >= 3){
+							
+							document.getElementById(divId).style.marginLeft = "-577px";
+							
+							}
+						
+						}
+						function dropdown(){
+							var a =document.getElementsByName('select');
+							alert(a.length);
+							for(i=0;i<a.length;i++){
+							alert(a[0]);
+								
+							}
+						}
+						
+					</script>
+   				
+   				
+			</div>
+   	</div>
+	</div>
+   			</li>
+   			
+		<li class="first-level" id="nav-01">
+		 
+			 
+			<a class="first-level" href="/wps/portal/sgxweb/home/depository">Depository</a>
+			<div id="drop06" class="topnav-dd-outer drop06" ><div class="topnav-dd-inner clearfix">
+				<div id="drop01">
+				
+			 
+   				<table border="0" cellspacing="0" cellpadding="0"  style="margin:15px 5px 10px 15px">
+   					<tbody>
+   					<tr>
+   					<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+								
+							<script>
+								var divId = 'drop06';
+								var columnNo = '6'
+								nodeCounter = 1;
+							</script>	
+					
+					
+   				
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/depository/depository">Institutions</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/depository/depository/introduction">Introduction</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/depository/depository/participants">Participants</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/depository/depository/services">Services</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/depository/depository/fee_schedule">Fee Schedule</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/depository/depository/regulation">Regulation</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/depository/depository/post-trade-statistics">Post Trade Statistics</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/depository/retail">Retail</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/depository/retail/about-cdp">About CDP Services</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/depository/retail/faq">FAQ</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+   				 	</tbody>
+   				 	</table>
+   				 	</td>
+   				 	</tr>
+   				 	</tbody>
+   				 	</table>
+					
+					
+					<script>
+						
+						
+						if(columnNo>4){
+						
+							if(nodeCounter == 1){
+							
+							document.getElementById(divId).style.marginLeft = "-177px";
+							
+							}
+							if(nodeCounter == 2){
+							
+							document.getElementById(divId).style.marginLeft = "-377px";
+							
+							}
+							if(nodeCounter >= 3){
+							
+							document.getElementById(divId).style.marginLeft = "-577px";
+							
+							}
+						
+						}
+						function dropdown(){
+							var a =document.getElementsByName('select');
+							alert(a.length);
+							for(i=0;i<a.length;i++){
+							alert(a[0]);
+								
+							}
+						}
+						
+					</script>
+   				
+   				
+			</div>
+   	</div>
+	</div>
+   			</li>
+   			
+		<li class="first-level" id="nav-01">
+		 
+			 
+			<a class="first-level" href="/wps/portal/sgxweb/home/clearing">Clearing</a>
+			<div id="drop07" class="topnav-dd-outer drop07" ><div class="topnav-dd-inner clearfix">
+				<div id="drop01">
+				
+			 
+   				<table border="0" cellspacing="0" cellpadding="0"  style="margin:15px 5px 10px 15px">
+   					<tbody>
+   					<tr>
+   					<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+								
+							<script>
+								var divId = 'drop07';
+								var columnNo = '7'
+								nodeCounter = 1;
+							</script>	
+					
+					
+   				
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/clearing/securities">Securities</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/securities/securities_clearing">Securities Clearing</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/securities/membership">Membership</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/securities/financial_safeguards">Financial Safeguards</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/securities/acceptable_collaterals">Acceptable Collaterals</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/securities/operational_information">Operational Information</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/securities/pfmi_disclosure">PFMI Disclosure Documents</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/clearing/derivatives">Derivatives</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/derivatives/derivatives_clearing">Derivatives Clearing </a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/derivatives/memberships">Membership</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/derivatives/financial_safeguards">Financial Safeguards</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/derivatives/acceptable_collaterals">Acceptable Collaterals</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/derivatives/clearing_systems">Clearing Systems</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/derivatives/operational_information">Operational Information</a></td></tr>
+						 	
+   				 		 
+		   				 		<tr>
+								<td>&nbsp;</td>
+									<td class="navlevel2" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		   				 	
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/clearing/derivatives/operational_information/span_download_interim_cycle">Span Download Interim Cycle</a></td></tr>
+		   				 		
+		   				 		 
+		   						
+							<script>
+								nodeCounter++;
+							</script>
+							</table>
+							</td>
+							</tr>
+							</table>
+							</td>
+							</tr></tbody>
+								</table>
+								</td>
+								
+						<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+							<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;</td>
+									<td class="navlevel2" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					
+   						
+   						
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/clearing/derivatives/operational_information/span_download_pm_cycle">Span Download PM cycle</a></td></tr>
+		   				 		
+		   				 		 
+		   				 		 </table>
+		   				 		 </td>
+		   				 		 </tr>
+		   				 	
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/derivatives/pfmi_disclosure">PFMI Disclosure Documents</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/clearing/derivatives/user_login">User Login </a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+   				 	</tbody>
+   				 	</table>
+   				 	</td>
+   				 	</tr>
+   				 	</tbody>
+   				 	</table>
+					
+					
+					<script>
+						
+						
+						if(columnNo>4){
+						
+							if(nodeCounter == 1){
+							
+							document.getElementById(divId).style.marginLeft = "-177px";
+							
+							}
+							if(nodeCounter == 2){
+							
+							document.getElementById(divId).style.marginLeft = "-377px";
+							
+							}
+							if(nodeCounter >= 3){
+							
+							document.getElementById(divId).style.marginLeft = "-577px";
+							
+							}
+						
+						}
+						function dropdown(){
+							var a =document.getElementsByName('select');
+							alert(a.length);
+							for(i=0;i<a.length;i++){
+							alert(a[0]);
+								
+							}
+						}
+						
+					</script>
+   				
+   				
+			</div>
+   	</div>
+	</div>
+   			</li>
+   			
+		<li class="first-level" id="nav-01">
+		 
+			 
+			<a class="first-level" href="/wps/portal/sgxweb/home/regulation">Regulation</a>
+			<div id="drop08" class="topnav-dd-outer drop08" ><div class="topnav-dd-inner clearfix">
+				<div id="drop01">
+				
+			 
+   				<table border="0" cellspacing="0" cellpadding="0"  style="margin:15px 5px 10px 15px">
+   					<tbody>
+   					<tr>
+   					<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+								
+							<script>
+								var divId = 'drop08';
+								var columnNo = '8'
+								nodeCounter = 1;
+							</script>	
+					
+					
+   				
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/regulation/overview">Overview</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/overview/board_of_directors">Board of Directors</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/overview/organization_chart">Organization Chart</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/regulation/howwereg">How We Regulate</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/regulation/market">Markets</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/market/market_reg">SGX as a Market Regulator</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/market/market_supervision">Supervision of Markets</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/market/market_disciplinary">Disciplinary Framework</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/regulation/listing">Listing</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/listing/listing_mainboard_catalist">Mainboard and Catalist</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/listing/listing_catalist">Catalist Sponsors</a></td></tr>
+						 	
+   				 		 
+		   				 		<tr>
+								<td>&nbsp;</td>
+									<td class="navlevel2" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		   				 	
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/regulation/listing/listing_catalist/listing_catalist_sponser">Catalist Sponsors List</a></td></tr>
+		   				 		
+		   				 		 
+		   				 		 </table>
+		   				 		 </td>
+		   				 		 </tr>
+		   				 	
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/regulation/members">Members</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/members/members_admission">Admission</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/members/members_continuous">Continuous Obligations</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+					<script>
+							nodeCounter++;
+					</script>
+					</table>
+					</td>
+					</tr>
+						
+						</tbody>
+						</table>
+						</td>
+						<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+							<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						
+					
+   						
+   						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/members/members_firm_list">List of Member Firms</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/regulation/risk_managment">Risk Management</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/risk_managment/guiding_principle">Guiding Principles</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/risk_managment/erm_frame_work">ERM Framework</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/risk_managment/risk_control_safeguard">Risk Controls and Safeguards</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/regulation/consult_pub">Consultations and Publications</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   				 	
+   				 	
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/consult_pub/consult_papers">Consultation Papers</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/consult_pub/reg_ann">Regulatory Announcements</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/consult_pub/reg_column">Regulator's Columns</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/consult_pub/listing_matters">Listing Admission Matters</a></td></tr>
+						 	
+   				 		 
+		   				 		<tr>
+								<td>&nbsp;</td>
+									<td class="navlevel2" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		   				 	
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/regulation/consult_pub/listing_matters/listing_decisions">Listing Decisions</a></td></tr>
+		   				 		
+		   				 		 
+		   				 		 </table>
+		   				 		 </td>
+		   				 		 </tr>
+		   				 	
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/consult_pub/list_rule_waivers">Listing Rule Waivers</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/consult_pub/evergreen_listings_waiver">Evergreen Listing Rule Waivers</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/consult_pub/reg_statistics">Statistics</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/consult_pub/past_dis_action">Past Disciplinary Actions</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+					<script>
+							nodeCounter++;
+					</script>
+					</table>
+					</td>
+					</tr>
+						
+						</tbody>
+						</table>
+						</td>
+						<td width="233" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+							<tr>
+						<td valign="top">&nbsp;</td>
+						<td valign="top" class="navleveltop">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						
+					
+   						
+   						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/consult_pub/dco_submissions">DCO Submissions and Notices</a></td></tr>
+						 	
+   				 		 
+   				 		 
+   				 		 
+						
+						
+   				 		 <tr>
+							<td width="15">&nbsp;</td>
+							<td class="navlevel2"  style="padding:3px 0px 5px 0px;">
+   				 		 <a href="/wps/portal/sgxweb/home/regulation/consult_pub/listing_compliance_bulletin">Listing Compliance Bulletin</a></td></tr>
+						 	
+   				 		 
+		   				 		<tr>
+								<td>&nbsp;</td>
+									<td class="navlevel2" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		   				 	
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/regulation/consult_pub/listing_compliance_bulletin/regulatory_decision">Regulatory Decision</a></td></tr>
+		   				 		
+		   				 		 
+		   						
+		   				 		 <tr>
+									<td width="15">&nbsp;</td>
+									<td class="navlevel3" style="padding:2px 0px 2px 0px;">
+										<a href="/wps/portal/sgxweb/home/regulation/consult_pub/listing_compliance_bulletin/listing_compliance_toolkit">Listing Compliance Toolkit</a></td></tr>
+		   				 		
+		   				 		 
+		   				 		 </table>
+		   				 		 </td>
+		   				 		 </tr>
+		   				 	
+   				 		 
+   				 		 
+   				 		 </table>
+   				 		 </td>
+   				 		 </tr>
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/regulation/rulebook">Rulebook</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/regulation/independent-committees">Independent Committees</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+					
+					
+					<tr>
+   				 	<td width="15" style="padding:2px 0px 2px 0px;"><div class="sgx_bullet_dropdown"></div></td>
+								<td valign="top" style="padding:2px 0px 2px 0px;" class="navleveltop">
+   				 	<a href="/wps/portal/sgxweb/home/regulation/sustainability">Sustainability Reporting</a></td>
+   				 	</tr>
+						
+   				 	
+   				 	
+   				 	
+   				 	</tbody>
+   				 	</table>
+   				 	</td>
+   				 	</tr>
+   				 	</tbody>
+   				 	</table>
+					
+					
+					<script>
+						
+						
+						if(columnNo>4){
+						
+							if(nodeCounter == 1){
+							
+							document.getElementById(divId).style.marginLeft = "-177px";
+							
+							}
+							if(nodeCounter == 2){
+							
+							document.getElementById(divId).style.marginLeft = "-377px";
+							
+							}
+							if(nodeCounter >= 3){
+							
+							document.getElementById(divId).style.marginLeft = "-577px";
+							
+							}
+						
+						}
+						function dropdown(){
+							var a =document.getElementsByName('select');
+							alert(a.length);
+							for(i=0;i<a.length;i++){
+							alert(a[0]);
+								
+							}
+						}
+						
+					</script>
+   				
+   				
+			</div>
+   	</div>
+	</div>
+   			</li>
+   			
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		
+		<li class="first-level" id="nav-01">
+		</ul></div>
+ 
+            
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--% themePolicy.setValuesMap(portalThemePolicyMap); %--> 
+<div class="breadcrumbWrapper" id="breadcrumbtrail" >
+
+ 
+ 
+ 
+
+
+
+
+
+ <a href="/wps/portal/sgxweb/home">Home</a> 
+
+
+ 
+ 
+
+
+
+
+
+  <span class="wptheme-breadcrumbSeparator">></span>
+  <a href="/wps/portal/sgxweb/home/company_disclosure">
+   Company Information
+   </a> 
+
+
+
+
+ 
+ 
+
+
+
+
+
+<span class="wptheme-breadcrumbSeparator">></span> <a href="/wps/portal/sgxweb/home/company_disclosure/company_announcements">Company Announcements</a> 
+
+
+ 
+
+<input id="currLevel" type="hidden" name="currLevel" value="4"/>
+
+
+</div>
+<!--a rel="dynamic-content" href="dyn-cs:id:80theme_crumbTrail"></a-->
+
+	</td>
+  </tr>
+</table>
+</header>
+
+<table id="wptheme-pageWrapper" border="0" cellpadding="0" cellspacing="0" width="1000" style="overflow:hidden;">
+ <tr>
+  <td>
+   <div class="wpthemeMainContent" role="main" >
+	<!--div class="wpthemeInner"-->
+		<!-- asa markup contributions for pages -->
+			<!--a rel="dynamic-content" href="dyn-cs:id:80theme_asa"></a-->
+			<!-- a rel="dynamic-content" href="dyn-cs:id:80theme_search"></a-->
+			<!-- a rel="dynamic-content" href="dyn-cs:id:SGXTheme_crumbTrail"></a-->
+			<!--div class="wpthemeClear"></div-->
+			<!--a rel="dynamic-content" href="dyn-cs:id:SGXTheme_status"></a-->
+		<!--/div-->
+
+		<!-- required - do not remove -->
+		<div style="display:none" id="portletState">{}</div><div id="layoutContainers" class="wpthemeLayoutContainers wpthemeLayoutContainersHidden" >
+			<div class="wpthemeInner">
+				 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<table style="table-layout: fixed" class="layoutRow" cellpadding="0" cellspacing="0" border="0">
+<tr> 
+
+ 
+<td valign="top" width="770"> 
+ 
+ 
+ 
+ 
+ 
+
+<table class="layoutColumn" cellpadding="0" cellspacing="0" width="100%" border="0">
+
+
+<tr><td style="width:100%;" valign="top">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<table style="table-layout: fixed" class="layoutRow" cellpadding="0" cellspacing="0" border="0">
+<tr> 
+
+ 
+<td valign="top" > 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+<a name="Z7_2AA4H0C0980G70I1PRLBT32KO5"></a>
+<div class="sgx_noSkinWithBg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	      
+	      
+      	           <html>
+<head>
+<link href="http://css.sgx.com/sgxv2/css/wcm.css" rel="stylesheet" type="text/css" />  <script>
+function toggleMNContent(id) {
+  var lochref = location.href;
+  var ch = false;
+  if(lochref.indexOf ('sgxweb_ch') > 0) { ch=true; }  
+  if(id=='1') {
+    location.href = '/wps/portal/sgxweb/home/mygateway';
+    return;
+  }
+  if(id=='2') {
+  	if(ch) {
+  		location.href = '/wps/portal/sgxweb_ch/home/listings';
+  	}else {
+    	location.href = '/wps/portal/sgxweb/home/listings';
+    }
+    return;
+  }
+  if(id=='5') {
+    location.href = '/wps/portal/sgxweb/home/media';
+    return;
+  }
+  if (document.getElementById) { // DOM3 = IE5, NS6
+    document.getElementById("mn_banner").style.display = "none";
+    if (document.getElementById("MN" + id).style.display == "none") {
+       document.getElementById("MN" + id).style.display = "block";
+       document.getElementById("TD" + id).className = "selected";
+    }
+
+    for (var i=1 ; i <= 20 ; i++) {
+      tmpID = "MN" + i;
+      if (document.getElementById(tmpID)) {
+        if (tmpID != "MN" + id) {
+          document.getElementById(tmpID).style.display = 'none';
+          document.getElementById("TD" + i).className = '';
+        }
+      }
+   }
+
+  }
+}
+
+function PrintStartCell(ctr) {
+  if (ctr == 1) {
+    document.write("<th>");
+  } else {
+    document.write("<td>");
+  }
+}
+
+function PrintEndCell(ctr) {
+  if (ctr == 1) {
+    document.write("</th>");
+  } else {
+    document.write("</td>");
+  }
+}
+
+function PrintCell(ctr, link, title) {
+  if (ctr == 1) {
+    document.write("<th>" + title + "</th>");
+  } else {
+    document.write("<td><a href=\"" + link + "\" target=\"_blank\">" + title + "</a></td>");
+
+  }
+}
+
+function PrintRTCell(ctr, link, title, summary) 
+{
+	if (ctr == 1) 
+	{
+		document.write("<th>" + title + "</th>");
+	} 
+	else 
+	{
+			document.write("<td>" + summary + "</td>");
+	}
+
+}
+
+
+function PrintMainStartCell(ctr) {
+  if (ctr == 1) {
+    document.write("</td><td>");
+  }
+}
+
+function CloseMN(){
+    document.getElementById("mn_banner").style.display = "block";
+
+    for (var i=1 ; i <= 20 ; i++) {
+      tmpID = "MN" + i;
+      if (document.getElementById(tmpID)) {
+          document.getElementById(tmpID).style.display = 'none';
+          document.getElementById("TD" + i).className = '';
+      }
+   }
+}
+</script>
+
+</head>
+<body>
+<table class="market_link_panel">
+<tr><td id="TD1"><a href="javascript:toggleMNContent('1');">My Gateway</td><td id="TD2"><a href="javascript:toggleMNContent('2');">Listing On SGX</td><td id="TD3"><a href="javascript:toggleMNContent('3');">Members &amp; Professionals</td><td id="TD4"><a href="javascript:toggleMNContent('4');">Market Vendor</td><td id="TD5"><a href="javascript:toggleMNContent('5');">Media Centre</td></tr>
+</table>
+ 
+<div style="display:none;" id="MN1"> 
+<div>
+<img src="/wps/wcm/connect/6871fc004785e8feb6cfff643e0ae495/20120202-skyline+%28771x141%29_v2.jpg?MOD=AJPERES&amp;CACHEID=6871fc004785e8feb6cfff643e0ae495" border="0" width="771" height="141"  />
+</div>
+<table class="market_bg"><tr><td align="right" style="padding-top:5px"><a href="javascript:CloseMN();" > <img border=0 src="/wps/wcm/connect/6d24b9004785e8dab530ff643e0ae495/btn_market_niche_close.gif?MOD=AJPERES&amp;CACHEID=6d24b9004785e8dab530ff643e0ae495"</a>
+</td><td width="10">
+&nbsp;
+</td>
+</tr></table>
+ <script>
+var investor_count = 0;
+
+function PrintTableTag(ctr, num) {
+  if (ctr == 1 && num == 1) {
+    document.write('</td><td><table class="market_heading">');
+  } else if (ctr == 1 && num != 1) {
+    	if (investor_count  == 3 || investor_count  == 5){
+           document.write('</table></td><td width=15>&nbsp;</td><td></tr><tr><td width=15>&nbsp;</td><td><table class="market_heading">');
+        } else {
+           document.write('</table></td><td width=14>&nbsp;</td><td><table class="market_heading">');
+        }
+  }
+}
+
+</script>
+
+<table class="market_bg">
+<tr><td width=15>&nbsp;<script>
+if (1 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(1, 1)</script>
+
+<tr>
+<script>PrintCell(1, "", "Trading Information" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 2)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/marketinfo/securities", "Market Information" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 3)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/company_disclosure/company_announcements", "Company Disclosure" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 4)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/company_disclosure/corporate_action", "Corporate Actions" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 5)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/company_disclosure/all_in_one/company/", "All in One Infomation" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 6)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/company_disclosure/catalodge", "Catalodge" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 7)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/marketinfo/indices/indices", "Indices" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(1, 8)</script>
+
+<tr>
+<script>PrintCell(1, "", "Investor Tools" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 9)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/investor_tools/dividend_discount_calculator", "Dividend Discount Calculator" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 10)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/investor_tools/profit_and_loss_calculator", "Profit and Loss Calculator" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 11)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/investor_tools/chart_viewer", "Chart Viewer" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 12)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/investor_tools/investment_calculator", "Investment Calculator" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 13)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/investor_tools/structured_warrant_calculator", "Structured Warrant Calculator" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 14)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/investor_tools/financial_calculator", "Financial Calculator" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 15)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/investor_tools/extended_settlement_calculator", "Extended Settlement Calculator" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(1, 16)</script>
+
+<tr>
+<script>PrintCell(1, "", "Market Data" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 17)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/marketinfo/historical_data", "Historical Data" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 18)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/marketinfo/market_summary", "Market Summary" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 19)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/marketinfo/market_statistics", "Market Statistics" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(1, 20)</script>
+
+<tr>
+<script>PrintCell(1, "", "Education" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 21)</script>
+
+<tr>
+<script>PrintCell(2, "http://www.sgx.com/research", "Research" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 22)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/wcm/connect/sgx_en/home/individual_investor/investor_guide", "Investor Guide" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 23)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/trading/securities/trading_safeguards", "Online Education Programme" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 24)</script>
+
+<tr>
+<script>PrintCell(2, "http://www.sgx.com/academy", "Academy" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  investor_count = investor_count + 1;
+}
+</script>
+
+<script>PrintTableTag(2, 25)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/individual_investor/st_commentary", "ST Commentary" )</script>
+</tr>
+</table></td></tr></table>
+
+<table class="market_bg" style="height:3px;"><tr><td>&nbsp;</td></tr></table>
+</div>
+<div style="display:none" id="MN2">
+<div>
+<img src="/wps/wcm/connect/6871fc004785e8feb6d0ff643e0ae495/20120202-skyline+%28771x141%29_v2.jpg?MOD=AJPERES&amp;CACHEID=6871fc004785e8feb6d0ff643e0ae495" border="0" width="771" height="141"  />
+</div>
+<table class="market_bg"><tr><td align="right" style="padding-top:5px"><a href="javascript:CloseMN();" > <img border=0 src="/wps/wcm/connect/6d24b9004785e8dab530ff643e0ae495/btn_market_niche_close.gif?MOD=AJPERES&amp;CACHEID=6d24b9004785e8dab530ff643e0ae495"</a>
+</td><td width="10">
+&nbsp;
+</td>
+</tr></table>
+ <script>
+var list_count = 0;
+
+function PrintTableTagList(ctr, num) {
+  if (ctr == 1 && num == 1) {
+    document.write('</td><td><table class="market_heading">');
+  } else if (ctr == 1 && num != 1) {
+    	if (list_count  == 3 || list_count  == 5){
+           document.write('</table></td><td width=15>&nbsp;</td><td></tr><tr><td width=15>&nbsp;</td><td><table class="market_heading">');
+        } else {
+           document.write('</table></td><td width=14>&nbsp;</td><td><table class="market_heading">');
+        }
+  }
+}
+
+</script>
+
+<table class="market_bg">
+<tr><td width=15>&nbsp;<script>
+if (1 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(1, 1)</script>
+
+<tr>
+<script>PrintCell(1, "", "Listing" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 2)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/", "Listings" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(1, 3)</script>
+
+<tr>
+<script>PrintCell(1, "", "Listings Products" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 4)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/listing_products#panelhead7", "Non-Tradable Funds" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 5)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/listing_products#panelhead5", "Structured Warrants" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 6)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/listing_products#panelhead4", "Exchange Traded Funds" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 7)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/listing_products#panelhead6", "Global Depository Receipts" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 8)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/listing_products#panelhead8", "Tradable Funds" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 9)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/listing_products#panelhead2", "Business Trusts" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 10)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/listing_products#panelhead1", "Real Estate Investment Trusts" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(1, 11)</script>
+
+<tr>
+<script>PrintCell(1, "", "Corporate Services" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 12)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/issuer_services", "Corporate Actions &amp; Investor Relations" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(1, 13)</script>
+
+<tr>
+<script>PrintCell(1, "", "Issue Managers and Sponsors" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 14)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/catalist/active_sponsors", "Directory of Active Sponsors" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 15)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/catalist/inactive_sponsors", "Directory of Inactive Sponsors" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 16)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/catalist/suspended_sponsors", "Directory of Suspended Sponsors" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 17)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/list_of_issue_managers", "Issue Managers for Mainboard Listings" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(1, 18)</script>
+
+<tr>
+<script>PrintCell(1, "", "Regulations" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 19)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/regulation", "Mainboard, Catalist, Regulators Columns &amp; Rules" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(1, 20)</script>
+
+<tr>
+<script>PrintCell(1, "", "Debt Securities" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 21)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/listing_products/listing_on_sgx/debt_securities#panelhead5", "Contact Details" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 22)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/listing_products/listing_on_sgx/debt_securities/", "Benefits of Listings and Custodising your debt securities" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 23)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/listing_products/listing_on_sgx/debt_securities#panelhead2", "Listings Requirements" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 24)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/listing_products/listing_on_sgx/debt_securities#panelhead3", "Listings Procedure" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  list_count = list_count + 1;
+}
+</script>
+
+<script>PrintTableTagList(2, 25)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/listings/listing_products/listing_on_sgx/debt_securities#panelhead4", "Listings Fees" )</script>
+</tr>
+</table></td></tr></table>
+
+<table class="market_bg" style="height:3px;"><tr><td>&nbsp;</td></tr></table>
+</div>
+<div style="display:none" id="MN3"> 
+<div>
+<img src="/wps/wcm/connect/6871fc004785e8feb6d1ff643e0ae495/20120202-skyline+%28771x141%29_v2.jpg?MOD=AJPERES&amp;CACHEID=6871fc004785e8feb6d1ff643e0ae495" border="0" width="771" height="141"  />
+</div>
+<table class="market_bg"><tr><td align="right" style="padding-top:5px"><a href="javascript:CloseMN();" > <img border=0 src="/wps/wcm/connect/6d24b9004785e8dab530ff643e0ae495/btn_market_niche_close.gif?MOD=AJPERES&amp;CACHEID=6d24b9004785e8dab530ff643e0ae495"</a>
+</td><td width="10">
+&nbsp;
+</td>
+</tr></table>
+ <script>
+var member_count = 0;
+
+function PrintTableTagMember(ctr, num) {
+  if (ctr == 1 && num == 1) {
+    document.write('</td><td><table class="market_heading">');
+  } else if (ctr == 1 && num != 1) {
+    	if (member_count  == 3 || member_count  == 5){
+           document.write('</table></td><td width=15>&nbsp;</td><td></tr><tr><td width=15>&nbsp;</td><td><table class="market_heading">');
+        } else {
+           document.write('</table></td><td width=14>&nbsp;</td><td><table class="market_heading">');
+        }
+  }
+}
+
+</script>
+
+<table class="market_bg">
+<tr><td width=15>&nbsp;<script>
+if (1 == 1) {
+  member_count = member_count + 1;
+}
+</script>
+
+<script>PrintTableTagMember(1, 1)</script>
+
+<tr>
+<script>PrintCell(1, "", "Membership" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  member_count = member_count + 1;
+}
+</script>
+
+<script>PrintTableTagMember(2, 2)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/trading/derivatives/membership", "Derivatives Membership" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  member_count = member_count + 1;
+}
+</script>
+
+<script>PrintTableTagMember(2, 3)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/trading/securities/membership", "Securities Membership" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  member_count = member_count + 1;
+}
+</script>
+
+<script>PrintTableTagMember(1, 4)</script>
+
+<tr>
+<script>PrintCell(1, "", "List of Members" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  member_count = member_count + 1;
+}
+</script>
+
+<script>PrintTableTagMember(2, 5)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/regulation/members/members_firm_list", "Members" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  member_count = member_count + 1;
+}
+</script>
+
+<script>PrintTableTagMember(1, 6)</script>
+
+<tr>
+<script>PrintCell(1, "", "Reports" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  member_count = member_count + 1;
+}
+</script>
+
+<script>PrintTableTagMember(2, 7)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/derivatives/TABBReport", "TABB Reports - Innovations in Accessing Asia: Listed Equity Derivatives and Delta One Products" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  member_count = member_count + 1;
+}
+</script>
+
+<script>PrintTableTagMember(1, 8)</script>
+
+<tr>
+<script>PrintCell(1, "", "Market Access" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  member_count = member_count + 1;
+}
+</script>
+
+<script>PrintTableTagMember(2, 9)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/services/market_access/derivatives", "Derivatives" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  member_count = member_count + 1;
+}
+</script>
+
+<script>PrintTableTagMember(2, 10)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/services/market_access/securities", "Securities" )</script>
+</tr>
+</table></td></tr></table>
+
+<table class="market_bg" style="height:3px;"><tr><td>&nbsp;</td></tr></table>
+</div>
+<div style="display:none" id="MN4">
+<div>
+<img src="/wps/wcm/connect/7162cd804785e8feb6d2ff643e0ae495/20120202-skyline+%28771x141%29_v2.jpg?MOD=AJPERES&amp;CACHEID=7162cd804785e8feb6d2ff643e0ae495" border="0" width="771" height="141"  />
+</div>
+<table class="market_bg"><tr><td align="right" style="padding-top:5px"><a href="javascript:CloseMN();" > <img border=0 src="/wps/wcm/connect/6d24b9004785e8dab530ff643e0ae495/btn_market_niche_close.gif?MOD=AJPERES&amp;CACHEID=6d24b9004785e8dab530ff643e0ae495"</a>
+</td><td width="10">
+&nbsp;
+</td>
+</tr></table>
+ <script>
+var vendor_count = 0;
+
+function PrintTableTagVendor(ctr, num) {
+  if (ctr == 1 && num == 1) {
+    document.write('</td><td><table class="market_heading">');
+  } else if (ctr == 1 && num != 1) {
+    	if (vendor_count  == 3 || vendor_count  == 5){
+           document.write('</table></td><td width=15>&nbsp;</td><td></tr><tr><td width=15>&nbsp;</td><td><table class="market_heading">');
+        } else {
+           document.write('</table></td><td width=14>&nbsp;</td><td><table class="market_heading">');
+        }
+  }
+}
+
+</script>
+
+<table class="market_bg">
+<tr><td width=15>&nbsp;<script>
+if (1 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(1, 1)</script>
+
+<tr>
+<script>PrintCell(1, "", "Securities" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(2, 2)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/services/market_data/securities#Products_Market_Data_Securities_Market_Direct_Feed", "Securities Market Direct Feed" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(2, 3)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/services/market_data/securities#Products_Market_Data_SGXNews", "SGXNews/SGXNews Lite" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(2, 4)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/services/market_data/securities#Products_Market_Data_Newsmail", "Newsmail" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(2, 5)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/services/market_data/securities#Products_Market_Data_Exchanges_Notes", "ExchangeNotes" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(2, 6)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/services/market_data/securities#Products_Market_Data_Historical_Market_Data_", "Historical Market Data" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(2, 7)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/services/market_data/securities#Products_Market_Data_SGX_Live_Data_and_News_", "SGX Live Data and News" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(1, 8)</script>
+
+<tr>
+<script>PrintCell(1, "", "Derivatives" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(2, 9)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/services/market_data/derivatives#Products_Market_Data_Derivatives_Market_Direct_Feed", "SGX Derivatives Market Direct Feed" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(2, 10)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/services/market_data/derivatives#Products_Market_Data_Historical_Market_Data", "Historical Market Data" )</script>
+</tr>
+<script>
+if (1 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(1, 11)</script>
+
+<tr>
+<script>PrintCell(1, "", "Connectivity" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(2, 12)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/services/market_access/colocation", "SGX Co-Location Service" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  vendor_count = vendor_count + 1;
+}
+</script>
+
+<script>PrintTableTagVendor(2, 13)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/portal/sgxweb/home/services/market-connectivity/offshore-connectivity", "Offshore Connectivity" )</script>
+</tr>
+</table></td></tr></table>
+
+<table class="market_bg" style="height:3px;"><tr><td>&nbsp;</td></tr></table>
+</div>
+<div style="display:none" id="MN5">
+<div>
+<img src="/wps/wcm/connect/7162cd804785e8feb6d3ff643e0ae495/20120202-skyline+%28771x141%29_v2.jpg?MOD=AJPERES&amp;CACHEID=7162cd804785e8feb6d3ff643e0ae495" border="0" width="771" height="141"  />
+</div>
+<table class="market_bg"><tr><td align="right" style="padding-top:5px"><a href="javascript:CloseMN();" > <img border=0 src="/wps/wcm/connect/6d24b9004785e8dab530ff643e0ae495/btn_market_niche_close.gif?MOD=AJPERES&amp;CACHEID=6d24b9004785e8dab530ff643e0ae495"</a>
+</td><td width="10">
+&nbsp;
+</td>
+</tr></table>
+ <script>
+var media_count = 0;
+
+function PrintTableTagMedia(ctr, num) {
+  if (ctr == 1 && num == 1) {
+    document.write('</td><td><table class="market_heading">');
+  } else if (ctr == 1 && num != 1) {
+    	if (media_count  == 3 || media_count  == 5){
+           document.write('</table></td><td width=15>&nbsp;</td><td></tr><tr><td width=15>&nbsp;</td><td><table class="market_heading">');
+        } else {
+           document.write('</table></td><td width=14>&nbsp;</td><td><table class="market_heading">');
+        }
+  }
+}
+
+</script>
+
+<table class="market_bg">
+<tr><td width=15>&nbsp;<script>
+if (1 == 1) {
+  media_count = media_count + 1;
+}
+</script>
+
+<script>PrintTableTagMedia(1, 1)</script>
+
+<tr>
+<script>PrintCell(1, "", "News Releases" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  media_count = media_count + 1;
+}
+</script>
+
+<script>PrintTableTagMedia(2, 2)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/wcm/connect/design_new/Site/SA/speeches?presentationtemplate=design_new/PT_Print_Friendly", "Speeches" )</script>
+</tr>
+<script>
+if (2 == 1) {
+  media_count = media_count + 1;
+}
+</script>
+
+<script>PrintTableTagMedia(2, 3)</script>
+
+<tr>
+<script>PrintCell(2, "/wps/wcm/connect/design_new/site/sa/news_releases?presentationtemplate=design_new/PT_Print_Friendly_RSS", "News Releases" )</script>
+</tr>
+</table></td></tr></table>
+
+<table class="market_bg" style="height:3px;"><tr><td>&nbsp;</td></tr></table>
+</div>
+</body>
+</html>
+
+      	         
+</div></td>
+ 
+</tr></table></td></tr>
+
+
+<tr><td style="width:100%;" valign="top">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<table style="table-layout: fixed" class="layoutRow" cellpadding="0" cellspacing="0" border="0">
+<tr> 
+
+ 
+<td valign="top" > 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+<a name="Z7_2AA4H0C0980G70I1PRLBT32KO7"></a>
+<div class="sgx_noSkinWithBg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	      
+	      
+      	           <div id="mn_banner">
+<table cellspacing=0 cellpadding=0 border=0><tr><td class="page_banner" style="background-image: url('/wps/wcm/connect/9648bb30-9584-4988-9176-c8edbedf15de/CompanyDisclosureBanner.jpg?MOD=AJPERES&amp;CACHEID=9648bb30-9584-4988-9176-c8edbedf15de');">&nbsp;</td></tr></table>
+</div>
+      	         
+</div></td>
+ 
+</tr></table></td></tr>
+
+
+<tr><td style="width:100%;" valign="top">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<table style="table-layout: fixed" class="layoutRow" cellpadding="0" cellspacing="0" border="0">
+<tr> 
+
+ 
+<td valign="top" width="10"> 
+ 
+ 
+ 
+ 
+ 
+
+<table class="layoutColumn" cellpadding="0" cellspacing="0" width="100%" border="0">
+
+
+<tr><td style="width:100%;" valign="top">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<a name="Z7_2AA4H0C0908270IURSS5IF3HH1"></a><div class="wpsPortletBody">
+
+<div class="sgx_padding_bgcolor" ></div>
+
+
+	<script languange="javascript">
+		$(function() {
+			$("div.sgx_padding_bgcolor").each(function() {
+				$(this).parents("table.layoutColumn:first").parent().addClass("sgx_padding_bgcolor");
+			});
+		});
+	</script>
+
+</div></td></tr>
+
+</table></td>
+
+ 
+<td valign="top" width="750"> 
+ 
+ 
+ 
+ 
+ 
+
+<table class="layoutColumn" cellpadding="0" cellspacing="0" width="100%" border="0">
+
+
+<tr><td style="width:100%;" valign="top">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+<a name="Z7_680412S0JO2450AOAFHGTG30G5"></a>
+<div class="sgx_noSkinWithBg">
+
+
+
+
+
+
+                         
+ <script type="text/javascript">
+  dojo.require("dijit.Dialog");
+  dojo.require("dijit.layout.BorderContainer");
+    
+  var singleQuotens_Z7_680412S0JO2450AOAFHGTG30G5_ = "\'";	
+  var doubleQuotens_Z7_680412S0JO2450AOAFHGTG30G5_ = "\"";	
+  
+  var noOfSibilingsns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+  var selectedStartPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+  
+  var gridCellsns_Z7_680412S0JO2450AOAFHGTG30G5_ = "";  
+  var gridns_Z7_680412S0JO2450AOAFHGTG30G5_;
+  var totalJsonDatarowsns_Z7_680412S0JO2450AOAFHGTG30G5_;
+  var currentSelectedRowns_Z7_680412S0JO2450AOAFHGTG30G5_;
+  var selectedAlphans_Z7_680412S0JO2450AOAFHGTG30G5_;
+  var categoryns_Z7_680412S0JO2450AOAFHGTG30G5_;
+  var selectedAlphans_Z7_680412S0JO2450AOAFHGTG30G5_;
+
+  var minPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = 1;
+  var maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = 10;
+  var totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+  var currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ = 1;
+  var nextButtonClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = null;
+  var prevButtonClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = null;
+ </script>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+<style>
+.companyInfoTable {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 10px; 
+    font-style: normal;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 740px;
+}
+
+.companyInfoTable tr {
+  margin-top: 10px;
+}
+
+.sgx_blur {
+  width: 740px;
+}
+
+.sgx_shadow {
+  position: relative;
+  bottom: 2px;
+  right: 2px;
+}
+
+.gridMainContainer {
+    position: relative;
+	bottom: 2px;
+	right: 0px;
+    width:740px;
+	min-height:500px;
+	overflow-x:auto;
+	overflow-y:hidden;
+	padding-bottom: 20px;	
+ }
+
+.gridMainContainer table tr td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 12px;
+  padding-top:5px;
+}
+
+#content_ns_Z7_680412S0JO2450AOAFHGTG30G5_ {
+  width:740px;
+  height: 500px;
+}
+
+.pagingContainer {
+  width:740px;
+  background-color:  #E1E2E4;
+}
+
+.warning {
+  font-weight: bold; 
+  font-size:15px;
+  padding:10px;
+  text-align: center;
+}
+
+.currentPage {
+	display: inline;
+	font-weight: bold; 
+	text-size: 14; 
+	color:#333;
+	text-decoration: none;
+}
+
+.page {
+  display: inline;
+  cursor: pointer; 
+  text-decoration: underline;
+  color:#1D2172;
+}
+
+.alpha {
+  color: #233288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 12px;
+  display: inline;
+  cursor: pointer; 
+  padding-left:5px;
+}
+
+.alpha div:hover {
+ text-decoration: underline;
+}
+
+.combo {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 10px;
+ font-weight: normal;
+ line-height: 12px;
+}
+
+.currentSelectedAlpha {
+	display: inline;
+	font-weight: bold; 
+	text-size: 18; 
+	color:#687300;
+	padding-left:10px;
+}
+
+.showSingleLine {
+	display: inline;
+}
+</style>          
+           
+ <div class="sgx_blur">  
+ <div class="sgx_search_field_bg">  
+ <div style="padding-left:4px;padding-top:2px;">
+ <form name="anncForm" action="">
+<table cellpadding="0" cellspacing="2" width="100%" border="0">    
+    <tr>
+ 	    <td width="160" align="left" ><label class="sgx_dropdown">Announcement Period:</label></td>
+		<td> <select style="width:200px" class="sgx_dropdown" id="period" name="prd">
+				
+			</select>
+		</td>
+		</tr>
+	<tr height="3">
+		<td colspan="4">
+		</td> 
+	</tr>
+	
+	<tr height="3">
+		<td align="left"><label class="sgx_dropdown">Filter by:</label></td>
+		<td> 
+			<input type="radio" id="company_radio" name="filterby" onclick="togglecompsecu('Company');"> 
+			<label class="sgx_dropdown">Company Name<sup>1</sup></label>&nbsp;&nbsp;&nbsp;
+			<input type="radio" checked name="filterby" onclick="togglecompsecu('Security');">
+			<label class="sgx_dropdown">Security Name<sup>2</sup></label> 
+		</td>  
+	</tr>
+	<tr height="3">
+		<td colspan="4"> 
+		</td> 
+	</tr>
+	
+	<tr id="company_tr" height="3" style="display:none;">
+		<td align="left"><label class="sgx_dropdown">Company Name:</label></td>
+		<td> <select style="width:540px" class="sgx_dropdown" id="issuer" name="iName">
+		        <option value="">Select Company Name</option> 
+			 </select>
+		</td>  
+	</tr>
+	
+	
+	<tr id="security_tr" height="3">
+		<td align="left"><label class="sgx_dropdown">Security Name:</label></td>
+		<td> <select style="width:540px" class="sgx_dropdown" id="security" name="sName"> 
+		        <option value="">Select Security Name</option>
+			 </select>
+		</td>  
+	</tr>
+	<tr height="3">
+		<td colspan="4"> 
+		</td> 
+	</tr>   
+	
+	<tr>
+		<td width="160" align="left"><label class="sgx_dropdown">Announcement Category:</label></td>
+		<td> <select style="width:540px" class="sgx_dropdown"  id="group" name="grp" onChange="javascript:getCategory(this);">
+		         <option value="">Select Category</option>  
+		     </select>
+		</td> 
+		</tr>
+		<tr height="3"> 
+		<td colspan="4"> 
+		</td>
+	</tr>
+	<tr height="3">
+		<td align="left"><label class="sgx_dropdown"></label></td>
+		<td> <select disabled style="width:540px" class="sgx_dropdown" id="product" name="pcat">
+		         <option value="">Sub Category</option>
+		     </select>
+		</td>
+	</tr> 
+	<tr height="2">   
+		<td colspan="4">
+		</td>
+		
+		</tr>	
+	<tr>
+	   
+	   <td colspan="4" valign="bottom" align="center"><a href="#" onClick="javascript: fetchResult(); return false;"><div class="sgx_go_btn_reader"><b>Go</b></div> </a></td>
+	</tr>
+</table>
+<div width="100%">
+ <sup>1</sup> Company name refers to the entity that issues or manages the security.<br>
+ <sup>2</sup> Security name refers to the traded counter on SGX.
+</div>
+</form>
+</div></div></div>
+
+
+
+<div class="gridMainContainer" style="padding-top:10px; background-color: #E1E2E4;">
+    <div id='warningns_Z7_680412S0JO2450AOAFHGTG30G5_' class="warning" style="display: none;">  No Data Found! </div>
+    <div id='warning2ns_Z7_680412S0JO2450AOAFHGTG30G5_' class="warning" style="display: none;">  Unable to load all the data! Please refresh the page. </div>
+    
+<div class="pagingContainer">
+<div id="pageIdns_Z7_680412S0JO2450AOAFHGTG30G5_" style="text-align: right;"></div>
+</div>
+
+<script type="text/javascript">
+ 
+ function createPaginationns_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption) {
+  var pageStr = "";	
+  var pageStrDown = "";	
+  var temp = "";
+  var pageId = "";
+  
+  var startPtr = minPagens_Z7_680412S0JO2450AOAFHGTG30G5_;
+  var stopPtr = maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_;
+  totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_ = Math.ceil(noOfSibilingsns_Z7_680412S0JO2450AOAFHGTG30G5_ / noOfRowsPerPagens_Z7_680412S0JO2450AOAFHGTG30G5_);
+  
+  if (totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_ < maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_) {
+    stopPtr = totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_;
+  } else {
+     monitorUserActionns_Z7_680412S0JO2450AOAFHGTG30G5_();
+     startPtr = minPagens_Z7_680412S0JO2450AOAFHGTG30G5_;
+     stopPtr = maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_; 
+  }
+   
+  if (totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_ > 1) {
+    if (stopPtr > 10 && startPtr != 1) {
+        pageStr += addPagens_Z7_680412S0JO2450AOAFHGTG30G5_(1, view, selectedOption)[0] + "&nbsp;......";
+		pageStrDown += addPagens_Z7_680412S0JO2450AOAFHGTG30G5_(1, view, selectedOption)[1] + "&nbsp;......";
+    }
+   
+   for (var i = startPtr; i <= stopPtr; i++) {
+   
+      pageStr += addPagens_Z7_680412S0JO2450AOAFHGTG30G5_(i, view, selectedOption)[0];
+	  pageStrDown += addPagens_Z7_680412S0JO2450AOAFHGTG30G5_(i, view, selectedOption)[1];
+   
+      if (i != totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_ && i == stopPtr) {
+         pageStr += "&nbsp;.......";
+         pageStr += addPagens_Z7_680412S0JO2450AOAFHGTG30G5_(totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_, view, selectedOption)[0];
+		  pageStrDown += "&nbsp;.......";
+         pageStrDown += addPagens_Z7_680412S0JO2450AOAFHGTG30G5_(totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_, view, selectedOption)[1];
+      } 
+   }
+  
+   if (currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ != totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_) {
+   	 pageStr += addNextns_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption)[0];
+	 pageStrDown += addNextns_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption)[1];
+   }
+   
+   if (currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ > 1) {
+      pageStr = addPreviousns_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption)[0] + pageStr;
+	  pageStrDown = addPreviousns_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption)[1] + pageStrDown;
+   } 
+   
+   dojo.byId("pageIdns_Z7_680412S0JO2450AOAFHGTG30G5_").innerHTML = "Pages:&nbsp;&nbsp;" + pageStr;
+    dojo.byId("pageIdDownns_Z7_680412S0JO2450AOAFHGTG30G5_").innerHTML = "Pages:&nbsp;&nbsp;" + pageStrDown;
+   highlightSelectedPagens_Z7_680412S0JO2450AOAFHGTG30G5_();
+   }
+ }
+ 
+ function monitorUserActionns_Z7_680412S0JO2450AOAFHGTG30G5_() {
+   if (nextButtonClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ == 1) {
+   	 setHigherMaxPageRangens_Z7_680412S0JO2450AOAFHGTG30G5_();
+   } 
+ 
+   if (prevButtonClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ == 1) {
+     setLowerMaxPageRangens_Z7_680412S0JO2450AOAFHGTG30G5_();
+   }
+   
+   if (linkClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ == 1) {
+      if (currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ == totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_) {
+         showLastPagens_Z7_680412S0JO2450AOAFHGTG30G5_();
+      } else if (currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ == 1) {
+         showFirstPagens_Z7_680412S0JO2450AOAFHGTG30G5_();
+      } else {
+	    setNormalizeMaxPageRangens_Z7_680412S0JO2450AOAFHGTG30G5_();
+	  }
+   }
+ }
+ 
+ function showLastPagens_Z7_680412S0JO2450AOAFHGTG30G5_() {
+   maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_;
+   minPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_ - 9;
+ }
+ 
+ function showFirstPagens_Z7_680412S0JO2450AOAFHGTG30G5_() {
+   minPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = 1;
+   maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = 10;
+ }
+ 
+ function setHigherMaxPageRangens_Z7_680412S0JO2450AOAFHGTG30G5_() {
+   if ( isMaxDelimReachedns_Z7_680412S0JO2450AOAFHGTG30G5_() ) {
+      calculateMaxDelimRangesns_Z7_680412S0JO2450AOAFHGTG30G5_();
+   } else {
+      // Fix: keep incrementing the pages for each next click [16th July 2009]
+      //maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_ ++;
+   }
+ }
+ 
+ function calculateMaxDelimRangesns_Z7_680412S0JO2450AOAFHGTG30G5_() {
+   maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_ += 4;
+   if (maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_ > totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_) {
+      var diff = maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_ - totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_;
+      maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_;
+      //TODO: TBD whether to restrit the minRange if we endup showing all the pages
+      //minPagens_Z7_680412S0JO2450AOAFHGTG30G5_ += diff;
+   } else {
+      minPagens_Z7_680412S0JO2450AOAFHGTG30G5_ += 4;
+   }
+ }
+ 
+ function calculateMinDelimRangesns_Z7_680412S0JO2450AOAFHGTG30G5_() {
+    minPagens_Z7_680412S0JO2450AOAFHGTG30G5_ -= 4;
+    if (minPagens_Z7_680412S0JO2450AOAFHGTG30G5_ <= 0) {
+      minPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = 1;
+      maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = 10;
+    } else {
+      maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_ -= 4;
+    }
+ }
+ 
+ function isMaxDelimReachedns_Z7_680412S0JO2450AOAFHGTG30G5_() {
+   return ( (maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_ - currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_) <= 4);
+ }
+
+ function isMinDelimReachedns_Z7_680412S0JO2450AOAFHGTG30G5_() {
+   return ((currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ - minPagens_Z7_680412S0JO2450AOAFHGTG30G5_) <= 4);
+ }
+  
+ function setLowerMaxPageRangens_Z7_680412S0JO2450AOAFHGTG30G5_() {
+   if (isMinDelimReachedns_Z7_680412S0JO2450AOAFHGTG30G5_()) {
+     calculateMinDelimRangesns_Z7_680412S0JO2450AOAFHGTG30G5_();
+   } else {
+     //minPagens_Z7_680412S0JO2450AOAFHGTG30G5_ --;
+     if (minPagens_Z7_680412S0JO2450AOAFHGTG30G5_ <= 0) {
+       minPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = 1;
+     }
+   }
+ }
+ 
+ function setNormalizeMaxPageRangens_Z7_680412S0JO2450AOAFHGTG30G5_() {
+   if (isMaxDelimReachedns_Z7_680412S0JO2450AOAFHGTG30G5_()) {
+	 calculateMaxDelimRangesns_Z7_680412S0JO2450AOAFHGTG30G5_();
+   } else {
+     if (isMinDelimReachedns_Z7_680412S0JO2450AOAFHGTG30G5_()) {
+       calculateMinDelimRangesns_Z7_680412S0JO2450AOAFHGTG30G5_();
+     }
+   }
+ }
+ 
+ function addPagens_Z7_680412S0JO2450AOAFHGTG30G5_(number, view, selectedOption) {
+   return constructPagingUrlns_Z7_680412S0JO2450AOAFHGTG30G5_(number, 
+   												 view, 
+   												 selectedOption,
+   												 "fetchData", 
+   												 number);
+ }
+ 
+ function addNextns_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption) {
+   return constructPagingUrlns_Z7_680412S0JO2450AOAFHGTG30G5_("nextId",
+   											     view,
+   											     selectedOption,
+   											     "fetchNext",
+   											     "<b>Next</b>");
+ }
+ 
+ function addPreviousns_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption) {
+  return constructPagingUrlns_Z7_680412S0JO2450AOAFHGTG30G5_("prevId",
+  												view,
+  												selectedOption,
+  												"fetchPrevious",
+  												"<b>Previous</b>");
+ }
+ 
+ function constructPagingUrlns_Z7_680412S0JO2450AOAFHGTG30G5_(i, view, selectedOption, fName, show) {
+	var url = new Array();
+    url[0] = "&nbsp;&nbsp;<div id='PageId" + i + "ns_Z7_680412S0JO2450AOAFHGTG30G5_' class='page' "
+              + "onClick=\"" 
+              + fName + "ns_Z7_680412S0JO2450AOAFHGTG30G5_"
+              + "(&quot;" + view + "&quot;,&quot;" + selectedOption + "&quot;,&quot;" + i + "&quot;);\">"
+              + show
+              + "</div>";
+
+	url[1] = "&nbsp;&nbsp;<div id='PageIdDown" + i + "ns_Z7_680412S0JO2450AOAFHGTG30G5_' class='page' "
+              + "onClick=\"" 
+              + fName + "ns_Z7_680412S0JO2450AOAFHGTG30G5_"
+              + "(&quot;" + view + "&quot;,&quot;" + selectedOption + "&quot;,&quot;" + i + "&quot;);\">"
+              + show
+              + "</div>";
+    return url;
+ }
+ 
+ function fetchNextns_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption, number) {
+   nextButtonClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = 1;
+   prevButtonClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+   linkClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+   
+   currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_++;
+   fetchDominoDatans_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption, currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_);
+  
+  //To refresh Google AD
+  googletag.pubads().refresh();    
+ }
+ 
+ function fetchPreviousns_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption, number) {
+   prevButtonClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = 1;
+   nextButtonClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+   linkClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+   
+   currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ = currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ - 1;
+   fetchDominoDatans_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption, currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_);
+  
+  //To refresh Google AD
+  googletag.pubads().refresh();    
+ }
+ 
+ function fetchDatans_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption, number) {
+  linkClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = 1;
+  prevButtonClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+  nextButtonClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+  
+  currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ = number;
+  fetchDominoDatans_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption, number);
+  
+  //To refresh Google AD
+  googletag.pubads().refresh();   
+ }
+
+ function fetchDominoDatans_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption, number) {
+  var pageNumber = ( (number - 1) * noOfRowsPerPagens_Z7_680412S0JO2450AOAFHGTG30G5_) + 1
+  selectedStartPageNumber  = (number * noOfRowsPerPagens_Z7_680412S0JO2450AOAFHGTG30G5_);
+  
+  var pageStart = 	"&S_T=" +pageNumber
+  var url = view; 
+  if(url.indexOf('openview')!=-1){
+  	url = url 
+  	       + escape("&S_T=" + pageNumber + "&C_T=" + noOfRowsPerPagens_Z7_680412S0JO2450AOAFHGTG30G5_);
+   }else if (selectedOption != "") {
+     url = url 
+           + escape("&R_C=" + selectedOption + pageStart + "&C_T=" + noOfRowsPerPagens_Z7_680412S0JO2450AOAFHGTG30G5_);
+  } else {
+  	 url = url 
+  	       + escape("&S_T=" + pageNumber + "&C_T=" + noOfRowsPerPagens_Z7_680412S0JO2450AOAFHGTG30G5_);
+  }
+  loadGridDatans_Z7_680412S0JO2450AOAFHGTG30G5_(url);
+  createPaginationns_Z7_680412S0JO2450AOAFHGTG30G5_(view, selectedOption);
+ }
+ 
+ function highlightSelectedPagens_Z7_680412S0JO2450AOAFHGTG30G5_() {
+   dojo.byId("PageId" + currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ + "ns_Z7_680412S0JO2450AOAFHGTG30G5_").className = "currentPage";
+   dojo.byId("PageId" + currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ + "ns_Z7_680412S0JO2450AOAFHGTG30G5_").innerHTML = currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_;
+    dojo.byId("PageIdDown" + currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ + "ns_Z7_680412S0JO2450AOAFHGTG30G5_").className = "currentPage";
+   dojo.byId("PageIdDown" + currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ + "ns_Z7_680412S0JO2450AOAFHGTG30G5_").innerHTML = currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_;
+ }
+ 
+ function resetPagingScopedVariablesns_Z7_680412S0JO2450AOAFHGTG30G5_() {
+   minPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = 1;
+   noOfSibilingsns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+   totalJsonDatarowsns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+   maxPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = 10;
+   totalPagesns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+   dojo.byId("pageIdns_Z7_680412S0JO2450AOAFHGTG30G5_").innerHTML = "";
+   dojo.byId("pageIdDownns_Z7_680412S0JO2450AOAFHGTG30G5_").innerHTML = "";
+   currentPageNumberns_Z7_680412S0JO2450AOAFHGTG30G5_ = 1;
+   nextButtonClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+   prevButtonClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+   linkClickedns_Z7_680412S0JO2450AOAFHGTG30G5_ = 0;
+ }
+</script>
+ 
+	<div style="margin:bottom:15px;">
+		<div   style="position:relative;" id="gridns_Z7_680412S0JO2450AOAFHGTG30G5_"></div> 
+		<div id='content_ns_Z7_680412S0JO2450AOAFHGTG30G5_' style="position: relative; display: none;"></div>
+		<div id='loadingns_Z7_680412S0JO2450AOAFHGTG30G5_' style="display: none;"><div style="float:left" class="sgx_loading_img"></div><div style="float:left;">Loading..
+		</div></div>
+	</div>
+	  
+	 <div class="pagingContainer"><div id="pageIdDownns_Z7_680412S0JO2450AOAFHGTG30G5_" style="text-align: right;"></div></div>
+</div> 
+
+
+
+
+<script type="text/javascript">
+ 
+var noOfRowsPerPagens_Z7_680412S0JO2450AOAFHGTG30G5_ = 20; 
+
+// Below two variables are added for Domino sharepoint migration on 09Apr2013. It used in tag library eg showIframe_SP.tag
+var escdominoHostName = 'infofeed.sgx.com'.replace(":","%3A");
+var escsharePointLinkHost = 'infopub.sgx.com'.replace(":","%3A");
+
+var viewByPeriodList = new Array();
+
+		viewByPeriodList["0"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementToday";
+
+		viewByPeriodList["1"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast3Months";
+
+		viewByPeriodList["2"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast6Months";
+
+		viewByPeriodList["3"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast12Months";
+
+		viewByPeriodList["4"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast1stYear";
+
+		viewByPeriodList["5"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast2ndYear";
+
+		viewByPeriodList["6"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast3rdYear";
+
+		viewByPeriodList["7"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast4thYear";
+
+		viewByPeriodList["8"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast5thYear";
+
+
+var viewBySecurityPeriodList = new Array();
+
+		viewBySecurityPeriodList["0"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementTodaySecurity";
+
+		viewBySecurityPeriodList["1"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast3MonthsSecurity";
+
+		viewBySecurityPeriodList["2"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast6MonthsSecurity";
+
+		viewBySecurityPeriodList["3"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast12MonthsSecurity";
+
+		viewBySecurityPeriodList["4"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast1stYearSecurity";
+
+		viewBySecurityPeriodList["5"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast2ndYearSecurity";
+
+		viewBySecurityPeriodList["6"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast3rdYearSecurity";
+
+		viewBySecurityPeriodList["7"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast4thYearSecurity";
+
+		viewBySecurityPeriodList["8"] = "/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementLast5thYearSecurity";
+
+
+doShowSelectedCompanyAnnc = function(company) {
+  	//var nUrl = "last3Months/companyName"; 
+    //var url = viewByComNCatList[1] + escape("?openview&restricttocategory=" + company + "&count=" + noOfRowsPerPagens_Z7_680412S0JO2450AOAFHGTG30G5_);
+    //var url = viewByComNCatList[1] + escape("&R_C=" + company + "&C_T=" + noOfRowsPerPagens_Z7_680412S0JO2450AOAFHGTG30G5_);
+    //alert(url);
+    //sendDataToGridns_Z7_680412S0JO2450AOAFHGTG30G5_(url, last3MonthsNew, company, nUrl);
+    window.setTimeout("changeCombo(\"" + company + "\")", 1500);
+	window.setTimeout("fetchResult()",2000);
+ }
+ 
+changeCombo = function(company) {
+  document.getElementById("period").selectedIndex = 1;
+  var compCombo = document.getElementById("security");
+  var selIndex = 0;
+  for (i =0; i < compCombo.options.length; i++) {
+  	 var compValue = compCombo.options[i].value;
+  	 if (compValue == company) {
+  	 	selIndex = i;
+		break;
+  	 }
+  }
+  document.getElementById("security").selectedIndex = selIndex;
+} 
+
+fetchItems = function(view, cId, jName, aName) {
+    dojo.xhrGet({ url: view,
+				  handleAs: 'json',
+				  load: function(item) { populateCombo(cId, jName, aName, item);},
+				  error: function(err) { //alert(err);
+				  dojo.byId("warning2ns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "";
+				  }
+	            });
+}
+
+fetchTimePeriodItems = function(view, cId, jName, aName) {
+    dojo.xhrGet({ url: view,
+				  handleAs: 'json',
+				  load: function(item) { populateTimePeriodCombo(cId, jName, aName, item);},
+				  error: function(err) { //alert(err);
+				  dojo.byId("warning2ns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "";
+				  }
+	            });
+}
+
+populateCombo = function(cid, jName, aName, item) {
+	
+   if (item) {
+	  var parentCombo = document.getElementById(cid);
+	  
+	  if(cid=="product"){
+		var option0 = document.createElement("option");
+	  	option0.value = "N_A";
+		option0.title = "Select Category";
+	  	option0.innerHTML = "Sub Category";
+	  	parentCombo.appendChild(option0);
+	}
+	  
+	  for (var i=0; i < item.items.length - 1; i++) {
+	  	var option = document.createElement("option");
+	  	option.value = item.items[i][aName];
+		option.title = item.items[i][jName];
+	  	option.innerHTML = escapeHTML(item.items[i][jName]);
+	  	parentCombo.appendChild(option);
+	  }
+	 
+  }
+}
+
+populateTimePeriodCombo = function(cid, jName, aName, item) {
+   if (item) {
+	  var parentCombo = document.getElementById(cid);
+	  for (var i=0; i < item.items.length - 1; i++) {
+	  	var option = document.createElement("option");
+	  	option.value = i;
+		option.title = item.items[i][jName];
+	  	option.innerHTML = item.items[i][jName];
+	  	parentCombo.appendChild(option);
+	  }
+	 
+  }
+}
+
+getCategory = function(sel) {
+    document.getElementById('product').disabled = false;
+	var gcatId = sel.options[sel.selectedIndex].value;
+	//alert("gcatId--->"+gcatId+"<--");
+	removecomboBoxValue('product');
+	if(gcatId != null && gcatId != ''){
+		var gcatIdURL = 'http://infofeed.sgx.com/Apps?A=COW_CorpAnnouncement_Content&B=AnnouncementByCategory&R_C='+gcatId+'&S_T=1&C_T=200';
+		//alert("-->"+gcatIdURL+"<---");
+		gcatIdURL = '/proxy/SgxDominoHttpProxy?timeout=100&dominoHost='+escape(gcatIdURL);
+		//alert("-->"+gcatIdURL+"<---");
+		fetchItems(gcatIdURL, "product", "CategoryName", "CategoryCode");
+	}else{
+		var option = document.createElement("option");
+	  	option.value = "N_A";
+		option.title = "Select Category";
+	  	option.innerHTML = "Sub Category";
+	  	document.getElementById('product').appendChild(option);
+	  	document.getElementById('product').disabled = true;
+	}
+
+}
+
+removecomboBoxValue = function(comboid) {
+		var comboBox = document.getElementById(comboid);
+	    while(comboBox.options.length > 0){                
+	    	comboBox.remove(0);
+	    }
+}
+
+disableCombo = function(cid) {
+  document.getElementById(cid).disabled = true;
+}
+
+enableCombo = function(cid) {
+  document.getElementById(cid).disabled = false;
+}
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+
+
+
+    var cellHeaders = new Array();
+	var cellStyles = new Array();
+	var cellDataMappings = new Array();
+	var cellWidths = new Array();
+	var rowStyles = new Array();
+	var callBacks = new Array();
+	var  docLinks = new Array();
+	var selectedOptionValue;
+	
+
+	
+		
+		
+			var docLinks = new Array();
+			
+				docLinks[4] = "4";
+			
+		
+	
+		
+	function loadGridns_Z7_680412S0JO2450AOAFHGTG30G5_(data) {
+      hideDocumentGridns_Z7_680412S0JO2450AOAFHGTG30G5_();
+      var tableHeader =  "<table width='100%' class='sgxTableGrid'>"
+          			   + "<thead><tr>";
+      for (var i=0; i < cellHeaders.length; i++) {
+          tableHeader += "<th class='gridTitle' style='width:" + cellWidths[i] + ";" + cellStyles[i] + "'>" + cellHeaders[i] +"</th>";
+      }
+
+      tableHeader += "</tr></thead>";
+      
+      var totalRows = data.items.length - 1;
+     	  
+	  var tableRow = "";
+	  if (noOfSibilingsns_Z7_680412S0JO2450AOAFHGTG30G5_ > 0) {
+		for (var i= 0; i <= totalRows - 1; i++) {
+			tableRow += "<tr>";
+			for (var j=0; j< cellHeaders.length; j++) {
+			    var tempurl = "";   
+			    
+			    	
+			    	
+			    		if (j == docLinks[j]) {
+			   				tempurl = "javascript:showDocns_Z7_680412S0JO2450AOAFHGTG30G5_(&quot;"  
+				      					+ data.items[i].key + "&quot;, &quot;IPO New Listings&quot;);"    
+			    		}
+			    	
+			    
+			    var title = cellHeaders[j];
+				if ((i + 1) % 2 == 0) {
+					tableRow += "<td class='altRow'>";
+					if (j == docLinks[j]) {
+							
+							if (title.indexOf("Settlement") > 0) {
+							
+						tableRow += "<a href=\"" + tempurl + "\"  target='_blank'>"
+									+ escapeHTML(data.items[i][cellDataMappings[j]])
+									+ "</a></td>";
+								}
+								else{
+									tableRow += "<a href=\"" + tempurl + "\">"
+									+ escapeHTML(data.items[i][cellDataMappings[j]])
+									+ "</a></td>";
+								}
+					} else {
+					    tableRow += escapeHTML(data.items[i][cellDataMappings[j]])
+					         		+ "</td>";
+					}
+				} else {
+					if (j == docLinks[j]) {
+					
+					
+					if (title.indexOf("Settlement") > 0) {
+	   					tableRow += "<td><a href=\"" + tempurl + "\" target='_blank'>" 
+	   							 + escapeHTML(data.items[i][cellDataMappings[j]])+ "</a></td>";
+	   							 }else{
+	   							 	tableRow += "<td><a href=\"" + tempurl + "\">" 
+	   							 + escapeHTML(data.items[i][cellDataMappings[j]])+ "</a></td>";
+	   							 }
+	   							 
+	   				} else {
+	   					tableRow += "<td>" + escapeHTML(data.items[i][cellDataMappings[j]]) + "</td>";
+	   				}
+				}
+			}
+			tableRow += "</tr>";
+		}
+	 }
+	 var table = tableHeader + tableRow + "</table>";
+	 
+	 createPaginationns_Z7_680412S0JO2450AOAFHGTG30G5_(categoryns_Z7_680412S0JO2450AOAFHGTG30G5_, selectedOptionValue);
+	 //document.getElementById("loadingns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+	 document.getElementById("gridns_Z7_680412S0JO2450AOAFHGTG30G5_").innerHTML = table;
+	 
+	 
+    }
+ 
+	function hideDocumentGridns_Z7_680412S0JO2450AOAFHGTG30G5_() {
+  	  dojo.byId("content_ns_Z7_680412S0JO2450AOAFHGTG30G5_").style.top='0';
+  	  dojo.byId("gridns_Z7_680412S0JO2450AOAFHGTG30G5_").style.top='0';
+
+  	  dojo.byId("content_ns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+  	  dojo.byId("loadingns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+  	  dojo.byId("warningns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+  	 if(dojo.byId("warning2ns_Z7_680412S0JO2450AOAFHGTG30G5_")){
+     dojo.byId("warning2ns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+     }
+      dojo.byId("gridns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "";
+      dojo.byId("pageIdns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "";
+      var docButtons = dojo.byId("docButtonsns_Z7_680412S0JO2450AOAFHGTG30G5_");
+      if (docButtons) {
+         docButtons.style.display = "none";
+      }
+   }
+
+   function loadGridDatans_Z7_680412S0JO2450AOAFHGTG30G5_(dominoUrl) {
+      dojo.byId("gridns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+   	  dojo.byId("pageIdns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+      dojo.byId("warningns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+      dojo.byId("loadingns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "";
+      //alert("dominoUrl --------->"+dominoUrl);
+      dojo.xhrPost({ url: dominoUrl,
+   	              handleAs: "json",
+       	          load: function(data) { 
+       	               if (data.msg) {
+			        	 showServerMsgns_Z7_680412S0JO2450AOAFHGTG30G5_(data.msg);
+			    	   } else {
+	       	          	 processAndLoadGridDatans_Z7_680412S0JO2450AOAFHGTG30G5_(data);
+	       	           }
+       	          },
+       	      	  error: function(ioArgs, value) { processErrorns_Z7_680412S0JO2450AOAFHGTG30G5_(ioArgs); }
+       	      	}); 
+   }
+
+   function processErrorns_Z7_680412S0JO2450AOAFHGTG30G5_(ioArgs) {
+    //alert(ioArgs);
+     dojo.byId("loadingns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+     dojo.byId("content_ns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+     dojo.byId("gridns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+  	 dojo.byId("pageIdns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+     var docButtons = dojo.byId("docButtonsns_Z7_680412S0JO2450AOAFHGTG30G5_");
+     if (docButtons) {
+       docButtons.style.display = "none";
+     }
+     dojo.byId("warningns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "";
+    if(dojo.byId("warning2ns_Z7_680412S0JO2450AOAFHGTG30G5_")){
+     dojo.byId("warning2ns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+     }
+   }
+
+   function showServerMsgns_Z7_680412S0JO2450AOAFHGTG30G5_(value) {
+  	 dojo.byId("loadingns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+     dojo.byId("content_ns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+     dojo.byId("gridns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+     dojo.byId("pageIdns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+     var docButtons = dojo.byId("docButtonsns_Z7_680412S0JO2450AOAFHGTG30G5_");
+     if (docButtons) {
+         docButtons.style.display = "none";
+     }
+       
+     dojo.byId("warningns_Z7_680412S0JO2450AOAFHGTG30G5_").innerHTML = value;
+     dojo.byId("warningns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "";
+    if(dojo.byId("warning2ns_Z7_680412S0JO2450AOAFHGTG30G5_")){
+     dojo.byId("warning2ns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+     }
+   }
+
+   function processAndLoadGridDatans_Z7_680412S0JO2450AOAFHGTG30G5_(data) {
+     totalJsonDatarowsns_Z7_680412S0JO2450AOAFHGTG30G5_ = data.items.length;
+     if (data.items[0].Siblings) {
+     	noOfSibilingsns_Z7_680412S0JO2450AOAFHGTG30G5_ = data.items[0].Siblings;
+     } else {
+     	noOfSibilingsns_Z7_680412S0JO2450AOAFHGTG30G5_ = totalJsonDatarowsns_Z7_680412S0JO2450AOAFHGTG30G5_;
+     }
+     loadGridns_Z7_680412S0JO2450AOAFHGTG30G5_(data);
+   }
+
+   function escapeHTML( string ){
+    var pre = document.createElement('pre');
+    var text = document.createTextNode( string );
+    pre.appendChild(text);
+    return pre.innerHTML;
+}
+                
+function sendDataToGridns_Z7_680412S0JO2450AOAFHGTG30G5_(url, dUrl, selectedValue) {
+    //alert("Inside Send Data to grid");
+	resetPagingScopedVariablesns_Z7_680412S0JO2450AOAFHGTG30G5_();
+	categoryns_Z7_680412S0JO2450AOAFHGTG30G5_ = dUrl;
+	
+
+ 
+
+
+
+
+
+
+
+
+
+  
+
+	
+	cellHeaders = new Array();
+	cellStyles = new Array();
+	cellDataMappings = new Array();
+	cellWidths = new Array();
+	rowStyles = new Array();
+	callBacks = new Array();
+			
+
+	
+	    
+			cellHeaders.push("Date");
+			cellStyles.push("text-align: center");
+			cellDataMappings.push("Date");
+			cellWidths.push("11%");
+			rowStyles.push("text-align: center");
+			
+		
+			cellHeaders.push("Time");
+			cellStyles.push("text-align: center");
+			cellDataMappings.push("Time");
+			cellWidths.push("11%");
+			rowStyles.push("text-align: left");
+			
+		
+			cellHeaders.push("Company Name");
+			cellStyles.push("text-align: center");
+			cellDataMappings.push("IssuerName");
+			cellWidths.push("20%");
+			rowStyles.push("text-align: left;overflow-x:auto");
+			
+		
+			cellHeaders.push("Security Name");
+			cellStyles.push("text-align: center;overflow-x:auto");
+			cellDataMappings.push("SecurityName");
+			cellWidths.push("20%");
+			rowStyles.push("text-align: center");
+			
+		
+			cellHeaders.push("Announcement Title");
+			cellStyles.push("text-align: center;overflow-x:auto");
+			cellDataMappings.push("AnnTitle");
+			cellWidths.push("38%");
+			rowStyles.push("text-align: center");
+			
+		
+	
+	
+
+	selectedOptionValue = selectedValue;
+	loadGridDatans_Z7_680412S0JO2450AOAFHGTG30G5_(url);
+	
+
+}
+
+fetchResult = function() {
+  var period = document.anncForm.prd.value;
+  var issuer = document.anncForm.iName.value;
+  var security = document.anncForm.sName.value;
+  var category = document.anncForm.grp.value;
+  var product = document.anncForm.pcat.value;
+  var selectedValue;	
+  var dominoView;
+  var url;
+  
+  //alert("period -->"+period+"<--");
+  //alert("issuer -->"+issuer+"<--");
+  //alert("security -->"+security+"<--");
+  //alert("category -->"+category+"<--");
+  //alert("product -->"+product+"<--");
+
+  
+  var condition="";
+  dominoView = viewByPeriodList[period];
+
+  if(issuer != ''){
+  	condition += issuer;
+  	if(security != ''){
+  		dominoView = viewBySecurityPeriodList[period];
+  		condition += '~';
+  		if(category != ''){
+	  		condition += category;
+	  		if(product != ''){
+	  			condition += '~' + product;
+	  		}
+	  		condition += '~' + security;
+	  	}else{
+	  		if(product != ''){
+	  			condition += 'N_A~' + product;
+	  		}else{
+	  			condition += 'N_A'+'~'+'N_A'+'~'+security;
+	  		}
+	  	}
+  		//condition += '~'+security;
+  	}else{
+  	    
+	  	if(category != ''){
+	  		condition += '~';
+	  		condition += category;
+	  		if(product != ''){
+	  			condition += '~' + product;
+	  		}
+	  	}else{
+	  		if(product != ''){
+	  		    condition += '~';
+	  			condition += 'N_A~' + product;
+	  		}
+	  	}
+  	}
+  	/*
+  	
+  	*/
+  }else if(security != ''){
+    dominoView = viewBySecurityPeriodList[period];
+	condition += 'N_A~';
+  	if(category != ''){
+       condition += category;
+       if(product != ''){
+         condition += '~'+product + '~' + security;
+       }
+     }else if(product != ''){
+        condition += 'N_A~' + product + '~' + security;  
+     }else{
+     	  condition += 'N_A~' + 'N_A~' + security;
+     	  if(product != ''){
+            condition += 'N_A~'+'N_A~'+product;
+          }
+     }
+  }else{
+     if(category != ''){
+       condition += 'N_A~'+category;
+       if(product != ''){
+         condition += '~'+product;
+       }
+     }else{
+          if(product != ''){
+            condition += 'N_A~'+'N_A~'+product;
+          }
+     }
+  }
+  
+//  alert("condition -->"+condition+"<---"); 
+  selectedValue = condition;
+  if(condition=="N_A~N_A~N_A"){
+  		condition="";
+  }	
+  url = dominoView + escape("&R_C=" + condition + "&C_T=" + noOfRowsPerPagens_Z7_680412S0JO2450AOAFHGTG30G5_);
+  //alert("url --->"+url);
+  sendDataToGridns_Z7_680412S0JO2450AOAFHGTG30G5_(url, dominoView, selectedValue);
+  
+        //To refresh Google AD
+        googletag.pubads().refresh();  
+
+}
+
+function togglecompsecu(type){
+	if(type=="Security"){
+		document.getElementById("security_tr").style.display="";
+		document.getElementById("company_tr").style.display="none";
+		document.getElementById("issuer").selectedIndex = 0;
+	}else{
+		document.getElementById("security_tr").style.display="none";
+		document.getElementById("company_tr").style.display="";
+		document.getElementById("security").selectedIndex = 0;
+	}
+}
+
+$(document).ready( function(){
+	extCoAll_CoName = readCookie('SGX_CO_ALL_TO_COANC');
+	fetchTimePeriodItems("/proxy/SgxDominoHttpProxy?timeout=1800&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementByTimePeriod%26C_T%3D-1", "period", "DisplayName", "view");
+	fetchItems("/proxy/SgxDominoHttpProxy?timeout=14400&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementByIssuer%26C_T%3D-1", "issuer", "IssuerName", "IssuerName");
+	fetchItems("/proxy/SgxDominoHttpProxy?timeout=100&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementBySecurity%26C_T%3D-1", "security", "SecurityName", "SecurityName");
+	fetchItems("/proxy/SgxDominoHttpProxy?timeout=14400&dominoHost=http%3A%2F%2Finfofeed.sgx.com%2FApps%3FA%3DCOW_CorpAnnouncement_Content%26B%3DAnnouncementByGroup%26C_T%3D-1", "group", "GroupName", "GroupCode");
+	if (extCoAll_CoName != null) {
+	  	if (document.getElementById("security").value != extCoAll_CoName) {
+		  // document.getElementById("company_radio").checked=true;
+		  //togglecompsecu('Company');
+		  doShowSelectedCompanyAnnc(extCoAll_CoName);
+		  createCookie('SGX_CO_ALL_TO_COANC', '' , -1);
+		 }
+	 }else{
+		var url = viewByPeriodList[0] + escape("&C_T=20");
+		sendDataToGridns_Z7_680412S0JO2450AOAFHGTG30G5_(url, viewByPeriodList[0], '');
+	}
+} );
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<div dojoType="dijit.Dialog" id="tabDialogns_Z7_680412S0JO2450AOAFHGTG30G5_">
+  <div id="docIDns_Z7_680412S0JO2450AOAFHGTG30G5_" 
+       dojoType="dijit.layout.BorderContainer"
+       style="width: 750px; height: 500px;">
+      <!-- <div id ="docIDns_Z7_680412S0JO2450AOAFHGTG30G5_"></div> -->
+  </div>
+</div>
+
+<script type="text/javascript">
+
+function showDocns_Z7_680412S0JO2450AOAFHGTG30G5_(docKey) {
+	var urlvarns_Z7_680412S0JO2450AOAFHGTG30G5_ = skipProxyUrlns_Z7_680412S0JO2450AOAFHGTG30G5_() + "&F=" + docKey;
+	showDocumentns_Z7_680412S0JO2450AOAFHGTG30G5_(urlvarns_Z7_680412S0JO2450AOAFHGTG30G5_);
+}    
+	 
+function skipProxyUrlns_Z7_680412S0JO2450AOAFHGTG30G5_() {
+   //alert(categoryns_Z7_680412S0JO2450AOAFHGTG30G5_);
+   var urlStart = categoryns_Z7_680412S0JO2450AOAFHGTG30G5_.lastIndexOf("=");
+   var dominoUrl = categoryns_Z7_680412S0JO2450AOAFHGTG30G5_.substring(urlStart + 1, categoryns_Z7_680412S0JO2450AOAFHGTG30G5_.length);
+   dominoUrl = dominoUrl.replace(escdominoHostName,escsharePointLinkHost);
+   return unescape(dominoUrl);
+}
+
+function fetchDocumentKeyns_Z7_680412S0JO2450AOAFHGTG30G5_(rowIndex) {
+   var grid = dijit.byId("gridns_Z7_680412S0JO2450AOAFHGTG30G5_");
+   var item = grid.getItem(rowIndex);
+   var docKey = grid.store.getValue(item, "key");
+   return docKey;
+}
+	 
+showDocumentns_Z7_680412S0JO2450AOAFHGTG30G5_ = function(url) {
+    if (url.indexOf("http://") < 0) {
+        url = "http://" + url;
+    }
+    var popWindow = window.open(url,'SGX','height=700,width=700,scrollbars=1');
+    popWindow.focus(); 
+}
+
+hideLoadingns_Z7_680412S0JO2450AOAFHGTG30G5_ = function() {
+      document.getElementById("iLoadingns_Z7_680412S0JO2450AOAFHGTG30G5_").style.display = "none";
+      document.getElementById("iDoc").style.display = "";
+}
+
+closeDialogns_Z7_680412S0JO2450AOAFHGTG30G5_ = function() {
+	  dijit.byId('tabDialogns_Z7_680412S0JO2450AOAFHGTG30G5_').hide();
+}
+</script>
+ 
+
+<script>
+/*
+function getCategory(){
+	var x=document.getElementById("category").selectedIndex;
+	var y=document.getElementById("category").options;
+	var selectedcat = y[x].text; 
+	if( selectedcat.search(/Product Issuer and DMM announcements/i)!=-1 || 
+		selectedcat.search(/Product Listing Announcements and Documents/i)!=-1 || 
+		selectedcat.search(/Product Trading Suspension\/Resumption/i)!=-1 || 
+		selectedcat.search(/Product Expiry Announcements/i)!=-1){
+		
+		//alert(document.getElementById('category').options[0].text);
+		document.getElementById('product').disabled=false;
+	}else{
+		document.getElementById('product').value="";
+		document.getElementById('product').disabled=true;
+	}
+}
+*/
+</script>
+</div></td></tr>
+
+</table></td>
+
+ 
+<td valign="top" width="10"> 
+ 
+ 
+ 
+ 
+ 
+
+<table class="layoutColumn" cellpadding="0" cellspacing="0" width="100%" border="0">
+
+
+<tr><td style="width:100%;" valign="top">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<a name="Z7_2AA4H0C0908270IURSS5IF3HH3"></a><div class="wpsPortletBody">
+
+<div class="sgx_padding_bgcolor" ></div>
+
+
+	<script languange="javascript">
+		$(function() {
+			$("div.sgx_padding_bgcolor").each(function() {
+				$(this).parents("table.layoutColumn:first").parent().addClass("sgx_padding_bgcolor");
+			});
+		});
+	</script>
+
+</div></td></tr>
+
+</table></td>
+ 
+</tr></table></td></tr>
+
+
+<tr><td style="width:100%;" valign="top">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<table style="table-layout: fixed" class="layoutRow" cellpadding="0" cellspacing="0" border="0">
+<tr> 
+ 
+<td width="100%">&nbsp;</td> 
+</tr></table></td></tr>
+
+
+<tr><td style="width:100%;" valign="top">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<table style="table-layout: fixed" class="layoutRow" cellpadding="0" cellspacing="0" border="0">
+<tr> 
+
+ 
+<td valign="top" > 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<a name="Z7_LO04H24090HQ50IP3UK2I820U5"></a><div class="wpsPortletBody">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	      
+	      
+      	           <html>
+<head>
+<link href="http://css.sgx.com/sgxv2/css/wcm.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr><td align=center valign=center>
+<p dir="ltr"><a href="http://www.sgx.com/wps/portal/sgxweb/footerLinks/tos#panelhead16" target="_blank" ><span style=" text-align: center; color: rgb(216, 216, 216);">Advertisement</span></a><br />
+&#160;<script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script><script type="text/javascript">
+googletag.cmd.push(function() {
+googletag.defineSlot('/19881962/CD_728x90_LB', [728, 90], 'leaderboard1').addService(googletag.pubads());
+//googletag.pubads().enableSingleRequest();
+googletag.pubads().enableAsyncRendering();
+googletag.enableServices();
+});
+</script></p>
+
+<div dir="ltr" id="leaderboard1" style=" width: 728px; height: 90px;"><script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('leaderboard1'); });
+</script></div>
+
+<p><iframe valign="middle" width="728" height="180" marginheight=0 marginwidth=0 frameborder=0 vspace=0 hspace=0 scrolling=NO src="//www.dianomi.com/smart_sgx.epl?id=2499"></iframe></p>
+</td></tr>
+</table>
+</body>
+</html>
+      	         
+</div></td>
+ 
+</tr></table></td></tr>
+
+
+<tr><td style="width:100%;" valign="top">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<table style="table-layout: fixed" class="layoutRow" cellpadding="0" cellspacing="0" border="0">
+<tr> 
+ 
+<td width="100%">&nbsp;</td> 
+</tr></table></td></tr>
+
+
+<tr><td style="width:100%;" valign="top">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<table style="table-layout: fixed" class="layoutRow" cellpadding="0" cellspacing="0" border="0">
+<tr> 
+
+ 
+<td valign="top" width="770"> 
+ 
+ 
+ 
+ 
+ 
+
+<table class="layoutColumn" cellpadding="0" cellspacing="0" width="100%" border="0">
+
+
+<tr><td style="width:100%;" valign="top">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+ <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!--
+	<table width="100%" id="Table_01"  border="0" cellpadding="0" cellspacing="0" style="">
+			<tr>
+			    <td height="19" bgcolor="#B8D459"></td>
+			    <td width="100%" bgcolor="#B8D459">
+					<span class="skinHeader1" id="title.Z7_2AA4H0C0980G70I1J7QNL01C34">&nbsp;Directory</span>
+				   </td>
+				<td bgcolor="#B8D459"></td>
+			</tr>
+            <tr>
+                  <td height="13px"><img src="http://img.sgx.com/sgx/image/skin/portlet_04.jpg" width="4px" height="13" alt=""></td>
+                  <td><img src="http://img.sgx.com/sgx/image/skin/portlet_05.jpg" width="100%" height="13px" alt=""></td>
+                  <td><img src="http://img.sgx.com/sgx/image/skin/portlet_06.jpg" width="5" height="13px" alt=""></td>
+             </tr>
+			 
+
+		</table>
+	-->
+	
+	<div class="sgx_skin_greenBox">
+		<div class="sgx_skin_greenTitleBox"><span class="sgx_skin_greenTitleColor" id="title.Z7_2AA4H0C0980G70I1J7QNL01C34">
+		&nbsp;Directory</span></div><!--sidePanelTabTitle-->
+        <div class="sgx_skin_greenContentBox">
+                
+        
+	
+
+	
+		<div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	      
+	      
+      	           <html>
+<head>
+<link href="http://css.sgx.com/sgxv2/css/wcm.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr><td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" style="background-color:#E0ECD1;">
+<tr>
+<td></td>
+<td style="padding:10px;">
+<a href="/wps/portal/sgxweb/home/marketinfo">Market Information</a><br><a href="/wps/portal/sgxweb/home/marketinfo/securities/stocks">Securities</a><br><a href="/wps/portal/sgxweb/home/marketinfo/derivatives">Derivatives</a><br><a href="/wps/portal/sgxweb/home/marketinfo/indices">Indices</a><br><a href="/wps/portal/sgxweb/home/marketinfo/historical_data">Historical Data</a><br><a href="/wps/portal/sgxweb/home/marketinfo/market_summary">Market Summary</a><br></td>
+<td style="padding:10px;">
+<a href="/wps/portal/sgxweb/home/company_disclosure">Company Disclosure</a><br><a href="/wps/portal/sgxweb/home/company_disclosure/company_announcements">Company Announcements</a><br><a href="/wps/portal/sgxweb/home/company_disclosure/prospectus_circulars">Prospectus / Circulars</a><br><a href="/wps/portal/sgxweb/home/company_disclosure/corporate_action">Corporate Action</a><br><a href="/wps/portal/sgxweb/home/company_disclosure/all_in_one">All in One Information</a><br><a href="https://opera.mas.gov.sg/ExtPortal/">MAS - OPERA</a><br></td>
+<td style="padding:10px;">
+<a href="http://www.sgx.com/academy">Academy</a><br><a href="http://www.sgx.com/rulebook">Rulebook</a><br><a href="http://www.sgx.com/wps/portal/sgxweb/home/regulation/sustainability/sustainability_overview">Sustainability Reporting</a><br><a href="/wps/portal/sgxweb/home/trading/securities/trading_safeguards">Online Education Programme</a><br><a href="/wps/portal/sgxweb/home/services/market_data/advertise_with_us">Advertise With Us</a><br><a href="/wps/portal/sgxweb/footerLinks/tos#panelhead13">PDPA</a><br></td>
+<td style="padding:10px;">
+<a href="http://www.sgx.com/wps/portal/sgxweb/home/rss">RSS</a><br><a href="http://www.sgx.com/wps/portal/sgxweb/home/services/market-data/history-reference-data">Historical Data</a><br><a href="/wps/portal/sgxweb/home/mygateway/st_commentary">ST Commentary</a><br><a href="/wps/wcm/connect/sgx_en/home/individual_investor/investor_guide">Investor Guide</a><br><a href="http://www.sgx.com/bullcharge">Bull Charge</a><br></td></tr>
+</table>
+</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>
+
+</td></tr>
+</table>
+</body>
+</html>
+      	         
+
+		</div>
+	
+	<div class="clearing"></div>
+
+</div>
+   </div>
+   
+
+<a name="skipportletZ7_2AA4H0C0980G70I1J7QNL01C34"></a>
+
+<script type="text/javascript">
+dojo.addOnLoad( function () {
+
+   var dynamicTitle =
+    "null";
+    
+  if (document.getElementById("title.Z7_2AA4H0C0980G70I1J7QNL01C34")) {
+    if (dynamicTitle != "" && dynamicTitle != "null") {
+       document.getElementById("title.Z7_2AA4H0C0980G70I1J7QNL01C34").innerHTML = dynamicTitle;
+    }
+  } });
+</script>
+
+</td></tr>
+
+</table></td>
+ 
+</tr></table></td></tr>
+
+</table></td>
+
+ 
+<td valign="top" width="15"> 
+ 
+ 
+ 
+ 
+ 
+
+<table class="layoutColumn" cellpadding="0" cellspacing="0" width="100%" border="0">
+
+</table></td>
+
+ 
+<td valign="top" width="215"> 
+ 
+ 
+ 
+ 
+ 
+
+<table class="layoutColumn" cellpadding="0" cellspacing="0" width="100%" border="0">
+
+
+<tr><td style="width:100%;" valign="top">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<a name="Z7_680412S0JO9630AK5FMQJC0082"></a><div class="wpsPortletBody">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	      
+	      
+         	           
+         	        
+</div></td></tr>
+
+
+<tr><td style="width:100%;" valign="top">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<a name="Z7_LO04H24090HQ50IP3UK2I820U4"></a><div class="wpsPortletBody">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	      
+	      
+      	           <html>
+<head>
+<link href="http://css.sgx.com/sgxv2/css/wcm.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr><td align=center valign=center>
+<p dir="ltr"><a href="http://www.sgx.com/wps/portal/sgxweb/footerLinks/tos#panelhead16" target="_blank" ><span style=" text-align: center; color: rgb(216, 216, 216);">Advertisement</span></a><br />
+&#160;<script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script><script type="text/javascript">
+googletag.cmd.push(function() {
+var slot1 = googletag.defineSlot('/19881962/CD_160x600_RB', [160, 600], 'leaderboard0').addService(googletag.pubads());
+googletag.pubads().enableAsyncRendering();
+//googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+//setInterval(function(){googletag.pubads().refresh([slot1]);}, 20000);
+});
+</script></p>
+
+<div dir="ltr" id="leaderboard0" style=" width: 160px; height: 600px;"><script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('leaderboard0'); });
+</script></div>
+
+<p><iframe valign="middle" width="160" height="400" marginheight=0 marginwidth=0 frameborder=0 vspace=0 hspace=0 scrolling=NO 
+src="//www.dianomi.com/smart_sgx.epl?id=2500"></iframe></p>
+</td></tr>
+</table>
+</body>
+</html>
+      	         
+</div></td></tr>
+
+</table></td>
+ 
+</tr></table><div class="wpthemeClear"></div>
+		</div>
+		</div>
+	 </div><!--end main content-->
+	</td>
+  </tr>
+</table>
+
+ <footer role="footer">
+	
+
+
+<!--  footer -->
+
+
+<div class="footer">
+&copy; Singapore Exchange Ltd. All Rights Reserved. Company Reg. No. 199904940D
+</div>
+
+<div class="footer">
+				<ul class="footerList">
+					
+					
+					
+						
+							
+							<li class="footerFirst">
+							
+								<a href='/wps/portal/sgxweb/footerLinks/tos/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNHB1NPAycDSwNLNwtDDxdw8J8Xdw8DC2cDYAKIpEV-Icamht4hjoFmjiFhRp6O5oQp98AB3A0IKQ_XD8KVQkWF6ApCDMAKfB3Cg4OCzMMdDWGKsDjhoLc0AiDTE9FALmdFJw!/dl5/d5/L2dJQSEvUUt3QS80SmlFL1o2X0xPMDRIMjQwOUdGMUQwSTlVN0w5REszS000/' target="_blank"  class="footerLinkmain">Terms of Service</a>
+							</li>
+							
+						                                 
+					
+					
+				</ul>
+</div>
+
+
+
+</footer><!-- page footer -->
+	</div><!-- end frame -->
+
+<div class="modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h2>Your Thoughts Matters</h2>
+			</div>
+			<div class="modal-body">
+				<p dir="ltr" style=" text-align: center; font-size: 18px;">
+				We are working on improving SGX.com. Join us by participating the website survey</p>
+	
+</div><!-- end frame -->
+
+			<div class="modal-footer">
+				<label><input type="checkbox" name="dismiss">Do not show this message again.</label><br />
+				<span id="btn-no" class="modal-btn-close">Close</span>
+				<span id="btn-yes" class="modal-btn">Continue</span>
+			
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="/sgxv2/js/popup.js"></script>
+</body>
+</html>

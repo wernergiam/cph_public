@@ -1,0 +1,6 @@
+#Code|Security|Period|Mkt|DPS cts|Ttl DPU cts|Ttl CPU Curency|Yield|EPS cts|PE|Div Breakdown
+Z74|SingTel|FY17 (Mar)|3.750|17.500|17.500|SGD|4.795%|23.96|15.03|Interim 6.8ct ; Final 10.7ct
+B2F|M1|FY16 (Dec)|2.110|12.900|12.900|SGD|7.806%|16.10|10.26|Interim 7ct ; Final 5.9ct
+CC3|StarHub|FY16 (Dec)|3.000|20.000|16.000|SGD|7.117%|19.80|13.07|Q1 5ct ; Q2 5ct ; Q3 5ct ; Q4 5ct
+
+

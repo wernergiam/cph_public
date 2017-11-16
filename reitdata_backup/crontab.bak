@@ -1,0 +1,24 @@
+MAILTO="wernergiam73@gmail.com"
+SHELL="/bin/bash"
+0 0 * * * cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_sgx_announcement.sh
+
+SHELL="/bin/bash"
+0 20 * * 1-5 cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh
+
+SHELL="/bin/bash"
+*/30 8,9,10,11,12,13,14,15,16,17,18,19,20,21 * * 1-5 find /home/reitdat1/public_html/sgx -name 'crawl_sgx_debug.log' -daystart -mtime 1 -exec rm \{\} \; && cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_sgx.sh -d >> /home/reitdat1/public_html/sgx/crawl_sgx_debug.log 2>&1
+0 23 * * 1-5 find /home/reitdat1/public_html/sgx -name 'crawl_sgx_debug.log' -daystart -mtime 1 -exec rm \{\} \; && cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_sgx.sh -d >> /home/reitdat1/public_html/sgx/crawl_sgx_debug.log 2>&1
+0 * * * 0,6 find /home/reitdat1/public_html/sgx -name 'crawl_sgx_debug.log' -daystart -mtime 1 -exec rm \{\} \; && cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_sgx.sh -d >> /home/reitdat1/public_html/sgx/crawl_sgx_debug.log 2>&1
+0 20 * * 1-5 cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -o
+0 20 * * 1-5 cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -s
+0 20 * * 1-5 cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -i
+0 20 * * 1-5 cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -a
+0 20 * * 1-5 cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -t
+0 20 * * 1-5 cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -e
+0 20 * * 1-5 cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -f
+0 20 * * 1-5 cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -n
+0 8-21 * * 1-5 find /home/reitdat1/public_html/sgx -name 'crawl_bursa_debug.log' -daystart -mtime 1 -exec rm \{\} \; && cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_bursa.sh -d >> /home/reitdat1/public_html/sgx/crawl_bursa_debug.log 2>&1
+0 * * * 0,6 find /home/reitdat1/public_html/sgx -name 'crawl_bursa_debug.log' -daystart -mtime 1 -exec rm \{\} \; && cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_bursa.sh -d >> /home/reitdat1/public_html/sgx/crawl_bursa_debug.log 2>&1
+*/30 8-21 * * 1-5 cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_si.sh -d >> /home/reitdat1/public_html/sgx/crawl_si_debug.log 2>&1
+0 * * * 0,6 cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_si.sh -d >> /home/reitdat1/public_html/sgx/crawl_si_debug.log 2>&1
+0 23 * * 1-5 cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/wp_republish_post.sh

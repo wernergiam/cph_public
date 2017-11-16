@@ -1,0 +1,3 @@
+SGX|S68
+SingPost|S08
+SPH|T39

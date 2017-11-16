@@ -1,0 +1,191 @@
+sgx
+Executing time: Thu Nov 16 08:00:02 +08 2017
+which: no gfind in (/usr/bin:/bin)
+rm: cannot remove `./mail_GLOBAL_LOGISTIC_PROPERTIES_LIMITED.txt': No such file or directory
+rm: cannot remove `./mail_DBS_GROUP_HOLDINGS_LTD.txt': No such file or directory
+rm: cannot remove `./mail_CAPITALAND_COMMERCIAL_TRUST_MANAGEMENT_LIMITED.txt': No such file or directory
+rm: cannot remove `./mail_ASCOTT_RESIDENCE_TRUST_MANAGEMENT_LIMITED.txt': No such file or directory
+rm: cannot remove `./mail_OVERSEA-CHINESE_BANKING_CORPORATION_LIMITED.txt': No such file or directory
+rm: cannot remove `./mail_AUSNET_SERVICES_LTD.txt': No such file or directory
+rm: cannot remove `./mail_SEMBCORP_MARINE_LTD.txt': No such file or directory
+rm: cannot remove `./mail_LMIRT_MANAGEMENT_LTD_.txt': No such file or directory
+rm: cannot remove `./mail_ACCORDIA_GOLF_TRUST_MANAGEMENT_PTE__LTD_.txt': No such file or directory
+rm: cannot remove `./mail_UNITED_OVERSEAS_BANK_LIMITED.txt': No such file or directory
+rm: cannot remove `./mail_si.txt': No such file or directory
+rm: cannot remove `./mail_SILVERLAKE_AXIS_LTD.txt': No such file or directory
+rm: cannot remove `./mail_SINGAPORE_POST_LIMITED.txt': No such file or directory
+rm: cannot remove `./mail_SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176.txt': No such file or directory
+rm: cannot remove `./mail_SINGAPORE_TECHNOLOGIES_ENGINEERING_LTD.txt': No such file or directory
+rm: cannot remove `./mail_FRASERS_CENTREPOINT_ASSET_MANAGEMENT_LTD_.txt': No such file or directory
+rm: cannot remove `./mail_IGB_REAL_ESTATE_INVESTMENT_TRUST_5227.txt': No such file or directory
+rm: cannot remove `./mail_KEPPEL_CORPORATION_LIMITED.txt': No such file or directory
+rm: cannot remove `./mail_SINGAPORE_TELECOMMUNICATIONS_LIMITED.txt': No such file or directory
+rm: cannot remove `./mail_INDIABULLS_PROPERTY_MANAGEMENT_TRUSTEE_PTE__LTD_.txt': No such file or directory
+Processing ALLIANCE_FINANCIAL_GROUP_BERHAD_2488: ALLIANCE%20FINANCIAL%20GROUP%20BERHAD
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3106      0 --:--:-- --:--:-- --:--:--  6849
+Processing SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176: SUNWAY%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   5677      0 --:--:-- --:--:-- --:--:--  7891
+Processing IGB_REAL_ESTATE_INVESTMENT_TRUST_5227: IGB%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3266      0 --:--:-- --:--:-- --:--:--  8642
+sgx
+Executing time: Thu Nov 16 09:00:02 +08 2017
+which: no gfind in (/usr/bin:/bin)
+Processing ALLIANCE_FINANCIAL_GROUP_BERHAD_2488: ALLIANCE%20FINANCIAL%20GROUP%20BERHAD
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0    989      0 --:--:-- --:--:-- --:--:--  1198121   363  121   363    0     0    986      0 --:--:-- --:--:-- --:--:--  1194
+Processing SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176: SUNWAY%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3190      0 --:--:-- --:--:-- --:--:--  6980
+Processing IGB_REAL_ESTATE_INVESTMENT_TRUST_5227: IGB%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3806      0 --:--:-- --:--:-- --:--:--  7260
+sgx
+Executing time: Thu Nov 16 10:00:01 +08 2017
+which: no gfind in (/usr/bin:/bin)
+Processing ALLIANCE_FINANCIAL_GROUP_BERHAD_2488: ALLIANCE%20FINANCIAL%20GROUP%20BERHAD
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   2661      0 --:--:-- --:--:-- --:--:--  4321
+Processing SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176: SUNWAY%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3462      0 --:--:-- --:--:-- --:--:--  6368
+Processing IGB_REAL_ESTATE_INVESTMENT_TRUST_5227: IGB%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3551      0 --:--:-- --:--:-- --:--:--  7117
+sgx
+Executing time: Thu Nov 16 11:00:01 +08 2017
+which: no gfind in (/usr/bin:/bin)
+Processing ALLIANCE_FINANCIAL_GROUP_BERHAD_2488: ALLIANCE%20FINANCIAL%20GROUP%20BERHAD
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   5167      0 --:--:-- --:--:-- --:--:--  6600
+Processing SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176: SUNWAY%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   5126      0 --:--:-- --:--:-- --:--:--  7408
+Processing IGB_REAL_ESTATE_INVESTMENT_TRUST_5227: IGB%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3309      0 --:--:-- --:--:-- --:--:--  7723
+sgx
+Executing time: Thu Nov 16 12:00:01 +08 2017
+which: no gfind in (/usr/bin:/bin)
+Processing ALLIANCE_FINANCIAL_GROUP_BERHAD_2488: ALLIANCE%20FINANCIAL%20GROUP%20BERHAD
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0    612      0 --:--:-- --:--:-- --:--:--  6722
+Processing SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176: SUNWAY%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0    699      0 --:--:-- --:--:-- --:--:--  5950
+Processing IGB_REAL_ESTATE_INVESTMENT_TRUST_5227: IGB%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3163      0 --:--:-- --:--:-- --:--:--  7260
+sgx
+Executing time: Thu Nov 16 13:00:01 +08 2017
+which: no gfind in (/usr/bin:/bin)
+Processing ALLIANCE_FINANCIAL_GROUP_BERHAD_2488: ALLIANCE%20FINANCIAL%20GROUP%20BERHAD
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   1718      0 --:--:-- --:--:-- --:--:--  6368
+Processing SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176: SUNWAY%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0    403      0 --:--:-- --:--:-- --:--:--  7260
+Processing IGB_REAL_ESTATE_INVESTMENT_TRUST_5227: IGB%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3432      0 --:--:-- --:--:-- --:--:--  6980
+sgx
+Executing time: Thu Nov 16 14:00:01 +08 2017
+which: no gfind in (/usr/bin:/bin)
+Processing ALLIANCE_FINANCIAL_GROUP_BERHAD_2488: ALLIANCE%20FINANCIAL%20GROUP%20BERHAD
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0    838      0 --:--:-- --:--:-- --:--:--   968
+Processing SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176: SUNWAY%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3610      0 --:--:-- --:--:-- --:--:--  7260
+Processing IGB_REAL_ESTATE_INVESTMENT_TRUST_5227: IGB%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3097      0 --:--:-- --:--:-- --:--:--  6368
+sgx
+Executing time: Thu Nov 16 15:00:01 +08 2017
+which: no gfind in (/usr/bin:/bin)
+Processing ALLIANCE_FINANCIAL_GROUP_BERHAD_2488: ALLIANCE%20FINANCIAL%20GROUP%20BERHAD
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   6007      0 --:--:-- --:--:-- --:--:--  8441
+Processing SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176: SUNWAY%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   1311      0 --:--:-- --:--:-- --:--:--  9307
+Processing IGB_REAL_ESTATE_INVESTMENT_TRUST_5227: IGB%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   2910      0 --:--:-- --:--:-- --:--:--  6258
+sgx
+Executing time: Thu Nov 16 16:00:01 +08 2017
+which: no gfind in (/usr/bin:/bin)
+Processing ALLIANCE_FINANCIAL_GROUP_BERHAD_2488: ALLIANCE%20FINANCIAL%20GROUP%20BERHAD
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   1083      0 --:--:-- --:--:-- --:--:--  1156
+Processing SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176: SUNWAY%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   2706      0 --:--:-- --:--:-- --:--:--  6600
+Processing IGB_REAL_ESTATE_INVESTMENT_TRUST_5227: IGB%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3202      0 --:--:-- --:--:-- --:--:--  7408
+sgx
+Executing time: Thu Nov 16 17:00:01 +08 2017
+which: no gfind in (/usr/bin:/bin)
+Processing ALLIANCE_FINANCIAL_GROUP_BERHAD_2488: ALLIANCE%20FINANCIAL%20GROUP%20BERHAD
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0    471      0 --:--:-- --:--:-- --:--:--  7723
+Processing SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176: SUNWAY%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3183      0 --:--:-- --:--:-- --:--:--  6849
+Processing IGB_REAL_ESTATE_INVESTMENT_TRUST_5227: IGB%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0   3264      0 --:--:-- --:--:-- --:--:--  6152
+sgx
+Executing time: Thu Nov 16 18:00:01 +08 2017
+which: no gfind in (/usr/bin:/bin)
+Processing ALLIANCE_FINANCIAL_GROUP_BERHAD_2488: ALLIANCE%20FINANCIAL%20GROUP%20BERHAD
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0121   363  121   363    0     0    862      0 --:--:-- --:--:-- --:--:--  1046121   363  121   363    0     0    860      0 --:--:-- --:--:-- --:--:--  1043
+Processing SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176: SUNWAY%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0108   649  108   649    0     0   3049      0 --:--:-- --:--:-- --:--:--  4570
+json_data: \n\n\n<table summary="company announcements" class="bm_center bm_dataTable">\n  <col width="3%" />\n  <col width="15%" />\n  \n    <col width="25%" />\n    <col width="40%" />\n  \n  <col />\n  <thead>\n    <tr class="bm_col_hdr">\n      \n      \n      \n        \n        <th scope="col" type="numeric">No</th>\n      \n        \n        <th scope="col" type="string">Announcement Date</th>\n      \n        \n        <th scope="col" type="html">Company</th>\n      \n        \n        <th scope="col" type="html">Title</th>\n      \n    </tr>\n  </thead>\n  <tbody>\n    \n      \n\n  \n\n<tr class="bm_row2">\n  \n    \n  \n    <td class='bm_left'>1</td>\n   <!-- end of case-when -->\n\n    \n  \n        <td>16 Nov 2017</td>\n   <!-- end of case-when -->\n\n    \n  \n      \n      <td class="bm_left">\n      \n\n             <a href="/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5176" >SUNWAY REAL ESTATE INVESTMENT TRUST</a>\n          \n      \n      </td>\n    \n   <!-- end of case-when -->\n\n    \n  \n      <td class="bm_left">\n      <a href="/market/listed-companies/company-announcements/5604921" >Changes in Sub. S-hldr's Int (Section 138 of CA 2016) - EMPLOYEES PROVIDENT FUND BOARD</a>\n      \n      <div></div>\n    </td>\n   <!-- end of case-when -->\n <!-- end of each-field -->\n</tr>\n <!-- end of each-announcement -->\n\n    \n  </tbody>\n</table>\n"})
+grep: mail_SUNWAY_REAL_ESTATE_INVESTMENT_TRUST_5176.txt: No such file or directory
+now: 1 before: 0
+Processing IGB_REAL_ESTATE_INVESTMENT_TRUST_5227: IGB%20REAL%20ESTATE%20INVESTMENT%20TRUST
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0109   657  109   657    0     0   5126      0 --:--:-- --:--:-- --:--:-- 10265
+json_data: \n\n\n<table summary="company announcements" class="bm_center bm_dataTable">\n  <col width="3%" />\n  <col width="15%" />\n  \n    <col width="25%" />\n    <col width="40%" />\n  \n  <col />\n  <thead>\n    <tr class="bm_col_hdr">\n      \n      \n      \n        \n        <th scope="col" type="numeric">No</th>\n      \n        \n        <th scope="col" type="string">Announcement Date</th>\n      \n        \n        <th scope="col" type="html">Company</th>\n      \n        \n        <th scope="col" type="html">Title</th>\n      \n    </tr>\n  </thead>\n  <tbody>\n    \n      \n\n  \n\n<tr class="bm_row2">\n  \n    \n  \n    <td class='bm_left'>1</td>\n   <!-- end of case-when -->\n\n    \n  \n        <td>16 Nov 2017</td>\n   <!-- end of case-when -->\n\n    \n  \n      \n      <td class="bm_left">\n      \n\n             <a href="/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5227" >IGB REAL ESTATE INVESTMENT TRUST</a>\n          \n      \n      </td>\n    \n   <!-- end of case-when -->\n\n    \n  \n      <td class="bm_left">\n      <a href="/market/listed-companies/company-announcements/5604429" >Changes in Sub. S-hldr's Int (Section 138 of CA 2016) - EMPLOYEES PROVIDENT FUND BOARD ("EPF BOARD")</a>\n      \n      <div></div>\n    </td>\n   <!-- end of case-when -->\n <!-- end of each-field -->\n</tr>\n <!-- end of each-announcement -->\n\n    \n  </tbody>\n</table>\n"})
+grep: mail_IGB_REAL_ESTATE_INVESTMENT_TRUST_5227.txt: No such file or directory
+now: 1 before: 0

@@ -1,0 +1,1019 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 9]>       <html xmlns="http://www.w3.org/1999/xhtml" class="lt-ie9"> <![endif]-->
+<!--[if gte IE 9]><!--> <html xmlns="http://www.w3.org/1999/xhtml"> <!--<![endif]-->
+  <head>
+    
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"5212194b22","applicationID":"43407","transactionName":"dw0MRBBZWggDERtfQVoGA10HWEIFCkxSWFdAEQpVB0I=","queueTime":0,"applicationTime":43,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+          ShareInvestor.com - Singapore No.1 Financial Portal for Stocks &amp; Shares
+    </title>
+
+    <meta http-equiv='Pragma' content='no-cache' />
+    <meta http-equiv='Cache-Control' content='no-cache' />
+    <meta http-equiv='Cache-Control' content='no-store' />
+
+    <meta name="msapplication-starturl" content="/"/>
+    <meta name="msapplication-window" content="width=1024;height=768"/>
+    <meta name="msapplication-navbutton-color" content="green"/>
+    <meta name="application-name" content="ShareInvestor.com" />
+    <meta name="msapplication-tooltip" content="ShareInvestor.com - Singapore No.1 Financial Portal for Stocks &amp; Shares" />
+      <meta name="msapplication-tooltip" content="ShareInvestor.com - Singapore No.1 Financial Portal for Stocks &amp; Shares" />
+    <meta name="msapplication-task" content="name=Prices;action-uri=/prices/stock_prices.html;icon-uri=/images/pinned_sites/prices.ico" />
+    <meta name="msapplication-task" content="name=Portfolio;action-uri=/portfolio/index.html;icon-uri=/images/pinned_sites/portfolio.ico" />
+    <meta name="msapplication-task" content="name=Fundamental;action-uri=/fundamental/factsheet.html;icon-uri=/images/pinned_sites/fundamental.ico" />
+    <meta name="msapplication-task" content="name=Forum;action-uri=http://forum.shareinvestor.com/forum/forum.php;icon-uri=/images/pinned_sites/forum.ico" />
+    <meta name="msapplication-task" content="name=News;action-uri=/news/index.html;icon-uri=/images/pinned_sites/news.ico" />
+    <meta name="msapplication-task" content="name=Charts;action-uri=/charts/index.html;icon-uri=/images/pinned_sites/chart.ico" />
+    <meta name="msapplication-task" content="name=IPO;action-uri=/ipo/index.html;icon-uri=/images/pinned_sites/ipo.ico" />
+    <meta name="msapplication-task" content="name=Funds;action-uri=/funds/index.html;icon-uri=/images/pinned_sites/funds.ico" />
+    <meta name="robots" content="noarchive, noodp" />
+    <meta name="author" content="ShareInvestor" />
+    <meta name="copyright" content="Copyright (c) 2016, ShareInvestor Pte Ltd" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="NwsZdixKVb8TTdToBloqd7xxF6b2JehED9eIKlbUh/s=" name="csrf-token" />
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon"/>
+    <script src="//b.siasset.com/assets/application-a164719b3ddc3086a4db1c383cd69795.js" type="text/javascript"></script>
+    <script src="//a.siasset.com/assets/ads-4da004e7d5bee831f5f6e82621a6379d.js" type="text/javascript"></script>
+    <link href="//a.siasset.com/assets/application-f8d5a92d9a2989f58173b6673eab0734.css" media="all" rel="stylesheet" type="text/css" />
+
+      <!-- Google Tag Manager Data Layer -->
+      <script>
+        dataLayer = []
+          dataLayer.push({ userMembership: 'Not Login' });
+          dataLayer.push({ userCountryTag: 'sg' });
+      </script>
+    
+    <script type='text/javascript'>
+      (function() {
+      var useSSL = 'https:' == document.location.protocol;
+      var src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+      document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+      })();
+      </script>
+      <script type='text/javascript'>
+        googletag.defineSlot('/5908/SI/ShareInvestor_SG/Homepage', [[728,90]], 'div-gpt-ad-SISG_Homepage-728x90').addService(googletag.pubads());
+        googletag.pubads().enableSyncRendering();
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+    </script>
+  </head>
+  <body >
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSWSGK"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KSWSGK');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <div id="sic_sitemap">
+  <h5 class="sic_toggle"><span>Sitemap</span></h5>
+  <div class="sic_toggleBody si_fixed">
+      <div class="sic_block sic_one">
+        <h3>Features</h3>
+        <ul class="sic_one">
+          <li>
+            <h4><a href="/mobile/mobile_overview.html">Mobile Edition</a></h4>
+            <ul>
+              <li><a href="/mobile/mobile_overview.html">Overview</a></li>
+              <li><a href="/mobile/mobile_features_compare.html">Features Comparison</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4><a href="/membership/plans_station.html">Station Edition</a></h4>
+          </li>
+          <li>
+            <h4><a href="/prices/stock_prices.html">Prices</a></h4>
+            <ul>
+              <li><a href="/prices/stock_prices.html">Stock Prices</a></li>
+              <li><a href="/prices/time_and_sales.html">Time &amp; Sales</a></li>
+              <li><a href="/prices/trade_summary_matrix.html">Trade Summary Matrix</a></li>
+              <li><a href="/prices/quote_movements.html">Quote Movements</a></li>
+              <li><a href="/prices/historical_price.html">Historical Price</a></li>
+              <li><a href="/prices/price_download.html">Price Download</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4><a href="/portfolio/index.html">Portfolio</a></h4>
+          </li>
+          <li>
+						<h4><a href="/fundamental/factsheet.html">Fundamental</a></h4>
+            <ul>
+              <li><a href="/fundamental/factsheet.html">Factsheet</a></li>
+              <li><a href="/fundamental/financials.html">Financials</a></li>
+              <li><a href="/fundamental/insider_trades.html">Insider Trades</a></li>
+              <li><a href="/fundamental/company_buyback.html">Company Buyback</a></li>
+              <li><a href="/fundamental/events_calendar.html">Events Calendar</a></li>
+              <li><a href="/fundamental/dividend_analysis.html">Dividend Analysis</a></li>
+              <li><a href="/fundamental/annual_reports.html">Annual Reports</a></li>
+              <li><a href="/fundamental/stocks_comparison.html">Stocks Comparison</a></li>
+              <li><a href="/fundamental/consensus_estimates.html">Consensus Estimates</a></li>
+            </ul>
+            
+          </li>
+        </ul>
+        <ul class="sic_two">
+          <li>
+            <h4><a href="http://forum.shareinvestor.com/forum/">Community</a></h4>
+            <ul>
+              <li><a href="http://forum.shareinvestor.com/forum/">ShareInvestor Forum</a></li>
+              <li><a href="http://blog.shareinvestor.com/">ShareInvestor Educational Series</a></li>
+              <li><a href="http://www.investingnote.com/">InvestingNote - Social Network</a></li>
+            </ul>
+          </li>
+					<li>
+            <h4><a href="/screener/predefined_ta_screens.html">Screener</a></h4>
+            <ul>
+              <li><a href="/screener/market_screener.html">Market Screener (FA &amp; TA)</a></li>
+              <li><a href="/screener/predefined_ta_screens.html">Predefined TA Screens</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4><a href="/charts/index.html?type=interactive">Charts</a></h4>
+            <ul>
+              <li><a href="/charts/interactive.html">Interactive Charts</a></li>
+              <li><a href="/charts/historical.html">Historical Charts</a></li>
+              <li><a href="/charts/volume_distribution.html">Volume Distribution Charts</a></li>
+              <li><a href="/charts/tick.html">Tick Charts</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4><a href="/ipo/index.html">IPO</a></h4>
+          </li>
+          <li>
+            <h4><a href="/news/index.html">News</a></h4>
+			<ul>
+              <li><a href="/news/index.html#/?type=regional_news_all">Regional News</a></li>
+              <li><a href="/news/index.html#/?type=sg_news_all">Singapore News</a></li>
+              <li><a href="/news/index.html#/?type=my_news_all">Malaysia News</a></li>
+			  <li><a href="/news/trading_central.html">Trading Central Research</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="sic_block sic_two">
+        <div class="sic_inner">
+          <h3>Customer Services</h3>
+          <ul>
+            <li>
+              <h4><a href="/membership/plans_overview.html">Membership</a></h4>
+              <ul>
+                <li><a href="/membership/plans_overview.html">Plans and Promotions</a></li>
+								<li><a href="/membership/plans_compare.html">Compare Plans</a></li>
+								<li><a href="/membership/loyalty_program.html">Loyalty Program</a></li>
+                <li><a href="/membership/plans_overview.html">Subscribe / Renew</a></li>
+								<li><a href="/membership/sms_alert_system.html">SMS Alert System</a></li>
+								<li><a href="/membership/faq.html">FAQs</a></li>
+              </ul>
+            </li>
+            <li>
+              <h4><a href="/user/edit_profile.html">Member's Corner</a></h4>
+              <ul>
+								<li><a href="/membership/plans_subscription.html">Renew Your Membership</a></li>
+								<li><a href="/membership/add_options.html">Add Options</a></li>
+                <li><a href="/user/edit_profile.html">Edit Profile</a></li>
+								<li><a href="/user/settings.html">Settings</a></li>
+                <li><a href="/membership/sms_credits.html">SMS Credits/History</a></li>
+                <li><a href="http://forum.shareinvestor.com/forum/index.php?app=core&module=usercp">Forum Control Panel</a></li>
+								<li><a href="/membership/payment_history.html">Payment History</a></li>
+								<li><a href="/membership/event_history.html">Event History</a></li>
+              </ul>
+            </li>
+            <li>
+              <h4><a href="/support/index.html">Support</a></h4>
+              <ul>
+                <li><a href="/support/index.html">General Help &amp; Feedback</a></li>
+                <li><a href="/support/index.html#/?type=faqs">FAQs</a></li>
+                <li><a href="/support/index.html#/?type=changelog">Changelog</a></li>
+                <li><a href="/support/index.html#/?type=about_si">About Us</a></li>
+                <li><a href="/support/index.html#/?type=si_guidelines">Guidelines</a></li>
+                <li><a href="/support/index.html#/?type=contact">Contact Us</a></li>
+                <li><a href="/help/index.html">Help Centre</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sic_block sic_three">
+        <h3 class="sic_event">Events</h3>
+        <ul>
+          <li>
+            <ul>
+              <li><a href="/events/all_events.html">Singapore Events</a></li>
+			  <li><a href="/events/shareinvestor_academy.html">ShareInvestor Academy</a></li>
+            </ul>
+          </li>
+        </ul>
+        <h3 class="sic_terms">Terms of Use</h3>
+        <ul>
+          <li>
+            <ul>
+              <li><a href="/disclaimer.html">General Disclaimer &amp; Warning</a></li>
+              <li><a href="/website_terms.html">Terms of Website Use</a></li>
+              <li><a href="/membership_terms.html">Membership Terms &amp; Condition</a></li>
+              <li><a href="http://www.shareinvestorholdings.com/pdpa-policy.html" target="_blank"> Data Protection Policy </a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+  </div>
+  <div class="si_clearBoth"></div>
+  <div class="countrySelection">
+      <a href="/sg" class="flag_sg">Singapore</a>
+      <div class="dropdown">
+        <a href="/my" class="flag_my">Malaysia</a>
+      </div>
+  </div>
+</div>
+
+    <div id="sic_container">
+      <div id="sic_header">
+        <h1 id="sic_siteTitle"><a href="/index.html">ShareInvestor.com</a></h1>
+        <div id="sic_headerMembershipLink">
+            ShareInvestor Membership
+						<a href="/membership/plans_webpro.html#key"><img src="/images/logo_SIWebPro_3.png" alt="" /></a>
+						<a href="/membership/plans_station.html#key"><img src="/images/logo_SIStation_3.png" alt="" /></a>
+        </div>
+        <a href="/mobile" id="sic_mobileEdition"><span>Mobile</span> Edition</a>
+          <div id="sic_loginContainer" class="sic_logIn" style="">
+            <h5>Login</h5>
+            <ul class="sic_misc sic_linkList">
+              <li><a href="/user/forget_password.html">Forget password?</a></li>
+              <li><a href="/membership/plans_overview.html">Sign up plan/Subscribe plan</a></li>
+
+              <li><a href="/support/index.html">Support</a></li>
+            </ul>
+            <form accept-charset="UTF-8" action="https://www.shareinvestor.com/user/do_login.html" id="sic_login_form_header" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="NwsZdixKVb8TTdToBloqd7xxF6b2JehED9eIKlbUh/s=" /></div>
+              <ul>
+                <li class="sic_username">
+                  <label for="sic_login_username">Username</label>
+                  <input id="sic_login_username" name="name" type="text" class="sic_textbox" />
+                </li>
+                <li class="sic_password">
+                  <label for="sic_login_password">Password</label>
+                  <input id="sic_login_password" name="password" type="password" class="sic_textbox" />
+                </li>
+                <li class="sic_remember">
+                  <label for="sic_login_remember">Remember</label>
+                  <input id="sic_login_remember" class="sic_top2" name="remember" type="checkbox" />
+                </li>
+                <li class="sic_submit">
+                    <input type="hidden" name="redirect" value="/fundamental/factsheet.html?counter=TY6U.SI" />
+                    <input type="hidden" name="x_forwarded_for" value="" />
+                    <input type="hidden" name="remote_addr" value="113.11.254.211" />
+                  
+                  
+                  
+                  <input id="sic_login_submit" type="submit" value="Login" class="sic_logInOut" />
+                </li>
+              </ul>
+</form>          </div>
+      </div>
+      <div id="sic_subHeader">
+        <div id="sic_searchContainer">
+          <div id="sic_searchBox">
+            <div id="searchbox_input_container"> 
+	<form method="get" action="javascript:void(0);">
+			<input type="text" value="Loading searchbox data, please wait.." name="q" id="q" disabled="disabled"/> 
+	</form> 
+ 
+  <div id="searchbox_container" class="si_fixed">
+    <div class="left_col">
+      <div id="search_data_container" style="display:block">
+        <img src='/images/preloader_green24.gif' width="24" height="24" alt="Loading" /> Loading search items...
+      </div>
+    </div>
+    <div class="right_col">
+      <div class="close_col">
+        <a href="#">Close</a>
+      </div>
+      <div id="company_information_container">
+        <div class="item_title"></div>
+        <div id="searchbox_quotes" class="si_fixed"></div>
+        <div id="searchbox_quicklinks" class="si_fixed"></div>
+        <div id="related_news_links">
+          <h2>Company News</h2>
+          <div class="company_news_container"></div>
+        </div>
+      </div>
+      <div id="related_news_container">
+        <div class="item_title"></div>
+      </div>
+    </div>
+    <div id="no_searchbox_results_container" style="display: none;">No results</div>
+  </div>
+</div>
+<div id="results"></div>
+
+          </div>
+        </div>
+
+            <div id="sic_newsletter">
+      <a href="http://www.listedcompany.com/" target="_blank"><img src="/images/si_newsletter.gif" alt="" /></a>
+        <div id='div-gpt-ad-SISG_Homepage-194x27'>
+        <script type='text/javascript'>
+        googletag.display('div-gpt-ad-SISG_Homepage-194x27');
+        </script>
+        </div>
+    </div>
+
+          <div id="sic_displayMode" class="sic_connecting">
+            <a class="{mode : 'streaming'}" href="javascript:void(0);" title="Switch to Static Mode?">Mode - Streaming</a>
+            <div class="sic_hoverMessage">
+              <div class="inner">Switch to Static Mode?</div>
+            </div>
+          </div>
+      </div>
+
+      <div id="sic_mainNav" class="sic_withRightCorner">
+  <ul class="si_fixed">
+      <li class="sic_home first">
+        <a href="/sg">Home</a>
+      </li>
+      <li class="sic_prices">
+        <a href="/prices/stock_prices.html">Prices</a>
+          <ul>
+              <li>
+                <a href="/prices/stock_prices.html">
+                  <span class="url">Stocks Prices</span>
+                  <div class="description">Access more than just the streaming stock prices of the SGX market. Filter and sort your selection by categories and fundamentals.</div>
+                </a>
+                <div class="subNav"><a href="/prices/stock_prices.html?market=sgx" class="first-child">SGX</a><a href="/prices/stock_prices.html?market=bursa">Bursa</a><a href="/prices/stock_prices.html?market=hkex">HKEx</a><a href="/prices/stock_prices.html?market=set">SET</a><a href="/prices/stock_prices.html?market=idx">IDX</a><a href="/prices/stock_prices.html?market=asx">ASX</a><a href="/prices/stock_prices.html?market=nyse">NYSE</a><a href="/prices/stock_prices.html?market=nasdaq">NASDAQ</a><a href="/prices/stock_prices.html?market=nyse_mkt">NYSE Mkts</a><a href="/prices/stock_prices.html?market=world">World</a></div>
+              </li>
+              <li>
+                <a href="/prices/time_and_sales.html">
+                  <span class="url">Time &amp; Sales</span>
+                  <div class="description">A chronological recording of each individual trades that has been transacted by each counter for the day.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="/prices/trade_summary_matrix.html">
+                  <span class="url">Trade Summary Matrix (TSM)</span>
+                  <div class="description">Trade Summary Matrix aggregrates the data from the Time &amp; Sales by price for easy intepretation. It shows the distribution of trades at different price levels.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="/prices/quote_movements.html">
+                  <span class="url">Quote Movements</span>
+                  <div class="description">Quote Movements expands on the Time &amp; Sales and captures all the changes in the Buy/Sell Queue. It tracks the movement of orders for your analysis.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="/prices/historical_price.html">
+                  <span class="url">Historical Price</span>
+                  <div class="description">52 weeks log of share prices and volume done daily. It tracks the annual movement of share price and volume in a table format.</div>
+                </a>
+                <div class="subNav"><a href="/prices/historical_price.html" class="first-child">By Stock</a><a href="/prices/historical_price.html#/?type=historical_price_seasonality_chart">Seasonality Chart</a></div>
+              </li>
+              <li>
+                <a href="/prices/price_download.html">
+                  <span class="url">Price Download</span>
+                  <div class="description">Comprehensive historical prices of stocks since IPO available for download in CSV format. Suitable for use in 3rd party chart plotting software.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+          </ul>
+      </li>
+      <li class="sic_portfolio">
+        <a href="/portfolio/index.html">Portfolio</a>
+      </li>
+      <li class="sic_fundamental">
+        <a href="/fundamental/factsheet.html">Fundamental</a>
+          <ul>
+              <li>
+                <a href="/fundamental/factsheet.html">
+                  <span class="url">Factsheet</span>
+                  <div class="description">Snapshot of stock price statistics and financial ratios of counter. Allows quick access for fundamental analysis to make timely investment decision.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="/fundamental/financials.html">
+                  <span class="url">Financials</span>
+                  <div class="description">Compilation of company's profit and loss, balance sheet and cash flow statement. Allows quick comparison of quarterly, bi-annual or annual results.</div>
+                </a>
+                <div class="subNav"><a href="/fundamental/financials.html?period=t12m" class="first-child">Trailing 12M</a><a href="/fundamental/financials.html?period=fy">Full Year</a><a href="/fundamental/financials.html?period=quarter">Quarterly</a></div>
+              </li>
+              <li>
+                <a href="/fundamental/insider_trades.html">
+                  <span class="url">Insider Trades</span>
+                  <div class="description">Compilation of transactions made by substantial shareholders and directors. Track the movement by insiders to determine their confidence level of earnings going forward.</div>
+                </a>
+                <div class="subNav"><a href="/fundamental/insider_trades.html" class="first-child">Latest</a><a href="/fundamental/insider_trades.html#/?type=insider_significant_sales">Sales</a><a href="/fundamental/insider_trades.html#/?type=insider_significant_purchases">Purchases</a></div>
+              </li>
+              <li>
+                <a href="/fundamental/company_buyback.html">
+                  <span class="url">Company Buyback</span>
+                  <div class="description">Companies doing share buyback are usually an indication that the company's management thinks the shares are undervalued. Analyse the recent share buybacks here.</div>
+                </a>
+                <div class="subNav"><a href="/fundamental/company_buyback.html#/?type=buyback_overview" class="first-child">Overview</a><a href="/fundamental/company_buyback.html#/?type=buyback_latest">Latest</a><a href="/fundamental/company_buyback.html#/?type=buyback_for_counter">By Company</a></div>
+              </li>
+              <li>
+                <a href="/fundamental/events_calendar.html">
+                  <span class="url">Events Calendar</span>
+                  <div class="description">Compilation of Corporate Actions like Dividend, Rights and Bonus Issues and Financial Result release dates. Keep abreast of stock events for the day and react accordingly to different events.</div>
+                </a>
+                <div class="subNav"><a href="/fundamental/events_calendar.html#/?type=events_upcoming" class="first-child">Upcoming</a><a href="/fundamental/events_calendar.html#/?type=events_exdates">Ex-Dates</a><a href="/fundamental/events_calendar.html#/?type=events_results">Results Release</a></div>
+              </li>
+              <li>
+                <a href="/fundamental/dividend_analysis.html">
+                  <span class="url">Dividend Analysis</span>
+                  <div class="description">Research the best high yield stocks by analysing the dividend history of each company and gain new insights into the dividend trend using our financial charts.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="/fundamental/annual_reports.html">
+                  <span class="url">Annual Reports</span>
+                  <div class="description">Browse through our complete catalog of Annual Reports for listed companies</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="/fundamental/stocks_comparison.html">
+                  <span class="url">Stocks Comparison</span>
+                  <div class="description">Do a comparison of different stocks to find out which one is better. Compare the fundamentals and financials of different stocks.</div>
+                </a>
+                <div class="subNav"><a href="/fundamental/stocks_comparison.html#/?type=compare_stocks" class="first-child">Compare Stocks</a><a href="/fundamental/stocks_comparison.html#/?type=compare_warrants">Compare Warrants</a></div>
+              </li>
+              <li>
+                <a href="/fundamental/consensus_estimates.html#/?type=estimates_for_counter">
+                  <span class="url">Consensus Estimates</span>
+                  <div class="description">Find out what analysts are calling on the forward earnings of a company in our comprehensive Consensus Estimates coverage.</div>
+                </a>
+                <div class="subNav"><a href="/fundamental/consensus_estimates.html#/?type=estimates_overview" class="first-child">Overview</a><a href="/fundamental/consensus_estimates.html#/?type=estimates_for_counter">By Company</a><a href="/fundamental/consensus_estimates.html#/?type=crowdsource_estimates">Crowdsource</a></div>
+              </li>
+          </ul>
+      </li>
+      <li class="">
+        <a href="/screener.html">Screener</a>
+          <ul>
+              <li>
+                <a href="/screener/market_screener.html">
+                  <span class="url">Market Screener (FA &amp; TA)</span>
+                  <div class="description">Use our cloud-based market screener to filter out stock investing choices using a combination of FA and TA criteria. When you know what you're looking for, our market screener will cut your research time from hours to seconds.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="/screener/predefined_ta_screens.html">
+                  <span class="url">Predefined TA Screens</span>
+                  <div class="description">Kick off your investment by screening out counters that fit various TA indicator patterns. Saves time compared to viewing individual charts manually to spot trends.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+          </ul>
+      </li>
+      <li class="sic_charts">
+        <a href="/charts/interactive.html">Charts</a>
+          <ul>
+              <li>
+                <a href="/charts/interactive.html">
+                  <span class="url">Interactive Charts</span>
+                  <div class="description">Customisable Stock charts with common Technical Analysis tools to spot price trends. Select, click and plot, it's that simple to plot a chart.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="/charts/historical.html">
+                  <span class="url">Historical Charts</span>
+                  <div class="description">Historical stock charts showing common Technical Analysis trend lines.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="/charts/volume_distribution.html">
+                  <span class="url">Volume Distribution</span>
+                  <div class="description">A chart summarising the Buy Up and Sell Down trades made by different categories of investors. It shows the sentiment of a stock over a period.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="/charts/tick.html">
+                  <span class="url">Tick Charts</span>
+                  <div class="description">Flexible charting module for quick Technical Analysis, allowing you to draw your own trend lines and customise your indicators.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="/prices/historical_price.html#/?type=historical_price_seasonality_chart">
+                  <span class="url">Seasonality Charts</span>
+                  <div class="description">Check whether certain stocks perform better during different months of the year.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+          </ul>
+      </li>
+      <li class="sic_forum">
+        <a href="http://forum.shareinvestor.com/forum/">Community</a>
+          <ul>
+              <li>
+                <a href="http://forum.shareinvestor.com/forum/">
+                  <span class="url">ShareInvestor Forum</span>
+                  <div class="description">Exclusive to ShareInvestor subscribers, participate in our popular discussion forum to freely share comments and information pertaining to investing, trading or anything under the sun.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="http://blog.shareinvestor.com/">
+                  <span class="url">ShareInvestor Educational Series</span>
+                  <div class="description">Get educated on the various financial jargons and features in ShareInvestor through our blog.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="http://www.investingnote.com/" target="_blank">
+                  <span class="url">InvestingNote - Social Network</span>
+                  <div class="description">Join the social media network designed for investors to connect with one another. Follow the experts and share your views and trading ideas. It's free for everyone.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+          </ul>
+      </li>
+      <li class="sic_ipo">
+        <a href="/ipo/index.html">IPO</a>
+      </li>
+      <li class="sic_news">
+        <a href="/news/index.html">News</a>
+          <ul>
+              <li>
+                <a href="/news/index.html#/?type=regional_news_all">
+                  <span class="url">Regional News</span>
+                  <div class="description">Easily find out the latest news affecting regional markets from our consolidated news feed which aggregrates multiple news sources into a single channel.</div>
+                </a>
+                <div class="subNav"><a href="/news/index.html#/?type=regional_si_express" class="first-child">SI Express</a>
+                  <a href="/news/index.html#/?type=regional_exchange_news">Exchange News</a>
+                  <a href="/news/index.html#/?type=regional_sph&page=1">Business Times / Straits Times</a>
+                  <a href="/news/index.html#/?type=regional_dj&page=1">Dow Jones Newswires</a>
+                  <a href="/news/index.html#/?type=regional_acnnewswire">ACN Newswire</a></div>
+              </li>
+              <li>
+                <a href="/news/index.html#/?type=sg_news_all">
+                  <span class="url">Singapore News</span>
+                  <div class="description">We bring you the latest market moving news concerning the Singapore financial markets in one place.</div>
+                </a>
+                <div class="subNav"><a href="/news/index.html#/?type=sg_si_express&page=1" class="first-child">SI Express</a>
+                   <a href="/news/index.html#/?type=sg_sgxnet&page=1">SGXNet</a>
+                   <a href="/news/index.html#/?type=sg_sph&page=1">Business Times / Straits Times</a>
+                   <a href="/news/index.html#/?type=sg_dj&page=1">Dow Jones Newswires</a>
+                   <a href="/news/index.html#/?type=sg_trading_central&page=1">Trading Central</a></div>
+              </li>
+              <li>
+                <a href="/news/index.html#/?type=my_news_all">
+                  <span class="url">Malaysia News</span>
+                  <div class="description">Check out the latest happenings on the Malaysia financial markets from our consolidated news sources.</div>
+                </a>
+                <div class="subNav"><a href="/news/index.html#/?type=my_si_express&page=1" class="first-child">SI Express</a>
+                   <a href="/news/index.html#/?type=my_bursa_link&page=1">Bursa Link</a>
+                   <a href="/news/index.html#/?type=my_sph&page=1">Business Times / Straits Times</a>
+                   <a href="/news/index.html#/?type=my_dj&page=1">Dow Jones Newswires</a>
+                   <a href="/news/index.html#/?type=my_trading_central&page=1">Trading Central</a></div>
+              </li>
+              <li>
+                <a href="/news/trading_central.html">
+                  <span class="url">Trading Central Research</span>
+                  <div class="description">Technical trend reports and trading alerts from Trading Central covering Singapore and Malaysia stocks.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+          </ul>
+      </li>
+      <li class="sic_mutual_funds">
+        <a href="/mutualfundspicks.html">Mutual Funds</a>
+      </li>
+      <li class="sic_events">
+        <a href="/events/all_events.html">Events</a>
+          <ul>
+              <li>
+                <a href="/sg/events/all_events.html">
+                  <span class="url">Singapore Events</span>
+                  <div class="description">ShareInvestor organizes Exhibitions, Conferences & Seminars as we invite renowned speakers to educate our members and share the latest information about the stock market to all the Investing Enthusiast who visits our website.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+              <li>
+                <a href="/events/shareinvestor_academy.html">
+                  <span class="url">ShareInvestor Academy</span>
+                  <div class="description">ShareInvestor Academy provides you with a wide variety of courses for your investment needs. The topics covered include fundamental and technical analysis, trading strategies, financial planning and so on.</div>
+                </a>
+                <div class="subNav"></div>
+              </li>
+          </ul>
+      </li>
+  </ul>
+</div>
+
+      <div id='sic_sideBar' class="sic_expanded { selected_market_suffix: 'SI'}">
+    <h3 class='sic_toggle'>Price Highlight</h3>
+  <div id='sic_indexHighlight' class='si_fixed'>
+  <h4>Index Highlight</h4>
+  <img src="//chart.shareinvestor.com/charts_cached/charts.pl?id=STI.SI&amp;type=si_index_mini" alt='Chart' id='sic_indexChart' width="220" height="105" />
+  <div id='sic_currentIndex'>
+    <h5 id='sic_currentIndex_title' title='Straits Times Index'>STI</h5>
+    <div id='sic_currentIndex_lastDone' class='lastDone'>2,898.3</div>
+    <div id='sic_currentIndex_change' class='change up'><span id='sic_currentIndex_changeValue'>12.5</span> <span id='sic_currentIndex_percentageChange' class='percentageChange'>(0.43%)</span></div>
+    <p id='sic_currentIndex_delay'>&nbsp;</p>
+  </div>
+  <ul id='sic_indexList'>
+    <li class='odd selected'>
+      <h5 title='Straits Times Index'><span class='abbr'><abbr title='Straits Times Index'>STI</abbr></span> <span class='fullName'>Straits Times Index</span></h5>
+      <div id='sic_STI_lastDone' class='lastDone'>2,898.3</div>
+      <div id='sic_STI_change' class='change up'><span id='sic_STI_changeValue'>12.5</span> <span id='sic_STI_percentageChange' class='percentageChange'>(0.43%)</span></div>
+      <div id="sic_STI_delay" class='sic_delay'>&nbsp;</div>
+    </li>
+    <li class='even '>
+      <h5 title='FTSE Bursa Malaysia KLCI'><span class='abbr'><abbr title='FTSE Bursa Malaysia KLCI'>KLCI</abbr></span> <span class='fullName'>FTSE Bursa Malaysia KLCI</span></h5>
+      <div id='sic_KLCI_lastDone' class='lastDone'>1,630.3</div>
+      <div id='sic_KLCI_change' class='change up'><span id='sic_KLCI_changeValue'>10.6</span> <span id='sic_KLCI_percentageChange' class='percentageChange'>(0.66%)</span></div>
+      <div id="sic_KLCI_delay" class='sic_delay'>Index delayed 15 minutes</div>
+    </li>
+    <!-- <li class='odd <= "selected" if var[:selected_index][:index] == :hscei %>'>
+      <h5 title='Hang Seng China Enterprise'><span class='abbr'><abbr title='Hang Seng China Enterprise'>HSCE</abbr></span> <span class='fullName'>Hang Seng China Enterprise</span></h5>
+      <div id='sic_HSCEI_lastDone' class='lastDone'><= var[:indices][:hscei][:last_done_price] %></div>
+      <div id='sic_HSCEI_change' class='change<= var[:indices][:hscei][:css_class_change] %>'><span id='sic_HSCEI_changeValue'><= var[:indices][:hscei][:change] %></span> <span id='sic_HSCEI_percentageChange' class='percentageChange'><= var[:indices][:hscei][:percent_change] %></span></div>
+      <div id="sic_HSCEI_delay" class='sic_delay'>Index delayed 15 minutes</div>
+    </li> -->
+    <li class='odd '>
+      <h5 title='Hang Seng Index'><span class='abbr'><abbr title='Hang Seng Index'>HSI</abbr></span> <span class='fullName'>Hang Seng Index</span></h5>
+      <div id='sic_HSI_lastDone' class='lastDone'>21,754.7</div>
+      <div id='sic_HSI_change' class='change up'><span id='sic_HSI_changeValue'>180.0</span> <span id='sic_HSI_percentageChange' class='percentageChange'>(0.83%)</span></div>
+      <div id="sic_HSI_delay" class='sic_delay'>Index delayed 15 minutes</div>
+    </li>
+    <li class='even '>
+      <h5 title='SSE Composite Index'><span class='abbr'><abbr title='SSE Composite Index'>SSE</abbr></span> <span class='fullName'>SSE Composite Index</span></h5>
+      <div id='sic_SSE_lastDone' class='lastDone'>3,102.2</div>
+      <div id='sic_SSE_change' class='change down'><span id='sic_SSE_changeValue'>-12.4</span> <span id='sic_SSE_percentageChange' class='percentageChange'>(-0.40%)</span></div>
+      <div id="sic_SSE_delay" class='sic_delay'>Index delayed 15 minutes</div>
+    </li>
+    <li class='odd '>
+      <h5 title='Nikkei 225'><span class='abbr'><abbr title='Nikkei 225'>N225</abbr></span> <span class='fullName'>Nikkei 225</span></h5>
+      <div id='sic_N225_lastDone' class='lastDone'>19,401.7</div>
+      <div id='sic_N225_change' class='change down'><span id='sic_N225_changeValue'>-1.3</span> <span id='sic_N225_percentageChange' class='percentageChange'>(-0.01%)</span></div>
+      <div id="sic_N225_delay" class='sic_delay'>Index delayed 20 minutes</div>
+    </li>
+    <li class='even '>
+      <h5 title='Jakarta Composite Index'><span class='abbr'><abbr title='Jakarta Composite Index'>JCI</abbr></span> <span class='fullName'>Jakarta Composite Index</span></h5>
+      <div id='sic_JCI_lastDone' class='lastDone'>5,209.4</div>
+      <div id='sic_JCI_change' class='change up'><span id='sic_JCI_changeValue'>106.5</span> <span id='sic_JCI_percentageChange' class='percentageChange'>(2.09%)</span></div>
+      <div id="sic_JCI_delay" class='sic_delay'>Index delayed 10 minutes</div>
+    </li>
+    <li class='odd '>
+      <h5 title='KOSPI'><span class='abbr'><abbr title='KOSPI'>KOR</abbr></span> <span class='fullName'>KOSPI</span></h5>
+      <div id='sic_KOSPI_lastDone' class='lastDone'>2,024.5</div>
+      <div id='sic_KOSPI_change' class='change down'><span id='sic_KOSPI_changeValue'>-17.7</span> <span id='sic_KOSPI_percentageChange' class='percentageChange'>(-0.87%)</span></div>
+      <div id="sic_KOSPI_delay" class='sic_delay'>Index delayed 20 minutes</div>
+    </li>
+    <li class='even '>
+      <h5 title='XAO'><span class='abbr'><abbr title='XAO'>XAO</abbr></span> <span class='fullName'>XAO</span></h5>
+      <div id='sic_XAO_lastDone' class='lastDone'>5,732.4</div>
+      <div id='sic_XAO_change' class='change up'><span id='sic_XAO_changeValue'>57.3</span> <span id='sic_XAO_percentageChange' class='percentageChange'>(1.01%)</span></div>
+      <div id="sic_XAO_delay" class='sic_delay'>&nbsp;</div>
+    </li>
+    
+  </ul>
+</div>
+
+  <div class='sic_toggleBody'>
+    <div id="sic_sidebarMarketList" class="selectMarket">
+  <h3>SGX Market</h3>
+  <div>
+      <h3 class="sic_marketListItem {market: 'bursa'}">Bursa Market</h3>
+      <h3 class="sic_marketListItem {market: 'hkex'}">HKEx Market</h3>
+      <h3 class="sic_marketListItem {market: 'set'}">SET Market</h3>
+      <h3 class="sic_marketListItem {market: 'idx'}">IDX Market</h3>
+      <h3 class="sic_marketListItem {market: 'asx'}">ASX Market</h3>
+      <h3 class="sic_marketListItem {market: 'nyse'}">NYSE Market</h3>
+      <h3 class="sic_marketListItem {market: 'nasdaq'}">NASDAQ Market</h3>
+      <h3 class="sic_marketListItem {market: 'nyse_mkt'}">NYSE Mkts Market</h3>
+  </div>
+</div>
+<div id='sic_marketSummary' class='si_fixed'>
+  <ul>
+    <li><strong title='Volume'>Volume: </strong><span>868.2M</span></li>
+      <li><strong title='Value'>Value: </strong><span>516.5M</span></li>
+  </ul>
+  <ul>
+    <li><strong title='Rise'>Rise: </strong><span>226</span></li>
+    <li><strong title='Fall'>Fall: </strong><span>123</span></li>
+    <li><strong title='Unchanged'>Unch: </strong><span>542</span></li>
+  </ul>
+</div>
+
+<div class="divider"></div>
+
+
+    <!-- Intraday Market Ticker -->
+    <div id='sic_intradayMarketTicker'>
+      <h4>
+	      <span class="si_floatLeft">Intraday Market Ticker</span>
+		      <a href="/help/lightbox-desc_help_intraday_market_ticker_si.html" id="sic_linkToHelp_small" title="Help" target="_blank" rel="facebox">Help</a>
+      </h4>
+      <table cellspacing='0' id='sb_intradayMarketTicker_table'>
+        <caption>
+          Intraday Market Ticker
+        </caption>
+        <thead>
+          <tr class='tableTopRow'>
+            <th scope='col' class='selected asc'>Time</th>
+            <th scope='col'>Name</th>
+            <th scope='col'>Type</th>
+            <th scope='col'>Price</th>
+            <th scope='col'><abbr title='Volume'>Vol</abbr></th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      <ul style="display:none" class="sic_toolBar si_fixed">
+        <li class="sic_text">Page: <strong id="sic_cur_page">1</strong><span class="sic_page_num_seperator">/</span><span id="sic_total_page">1</span></li>
+        <li title="Previous Page" class="sic_previous disabled">Previous Page</li>
+        <li title="Next Page" class="sic_next">Next Page</li>
+      </ul>
+    </div>
+
+    <div class="divider si_clearBoth"></div>
+
+    <!-- End of Intraday Market Ticker -->
+
+    <div id='sic_topCounters'>
+  <ul class='sic_multipleHeaders si_fixed'>
+    <li class='sic_topCounterTab sic_topActive selected'>
+      <h4>Top Active</h4>
+    </li>
+    <!-- Display the Top Gainer and Top Loser only when selected market is SGX or Bursa -->
+    <!-- < if market_suffix == 'SI' || market_suffix == 'MY' %> -->
+    <li class='sic_topCounterTab sic_topGainer'>
+      <h4>Top Gainer</h4>
+    </li>
+    <li class='sic_topCounterTab sic_topLoser'>
+      <h4>Top Loser</h4>
+    </li>
+    <!-- < end %> -->
+  </ul>
+  <table cellspacing='0' id='sb_topCounters'>
+    <caption>Top Counters</caption>
+    <col />
+    <col width='25%' />
+    <col width='18%' />
+    <thead>
+      <tr class='tableTopRow'>
+        <th scope='col'>Name</th>
+        <th scope='col'>Last</th>
+        <th scope='col'>Change</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr id="sb_topCounters_0">
+          <td><span class="sic_cell" style="width: 90px; overflow: hidden; display: block;"><a href="/fundamental/factsheet.html?counter=N21.SI">Noble</a></span></td><td>0.169</td><td class=" up">+0.007</td>
+        </tr>
+        <tr id="sb_topCounters_1">
+          <td><span class="sic_cell" style="width: 90px; overflow: hidden; display: block;"><a href="/fundamental/factsheet.html?counter=5DN.SI">Ezra</a></span></td><td>0.050</td><td class=" up">+0.001</td>
+        </tr>
+        <tr id="sb_topCounters_2">
+          <td><span class="sic_cell" style="width: 90px; overflow: hidden; display: block;"><a href="/fundamental/factsheet.html?counter=532.SI">Equation</a></span></td><td>0.010</td><td class="unchanged">-</td>
+        </tr>
+        <tr id="sb_topCounters_3">
+          <td><span class="sic_cell" style="width: 90px; overflow: hidden; display: block;"><a href="/fundamental/factsheet.html?counter=AAJ.SI">SunMoonFood</a></span></td><td>0.093</td><td class=" up">+0.005</td>
+        </tr>
+        <tr id="sb_topCounters_4">
+          <td><span class="sic_cell" style="width: 90px; overflow: hidden; display: block;"><a href="/fundamental/factsheet.html?counter=5NG.SI">Healthway Med</a></span></td><td>0.034</td><td class=" up">+0.002</td>
+        </tr>
+        <tr id="sb_topCounters_5">
+          <td><span class="sic_cell" style="width: 90px; overflow: hidden; display: block;"><a href="/fundamental/factsheet.html?counter=5ME.SI">Ezion</a></span></td><td>0.395</td><td class=" up">+0.015</td>
+        </tr>
+        <tr id="sb_topCounters_6">
+          <td><span class="sic_cell" style="width: 90px; overflow: hidden; display: block;"><a href="/fundamental/factsheet.html?counter=AFC.SI">Yuuzoo</a></span></td><td>0.148</td><td class=" down">-0.002</td>
+        </tr>
+        <tr id="sb_topCounters_7">
+          <td><span class="sic_cell" style="width: 90px; overflow: hidden; display: block;"><a href="/fundamental/factsheet.html?counter=5I0.SI">QT Vascular</a></span></td><td>0.080</td><td class=" up">+0.002</td>
+        </tr>
+        <tr id="sb_topCounters_8">
+          <td><span class="sic_cell" style="width: 90px; overflow: hidden; display: block;"><a href="/fundamental/factsheet.html?counter=SK3.SI">KrisEnergy</a></span></td><td>0.182</td><td class=" up">+0.002</td>
+        </tr>
+        <tr id="sb_topCounters_9">
+          <td><span class="sic_cell" style="width: 90px; overflow: hidden; display: block;"><a href="/fundamental/factsheet.html?counter=40E.SI">Spackman</a></span></td><td>0.192</td><td class="unchanged">-</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+
+    <div id='sic_worldIndices'>
+  <h3>World Indices</h3>
+  <table cellspacing='0'>
+    <caption>
+      World Indices
+    </caption>
+    <col />
+    <col width='25%' />
+    <col width='18%' />
+    <thead>
+      <tr class='tableTopRow'>
+        <th scope='col'>Name</th>
+        <th scope='col'>Last</th>
+        <th scope='col'>Change</th>
+      </tr>
+    </thead>
+    <tbody>      <tr id='DJI' class='row1 first'>
+        <th scope='row'>DJIA</th>
+        <td>19,945.0</td>
+        <td class='up'>+11.2</td>
+      </tr>      <tr id='IXIC' class='row2'>
+        <th scope='row'>Nasdaq</th>
+        <td>5,487.4</td>
+        <td class='up'>+24.8</td>
+      </tr>      <tr id='INX' class='row1'>
+        <th scope='row'>S&amp;P 500</th>
+        <td>2,268.9</td>
+        <td class='up'>+5.1</td>
+      </tr>      <tr id='XAO' class='row2'>
+        <th scope='row'>A Ord</th>
+        <td>5,732.4</td>
+        <td class='up'>+57.3</td>
+      </tr>      <tr id='HSI' class='row2'>
+        <th scope='row'>HSI</th>
+        <td>21,754.7</td>
+        <td class='up'>+180.0</td>
+      </tr>      <tr id='HSCEI' class='row1'>
+        <th scope='row'>HSCEI</th>
+        <td>9,300.6</td>
+        <td class='up'>+118.9</td>
+      </tr>      <tr id='COMPOSITE' class='row2'>
+        <th scope='row'>Jakarta</th>
+        <td>5,209.4</td>
+        <td class='up'>+106.5</td>
+      </tr>      <tr id='N225' class='row1'>
+        <th scope='row'>Nikkei 225</th>
+        <td>19,401.7</td>
+        <td class='down'>-1.3</td>
+      </tr>      <tr id='000001' class='row2'>
+        <th scope='row'>SSE Comp</th>
+        <td>3,102.2</td>
+        <td class='down'>-12.4</td>
+      </tr>      <tr id='000002' class='row1'>
+        <th scope='row'>Shanghai A</th>
+        <td>3,248.1</td>
+        <td class='down'>-13.0</td>
+      </tr>      <tr id='000003' class='row2'>
+        <th scope='row'>Shanghai B</th>
+        <td>341.1</td>
+        <td class='down'>-2.6</td>
+      </tr>      <tr id='399107' class='row1'>
+        <th scope='row'>ShenZhen A</th>
+        <td>2,063.3</td>
+        <td class='down'>-7.8</td>
+      </tr>      <tr id='399108' class='row2'>
+        <th scope='row'>ShenZhen B</th>
+        <td>1,123.8</td>
+        <td class='up'>+0.3</td>
+      </tr>      <tr id='TAIEX' class='row1'>
+        <th scope='row'>Taiwan W</th>
+        <td>9,201.4</td>
+        <td class='up'>+92.1</td>
+      </tr>      <tr id='PSI' class='row2'>
+        <th scope='row'>PSE Comp</th>
+        <td>0.0</td>
+        <td class='unch'></td>
+      </tr>      <tr id='KOSPI' class='row1'>
+        <th scope='row'>KOSPI</th>
+        <td>2,024.5</td>
+        <td class='down'>-17.7</td>
+      </tr>      <tr id='FTSE' class='row2'>
+        <th scope='row'>FTSE 250</th>
+        <td>17,891.6</td>
+        <td class='up'>+146.2</td>
+      </tr>    </tbody>
+  </table>
+  <p class="sic_footNote">Asian Indices delayed. US Indices updated twice daily at 7:30am and 7:30pm.</p>
+</div>
+
+
+  </div>
+
+  <!-- Space for Ad after World Indices -->
+  <div class="sic_sidebarAd">
+    <div>
+  <!-- start AdSpace Share-Investor 236x381 Homepage Sidebar Ad -->
+  <div id='div-gpt-ad-SISG_Homepage-236x381'>
+    <script type='text/javascript'>
+    	googletag.display('div-gpt-ad-SISG_Homepage-236x381');
+    </script>
+  </div>
+  <!-- end AdSpace Share-Investor 236x381 -->
+</div>
+  </div>
+  <!-- End of Space for Ad after World Indices -->
+
+
+  <!-- Outbrain Widget -->
+  <!--< if @page_config && @page_config[:page_id] == 'home_main' %>
+    < if @country == 'sg' %>
+      <div class="OUTBRAIN" data-src="http://www.shareinvestor.com/fundamental/factsheet.html?counter=TY6U.SI" data-widget-id="AR_1" data-ob-template="ShareInvestor" style="position: absolute; bottom: -680px;"></div>
+      <script type="text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script>
+      <div class="fb-like-box" data-href="https://www.facebook.com/ShareInvestorSG" data-width="236" data-height="400" data-show-faces="true" data-show-border="false" data-stream="false" data-header="false" style="border: 1px solid #bababa; bottom: -1070px; background: #fff;"></div>
+    < else %>
+      <div class="fb-like-box" data-href="https://www.facebook.com/ShareinvestorMalaysia" data-width="236" data-height="400" data-show-faces="true" data-show-border="false" data-stream="false" data-header="false" style="border: 1px solid #bababa;"></div>
+    < end %>
+  < end %>-->
+
+</div>
+
+
+        <div class="sic_superBanner sic_superBannerTop">
+          <div class="sic_inner1">
+            <div class="sic_inner2" id="sic_superBannerAdTop"><div id='div-gpt-ad-SISG_Fundamental-728x90'>
+<script type='text/javascript'>
+googletag.display('div-gpt-ad-SISG_Fundamental-728x90');
+</script>
+</div></div>
+          </div>
+        </div>
+      <div id="sic_content" class="sic_collapsed">
+        <div id="sic_contentContainer" class="forex">
+          <h1>Page Not Found (Error Code: 404)</h1>
+
+<p>
+  Sorry, we couldn't find a page with that link, maybe you'd like to try one of the links above instead?
+</p>
+
+        </div>
+      </div>
+
+      <div id="sic_footer" class="si_fixed">
+        <div class="sic_logo">ShareInvestor - A Subsidiary of SPH</div>
+        <div id="sic_vendor">
+          <!-- Designed by <a href="http://www.infinitesparks.com" target="_blank" title="Web Design Singapore">InfiniteSparks</a> -->
+          <div id="sic_companyDirectory">
+  <div id="sic_companyDirectoryAnchor"><div>Directory</div></div>
+  <div id="sic_companyDirectoryPopup">
+    <div id="sic_siGroup">
+      <a href="//www.shareinvestorholdings.com" target="_blank" title="ShareInvestor Group">ShareInvestorHoldings.com</a>
+      SHAREINVESTOR
+    </div>
+    <ul id="si_countryLinks">
+      <li class="si_singapore">
+        <ul class="sic_links">
+          <li><h5>SINGAPORE</h5></li>
+          <li class="sic_lccom"><a href="//www.listedcompany.com/" target="_blank">ListedCompany.com</a></li>
+          <li class="sic_sicom"><a href="//www.shareinvestor.com/" target="_blank">ShareInvestor.com</a></li>
+          <li class="sic_iscom"><a href="//www.infinitesparks.com/" target="_blank">InfiniteSparks.com</a></li>
+          <li class="sic_ifcom"><a href="//sg.invest-fair.com/" target="_blank">InvestFAIR Singapore</a></li>
+        </ul>
+      </li>
+      <li class="si_malaysia">
+        <ul class="sic_links">
+          <li><h5>Malaysia</h5></li>
+          <li class="sic_sicommy"><a href="//www.shareinvestor.com.my/" target="_blank">ShareInvestor.com.my</a></li>
+          <li class="sic_mplccom"><a href="//www.malaysiaplc.com/">MalaysiaPLC.com</a></li>
+          <li class="sic_bursastationcom"><a href="//www.bursastation.com/" target="_blank">BursaStation</a></li>
+          <li class="sic_iscom"><a href="//www.infinitesparks.com/" target="_blank">InfiniteSparks.com</a></li>
+          <li class="sic_iecom"><a href="//my.invest-fair.com/" target="_blank">InvestFAIR Malaysia</a></li>
+        </ul>
+      </li>
+      <li class="si_thailand">
+        <ul class="sic_links">
+          <li><h5>Thailand</h5></li>
+          <li class="sic_thailccom"><a href="//www.thailistedcompany.com/" target="_blank">ThaiListedCompany.com</a></li>
+          <li class="sic_iscom"><a href="//www.infinitesparks.com/" target="_blank">InfiniteSparks.com</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+          <div id="sic_advertisewithus"><div id="sic_advertisewithusAnchor"><div style="cursor: pointer;" onclick="window.location='/support/index.html#/?type=contact';">Advertise with us</div></div></div>
+          <p>Designed by <a href="http://www.infinitesparks.com" target="_blank" title="Web Design Singapore">InfiniteSparks</a></p>
+        </div>
+        <div class="sic_statement"><strong>The Business Times / SPH Digital News. Copyright &copy; 2016 ShareInvestor Pte Ltd. All Rights Reserved.</strong><br />
+          Please read our <a href="/disclaimer.html">General Disclaimer &amp; Warning</a> carefully. Use of this Website constitutes acceptance of the <a href="/website_terms.html">Terms of Website Use</a>.<br />
+          For Members, please read our <a href="/membership_terms.html">Membership Terms and Conditions</a> carefully. <a href="http://www.shareinvestorholdings.com/pdpa-policy.html" target="_blank"> Data Protection Policy </a>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript">
+      Cookies.write("cookiecheck", 1, 1);
+      if (pushPage != undefined) {
+        pushPage.setData('token', '7bd7b3c2ec7c344346fe5eeb71dc1e52');
+        pushPage.setStreamingUsrMktAcs('bWFjZWViNzZlYjNmOTQ5MTU1N2M1YzEzZDhlNTMxNmRiYTU3NzkxMjcxYmQ5NmM0MjNmMDI0ZTU0MTRiZTk4MTYzOT6Lp-GqpZ7k0DqtwPTLmlGAHuLPAeMqerMO952AnrCl');
+        pushPage.engine.connection.setStreamingServerHost('vwcs3.shareinvestor.com');
+        pushPage.setStreamingMode({"sgx": "false", "bursa": "false"});
+        pushPage.engine.connection.setTransportMethod('iframe');
+      }
+    </script>
+    
+    
+
+
+  </body>
+</html>

@@ -1,0 +1,4 @@
+#Code|Security|Period|Mkt|DPS cts|Ttl DPU cts|Ttl CPU Curency|Yield|EPS cts|PE|Div Breakdown
+S58|SATS|FY17 (Mar)|5.240|17.000|17.000|SGD|3.093%|23.20|24.37|Interim 6ct ; Final 11ct
+S59|SIA Engineering|FY17 (Mar)|3.930|18.000|18.000|SGD|4.154%|29.63|21.41|Interim 4ct ; Final 9ct + Special 5ct
+S63|ST Engineering|FY16 (Dec)|3.390|15.000|15.000|SGD|4.644%|15.60|18.94|Interim 5ct ; Final 10ct

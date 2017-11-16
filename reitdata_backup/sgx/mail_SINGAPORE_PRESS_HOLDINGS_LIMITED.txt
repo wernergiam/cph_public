@@ -1,0 +1,21 @@
+From: werner73test@gmail.com
+To: <tankangseng@gmail.com>
+Subject: Announcement SINGAPORE_PRESS_HOLDINGS_LIMITED 16_11_2017
+<pre>[
+  {
+    "key": "http://infopub.sgx.com/Apps?A=COW_CorpAnnouncement_Content&B=AnnouncementToday&F=L9Q2HFABDYK9LJIU&H=c5a0ef0544745f3fc140da9a735a8b4ed7a110ea239cac11f03cd8eedd87664a",
+    "Date": "16 Nov 2017",
+    "Time": "05:20:18 PM",
+    "IssuerName": "SINGAPORE PRESS HOLDINGS LIMITED",
+    "SecurityName": "SINGAPORE PRESS HLDGS LTD",
+    "GroupCode": "ANNC",
+    "CategoryCode": "ANNC06",
+    "CategoryName": "Asset Acquisitions and Disposals",
+    "AnnTitle": "Asset Acquisitions and Disposals::Announcement pursuant to Rule 704(17)(b) of the SGX Listing Manual",
+    "BroadcastDateTime": "11\/16\/2017 5:20:18 PM",
+    "Siblings": "1"
+  },
+  {
+    
+  }
+]</pre>

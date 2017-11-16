@@ -1,0 +1,34 @@
+From: werner73test@gmail.com
+To: <tankangseng@gmail.com>
+Subject: Announcement SINGAPORE_TELECOMMUNICATIONS_LIMITED 16_11_2017
+<pre>[
+  {
+    "key": "http://infopub.sgx.com/Apps?A=COW_CorpAnnouncement_Content&B=AnnouncementToday&F=9INNF35ZWWB43910&H=d479baca11989fccc37e6bbf475ae5333da8a8a94afadbd83984895fc78703cd",
+    "Date": "16 Nov 2017",
+    "Time": "05:09:06 PM",
+    "IssuerName": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+    "SecurityName": "SINGTEL",
+    "GroupCode": "CACT",
+    "CategoryCode": "CACT06",
+    "CategoryName": "Cash Dividend\/ Distribution",
+    "AnnTitle": "Cash Dividend\/ Distribution::Mandatory",
+    "BroadcastDateTime": "11\/16\/2017 5:09:06 PM",
+    "Siblings": "2"
+  },
+  {
+    "key": "http://infopub.sgx.com/Apps?A=COW_CorpAnnouncement_Content&B=AnnouncementToday&F=TLPDHTMF3YXTA1FX&H=3cabdbe5038bc81e40f12c5aab079df42a3a4f7ceaeffa63b0df4b2edab04d6c",
+    "Date": "16 Nov 2017",
+    "Time": "05:08:35 PM",
+    "IssuerName": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+    "SecurityName": "SINGTEL",
+    "GroupCode": "CACT",
+    "CategoryCode": "CACT06",
+    "CategoryName": "Cash Dividend\/ Distribution",
+    "AnnTitle": "Cash Dividend\/ Distribution::Mandatory",
+    "BroadcastDateTime": "11\/16\/2017 5:08:35 PM",
+    "Siblings": "2"
+  },
+  {
+    
+  }
+]</pre>

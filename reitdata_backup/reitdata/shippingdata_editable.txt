@@ -1,0 +1,2 @@
+#Code|REIT|Period|Mkt|DPU cts|Ttl DPU cts|Ttl CPU Curency|Yield|NAV|Gearing|Assets Type
+D8DU|FSL Trust|Q2 - Jun17|0.134|0.000|0.000|SGD|0.000%|$0.390|44.20%|Shipping Trust

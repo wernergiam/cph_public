@@ -1,0 +1,11 @@
+#Code|REIT|Period|Mkt|DPU cts|Ttl DPU cts|Ttl CPU Curency|Yield|NAV|Gearing|Assets Type
+A7RU|Kep Infra Tr|Q2 - Jun17|0.575|0.930|3.720|SGD|7.832%|$0.307|0.00%|Infrastructure
+CY6U|Ascendas-iTrust|Q1 - Jun17|1.160|1.310|5.240|SGD|5.282%|$0.810|0.00%|India - Industrial Park (7)
+BESU|Indiabulls Trust|2H - Mar17|0.255|0.000|0.064|SGD|0.250%|$1.273|0.00%|India - Office
+NS8U|HPH Trust USD|1H - Jun17|0.480|9.500|26.100|HKD|9.578%|HK$4.53|0.00%|Ports - HK (38%) + China (62%) by Revenue
+RF1U|RHT HealthTrust|2H - Jun17|0.895|2.370|4.740|SGD|8.045%|$0.845|0.00%|India - Healthcare (18)
+S6NU|Croesus Rtrust|2H - Jun17|1.195|4.060|8.060|SGD|8.503%|Y76.63|0.00%|Japan - Retail (11)
+S7OU|Asian Pay TV Tr|Q2 - Jun17|0.575|1.625|6.500|SGD|16.883%|$0.850|0.00%|Taiwan PayTV
+ADQU|Accordia Golf Tr|Q1 - Jun17|0.700|2.000|6.220|SGD|10.646%|$0.890|0.00%|Japan Golf Courses - 89
+CEDU|Dasin Retail Tr |1H - Jun17|0.825|3.010|6.020|SGD|8.500%|$1.490|0.00%|China - Retail
+CJLU|NetLink NBN Tr|FY18 - IPO|0.810|2.930|4.400|SGD|5.433%|$0.864|0.00%|Fibre Network Infrastructure

@@ -1,0 +1,2911 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema# schema: http://schema.org/">
+<!--<![endif]-->
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="fb:admins" content="100008016031098" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.businesstimes.com.sg/sites/all/themes/custom/businesstimes/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="articleid" content="150058" />
+<link rel="image_src" href="http://www.businesstimes.com.sg/sites/all/themes/custom/businesstimes/images/BTdefault800.png" />
+<meta name="description" content="THE BUSINESS TIMES - Find latest business &amp; financial news including analysis and opinion on top business stories, stock markets in Singapore, Asia-Pacific &amp; global market news and more at The Business Times." />
+<meta name="keywords" content="singapore budget 2015, singapore, budget 2015, business &amp; financial news" />
+<link rel="canonical" href="http://www.businesstimes.com.sg/" />
+<link rel="shortlink" href="http://www.businesstimes.com.sg/" />
+<meta property="fb:pages" content="288031731262011" />
+<meta property="fb:app_id" content="328386607332790" />
+<meta property="og:site_name" content="The Business Times" />
+<meta property="og:title" content="The Business Times" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.businesstimes.com.sg/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@BusinessTimes" />
+<meta name="twitter:url" content="http://www.businesstimes.com.sg/" />
+<meta name="twitter:title" content="The Business Times" />
+<meta name="twitter:app:id:iphone" content="531275824" />
+<meta name="twitter:app:id:ipad" content="531283825" />
+<meta name="twitter:app:id:googleplay" content="com.ps.bt" />
+<meta name="twitter:app:url:iphone" content="com.sph.bt://url=http://www.businesstimes.com.sg/home" />
+<meta name="twitter:app:url:ipad" content="com.sph.bt://url=http://www.businesstimes.com.sg/home" />
+<meta name="twitter:app:country" content="US" />
+<meta name="twitter:app:url:googleplay" content="com.sph.bt://url=http://www.businesstimes.com.sg/home" />
+  <title>THE BUSINESS TIMES - Get the Latest Business &amp; Financial News</title>
+  <!-- Apple Touch Icons -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="150x150" href="/apple-touch-icon-150x150.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+  
+  <!--Google+ Profile-->
+  <link rel="publisher" href="https://plus.google.com/+BusinessTimesSgBT"/>
+
+  
+  <!-- Windows 8 Tile Icons -->
+  <meta name="msapplication-square70x70logo" content="/smalltile.png" />
+  <meta name="msapplication-square150x150logo" content="/mediumtile.png" />
+  <meta name="msapplication-wide310x150logo" content="/widetile.png" />
+  <meta name="msapplication-square310x310logo" content="/largetile.png" />
+	
+  <link type="text/css" rel="stylesheet" href="http://www.businesstimes.com.sg/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.businesstimes.com.sg/sites/default/files/css/css_KCnBMOB69UhpkxgbF4-Rp1QuCC5ma-CSQSmvB1LjEUY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.businesstimes.com.sg/sites/default/files/css/css_eLSx47BYRfYnHlRnZk4T3q-vkEHCo2-S4VPyAwUiJgY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.businesstimes.com.sg/sites/default/files/css/css_f5Xf9XkbLqBNt9EZCLWXrpdgaDL2F4xXLO1XzNtx0Es.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.businesstimes.com.sg/sites/default/files/css/css_7CmIFKVGw-KTqlNjV3nd4J_6xw6Z7QJL0CokEK5Xwzg.css" media="all" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,700italic,400italic,300italic|Playfair+Display:400,700,700italic,400italic|PT+Sans:400,400i,700i|PT+Serif:400,400i,700,700i' rel='stylesheet' type='text/css'>
+  <!-- HTML5 element support for IE6-8 //-->
+  <!--[if lte IE 8]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script src="http://www.businesstimes.com.sg/sites/default/files/js/js_ZlbZCt9VIesFzM75iHKSbqRnsBoSHbjj0YQjK494mHI.js"></script>
+<script>var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+googletag.slots = googletag.slots || {};</script>
+<script src="http://www.googletagservices.com/tag/js/gpt.js"></script>
+<script src="http://www.businesstimes.com.sg/sites/default/files/js/js_rEbPjuAQEoiYmG4a5yzi-U2v_aueuyLZiOvf47eP2U8.js"></script>
+<script src="http://www.businesstimes.com.sg/sites/default/files/js/js_daViMaG629g8bPbOxDextYPgZNfJ-SER28tFom03m_Q.js"></script>
+<script>document.createElement( "picture" );</script>
+<script src="http://www.businesstimes.com.sg/sites/default/files/js/js_6aVcpbIu1Qv0hKx678NdgR7EpRDA1NhA78NsnKKWsUM.js"></script>
+<script>googletag.cmd.push(function() {
+  googletag.pubads().enableAsyncRendering();
+  googletag.pubads().enableSingleRequest();
+  googletag.pubads().collapseEmptyDivs();
+});
+
+googletag.enableServices();</script>
+<script src="/sites/all/themes/custom/businesstimes/js/ads_checker.js"></script>
+<script>var ad_blocker = 0; if(typeof ads_enabled == "undefined"){ ad_blocker = 1 }; var data4 = {"adblocker": ad_blocker};</script>
+<script>var data3 = {mc: "", np: ""};</script>
+<script>(function ($) {jQuery.ajax({type: "POST",url: "/ldap/details",dataType: "json",cache: true,async: false,beforeSend:function(){},success: function(data){ac = 2; visitorcat = 2;at = data.ldapw;if(at == "undefined" || typeof at === "undefined"){at = "";}},error: function(data){ac = ""; visitorcat = 1; at = ""}});})(jQuery);var data1 = {ac: ac, at: at, visitorcat: visitorcat};var data2 = {"title":"BT_Homepage","articleid":"","chapter1":"","chapter2":"","level2":1,"ac":"","contenttype":"","pagination":"1","author":"","visitorcat":1,"contentcat":1,"homepage":true,"dfp":{"section":"homepage","adunit":{"topspecial":null,"bottomspecial":null}},"data-widget-id-sb":"SB_1"};var _data = jQuery.extend( true, data1, data2, data3, data4);</script>
+<script src="http://ad.crwdcntrl.net/5/c=4342/pe=y/var=ccauds"></script>
+<script>if (typeof(ccauds) !== "undefined") { _data.lotameid = ccauds.Profile.pid; }</script>
+<script src="//nexus.ensighten.com/sph/businesstimesprod/Bootstrap.js"></script>
+<script src="http://www.businesstimes.com.sg/sites/default/files/js/js_cK3kKUQh-03HCcjKo0q_Hhncy2si93JFrpy3n1ZlyIA.js"></script>
+<script src="http://adtag.asiaone.com/tag/bt/js/bt_gpt_header.js"></script>
+<script src="http://adtag.asiaone.com/tag/bt/js/bt_tags.js"></script>
+<script src="http://www.businesstimes.com.sg/sites/default/files/js/js_kh37cVO70s_GnXOyScKjuLA_s4PyhyTZN3KDq3s9DTE.js"></script>
+<script src="http://www.businesstimes.com.sg/sites/default/files/js/js_oszk_XCDmHm8b2aQ6zsLaeKOkN7Loc50KdOKcpu1UL0.js"></script>
+<script><!-- Facebook Pixel Code -->
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1714621078759983');
+fbq('track', "PageView");
+<!-- End Facebook Pixel Code --></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"businesstimes","theme_token":"DnWzXrOfiPBKLQilG4ktYJJjkDK6pLda546eqa6-QBQ","js":{"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.js":1,"sites\/all\/modules\/contrib\/picture\/picture.js":1,"sites\/all\/libraries\/livraison\/lib\/others.min.js":1,"sites\/all\/libraries\/livraison\/lib\/main.min.js":1,"sites\/all\/themes\/contrib\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"0":1,"http:\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"1":1,"sites\/all\/modules\/contrib\/fb\/fb.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contrib\/panopoly_theme\/js\/panopoly-accordion.js":1,"2":1,"\/sites\/all\/themes\/custom\/businesstimes\/js\/ads_checker.js":1,"3":1,"4":1,"5":1,"http:\/\/ad.crwdcntrl.net\/5\/c=4342\/pe=y\/var=ccauds":1,"6":1,"\/\/nexus.ensighten.com\/sph\/businesstimesprod\/Bootstrap.js":1,"sites\/all\/libraries\/bootstrap\/js\/bootstrap.min.js":1,"sites\/all\/modules\/contrib\/scald\/modules\/providers\/scald_image\/scald_image.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"http:\/\/adtag.asiaone.com\/tag\/bt\/js\/bt_gpt_header.js":1,"http:\/\/adtag.asiaone.com\/tag\/bt\/js\/bt_tags.js":1,"sites\/all\/themes\/custom\/businesstimes\/js\/jquery.marquee.min.js":1,"sites\/all\/themes\/custom\/businesstimes\/js\/typekit.js":1,"sites\/all\/themes\/custom\/businesstimes\/js\/businesstimes.js":1,"7":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/contrib\/fb\/fb.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/iib\/css\/iib.css":1,"sites\/all\/modules\/contrib\/scald\/modules\/fields\/mee\/css\/editor-global.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/panopoly_theme\/css\/panopoly-featured.css":1,"sites\/all\/modules\/contrib\/panopoly_theme\/css\/panopoly-accordian.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/libraries\/bootstrap\/css\/bootstrap.min.css":1,"sites\/all\/libraries\/bootstrap\/css\/bootstrap-theme.min.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/linkedin\/linkedin_status\/linkedin_status.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/rate\/rate.css":1,"public:\/\/ctools\/css\/959647c36f5c1bd8854601fc63340ae4.css":1,"sites\/all\/themes\/custom\/businesstimes\/layouts\/businesstimes1200\/businesstimeswide.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/twocol_bricks\/twocol_bricks.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/twocol_stacked\/twocol_stacked.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/themes\/custom\/businesstimes\/css\/style.css":1}},"fb":{"client_id":"328386607332790","ajax_event_url":"http:\/\/www.businesstimes.com.sg\/fb\/ajax","fb_reloading":false,"status":"unknown"},"fb_app_328386607332790":{"namespace":null,"name":"The Business Times","client_id":"328386607332790","access_token":0,"scope":[],"client_auth_url":"https:\/\/www.facebook.com\/dialog\/oauth?client_id=328386607332790\u0026redirect_uri=http%3A\/\/www.businesstimes.com.sg\/home%3Fclient_id%3D328386607332790\u0026response_type=token"},"field_group":{"div":"homepage_featured_1"},"livraison":"sites\/all\/libraries\/livraison","bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+  <!--Visual Revenue Reader Response Tracking Script (v6) -->
+  
+  <!--Smart App Banner implementation -->
+  <script type="text/javascript">
+    if ( /(iPad).*AppleWebKit.*Mobile.*Safari/.test(navigator.userAgent) ) {
+      var headNode = document.getElementsByTagName("head")[0];
+      var sbNode = document.createElement('meta');
+      sbNode.name = 'apple-itunes-app';
+      sbNode.content = 'app-id=531283825';
+      headNode.appendChild(sbNode);
+    } else if ( /(iPhone|iPod).*AppleWebKit.*Mobile.*Safari/.test(navigator.userAgent) ) {
+      var headNode = document.getElementsByTagName("head")[0];
+      var sbNode = document.createElement('meta');
+      sbNode.name = 'apple-itunes-app';
+      sbNode.content = 'app-id=531275824';
+      headNode.appendChild(sbNode);
+    }
+  </script>
+  <script src="/sites/all/themes/custom/businesstimes/js/ads_checker.js"></script>
+
+  <!--End -->
+
+</head>
+<body class="html front not-logged-in no-sidebars page-home bt-wide role-anonymous-user" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+                    <!-- Top (Transitional Ad / Skyhigh etc) ads for homepage. -->
+        <script type="text/javascript" src="http://adtag.asiaone.com/tag/bt/js/gpt/bt_home_top.js"></script>
+                
+<!--##############################-->
+<header id="navbar" role="banner" class="master-header">
+<div class="container relative">
+
+  <div class="top-first visible-md visible-lg">
+    <div class="social">
+      <a href="https://www.facebook.com/thebusinesstimes" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/businesstimes" target="_blank" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/btlifestyle/" target="_blank" class="fa fa-instagram"></a>
+      <a href="https://www.linkedin.com/company/the-business-times" target="_blank" class="fa fa-linkedin"></a>
+      <a href="/rss-feeds" class="fa fa-rss"></a>
+    </div>
+    <time class="header-date">Tue, Apr 04, 2017</time>
+  </div>
+
+  <div class="top-next visible-md visible-lg ">
+    
+          <h1><a class="site-title" href="/" title="Home"><img src="/sites/all/themes/custom/businesstimes/images/logo-business-times72.png" width="607px"></a></h1>
+            <div class="clock">
+     <a href="http://pubads.g.doubleclick.net/gampad/clk?id=454371054&iu=/5908/project" target="_blank">
+       <div id="HP_audemarsPiguet" class="montre">
+         <!--[if lte IE 8]><img src="sites/all/libraries/livraison/assets/img/AP_RO_fallBack.jpg" alt="AudemarsPiguet" style="width:110px; height:90px;"/><![endif]-->
+         <noscript><img src="sites/all/libraries/livraison/assets/img/AP_RO_fallBack.jpg" alt="AudemarsPiguet" style="width:110px; height:90px;"/></noscript>
+       </div>
+     </a>
+    </div>
+      
+  </div>
+
+  <div id="login-info-new" class="text-center "></div>
+
+</div>
+<!--##############################-->
+<div class="new-nav-bar fixed-nav-bar container ">
+
+  <div class="row">
+
+    <div class="top-menu container">
+      <a href="#" class="hamburger-btn btn btn-primary">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <form class="search-form">
+        <div class="search-wrap">
+          <div class="search-form-fields">
+            <input id="keyword-search" placeholder="Search..." class="form-control" />
+            <button title="Search" type="Submit" class="form-search">»</button>
+          </div>
+          <a href="#" class="search-btn fa fa-search"></a>
+        </div>
+      </form>
+      <a href="/" class="bt-logo hidden-md hidden-lg"><b>BT</b></a>
+      <ul class="list-inline visible-md visible-lg">
+      <li class=""><span id="item1" class="menu-links nolink">All News</span></li><li class=""><span id="item2" class="menu-links nolink">Weekly</span></li><li class="visible-xs visible-sm"><a href="http://www.businesstimes.com.sg" target="">News Home</a></li><li class=""><a href="/breaking-news" target="">Breaking</a></li><li class=""><a href="/todays-paper" target="">Today's Paper</a></li><li class=""><a href="/opinion" target="">Opinion</a></li><li class=""><a href="/sme" target="">SME</a></li><li class=""><a href="/lifestyle" target="">Lifestyle</a></li><li class=""><a href="/infographics" target="">Infographics</a></li><li class=""><a href="/videos" target="">Videos</a></li><li class=""><a href="/focus" target="">Focus</a></li><li class="hidden-md hidden-lg blog_menu"><a href="/blogs" target="">Blogs</a></li><li class="hidden-md"><a href="/magazines" target="">Mags</a></li><li class="hidden-md"><a href="/hub" target="">Hub</a></li><li class=""><a href="http://epaper.businesstimes.com.sg" target="_blank">E-Paper</a></li>      </ul>
+    </div>
+
+    <div id="menu" class="hidden">
+
+      <div>
+        <div class="list-group row" id="MainMenu">
+
+          <div class="panel panel-main-1 col-md-8">
+
+            <a href="#menu1" class="list-group-item collapsed hidden-md hidden-lg" data-toggle="collapse" data-parent="#MainMenu">News<span class="menu-arrow-bottom"></span></a>
+            <div id="menu1" class="row">
+
+              <div id="SubMenu" class="col-md-3 main-list">
+                <a href="http://www.businesstimes.com.sg" target="" class="list-group-item visible-xs visible-sm">News Home</a><a href="/breaking-news" target="" class="list-group-item ">Breaking</a><a href="/todays-paper" target="" class="list-group-item ">Today's Paper</a><a href="/opinion" target="" class="list-group-item ">Opinion</a><a href="/sme" target="" class="list-group-item ">SME</a><a href="/lifestyle" target="" class="list-group-item ">Lifestyle</a><a href="/infographics" target="" class="list-group-item ">Infographics</a><a href="/videos" target="" class="list-group-item ">Videos</a><a href="/focus" target="" class="list-group-item ">Focus</a><a href="/blogs" target="" class="list-group-item hidden-md hidden-lg blog_menu">Blogs</a><a href="/magazines" target="" class="list-group-item hidden-md">Mags</a><a href="/hub" target="" class="list-group-item hidden-md">Hub</a><a href="http://epaper.businesstimes.com.sg" target="_blank" class="list-group-item ">E-Paper</a>              </div>
+
+              <div id="SubMenu" class="col-md-9">
+                <div class="list-group row" id="SubMenuNav">
+                  <div class="panel panel-news col-md-6">
+                    <a href="#SubMenu1" class="list-group-item collapsed" data-toggle="collapse" data-parent="#SubMenuNav">All News<span class="menu-arrow-bottom"></span></i></a>
+                    <div class="list-group-submenu" id="SubMenu1">
+                      <a href="/top-stories" target="" class="list-group-item ">Top Stories</a><a href="/companies-markets" target="" class="list-group-item ">Companies & Markets</a><a href="/stocks" target="" class="list-group-item ">Stocks</a><a href="/real-estate" target="" class="list-group-item ">Real Estate</a><a href="/banking-finance" target="" class="list-group-item ">Banking & Finance</a><a href="/energy-commodities" target="" class="list-group-item ">Energy & Commodities</a><a href="/technology" target="" class="list-group-item ">Technology</a><a href="/consumer" target="" class="list-group-item ">Consumer</a><a href="/transport" target="" class="list-group-item ">Transport</a><a href="/government-economy" target="" class="list-group-item ">Government & Economy</a><a href="/opinion" target="" class="list-group-item ">Opinion</a><a href="/life-culture" target="" class="list-group-item ">Life & Culture</a>                    </div>
+                  </div>
+
+                  <div class="panel panel-weekly col-md-6">
+                    <a href="#SubMenu2" class="list-group-item collapsed" data-toggle="collapse" data-parent="#SubMenuNav">Weekly<span class="menu-arrow-bottom"></span></i></a>
+                    <div class="list-group-submenu" id="SubMenu2">
+                      <a href="/views-from-the-top" target="" class="list-group-item ">Views From the Top</a><a href="/young-investors-forum" target="" class="list-group-item ">Young Investors' Forum</a><a href="/dining-out" target="" class="list-group-item ">Dining Out</a><a href="/sme" target="" class="list-group-item ">SME</a><a href="/executive-money" target="" class="list-group-item ">Executive Money</a><a href="/the-raffles-conversation" target="" class="list-group-item ">The Raffles Conversation</a><a href="/brunch" target="" class="list-group-item ">Brunch</a><a href="/investing-wealth" target="" class="list-group-item ">Investing & Wealth</a>                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="panel panel-main-2 col-md-3 col-md-push-1">
+
+            <a href="/lifestyle" class="list-group-item ls-label-color hidden-xs hidden-sm">Lifestyle<span class="menu-arrow-bottom"></span></a>
+            <a href="#menu2" class="list-group-item collapsed hidden-md hidden-lg" data-toggle="collapse" data-parent="#MainMenu">Lifestyle<span class="menu-arrow-bottom"></span></a>
+            <div id="menu2" class="row">
+
+              <div class="col-lg-5 col-md-6">
+                <a href="/lifestyle" target="" class="list-group-item visible-xs visible-sm">Lifestyle Home</a><a href="/lifestyle/food-drink" target="" class="list-group-item ">F&B</a><a href="/lifestyle/arts" target="" class="list-group-item ">Arts</a><a href="/lifestyle/movies" target="" class="list-group-item ">Movies</a><a href="/lifestyle/music" target="" class="list-group-item ">Music</a><a href="/lifestyle/design" target="" class="list-group-item ">Design</a><a href="/lifestyle/style" target="" class="list-group-item ">Style</a><a href="/lifestyle/travel" target="" class="list-group-item ">Travel</a><a href="/lifestyle/wellness" target="" class="list-group-item ">Wellness</a><a href="/lifestyle/cars" target="" class="list-group-item ">Cars</a><a href="/lifestyle/gadgets" target="" class="list-group-item ">Gadgets</a>              </div>
+              <div class="col-lg-7 col-md-6">
+                <a href="/lifestyle/feature" target="" class="list-group-item ">Feature</a><a href="/lifestyle/weekend-interview" target="" class="list-group-item ">Weekend Interview</a><a href="/lifestyle/city-buzz" target="" class="list-group-item ">City Buzz</a><a href="/lifestyle/reviews" target="" class="list-group-item ">Reviews</a><a href="/lifestyle/jaimeeats" target="" class="list-group-item ">JaimEEats</a><a href="/lifestyle/haunt" target="" class="list-group-item ">Haunt</a><a href="/lifestyle/nostalgia" target="" class="list-group-item ">Nostalgia</a>              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</header>
+<!--##############################-->
+<div class="main-container container ">
+      <header role="banner" id="page-header">
+    
+      <div class="region region-header">
+    <section id="block-block-28" class="block block-block header-leaderboard margin-top-10 margin-bottom-20 clearfix">
+
+      
+  <script type="text/javascript" src="http://adtag.asiaone.com/tag/bt/js/gpt/bt_home_lb.js"></script>
+</section>
+  </div>
+  </header> <!-- /#page-header -->
+
+  <div class="row">
+
+    
+    <section class="col-sm-12">
+            <a id="main-content"></a>
+                                                                <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div class="layout-wide">
+  <div class="row header">
+    <div class="col-sm-12 pane-header">
+      <div class="panel-pane pane-views-panes pane-freeform-panel-pane-5"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-freeform view-id-freeform view-display-id-panel_pane_5 view-dom-id-3febb06a2a62335d23ef9d055ee19e17" >
+        
+  
+  
+      <div class="view-content">
+          <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" >
+      
+  <div>        <div><!--start get.com-->
+<link href="http://www.businesstimes.com.sg/bt_files/2016/ads7.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css" /><div class="row" style="margin-left:0;  margin-bottom:5px; margin-top:-10px; border-bottom:1px solid #ececec">
+<div class="col-md-3">
+<h2 class="font12 tcent" style="font-weight:400"><a href="https://sg.get.com/" target="_blank"><img src="http://ww1.prweb.com/prfiles/2014/04/24/10383545/gI_96330_get-logo.png" width="40" /> Get More For Your Money™ </a></h2>
+</div>
+
+<div class="col-md-3">
+<h2 class="sans font14 tcent caps p5 " id="borderroundedblue"><a class="get_the_best_home_loan" href="http://www.businesstimes.com.sg/getcom/home-loans" style="color:#fff" target="_blank">GET THE BEST HOME LOAN</a></h2>
+</div>
+
+<div class="col-md-3">
+<h2 class="sans font14 tcent caps p5 " id="borderroundedblue"><a class="compare_credit_cards" href="http://www.businesstimes.com.sg/getcom/credit-cards" style="color:#fff;" target="_blank">COMPARE CREDIT CARDS</a></h2>
+</div>
+
+<div class="col-md-3">
+<h2 class="sans font14 tcent caps p5 " id="borderroundedblue"><a class="compare_personal_loans" href="http://www.businesstimes.com.sg/getcom/personal-loans" style="color:#fff" target="_blank">COMPARE PERSONAL LOANS</a></h2>
+</div>
+</div>
+<!--end get.com--><!-- 3 skyboxes -->
+
+<div class="container img-responsive" style="margin:0; padding-top:10px;">
+<p style="width: 32%; height: auto; float: left; margin: 0 0 0 0;overflow:hidden; "><a href="http://pubads.g.doubleclick.net/gampad/clk?id=502420014&amp;iu=/5908/project" target="_blank"><img alt="OVERSEAS FAMILY SCHOOL" src="/sites/default/files/image/2017/03/20/ofs1.png" style="width:100%; padding:0;" /></a></p>
+
+<p style="width:2%; height:auto; float:left;"> </p>
+
+<p style="width: 32%; height: auto; float: left; margin: 0 0 0 0;overflow:hidden;"><a href="http://pubads.g.doubleclick.net/gampad/clk?id=479322414&amp;iu=/5908/project" target="_blank"><img alt="CFE" src="/sites/default/files/image/2017/03/20/cfe1.png" style="width:100%; padding:0;" /></a></p>
+
+<p style="width:2%; height:auto; float:left;"> </p>
+
+<p style="width: 32%; height: auto; float: left; margin: 0 0 0 0;overflow:hidden;"><a href=" http://pubads.g.doubleclick.net/gampad/clk?id=503978814&amp;iu=/5908/project " target="_blank"><img alt="PROPERTY 2017" src="/sites/default/files/image/2017/03/31/PROP2017.png" style="width:100%; padding:0;" /></a></p>
+</div>
+
+<div style="clear:both"> </div>
+</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+    </div>
+  </div>
+  <div class="row row-1">
+    <div class="col-sm-12 pane-row1">
+      <div class="panel-pane pane-dsc"  >
+  
+      
+  
+  <div class="pane-content">
+    <style>
+.pane-section-listing-breaking-news-6-column {
+float: left;
+}
+</style>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-breaking-news-top-stories col-lg-8 col-md-8 col-sm-12 col-xs-12 margin-bottom-10"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-display panel-2col-bricks clearfix" id="mini-panel-breaking_news_top_stories">
+  <div class="panel-panel panel-col-top">
+    <div class="inside"><div class="panel-pane pane-views-panes pane-homepage-featured-queue-2-0-panel-pane-1 homepageFeatured1"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-featured-queue-2-0 view-id-homepage_featured_queue_2_0 view-display-id-panel_pane_1 view-dom-id-c9ea51f1bf8f44b412d6ab4b0b46b68f" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Top Stories 1">
+    <div class="views-row views-row-1" data-vr-contentbox="">
+      
+          <div  about="/government-economy/going-global-many-singapore-businesses-do-get-it-says-ie" typeof="schema:NewsArticle sioc:Item foaf:Document" class="ds-1col node node-article view-mode-homepage_featured_1 media clearfix">
+
+  
+  <div id="node-article-homepage-featured-1-group-media" class="group-media field-group-div media-object pull-left"><div class="freeform-img"><div class="view view-freeform view-id-freeform view-display-id-panel_pane_9 view-dom-id-d129d73fc6a6d528c773dce8f8c859ce" >
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div></div>
+  <div class="field field-name-field-scald-image field-type-atom-reference field-label-hidden">
+    <!-- scald=105035:homepage_top_stories_image --><div  class="ds-1col scald-atom view-mode-homepage_top_stories_image  clearfix">
+
+  
+  <picture   title="BT_20170404_UWIE4_2821975.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="" media="(min-width: 960px)" />
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/04/BT_20170404_UWIE4_2821975.jpg?itok=T5YLMfu- 1x" media="(min-width: 768px)" />
+<source srcset="/sites/default/files/styles/article_img_retina/public/image/2017/04/04/BT_20170404_UWIE4_2821975.jpg?itok=rDWa_Z2Y 1x" media="(min-width: 480px)" />
+<source srcset="/sites/default/files/styles/article_img/public/image/2017/04/04/BT_20170404_UWIE4_2821975.jpg?itok=o8Pv0uG9 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/04/BT_20170404_UWIE4_2821975.jpg?itok=o8Pv0uG9" srcset="/sites/default/files/styles/article_img/public/image/2017/04/04/BT_20170404_UWIE4_2821975.jpg?itok=o8Pv0uG9 300w" alt="BT_20170404_UWIE4_2821975.jpg" title="BT_20170404_UWIE4_2821975.jpg" />
+</picture></div>
+
+<!-- END scald=105035 -->  </div>
+</div><div id="node-article-homepage-featured-1-group-content" class="media-body"><h3 class="category"><a href="/government-economy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Government &amp; Economy</a></h3><div class="premium-False"><h2 class="headline test"><a href="/government-economy/going-global-many-singapore-businesses-do-get-it-says-ie">Going global: Many Singapore businesses do get it, says IE</a></h2></div><p class="blurb">THERE doesn't seem to be a shortage of Singapore companies - both the bigger boys and the newer start-ups - that are ambitious and hungry enough to want to expand abroad these days...</p></div></div>
+
+    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+  <div class="center-wrapper">
+    <div class="panel-panel panel-col-first">
+      <div class="inside"></div>
+    </div>
+
+    <div class="panel-panel panel-col-last">
+      <div class="inside"></div>
+    </div>
+  </div>
+  <div class="panel-panel panel-col-middle">
+    <div class="inside"><div class="panel-pane pane-view-blocks clearfix visible-lg visible-md visible-sm editors-choice col-lg-5 col-md-5 col-sm-5 col-xs-12 homepageBreakingnews"  >
+  
+        <h2 class="pane-title">
+      <a href="/breaking-news">Breaking News</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-section-listing view-id-section_listing view-display-id-block_2 view-dom-id-4b2487248424452dc067315262c4d0f7" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Breaking News">
+    <div class="views-row views-row-1 views-row-odd views-row-first" data-vr-contentbox="">
+      
+  <div>        <div class="time">2:56 pm</div>  </div>  
+  <div class="premium-False">        <span class="headline"><a href="/banking-finance/credit-suisse-probe-puts-swiss-officials-on-back-foot-again">Credit Suisse probe puts Swiss officials on back foot again</a></span>  </div>  </div>
+    <div class="views-row views-row-2 views-row-even" data-vr-contentbox="">
+      
+  <div>        <div class="time">2:45 pm</div>  </div>  
+  <div class="premium-False">        <span class="headline"><a href="/government-economy/new-zealand-hit-by-ex-cyclone-debbie-heavy-rains-close-highways">New Zealand hit by ex-Cyclone Debbie, heavy rains close highways</a></span>  </div>  </div>
+    <div class="views-row views-row-3 views-row-odd" data-vr-contentbox="">
+      
+  <div>        <div class="time">2:38 pm</div>  </div>  
+  <div class="premium-False">        <span class="headline"><a href="/banking-finance/australia-nz-dollars-dented-by-rba-caution-dovish-comments">Australia, NZ dollars dented by RBA caution, dovish comments</a></span>  </div>  </div>
+    <div class="views-row views-row-4 views-row-even" data-vr-contentbox="">
+      
+  <div>        <div class="time">2:27 pm</div>  </div>  
+  <div class="premium-False">        <span class="headline"><a href="/stocks/nikkei-drops-to-10-week-lows-automakers-tumble-on-weaker-than-expected-us-sales">Nikkei drops to 10-week lows; automakers tumble on weaker than expected US sales</a></span>  </div>  </div>
+    <div class="views-row views-row-5 views-row-odd" data-vr-contentbox="">
+      
+  <div>        <div class="time">2:00 pm</div>  </div>  
+  <div class="premium-False">        <span class="headline"><a href="/energy-commodities/oil-rally-fizzles-as-prices-made-vulnerable-by-libyan-crude-gain">Oil rally fizzles as prices made vulnerable by Libyan crude gain</a></span>  </div>  </div>
+    <div class="views-row views-row-6 views-row-even" data-vr-contentbox="">
+      
+  <div>        <div class="time">1:15 pm</div>  </div>  
+  <div class="premium-False">        <span class="headline"><a href="/government-economy/australia-keeps-rates-on-hold-sizzling-housing-market-a-worry">Australia keeps rates on hold, sizzling housing market a worry</a></span>  </div>  </div>
+    <div class="views-row views-row-7 views-row-odd" data-vr-contentbox="">
+      
+  <div>        <div class="time">1:01 pm</div>  </div>  
+  <div class="premium-False">        <span class="headline"><a href="/technology/toshiba-to-seek-loan-support-from-creditor-banks-on-tuesday-sources">Toshiba to seek loan support from creditor banks on Tuesday: sources</a></span>  </div>  </div>
+    <div class="views-row views-row-8 views-row-even" data-vr-contentbox="">
+      
+  <div>        <div class="time">12:47 pm</div>  </div>  
+  <div class="premium-False">        <span class="headline"><a href="/government-economy/trump-tells-sisi-us-egypt-will-fight-islamist-militants-together">Trump tells Sisi US, Egypt will fight Islamist militants together</a></span>  </div>  </div>
+    <div class="views-row views-row-9 views-row-odd" data-vr-contentbox="">
+      
+  <div>        <div class="time">12:12 pm</div>  </div>  
+  <div class="premium-False">        <span class="headline"><a href="/life-culture/a-slice-of-luxury-hong-kongs-high-end-fruit-fad">A slice of luxury: Hong Kong&#039;s high-end fruit fad</a></span>  </div>  </div>
+    <div class="views-row views-row-10 views-row-even views-row-last" data-vr-contentbox="">
+      
+  <div>        <div class="time">11:55 am</div>  </div>  
+  <div class="premium-False">        <span class="headline"><a href="/real-estate/us-retail-mall-vacancies-flat-in-first-quarter-reis">US retail mall vacancies flat in first quarter: Reis</a></span>  </div>  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-homepage-featured-queue-2-0-panel-pane-2 col-lg-7 col-md-6 col-sm-6 col-xs-12 homepageFeatured2"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-featured-queue-2-0 view-id-homepage_featured_queue_2_0 view-display-id-panel_pane_2 view-dom-id-f86e20a78e38b3bb7b493ba4e7df96b5" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Top Stories 2">
+    <div class="views-row views-row-1" data-vr-contentbox="">
+      
+          <div  about="/companies-markets/genting-invests-us2m-in-singapore-based-molecular-diagnostics-startup" typeof="schema:NewsArticle sioc:Item foaf:Document" class="ds-1col node node-article view-mode-homepage_featured_2  clearfix">
+
+  
+  <h3 class="category"><a href="/companies-markets" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Companies &amp; Markets</a></h3><h2 class="kicker"></h2><div class="premium-False"><h2 class="headline"><a href="/companies-markets/genting-invests-us2m-in-singapore-based-molecular-diagnostics-startup">Genting invests US$2m in Singapore-based molecular diagnostics startup</a></h2><time>10:28 AM</time></div></div>
+
+    </div>
+    <div class="views-row views-row-2" data-vr-contentbox="">
+      
+          <div  about="/technology/sginnovate-focuses-on-5-areas-to-help-startups-entrepreneurs" typeof="schema:NewsArticle sioc:Item foaf:Document" class="ds-1col node node-article view-mode-homepage_featured_2  clearfix">
+
+  
+  <h3 class="category"><a href="/technology" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Technology</a></h3><div class="premium-True"><h2 class="headline"><a href="/technology/sginnovate-focuses-on-5-areas-to-help-startups-entrepreneurs">SGInnovate focuses on 5 areas to help startups, entrepreneurs</a></h2></div></div>
+
+    </div>
+    <div class="views-row views-row-3" data-vr-contentbox="">
+      
+          <div  about="/government-economy/consumer-watchdog-to-keep-eye-on-profiteering-from-water-power-price-hikes" typeof="schema:NewsArticle sioc:Item foaf:Document" class="ds-1col node node-article view-mode-homepage_featured_2  clearfix">
+
+  
+  <h3 class="category"><a href="/government-economy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Government &amp; Economy</a></h3><h2 class="kicker">PARLIAMENT</h2><div class="premium-False"><h2 class="headline"><a href="/government-economy/consumer-watchdog-to-keep-eye-on-profiteering-from-water-power-price-hikes">Consumer watchdog to keep eye on profiteering from water, power price hikes</a></h2></div></div>
+
+    </div>
+    <div class="views-row views-row-4" data-vr-contentbox="">
+      
+          <div  about="/stocks/stocks-to-watch-ascott-s-i2i-mm2-asia" typeof="schema:NewsArticle sioc:Item foaf:Document" class="ds-1col node node-article view-mode-homepage_featured_2  clearfix">
+
+  
+  <h3 class="category"><a href="/stocks" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Stocks</a></h3><div class="premium-False"><h2 class="headline"><a href="/stocks/stocks-to-watch-ascott-s-i2i-mm2-asia">Stocks to watch: Ascott, S i2i, mm2 Asia</a></h2><time>8:50 AM</time></div></div>
+
+    </div>
+    <div class="views-row views-row-5" data-vr-contentbox="">
+      
+          <div  about="/government-economy/ie-spore-chief-the-job-is-about-securing-deals-for-companies" typeof="schema:NewsArticle sioc:Item foaf:Document" class="ds-1col node node-article view-mode-homepage_featured_2  clearfix">
+
+  
+  <h3 class="category"><a href="/government-economy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Government &amp; Economy</a></h3><div class="premium-True"><h2 class="headline"><a href="/government-economy/ie-spore-chief-the-job-is-about-securing-deals-for-companies">IE S&#039;pore chief: The job is about securing deals for companies</a></h2></div></div>
+
+    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+  <div class="center-wrapper">
+    <div class="panel-panel panel-col-first">
+      <div class="inside"></div>
+    </div>
+
+    <div class="panel-panel panel-col-last">
+      <div class="inside"></div>
+    </div>
+  </div>
+  <div class="panel-panel panel-col-bottom">
+    <div class="inside"><div class="panel-pane pane-block pane-block-60 margin-bottom-20 visible-xs pane-block bn-tap-link clear-both"  >
+  
+      
+  
+  <div class="pane-content">
+    <a href="/breaking-news">Go to breaking news</a> <span  class="fa fa-caret-right"></span>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-print-archive col-lg-4 col-md-4 col-sm-12 col-xs-12"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-print_archive">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-block pane-seven-day-archive-seven-day-archive margin-bottom-20 pane-seven-day-archive archive-block margin-bottom-20"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class='seven-day-archive'><h3 class='category'>PRINT ARCHIVE</h3><ul><li><a href='/todays-paper/20170403' class=''>Mon</a></li><li><a href='/todays-paper/20170328' class=''>Tue</a></li><li><a href='/todays-paper/20170329' class=''>Wed</a></li><li><a href='/todays-paper/20170330' class=''>Thu</a></li><li><a href='/todays-paper/20170331' class=''>Fri</a></li><li><a href='/todays-paper/20170401' class=''>Sat</a></li></ul></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-29 text-center margin-bottom-20 pane-block ad-story ads"  >
+  
+      
+  
+  <div class="pane-content">
+    <script type="text/javascript" src="http://adtag.asiaone.com/tag/bt/js/gpt/bt_home_imu.js"></script>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+    </div>
+  </div>
+  <div class="row row-2">
+    <div class="col-sm-12 pane-row2">
+          </div>
+  </div>
+  <div class="row row-3">
+    <div class="col-sm-12 pane-row3">
+          </div>
+  </div>
+  <div class="row row-4">
+    <div class="col-sm-12 pane-row4">
+      <div class="panel-pane pane-views-panes pane-single-queue-story-panel-pane-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 infographic_homepage"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-single-queue-story view-id-single_queue_story view-display-id-panel_pane_4 padding-bottom-10 border-bot-dotted  margin-bottom-10 clearfix view-dom-id-62c8bad600067deaf8353cf2175ccdc5" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Infographics">
+    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" data-vr-contentbox="">
+      
+  <div class="views-field views-field-title-1">        <h2 class="field-content pane-title"><a href="http://www.businesstimes.com.sg/infographics" target="blank">Infographics</a></h2>  </div>  
+  <div class="sponsor_logo">        <div></div>  </div>  
+  <div class="image-wrapper margin-bottom-10">        <a href="/infographics/river-revamp">
+  <div class="field field-name-field-scald-image field-type-atom-reference field-label-hidden">
+    <!-- scald=104572:homepage_top_stories_image --><div  class="ds-1col scald-atom view-mode-homepage_top_stories_image  clearfix">
+
+  
+  <picture   title="BT_20170330_LMXURA30A1_2815636.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="" media="(min-width: 960px)" />
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/03/30/BT_20170330_LMXURA30A1_2815636_0.jpg?itok=sE8CF8_9 1x" media="(min-width: 768px)" />
+<source srcset="/sites/default/files/styles/article_img_retina/public/image/2017/03/30/BT_20170330_LMXURA30A1_2815636_0.jpg?itok=1JUpeVbb 1x" media="(min-width: 480px)" />
+<source srcset="/sites/default/files/styles/article_img/public/image/2017/03/30/BT_20170330_LMXURA30A1_2815636_0.jpg?itok=sgtSP0Mx 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/03/30/BT_20170330_LMXURA30A1_2815636_0.jpg?itok=sgtSP0Mx" srcset="/sites/default/files/styles/article_img/public/image/2017/03/30/BT_20170330_LMXURA30A1_2815636_0.jpg?itok=sgtSP0Mx 300w" alt="BT_20170330_LMXURA30A1_2815636.jpg" title="BT_20170330_LMXURA30A1_2815636.jpg" />
+</picture></div>
+
+<!-- END scald=104572 -->  </div>
+</a>  </div>  
+  <div>        <h3 class="headline"><a href="/infographics/river-revamp">River revamp</a></h3>  </div>  
+  <div>        <div></div>  </div>  
+  <div>        <p class="blurb">The government plans to add new waterfront housing, refurbish old industrial estates, boost Kallang Basin as a sports and recreational venue, and improve connectivity along the 10-kilometre Kallang River.</p>  </div>  
+  <div class="homepageFeatured1">        <div class="read-more-thread"></div>  </div>  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-story-thread-taxonomy-panel-pane-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 focus_homepage"  >
+  
+        <h2 class="pane-title">
+      <a href="/focus/in-depth">Focus</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-story-thread-taxonomy view-id-story_thread_taxonomy view-display-id-panel_pane_4 view-dom-id-d48535137863c2f708f2a3696fb08d7f" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Focus">
+    <div class="thread" data-vr-contentbox="">
+      
+  <div class="views-field views-field-view">        <span class="field-content"><div class="view view-story-thread-page view-id-story_thread_page view-display-id-panel_pane_1 view-dom-id-534c44e0e4b114dbed980775c2d6395e" >
+        
+  
+  
+      <div class="view-content">
+          <div class="views-row views-row-1 views-row-odd views-row-first views-row-last  views-limit-grouping" >
+      
+  <div>        <div class="visible-md visible-lg"><!-- scald=104936:section_listing_page_featured -->
+      <figure class="scald-atom scald-atom-image ">
+        <picture   title="BT_20170403_NSOXBRIDGE3_2820598.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/03/BT_20170403_NSOXBRIDGE3_2820598.jpg?itok=DGsZ-FNJ 1x" media="(min-width: 960px)" />
+<source srcset="/sites/default/files/styles/article_img_retina/public/image/2017/04/03/BT_20170403_NSOXBRIDGE3_2820598.jpg?itok=y5tuZVfW 1x" media="(min-width: 768px)" />
+<source srcset="/sites/default/files/styles/article_img/public/image/2017/04/03/BT_20170403_NSOXBRIDGE3_2820598.jpg?itok=DNjCpTtl 1x" media="(min-width: 480px)" />
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/03/BT_20170403_NSOXBRIDGE3_2820598.jpg?itok=DGsZ-FNJ 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/03/BT_20170403_NSOXBRIDGE3_2820598.jpg?itok=DNjCpTtl" srcset="/sites/default/files/styles/article_img/public/image/2017/04/03/BT_20170403_NSOXBRIDGE3_2820598.jpg?itok=DNjCpTtl 300w" alt="BT_20170403_NSOXBRIDGE3_2820598.jpg" title="BT_20170403_NSOXBRIDGE3_2820598.jpg" />
+</picture>
+        <figcaption></figcaption>
+      </figure>
+    <!-- END scald=104936 --></div>  </div>  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/in-depth/company-of-good">Company of Good</a></span>  </div>  
+  <div>        <span><a href="/companies-markets/company-of-good/tackling-cancer-via-an-oxbridge-classic"><div class="premium-True"><h2 class="headline"><a href="/companies-markets/company-of-good/tackling-cancer-via-an-oxbridge-classic">Tackling cancer via an Oxbridge classic</a></h2></div></a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></span>  </div>  </div>
+    <div class="thread" data-vr-contentbox="">
+      
+  <div class="views-field views-field-view">        <span class="field-content"><div class="view view-story-thread-page view-id-story_thread_page view-display-id-panel_pane_1 view-dom-id-83d733661fb3338ae5f01af5bde1957f" >
+        
+  
+  
+      <div class="view-content">
+          <div class="views-row views-row-1 views-row-odd views-row-first views-row-last  views-limit-grouping" >
+      
+  <div>        <div class="visible-md visible-lg"><!-- scald=104882:section_listing_page_featured -->
+      <figure class="scald-atom scald-atom-image ">
+        <picture   title="BT_20170401_OFFBEAT1_2819366.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/01/BT_20170401_OFFBEAT1_2819366_0.jpg?itok=6FqBJQu8 1x" media="(min-width: 960px)" />
+<source srcset="/sites/default/files/styles/article_img_retina/public/image/2017/04/01/BT_20170401_OFFBEAT1_2819366_0.jpg?itok=LO5t8KBD 1x" media="(min-width: 768px)" />
+<source srcset="/sites/default/files/styles/article_img/public/image/2017/04/01/BT_20170401_OFFBEAT1_2819366_0.jpg?itok=OpDYIE5J 1x" media="(min-width: 480px)" />
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/01/BT_20170401_OFFBEAT1_2819366_0.jpg?itok=6FqBJQu8 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/01/BT_20170401_OFFBEAT1_2819366_0.jpg?itok=OpDYIE5J" srcset="/sites/default/files/styles/article_img/public/image/2017/04/01/BT_20170401_OFFBEAT1_2819366_0.jpg?itok=OpDYIE5J 300w" alt="BT_20170401_OFFBEAT1_2819366.jpg" title="BT_20170401_OFFBEAT1_2819366.jpg" />
+</picture>
+        <figcaption></figcaption>
+      </figure>
+    <!-- END scald=104882 --></div>  </div>  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/in-depth/offbeat">Offbeat</a></span>  </div>  
+  <div>        <span><a href="/life-culture/offbeat/crappily-crafted-cisterns"><div class="premium-False"><h2 class="headline"><a href="/life-culture/offbeat/crappily-crafted-cisterns">Crappily crafted cisterns</a></h2></div></a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></span>  </div>  </div>
+    <div class="thread" data-vr-contentbox="">
+      
+  <div class="views-field views-field-view">        <span class="field-content"><div class="view view-story-thread-page view-id-story_thread_page view-display-id-panel_pane_1 view-dom-id-8c8453dd3b709b9f103b33ac73a15a18" >
+        
+  
+  
+      <div class="view-content">
+          <div class="views-row views-row-1 views-row-odd views-row-first views-row-last  views-limit-grouping" >
+      
+  <div>        <div class="visible-md visible-lg"><!-- scald=104880:section_listing_page_featured -->
+      <figure class="scald-atom scald-atom-image ">
+        <picture   title="BT_20170401_VICUBICLE1_2819378.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/01/BT_20170401_VICUBICLE1_2819378_0.jpg?itok=zy_kC4lG 1x" media="(min-width: 960px)" />
+<source srcset="/sites/default/files/styles/article_img_retina/public/image/2017/04/01/BT_20170401_VICUBICLE1_2819378_0.jpg?itok=ZrIHJKfZ 1x" media="(min-width: 768px)" />
+<source srcset="/sites/default/files/styles/article_img/public/image/2017/04/01/BT_20170401_VICUBICLE1_2819378_0.jpg?itok=goYRkAaV 1x" media="(min-width: 480px)" />
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/01/BT_20170401_VICUBICLE1_2819378_0.jpg?itok=zy_kC4lG 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/01/BT_20170401_VICUBICLE1_2819378_0.jpg?itok=goYRkAaV" srcset="/sites/default/files/styles/article_img/public/image/2017/04/01/BT_20170401_VICUBICLE1_2819378_0.jpg?itok=goYRkAaV 300w" alt="BT_20170401_VICUBICLE1_2819378.jpg" title="BT_20170401_VICUBICLE1_2819378.jpg" />
+</picture>
+        <figcaption></figcaption>
+      </figure>
+    <!-- END scald=104880 --></div>  </div>  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/in-depth/cubicle-files">Cubicle Files</a></span>  </div>  
+  <div>        <span><a href="/life-culture/cubicle-files/retrenchment-not-so-clear-cut-after-all"><div class="premium-True"><h2 class="headline"><a href="/life-culture/cubicle-files/retrenchment-not-so-clear-cut-after-all">Retrenchment - not so clear cut after all</a></h2></div></a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></span>  </div>  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-single-queue-story-panel-pane-5 col-lg-4 col-md-4 col-sm-4 col-xs-12"  >
+  
+        <h2 class="pane-title">
+      <a href="/videos">Videos</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-single-queue-story view-id-single_queue_story view-display-id-panel_pane_5 bt-wide-video-listing pull-left view-dom-id-ff7ae6382cdde7cb3a8a994009df0fef" >
+        
+  
+  
+      <div class="view-content">
+          <div class="views-row views-row-1 views-row-odd views-row-first margin-bottom-20  col-md-12" data-vr-contentbox="">
+      
+  <div>        <div class="pull-left margin-right-10 video_thumb featured visible-md visible-lg"><a href="/videos/samsung-launches-much-anticipated-galaxy-s8"><img typeof="foaf:Image" class="img-responsive" src="http://www.businesstimes.com.sg/sites/default/files/styles/article_img/public/thumbnails/video/brightcove-5378905672001.jpg?itok=swxsx6Dv" width="440" height="293" /></a></div>  </div>  
+  <div class="views-field views-field-rendered-entity">        <h2 class="field-content headline"><a href="/videos/samsung-launches-much-anticipated-galaxy-s8">Samsung launches much anticipated Galaxy S8</a></h2>  </div>  </div>
+    <div class="views-row views-row-2 views-row-even margin-bottom-20  col-md-12" data-vr-contentbox="">
+      
+  <div>        <div class="pull-left margin-right-10 video_thumb featured visible-md visible-lg"><a href="/videos/what-is-a-good-class-bungalow"><img typeof="foaf:Image" class="img-responsive" src="http://www.businesstimes.com.sg/sites/default/files/styles/article_img/public/thumbnails/video/brightcove-5333742871001.jpg?itok=KkhS6Htz" width="440" height="293" /></a></div>  </div>  
+  <div class="views-field views-field-rendered-entity">        <h2 class="field-content headline"><a href="/videos/what-is-a-good-class-bungalow">What is a Good Class Bungalow?</a></h2>  </div>  </div>
+    <div class="views-row views-row-3 views-row-odd views-row-last margin-bottom-20  col-md-12" data-vr-contentbox="">
+      
+  <div>        <div class="pull-left margin-right-10 video_thumb featured visible-md visible-lg"><a href="/videos/david-mann-welcome-to-the-jungle"><img typeof="foaf:Image" class="img-responsive" src="http://www.businesstimes.com.sg/sites/default/files/styles/article_img/public/thumbnails/video/brightcove-5371042928001.jpg?itok=rq4wGdxG" width="440" height="293" /></a></div>  </div>  
+  <div class="views-field views-field-rendered-entity">        <h2 class="field-content headline"><a href="/videos/david-mann-welcome-to-the-jungle">David Mann: Welcome to the jungle</a></h2>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+    </div>
+  </div>
+  <div class="row row-5">
+    <div class="col-sm-12 pane-row5">
+          </div>
+  </div>
+  <div class="row row-6">
+    <div class="col-sm-12 pane-row6">
+      <div class="panel-pane pane-custom pane-5 visible-lg visible-md"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="bt-wide-line"></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-daily-3-queue-panel-pane-1 bt_editors_choice container"  >
+  
+        <h2 class="pane-title">
+      EDITOR'S CHOICE    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-daily-3-queue view-id-daily_3_queue view-display-id-panel_pane_1 view-dom-id-abd51c509767ce1e649b5b66cd69b17c" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Editors Choice - News">
+    <div class="views-row views-row-1 views-row-odd views-row-first" data-vr-contentbox="">
+      
+  <div>        <h4 class="category"><a href="/government-economy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Government &amp; Economy</a></h4>  </div>  
+  <div>        <h3 class="headline"><a href="/government-economy/consumer-watchdog-to-keep-eye-on-profiteering-from-water-power-price-hikes">Consumer watchdog to keep eye on profiteering from water, power price hikes</a></h3>  </div>  </div>
+    <div class="views-row views-row-2 views-row-even" data-vr-contentbox="">
+      
+  <div>        <h4 class="category"><a href="/government-economy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Government &amp; Economy</a></h4>  </div>  
+  <div>        <h3 class="headline"><a href="/government-economy/going-global-many-singapore-businesses-do-get-it-says-ie">Going global: Many Singapore businesses do get it, says IE</a></h3>  </div>  </div>
+    <div class="views-row views-row-3 views-row-odd views-row-last" data-vr-contentbox="">
+      
+  <div>        <h4 class="category"><a href="/government-economy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Government &amp; Economy</a></h4>  </div>  
+  <div>        <h3 class="headline"><a href="/government-economy/march-manufacturing-growth-points-to-potential-recovery">March manufacturing growth points to potential recovery</a></h3>  </div>  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+    </div>
+  </div>
+  <div class="row row-7">
+    <div class="col-sm-12 pane-row7">
+      <div class="panel-pane pane-custom pane-6 visible-lg visible-md"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="bt-wide-line"></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-stocks homepage-cat stocks clearfix clear-both col-lg-8 col-md-8 col-sm-12 col-xs-12"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-2col-stacked clearfix panel-display" id="mini-panel-stocks">
+      <div class="panel-col-top panel-panel">
+      <div class="inside"><div class="panel-pane pane-custom pane-8"  >
+  
+      
+  
+  <div class="pane-content">
+    <h2 class="pane-title"><a href="/stocks">Stocks</a></h2>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-9"  >
+  
+      
+  
+  <div class="pane-content">
+    <ul class="list-inline pull-right">
+        <li><a href="http://www.businesstimes.com.sg/stocks" target="_blank">Stock Prices &gt;&gt;</a></li>
+	<li><a href="/stocks/market-capitalisation">Market Capitalisation &gt;&gt;</a></li>
+	<li><a href="/stocks/latest-earnings">Latest Earnings &gt;&gt;</a></li>
+</ul>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-10"  >
+  
+      
+  
+  <div class="pane-content">
+    <div id="stock-ticker-wrapper"><div class="title">MARKET TODAY:</div><div class="stocks-ticker"></div></div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+  
+  <div class="center-wrapper">
+    <div class="panel-col-first panel-panel">
+      <div class="inside"><div class="panel-pane pane-views-panes pane-homepage-categories-panel-pane-3 singapore no-padding-left"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-categories view-id-homepage_categories view-display-id-panel_pane_3 view-dom-id-1c8b19dae70bd3e04fe03276c0b88d89" data-vr-zone="Stocks Singapore">
+        
+  
+  
+      <div class="view-content">
+          <ul>          <li class=""  data-vr-contentbox="">  
+          <div class="premium-False"><h3 class="headline"><a href="/stocks/singapore-shares-opens-lower-on-tuesday">Singapore shares opens lower on Tuesday</a></h3><time class="print-0">9:07 AM</time></div>  </li>
+          <li class=""  data-vr-contentbox="">  
+          <div class="premium-False"><h3 class="headline"><a href="/stocks/stocks-to-watch-ascott-s-i2i-mm2-asia">Stocks to watch: Ascott, S i2i, mm2 Asia</a></h3><time class="print-0">8:50 AM</time></div>  </li>
+          <li class=""  data-vr-contentbox="">  
+          <div class="premium-True"><h3 class="headline"><a href="/companies-markets/sti-rises-12-points-in-quiet-trading">STI rises 12 points in quiet trading</a></h3><time class="print-1">5:50 AM</time></div>  </li>
+      </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-homepage-categories-panel-pane-3 global no-padding-right"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-categories view-id-homepage_categories view-display-id-panel_pane_3 view-dom-id-e0ad2be179d9278b658ce78311c7f944" data-vr-zone="Stocks Global">
+        
+  
+  
+      <div class="view-content">
+          <ul>          <li class=""  data-vr-contentbox="">  
+          <div class="premium-False"><h3 class="headline"><a href="/stocks/nikkei-drops-to-10-week-lows-automakers-tumble-on-weaker-than-expected-us-sales">Nikkei drops to 10-week lows; automakers tumble on weaker than expected US sales</a></h3><time class="print-0">2:27 PM</time></div>  </li>
+          <li class=""  data-vr-contentbox="">  
+          <div class="premium-False"><h3 class="headline"><a href="/stocks/seoul-won-slips-on-risk-off-sentiment-stocks-flat-0">Seoul: Won slips on risk-off sentiment, stocks flat</a></h3><time class="print-0">11:54 AM</time></div>  </li>
+          <li class=""  data-vr-contentbox="">  
+          <div class="premium-False"><h3 class="headline"><a href="/stocks/australian-shares-edge-lower-ahead-of-rba-decision-nz-slightly-up">Australian shares edge lower ahead of RBA decision; NZ slightly up</a></h3><time class="print-0">11:29 AM</time></div>  </li>
+      </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+    <div class="panel-col-last panel-panel">
+      <div class="inside"><div class="panel-pane pane-custom pane-7 text-center"  >
+  
+      
+  
+  <div class="pane-content">
+    <iframe src="http://www.btinvest.com.sg/markets/market_summary_frame.html" scrolling="no" width="310" height="450" frameborder="0"></iframe>  </div>
+
+  
+  </div>
+</div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-spotlight-ad-sentifi-widget col-lg-4 col-md-4 col-sm-12 col-xs-12"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-spotlight_ad_sentifi_widget">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-block pane-block-63 visible-lg visible-md margin-top-20 pull-left sentify pane-block"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="sentifi-widget" data-wid="313">
+<a href="https://sentifi.com">sentifi.com</a>
+<h3>TOP 10 TALKED ABOUT:</h3>
+</div>
+<script type="text/javascript" async="" src="https://cdn-pub.sentifi.com/custo/widgets.js"></script>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+    </div>
+  </div>
+  <div class="row row-8">
+    <div class="col-sm-12 pane-row8">
+          </div>
+  </div>
+  <div class="row row-9">
+    <div class="col-sm-12 pane-row9">
+      <div class="panel-pane pane-panels-mini pane-get-com-widget-imu"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-get_com_widget_imu">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-custom pane-11 col-lg-8 col-md-8 col-sm-12 col-xs-12 getcom"  >
+  
+      
+  
+  <div class="pane-content">
+    <!-- get.com widget --><script id="gcloans" src="https://get.com/static/js/loans_widget/loans_widget.js#/p/ho/t/bt/sa/the-business-times"></script>
+<div id="get-com-widget">
+<div>Powered by <a href="https://sg.get.com">GET.com<img alt="GetCom" src="http://get.com/static/img/icon/get-logo.png" /></a></div>
+</div>
+<!-- end get.com widget -->  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-75 col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center getcom_imu pane-block"  >
+  
+      
+  
+  <div class="pane-content">
+    <script type="text/javascript" src="http://adtag.asiaone.com/tag/bt/js/gpt/bt_home_imu2.js"></script>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+    </div>
+  </div>
+  <div class="row row-10">
+    <div class="col-sm-12 pane-row10">
+          </div>
+  </div>
+  <div class="row row-11">
+    <div class="col-sm-12 pane-row11">
+      <div class="panel-pane pane-views-panes pane-lifestyle-revamp-panel-pane-7 lifestyle-homepage clearfix"  >
+  
+        <h2 class="pane-title">
+      <a href="/lifestyle"><img src="/sites/all/themes/custom/businesstimes/images/logo_lifestyle.png" width="150px"></a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-lifestyle-revamp view-id-lifestyle_revamp view-display-id-panel_pane_7 view-dom-id-2d127e65a344fc7845efc382a1591c17" >
+        
+  
+  
+      <div class="view-content">
+          <div class="views-row views-row-1 views-row-odd views-row-first col-md-4 layout-column" >
+      
+  <div class="image-wrapper visible-md visible-lg margin-bottom-10">        <a href="/lifestyle/weekend-interview/elaine-kim">
+  <div class="field field-name-field-scald-image field-type-atom-reference field-label-hidden">
+    <!-- scald=104875:lifestyle_editors_choice --><picture   title="BT_20170401_INTERVIEW1-F_2817729.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/01/elaine20.jpg?itok=PbG3L81q 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/01/elaine20.jpg?itok=AP8zfQts" srcset="/sites/default/files/styles/article_img/public/image/2017/04/01/elaine20.jpg?itok=AP8zfQts 300w" alt="BT_20170401_INTERVIEW1-F_2817729.jpg" title="BT_20170401_INTERVIEW1-F_2817729.jpg" />
+</picture><!-- END scald=104875 -->  </div>
+</a>  </div>  
+  <div>        <h4 class="category"><a href="/lifestyle/weekend-interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Weekend Interview</a></h4>  </div>  
+  <div>        <h2 class="kicker"></h2>  </div>  
+  <div class="views-field views-field-title">        <h3 class="field-content headline"><a href="/lifestyle/weekend-interview/elaine-kim">Elaine Kim </a></h3>  </div>  </div>
+    <div class="views-row views-row-2 views-row-even col-md-4 layout-column" >
+      
+  <div class="image-wrapper visible-md visible-lg margin-bottom-10">        <a href="/lifestyle/food-drink/spanish-transition">
+  <div class="field field-name-field-scald-image field-type-atom-reference field-label-hidden">
+    <!-- scald=104857:lifestyle_editors_choice --><picture   title="BT_20170401_CHEF1-H_2817882.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/01/Chef_Chele_Gonzalez2534.jpg?itok=a5BTUsmZ 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/01/Chef_Chele_Gonzalez2534.jpg?itok=4yKeJcl0" srcset="/sites/default/files/styles/article_img/public/image/2017/04/01/Chef_Chele_Gonzalez2534.jpg?itok=4yKeJcl0 300w" alt="BT_20170401_CHEF1-H_2817882.jpg" title="BT_20170401_CHEF1-H_2817882.jpg" />
+</picture><!-- END scald=104857 -->  </div>
+</a>  </div>  
+  <div>        <h4 class="category"><a href="/lifestyle/food-drink" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Food &amp; Drink</a></h4>  </div>  
+  <div>        <h2 class="kicker">GUEST CHEF </h2>  </div>  
+  <div class="views-field views-field-title">        <h3 class="field-content headline"><a href="/lifestyle/food-drink/spanish-transition">Spanish Transition</a></h3>  </div>  </div>
+    <div class="views-row views-row-3 views-row-odd views-row-last col-md-4 layout-column" >
+      
+  <div class="image-wrapper visible-md visible-lg margin-bottom-10">        <a href="/lifestyle/travel/maos-the-time-for-changsha">
+  <div class="field field-name-field-scald-image field-type-atom-reference field-label-hidden">
+    <!-- scald=104886:lifestyle_editors_choice --><picture   title="tallest_mao.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/01/tallest_mao_0.jpg?itok=PmaLd5mm 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/01/tallest_mao_0.jpg?itok=ydhbA9eq" srcset="/sites/default/files/styles/article_img/public/image/2017/04/01/tallest_mao_0.jpg?itok=ydhbA9eq 300w" alt="tallest_mao.jpg" title="tallest_mao.jpg" />
+</picture><!-- END scald=104886 -->  </div>
+</a>  </div>  
+  <div>        <h4 class="category"><a href="/lifestyle/travel" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Travel</a></h4>  </div>  
+  <div>        <h2 class="kicker"></h2>  </div>  
+  <div class="views-field views-field-title">        <h3 class="field-content headline"><a href="/lifestyle/travel/maos-the-time-for-changsha">Mao&#039;s the Time for Changsha</a></h3>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+    </div>
+  </div>
+  <div class="row row-12">
+    <div class="col-sm-12 pane-row12">
+      <div class="panel-pane pane-views-panes pane-single-queue-story-panel-pane-2 col-lg-8 col-md-8 col-sm-12 col-xs-12 margin-top-20 bt-editorial"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-single-queue-story view-id-single_queue_story view-display-id-panel_pane_2 padding-bottom-10 margin-bottom-10 clearfix view-dom-id-2c044f1f40840386c5348389aaa1dceb" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="BT Editorial 1">
+    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" data-vr-contentbox="">
+      
+  <div class="views-field views-field-title-1">        <h2 class="field-content pane-title"><a href="http://www.businesstimes.com.sg/lifestyle" target="blank">BT WEEKEND</a></h2>  </div>  
+  <div class="bt-editorial-sponsor-logo">        <div></div>  </div>  
+  <div class="image-wrapper margin-bottom-10">        <a href="/life-culture/punched-up-let-down-and-sweetened">
+  <div class="field field-name-field-scald-image field-type-atom-reference field-label-hidden">
+    <!-- scald=104136:homepage_top_stories_image --><div  class="ds-1col scald-atom view-mode-homepage_top_stories_image  clearfix">
+
+  
+  <picture   title="BT_20170325_RSMUSIC256P7Y_2804452.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="" media="(min-width: 960px)" />
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/03/25/BT_20170325_RSMUSIC25TBT8_2804450.jpg?itok=sMXt1HiU 1x" media="(min-width: 768px)" />
+<source srcset="/sites/default/files/styles/article_img_retina/public/image/2017/03/25/BT_20170325_RSMUSIC25TBT8_2804450.jpg?itok=lpKP1Ebx 1x" media="(min-width: 480px)" />
+<source srcset="/sites/default/files/styles/article_img/public/image/2017/03/25/BT_20170325_RSMUSIC25TBT8_2804450.jpg?itok=cAZ_TYjP 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/03/25/BT_20170325_RSMUSIC25TBT8_2804450.jpg?itok=cAZ_TYjP" srcset="/sites/default/files/styles/article_img/public/image/2017/03/25/BT_20170325_RSMUSIC25TBT8_2804450.jpg?itok=cAZ_TYjP 300w" alt="BT_20170325_RSMUSIC256P7Y_2804452.jpg" title="BT_20170325_RSMUSIC256P7Y_2804452.jpg" />
+</picture></div>
+
+<!-- END scald=104136 -->  </div>
+</a>  </div>  
+  <div>        <h2 class="kicker">MUSIC TO MY EARS</h2>  </div>  
+  <div>        <h3 class="headline"><a href="/life-culture/punched-up-let-down-and-sweetened">Punched up, let down, and sweetened</a></h3>  </div>  
+  <div>        <div></div>  </div>  
+  <div>        <p class="blurb">There are many virtuoso guitarists in the jazz world, starting from pioneering trailblazers like Wes Montgomery, Django Reinhardt and Joe Pass, to today&#039;s A-list which would include Pat Metheny, Larry Carlton, John Scofield and Mike Stern.</p>  </div>  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-single-queue-story-panel-pane-3 col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center margin-top-20 bt-editorial-imu-wrapper"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-single-queue-story view-id-single_queue_story view-display-id-panel_pane_3 padding-bottom-10 margin-bottom-10 clearfix view-dom-id-e6f1bc10d1fdaf4bc315f864e2f397dd" >
+        
+  
+  
+      <div class="view-content">
+          <div class="views-row views-row-1 views-row-odd views-row-first views-row-last bt-editorial-imu" data-vr-contentbox="">
+      
+  <div>        <div><a href="http://pubads.g.doubleclick.net/gampad/clk?id=472707534&amp;iu=/5908/project"><img src="/sites/default/files/btbudget.png" border="0" width="300" height="250"></a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+    </div>
+  </div>
+  <div class="row row-13">
+    <div class="col-sm-12 pane-row13">
+          </div>
+  </div>
+  <div class="row row-14">
+    <div class="col-sm-12 pane-row14">
+      <div class="panel-pane pane-panels-mini pane-all-news bt-wide-all-news"  >
+  
+        <h2 class="pane-title">
+      <span class="all-news-title">All News</span>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-all_news">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-views-panes pane-bt-wide-hp-opinion homepage-cat clearfix col-lg-4 col-md-4 col-sm-12 col-xs-12"  >
+  
+        <h2 class="pane-title">
+      <a href="/opinion">Opinion</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-bt-wide view-id-bt_wide view-display-id-hp_opinion view-dom-id-b150d835bc1c4c5638cd869b7c3be77d" data-vr-zone="Opinion">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_5 view-dom-id-3bfa1e6a138d74600cd9aabe200bd102" >
+        
+  
+  
+      <div class="view-content">
+          <ul>          <li class="views-row views-row-1 col-sm-6"  data-vr-contentbox="">  
+          <h2 class="kicker">HOCK LOCK SIEW </h2>    
+          <div class="premium-True"><h3 class="headline"><a href="/companies-markets/look-before-jumping-into-the-mining-sector">Look before jumping into the mining sector</a></h3><time class="print-1">5:50 AM</time></div>  </li>
+      </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-attachment_4" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-True"><h3 class="headline"><a href="/opinion/echoes-of-watergate-in-washington">Echoes of Watergate in Washington</a></h3><time class="print-1">5:50 AM</time></div></span>  </div></li>
+          <li class="clearfix"  data-vr-contentbox="">  
+  <div>        <h2 class="kicker">THE BOTTOM LINE</h2>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-True"><h3 class="headline"><a href="/opinion/it-may-be-too-soon-for-trump-to-meet-xi">It may be too soon for Trump to meet Xi</a></h3><time class="print-1">5:50 AM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-bt-wide-panel-pane-1 homepage-cat clearfix col-lg-4 col-md-4 col-sm-6 col-xs-12"  >
+  
+        <h2 class="pane-title">
+      <a href="/companies-markets">Companies &amp; Markets</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_1 view-dom-id-b43a9fcf21f14afe295da1dc34a0863b" data-vr-zone="Companies and Markets">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_2 view-dom-id-ef082364553d7519a0a1a04b13147486" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/companies-markets/overall-payment-performance-improves-in-q1-but-construction-sector-lags">Overall payment performance improves in Q1, but construction sector lags</a></h3><time class="print-0">10:59 AM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-attachment_1" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/companies-markets/genting-invests-us2m-in-singapore-based-molecular-diagnostics-startup">Genting invests US$2m in Singapore-based molecular diagnostics startup</a></h3><time class="print-0">10:28 AM</time></div></span>  </div></li>
+          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/stocks/stocks-to-watch-ascott-s-i2i-mm2-asia">Stocks to watch: Ascott, S i2i, mm2 Asia</a></h3><time class="print-0">8:50 AM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-bt-wide-panel-pane-1 homepage-cat clearfix col-lg-4 col-md-4 col-sm-6 col-xs-12"  >
+  
+        <h2 class="pane-title">
+      <a href="/transport">Transport</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_1 view-dom-id-2be9f5cbd1b24eed1acf9d42626442e8" data-vr-zone="Transport">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_2 view-dom-id-4e75c123e56d9bec86c3ffbec2fb1382" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/transport/bmws-first-win-over-mercedes-in-2017-narrows-us-luxury-race">BMW&#039;s first win over Mercedes in 2017 narrows US luxury race</a></h3><time class="print-0">10:47 AM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-attachment_1" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/transport/us-car-demand-collapses-in-threat-to-trumps-auto-plant-push">US car demand collapses in threat to Trump&#039;s auto plant push</a></h3><time class="print-0">9:46 AM</time></div></span>  </div></li>
+          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/transport/11-dead-in-russian-metro-terror-attack">11 dead in Russian metro &#039;terror attack&#039;</a></h3><time class="print-0">6:37 AM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-bt-wide-panel-pane-1 homepage-cat clearfix col-lg-4 col-md-4 col-sm-6 col-xs-12"  >
+  
+        <h2 class="pane-title">
+      <a href="/real-estate">Real Estate</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_1 view-dom-id-af704f956983aa12f63efb82544794bd" data-vr-zone="Real Estate">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_2 view-dom-id-8f79b37dd39c6929e045b2bc51d3e1c5" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/real-estate/us-retail-mall-vacancies-flat-in-first-quarter-reis">US retail mall vacancies flat in first quarter: Reis</a></h3><time class="print-0">11:55 AM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-attachment_1" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/companies-markets/ascott-expands-to-south-america-with-two-franchise-properties-in-brazil">Ascott expands to South America with two franchise properties in Brazil</a></h3><time class="print-0">7:56 AM</time></div></span>  </div></li>
+          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/real-estate/new-york-office-rents-hit-new-highs-on-robust-demand-colliers">New York office rents hit new highs on robust demand: Colliers</a></h3><time class="print-0">7:30 AM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-bt-wide-panel-pane-1 homepage-cat clearfix col-lg-4 col-md-4 col-sm-6 col-xs-12"  >
+  
+        <h2 class="pane-title">
+      <a href="/banking-finance">Banking &amp; Finance</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_1 view-dom-id-043240f0907de01246091b4480fe77dd" data-vr-zone="Banking and Finance">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_2 view-dom-id-6822547f6f71c70aa24ce706a743163b" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/banking-finance/credit-suisse-probe-puts-swiss-officials-on-back-foot-again">Credit Suisse probe puts Swiss officials on back foot again</a></h3><time class="print-0">2:56 PM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-attachment_1" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/banking-finance/australia-nz-dollars-dented-by-rba-caution-dovish-comments">Australia, NZ dollars dented by RBA caution, dovish comments</a></h3><time class="print-0">2:38 PM</time></div></span>  </div></li>
+          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/government-economy/australia-keeps-rates-on-hold-sizzling-housing-market-a-worry">Australia keeps rates on hold, sizzling housing market a worry</a></h3><time class="print-0">1:15 PM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-bt-wide-panel-pane-1 homepage-cat clearfix col-lg-4 col-md-4 col-sm-6 col-xs-12"  >
+  
+        <h2 class="pane-title">
+      <a href="/energy-commodities">Energy &amp; Commodities</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_1 view-dom-id-f45de0b5041272c7437654825710ac07" data-vr-zone="Energy and Commodities">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_2 view-dom-id-476cf477f67e1f9e87ef2b6bd3a48660" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/energy-commodities/oil-rally-fizzles-as-prices-made-vulnerable-by-libyan-crude-gain">Oil rally fizzles as prices made vulnerable by Libyan crude gain</a></h3><time class="print-0">2:00 PM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-attachment_1" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/energy-commodities/oil-prices-fall-as-libyan-production-recovery-weighs">Oil prices fall as Libyan production recovery weighs</a></h3><time class="print-0">7:05 AM</time></div></span>  </div></li>
+          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-True"><h3 class="headline"><a href="/companies-markets/asian-forestry-investment-fund-acquires-laos-hardwood-plantation">Asian forestry investment fund acquires Laos hardwood plantation</a></h3><time class="print-1">5:50 AM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-bt-wide-panel-pane-1 homepage-cat clearfix col-lg-4 col-md-4 col-sm-6 col-xs-12"  >
+  
+        <h2 class="pane-title">
+      <a href="/technology">Technology</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_1 view-dom-id-d433589427d445d205e8e6fdfd5854c5" data-vr-zone="Technology">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_2 view-dom-id-0e42cd55460b36bed086ae6124212256" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/technology/toshiba-to-seek-loan-support-from-creditor-banks-on-tuesday-sources">Toshiba to seek loan support from creditor banks on Tuesday: sources</a></h3><time class="print-0">1:01 PM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-attachment_1" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/consumer/japans-rakuten-bets-on-post-app-future-with-new-gaming-service">Japan&#039;s Rakuten bets on post-app future with new gaming service</a></h3><time class="print-0">11:43 AM</time></div></span>  </div></li>
+          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/technology/amazon-brings-its-business-marketplace-to-britain">Amazon brings its business marketplace to Britain</a></h3><time class="print-0">8:05 AM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-bt-wide-panel-pane-1 homepage-cat clearfix col-lg-4 col-md-4 col-sm-6 col-xs-12"  >
+  
+        <h2 class="pane-title">
+      <a href="/consumer">Consumer</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_1 view-dom-id-5f76097ee790255ccb528f86cfd4f3ef" data-vr-zone="Consumer">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_2 view-dom-id-00ce149435f783240ff44474b5fd9187" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/consumer/japans-rakuten-bets-on-post-app-future-with-new-gaming-service">Japan&#039;s Rakuten bets on post-app future with new gaming service</a></h3><time class="print-0">11:43 AM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-attachment_1" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/consumer/us-newspapers-cut-more-than-half-their-jobs-since-2001">US newspapers cut more than half their jobs since 2001</a></h3><time class="print-0">6:57 AM</time></div></span>  </div></li>
+          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-True"><h3 class="headline"><a href="/technology/grab-buys-indonesia-e-commerce-startup-kudo">Grab buys Indonesia e-commerce startup Kudo</a></h3><time class="print-1">5:50 AM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-bt-wide-panel-pane-1 homepage-cat clearfix col-lg-4 col-md-4 col-sm-6 col-xs-12"  >
+  
+        <h2 class="pane-title">
+      <a href="/government-economy">Government &amp; Economy</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_1 view-dom-id-3bf533f85159e87d2bfb98bba03789f7" data-vr-zone="Government and Economy">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-panel_pane_2 view-dom-id-1cfdeed0eea9e447e4fa47ee95a0aefe" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/government-economy/new-zealand-hit-by-ex-cyclone-debbie-heavy-rains-close-highways">New Zealand hit by ex-Cyclone Debbie, heavy rains close highways</a></h3><time class="print-0">2:45 PM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-bt-wide view-id-bt_wide view-display-id-attachment_1" >
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/government-economy/australia-keeps-rates-on-hold-sizzling-housing-market-a-worry">Australia keeps rates on hold, sizzling housing market a worry</a></h3><time class="print-0">1:15 PM</time></div></span>  </div></li>
+          <li class="clearfix"  data-vr-contentbox="">  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="premium-False"><h3 class="headline"><a href="/government-economy/trump-tells-sisi-us-egypt-will-fight-islamist-militants-together">Trump tells Sisi US, Egypt will fight Islamist militants together</a></h3><time class="print-0">12:47 PM</time></div></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-life-culture-and-srx"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-life_culture_and_srx">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-views-panes pane-homepage-sections-panel-pane-1 life-culture col-lg-8 col-md-8 col-sm-12 col-xs-12 margin-bottom-20"  >
+  
+        <h2 class="pane-title">
+      <a href="/life-culture">Life &amp; Culture</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_1 clearfix view-dom-id-fac8f2be48ac755d29fea53a17b7b156" >
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_3 clearfix view-dom-id-64d82a92d9b0514381c15d2e04f20e77" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Life and Culture">
+    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last pull-left col-lg-12 col-md-12 col-sm-12 col-xs-12" data-vr-contentbox="">
+      
+  <div class="image-wrapper pull-left margin-right-10">        <div>
+  <div class="field field-name-field-scald-image field-type-atom-reference field-label-hidden">
+    <!-- scald=105130:homepage_top_stories_image --><div  class="ds-1col scald-atom view-mode-homepage_top_stories_image  clearfix">
+
+  
+  <picture   title="Hong Kong fruit.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="" media="(min-width: 960px)" />
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/04/Hong%20Kong%20fruit_0.jpg?itok=Xd7GEAFe 1x" media="(min-width: 768px)" />
+<source srcset="/sites/default/files/styles/article_img_retina/public/image/2017/04/04/Hong%20Kong%20fruit_0.jpg?itok=nvi48XUe 1x" media="(min-width: 480px)" />
+<source srcset="/sites/default/files/styles/article_img/public/image/2017/04/04/Hong%20Kong%20fruit_0.jpg?itok=0uiFwBUK 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/04/Hong%20Kong%20fruit_0.jpg?itok=0uiFwBUK" srcset="/sites/default/files/styles/article_img/public/image/2017/04/04/Hong%20Kong%20fruit_0.jpg?itok=0uiFwBUK 300w" alt="Hong Kong fruit.jpg" title="Hong Kong fruit.jpg" />
+</picture></div>
+
+<!-- END scald=105130 -->  </div>
+</div>  </div>  
+  <div>        <h4 class="category"><a href="/life-culture" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Life &amp; Culture</a></h4>  </div>  
+  <div>        <h3 class="headline"><a href="/life-culture/a-slice-of-luxury-hong-kongs-high-end-fruit-fad">A slice of luxury: Hong Kong&#039;s high-end fruit fad</a></h3>  </div>  
+  <div>        <p class="blurb">[HONG KONG] It might be a healthy food choice, but Hong Kong&#039;s latest fruit fad is doing serious damage to shoppers&#039; wallets.</p>  </div>  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-1 text-center col-lg-4 col-md-4 col-sm-12 col-xs-12"  >
+  
+      
+  
+  <div class="pane-content">
+    <iframe frameborder="0" height="325px" src="http://www.srx.com.sg/srx/media/xvalue/xvalueWidgetBusinessTimes.jsp"></iframe>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+    </div>
+  </div>
+  <div class="row row-15">
+    <div class="col-sm-12 pane-row15">
+          </div>
+  </div>
+  <div class="row row-16">
+    <div class="col-sm-12 pane-row16">
+      <div class="panel-pane pane-custom pane-2"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="bt-wide-line"></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-3 col-lg-9 col-md-9 col-sm-12 col-xs-12"  >
+  
+      
+  
+  <div class="pane-content">
+    <h2 class="field-content pane-title">BT Weekly</h2>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-bt-weekly col-lg-9 col-md-9 col-sm-12 col-xs-12 margin-bottom-20"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-bt_weekly">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-views-panes pane-homepage-sections-panel-pane-4 col-md-4 clearfix homepage-btweekly"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_4 view-dom-id-d3f914b222974566d049d583147a6b90" >
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_6 view-dom-id-c1edc4165fff80c5db46dd0379ffed28" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="The Raffles Conversation">
+    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" data-vr-contentbox="">
+      
+  <div class="image-wrapper visible-md visible-lg margin-bottom-10">        <a href="/the-raffles-conversation/trade-crusader"><!-- scald=104832:lifestyle_editors_choice --><picture   title="BT_20170401_ATMALM_2819814.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/01/BT_20170401_ATMALM_2819814.jpg?itok=4SW36rZ- 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/01/BT_20170401_ATMALM_2819814.jpg?itok=dY3Lud_6" srcset="/sites/default/files/styles/article_img/public/image/2017/04/01/BT_20170401_ATMALM_2819814.jpg?itok=dY3Lud_6 300w" alt="BT_20170401_ATMALM_2819814.jpg" title="BT_20170401_ATMALM_2819814.jpg" />
+</picture><!-- END scald=104832 --></a>  </div>  
+          <h4 class="category">
+  <div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+    <a href="/the-raffles-conversation" class="replacement">The Raffles Conversation</a>  </div>
+</h4>    
+          <div class="premium-True"><h3 class="headline"><a href="/the-raffles-conversation/trade-crusader">Trade crusader</a></h3><time class="print-1">5:50 AM</time></div>    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-homepage-sections-panel-pane-4 col-md-4 clearfix homepage-btweekly"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_4 view-dom-id-3046829d2d4e66194e03572e2fca0270" >
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_6 view-dom-id-fea6370df6cbd2c2d296c8ffd505896c" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Young Investors Forum">
+    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" data-vr-contentbox="">
+      
+  <div class="image-wrapper visible-md visible-lg margin-bottom-10">        <a href="/young-investors-forum/saving-money-while-studying-abroad"><!-- scald=104943:lifestyle_editors_choice --><picture   title="BT_20170403_HXSMU_2820717.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/03/BT_20170403_HXSMU_2820717.jpg?itok=WvyaBAD8 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/03/BT_20170403_HXSMU_2820717.jpg?itok=VcKyrAUS" srcset="/sites/default/files/styles/article_img/public/image/2017/04/03/BT_20170403_HXSMU_2820717.jpg?itok=VcKyrAUS 300w" alt="BT_20170403_HXSMU_2820717.jpg" title="BT_20170403_HXSMU_2820717.jpg" />
+</picture><!-- END scald=104943 --></a>  </div>  
+          <h4 class="category">
+  <div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+    <a href="/young-investors-forum" class="replacement">Young Investors Forum</a>  </div>
+</h4>    
+          <div class="premium-True"><h3 class="headline"><a href="/young-investors-forum/saving-money-while-studying-abroad">Saving money while studying abroad</a></h3><time class="print-1">5:50 AM</time></div>    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-homepage-sections-panel-pane-4 col-md-4 clearfix homepage-btweekly"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_4 view-dom-id-cb29aab7efc8bd55c0ccc12da298bc61" >
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_6 view-dom-id-c35a6dd8f43440a1b318e61f3788186e" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Brunch">
+    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" data-vr-contentbox="">
+      
+  <div class="image-wrapper visible-md visible-lg margin-bottom-10">        <a href="/brunch/the-stories-we-tell"><!-- scald=104894:lifestyle_editors_choice --><picture   title="Story Slam_thumbnail.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/01/Story%20Slam_thumbnail_0.jpg?itok=vsgyHIzD 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/01/Story%20Slam_thumbnail_0.jpg?itok=wwuXpvU4" srcset="/sites/default/files/styles/article_img/public/image/2017/04/01/Story%20Slam_thumbnail_0.jpg?itok=wwuXpvU4 300w" alt="Story Slam_thumbnail.jpg" title="Story Slam_thumbnail.jpg" />
+</picture><!-- END scald=104894 --></a>  </div>  
+          <h4 class="category">
+  <div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+    <a href="/brunch" class="replacement">Brunch</a>  </div>
+</h4>    
+          <div class="premium-False"><h3 class="headline"><a href="/brunch/the-stories-we-tell">The stories we tell</a></h3><time class="print-1">5:50 AM</time></div>    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-homepage-sections-panel-pane-4 col-md-4 clearfix homepage-btweekly"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_4 view-dom-id-c4c5b30510b62a956ed3589a23d29b0f" >
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_6 view-dom-id-8c2a8d0eec76fcd258f64743d6a4b38c" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="SME">
+    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" data-vr-contentbox="">
+      
+  <div class="image-wrapper visible-md visible-lg margin-bottom-10">        <a href="/sme/having-a-bubbly-good-time-naturally"><!-- scald=105060:lifestyle_editors_choice --><picture   title="BT_20170404_VASOAP4_2822276.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/04/BT_20170404_VASOAP4_2822276.jpg?itok=7Jl262Y3 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/04/BT_20170404_VASOAP4_2822276.jpg?itok=-95jlI_g" srcset="/sites/default/files/styles/article_img/public/image/2017/04/04/BT_20170404_VASOAP4_2822276.jpg?itok=-95jlI_g 300w" alt="BT_20170404_VASOAP4_2822276.jpg" title="BT_20170404_VASOAP4_2822276.jpg" />
+</picture><!-- END scald=105060 --></a>  </div>  
+          <h4 class="category">
+  <div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+    <a href="/sme" class="replacement">SME</a>  </div>
+</h4>    
+          <div class="premium-True"><h3 class="headline"><a href="/sme/having-a-bubbly-good-time-naturally">Having a bubbly good time, naturally</a></h3><time class="print-1">5:50 AM</time></div>    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-homepage-sections-panel-pane-4 col-md-4 clearfix homepage-btweekly"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_4 view-dom-id-b7bc39c5f739192f146ae5eafaa06372" >
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_6 view-dom-id-7601b22f5b63f2d04abd57a5c73a243b" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Executive Money">
+    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" data-vr-contentbox="">
+      
+  <div class="image-wrapper visible-md visible-lg margin-bottom-10">        <a href="/executive-money/bright-outlook-for-real-assets-brookfield"><!-- scald=104460:lifestyle_editors_choice --><picture   title="BT_20170329_GCBROOKFIELD29_2813479.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/03/29/BT_20170329_GCBROOKFIELD29_2813479.jpg?itok=xhzDPFBW 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/03/29/BT_20170329_GCBROOKFIELD29_2813479.jpg?itok=i1MpYwC1" srcset="/sites/default/files/styles/article_img/public/image/2017/03/29/BT_20170329_GCBROOKFIELD29_2813479.jpg?itok=i1MpYwC1 300w" alt="BT_20170329_GCBROOKFIELD29_2813479.jpg" title="BT_20170329_GCBROOKFIELD29_2813479.jpg" />
+</picture><!-- END scald=104460 --></a>  </div>  
+          <h4 class="category">
+  <div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+    <a href="/executive-money" class="replacement">Executive Money</a>  </div>
+</h4>    
+          <div class="premium-True"><h3 class="headline"><a href="/executive-money/bright-outlook-for-real-assets-brookfield">Bright outlook for real assets: Brookfield</a></h3><time class="print-1">5:50 AM</time></div>    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-homepage-sections-panel-pane-4 col-md-4 clearfix homepage-btweekly"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_4 view-dom-id-fb656638bbe4a25cdebea0ad1ab044e5" >
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_6 view-dom-id-9848232ccb748aec63c7708b8ae56304" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Investing and Wealth">
+    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" data-vr-contentbox="">
+      
+  <div class="image-wrapper visible-md visible-lg margin-bottom-10">        <a href="/investing-wealth/blackrock-casts-its-lot-with-machines-over-managers"><!-- scald=104836:lifestyle_editors_choice --><picture   title="BT_20170401_BLACKROCK1_2819455.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/01/BT_20170401_BLACKROCK1_2819455_0.jpg?itok=ZLVetjFq 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/01/BT_20170401_BLACKROCK1_2819455_0.jpg?itok=Hn4pqlEe" srcset="/sites/default/files/styles/article_img/public/image/2017/04/01/BT_20170401_BLACKROCK1_2819455_0.jpg?itok=Hn4pqlEe 300w" alt="BT_20170401_BLACKROCK1_2819455.jpg" title="BT_20170401_BLACKROCK1_2819455.jpg" />
+</picture><!-- END scald=104836 --></a>  </div>  
+          <h4 class="category">
+  <div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+    <a href="/investing-wealth" class="replacement">Investing & Wealth</a>  </div>
+</h4>    
+          <div class="premium-True"><h3 class="headline"><a href="/investing-wealth/blackrock-casts-its-lot-with-machines-over-managers">BlackRock casts its lot with machines, over managers</a></h3><time class="print-1">5:50 AM</time></div>    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-homepage-sections-panel-pane-4 col-md-4 clearfix homepage-btweekly"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_4 view-dom-id-08466e3c86dda62ff491310e8ea8c500" >
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_6 view-dom-id-00e4b33d04abbca0fd08216252e816d3" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Food and Drink">
+    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" data-vr-contentbox="">
+      
+  <div class="image-wrapper visible-md visible-lg margin-bottom-10">        <a href="/lifestyle/food-drink/dine-now-23"><!-- scald=104850:lifestyle_editors_choice --><picture   title="BT_20170401_BUZZ1D-G_2817692.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/01/buzz_april_1_dine_now__La_Brezza_Carnaroli_Risotto__Sea_Lettuce__Hokkaido_Scallop__Baeri_Caviar.jpg?itok=tgLAF7qn 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/01/buzz_april_1_dine_now__La_Brezza_Carnaroli_Risotto__Sea_Lettuce__Hokkaido_Scallop__Baeri_Caviar.jpg?itok=zaC5S9dI" srcset="/sites/default/files/styles/article_img/public/image/2017/04/01/buzz_april_1_dine_now__La_Brezza_Carnaroli_Risotto__Sea_Lettuce__Hokkaido_Scallop__Baeri_Caviar.jpg?itok=zaC5S9dI 300w" alt="BT_20170401_BUZZ1D-G_2817692.jpg" title="BT_20170401_BUZZ1D-G_2817692.jpg" />
+</picture><!-- END scald=104850 --></a>  </div>  
+          <h4 class="category">
+  <div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+    <a href="/lifestyle/food-drink" class="replacement">Food & Drink</a>  </div>
+</h4>    
+          <div class="premium-True"><h3 class="headline"><a href="/lifestyle/food-drink/dine-now-23">Dine Now</a></h3><time class="print-1">5:50 AM</time></div>    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-homepage-sections-panel-pane-4 col-md-4 clearfix homepage-btweekly"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_4 view-dom-id-ed9d373d03c53b08bbe47035e6b08bd3" >
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_6 view-dom-id-ad50f3b466c7a6bb746f47ad390d370f" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Feature">
+    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" data-vr-contentbox="">
+      
+  <div class="image-wrapper visible-md visible-lg margin-bottom-10">        <a href="/lifestyle/feature/the-new-art-aficionados"><!-- scald=104864:lifestyle_editors_choice --><picture   title="BT_20170401_FEATURE1-T_2817768.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/01/From_left_Nathan_Gunawan_and_artist_Loi_Cai_Xiang_and_Natalie_Gunawan.jpg?itok=aYCafP0x 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/01/From_left_Nathan_Gunawan_and_artist_Loi_Cai_Xiang_and_Natalie_Gunawan.jpg?itok=lz2zrpW-" srcset="/sites/default/files/styles/article_img/public/image/2017/04/01/From_left_Nathan_Gunawan_and_artist_Loi_Cai_Xiang_and_Natalie_Gunawan.jpg?itok=lz2zrpW- 300w" alt="BT_20170401_FEATURE1-T_2817768.jpg" title="BT_20170401_FEATURE1-T_2817768.jpg" />
+</picture><!-- END scald=104864 --></a>  </div>  
+          <h4 class="category">
+  <div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+    <a href="/lifestyle/feature" class="replacement">Feature</a>  </div>
+</h4>    
+          <div class="premium-True"><h3 class="headline"><a href="/lifestyle/feature/the-new-art-aficionados">The New Art Aficionados</a></h3><time class="print-1">5:50 AM</time></div>    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-homepage-sections-panel-pane-4 col-md-4 clearfix homepage-btweekly"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_4 view-dom-id-482bf039369610dca59f864614a6fa6d" >
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-homepage-sections view-id-homepage_sections view-display-id-panel_pane_6 view-dom-id-37ef4c2335d97cc1ff2070adc687aa07" >
+        
+  
+  
+      <div class="view-content">
+        <div data-vr-zone="Views From The Top">
+    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" data-vr-contentbox="">
+      
+  <div class="image-wrapper visible-md visible-lg margin-bottom-10">        <a href="/views-from-the-top/getting-women-on-board"><!-- scald=104962:lifestyle_editors_choice --><picture   title="BT_20170403_VIEWS3_2820607.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/03/BT_20170403_VIEWS3_2820607_0.jpg?itok=yOHFFa9C 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/03/BT_20170403_VIEWS3_2820607_0.jpg?itok=Nu990Tqk" srcset="/sites/default/files/styles/article_img/public/image/2017/04/03/BT_20170403_VIEWS3_2820607_0.jpg?itok=Nu990Tqk 300w" alt="BT_20170403_VIEWS3_2820607.jpg" title="BT_20170403_VIEWS3_2820607.jpg" />
+</picture><!-- END scald=104962 --></a>  </div>  
+          <h4 class="category">
+  <div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+    <a href="/views-from-the-top" class="replacement">Views From The Top</a>  </div>
+</h4>    
+          <div class="premium-True"><h3 class="headline"><a href="/views-from-the-top/getting-women-on-board">Getting women on board</a></h3><time class="print-1">5:50 AM</time></div>    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-mp-newsletter-signup-most-read col-lg-3 col-md-3 col-sm-12 col-xs-12 margin-bottom-20"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-mp_newsletter_signup_most_read">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-block pane-block-74 pane-block"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="newsletter-form form-rightside-bar">
+      <h4>Sign up for <span  class="color-blue">BT</span> Newsletters </h4>
+
+       <div class="newsletter_desc">
+		<div class="text_2">Breakfast Brief every morning</div>
+		<div class="text_3">Daily Debrief every evening</div>
+	</div>
+
+	<div id="loading-image" class="margin-bottom-20 margin-top-10 color-blue">Please wait<img src="/sites/all/themes/custom/businesstimes/images/processing3.gif"></div>
+	<div id="newsetter_msg" class="margin-bottom-20 margin-top-10"></div>
+	<div id="sub_submission">
+		<div class="fields_wrapper">
+			<form action="" id="newsletter_submit_form">
+				<input type="text" value="" placeholder="Your e-mail address" id="email" name="email" class="input-border-radius">  		
+				<input type="submit" value="SIGN UP" name="submit" id="newsletter_submit" class="two-border-button-dark-blue">
+			</form>
+		</div>
+		<span class="terms-condition bold"><a href="http://sph.com.sg/legal/website_tnc.html" target="_blank">Terms &amp; Conditions</a></span>
+	</div>
+</div>
+
+<style>
+.bt-wide .form-rightside-bar {
+  margin-bottom: 20px;
+  float: left;
+}
+.bt-wide .form-rightside-bar h4 {
+  font-size: 20px;
+  margin-top: 0px;
+}
+.bt-wide .form-rightside-bar .newsletter_desc {
+  font-size: 14px;
+  line-height: 20px;
+}
+.bt-wide .form-rightside-bar #loading-image img {
+  width: 23px;
+}
+.bt-wide .form-rightside-bar #newsetter_msg {
+  color: red;
+}
+.bt-wide .form-rightside-bar #newsletter_submit_form #email {
+  float: left;
+  width: 59%;
+}
+.bt-wide .form-rightside-bar #newsletter_submit_form #newsletter_submit {
+  width: 90px;
+}
+@media (min-width: 960px) and (max-width: 1170px) {
+  .bt-wide .form-rightside-bar #newsletter_submit_form #email {
+    width: 85% !important;
+  }
+  .bt-wide .form-rightside-bar #newsletter_submit_form #newsletter_submit {
+    width: 85% !important;
+    margin-bottom: 12px;
+  }
+}
+.bt-wide .form-rightside-bar .terms-condition {
+  width: 100%;
+  float: left;
+}
+</style>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-most-read-panel-pane-2 clear-both editors-choice most-read margin-top-20"  >
+  
+        <h2 class="pane-title">
+      Most Read    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-most-read view-id-most_read view-display-id-panel_pane_2 margin-bottom-10 view-dom-id-e8ca2a0f5e6d89bc809eb10d3c42b35d" >
+        
+  
+  
+      <div class="view-content">
+          <div class="views-row views-row-1 views-row-odd views-row-first" >
+      
+  <div class="views-field views-field-counter">        <span class="field-content">1</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/lifestyle/weekend-interview/elaine-kim">Elaine Kim </a></span>  </div>  </div>
+    <div class="views-row views-row-2 views-row-even" >
+      
+  <div class="views-field views-field-counter">        <span class="field-content">2</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/companies-markets/starhub-management-has-no-intention-to-acquire-m1-report">StarHub management has &quot;no intention&quot; to acquire M1: report</a></span>  </div>  </div>
+    <div class="views-row views-row-3 views-row-odd" >
+      
+  <div class="views-field views-field-counter">        <span class="field-content">3</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/consumer/softening-of-medical-tourism-nudges-health-groups-overseas">Softening of medical tourism nudges health groups overseas</a></span>  </div>  </div>
+    <div class="views-row views-row-4 views-row-even" >
+      
+  <div class="views-field views-field-counter">        <span class="field-content">4</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/companies-markets/update-lawsuit-against-sembmarine-jurong-shipyard-keppel-dismissed-by-us-district">Update: Lawsuit against SembMarine, Jurong Shipyard, Keppel dismissed by US district court (Amended)</a></span>  </div>  </div>
+    <div class="views-row views-row-5 views-row-odd views-row-last" >
+      
+  <div class="views-field views-field-counter">        <span class="field-content">5</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/companies-markets/worlds-first-asia-ex-japan-reit-etf-lists-on-singapore-exchange">World&#039;s first Asia ex-Japan Reit ETF lists on Singapore Exchange</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+    </div>
+  </div>
+  <div class="row row-17">
+    <div class="col-sm-12 pane-row17">
+          </div>
+  </div>
+  <div class="row row-18">
+    <div class="col-sm-12 pane-row18">
+      <div class="panel-pane pane-custom pane-4 visible-lg visible-md visible-sm"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="bt-wide-line"></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-bt-wide-homepage-magazine magazine-homepage visible-md visible-lg visible-sm"  >
+  
+        <h2 class="pane-title">
+      Magazine    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-bt-wide view-id-bt_wide view-display-id-homepage_magazine row view-dom-id-42d04d22d44a5502018ad129994dce86" data-vr-zone="Magazine">
+        
+  
+  
+      <div class="view-content">
+      <div class="views-limit-grouping-group" data-vr-contentbox>
+      <h3>
+  <div class="field field-name-field-story-thread field-type-entityreference field-label-hidden">
+    <a href="/magazines/wealth-april-2017">Wealth (April 2017)</a>  </div>
+</h3>
+        <div class="views-row views-row-odd views-limit-grouping">
+        
+  <div>        <div class="visible-md visible-lg visible-sm"><!-- scald=105061:section_listing_page_featured -->
+      <figure class="scald-atom scald-atom-image ">
+        <picture   title="BT20170404_WEALTHAPRIL2017_02.png" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/04/BT20170404_WEALTHAPRIL2017_06.jpg?itok=mYMq3F5W 1x" media="(min-width: 960px)" />
+<source srcset="/sites/default/files/styles/article_img_retina/public/image/2017/04/04/BT20170404_WEALTHAPRIL2017_06.jpg?itok=VHO1rzGh 1x" media="(min-width: 768px)" />
+<source srcset="/sites/default/files/styles/article_img/public/image/2017/04/04/BT20170404_WEALTHAPRIL2017_06.jpg?itok=dGIX9tul 1x" media="(min-width: 480px)" />
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/04/04/BT20170404_WEALTHAPRIL2017_06.jpg?itok=mYMq3F5W 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/04/04/BT20170404_WEALTHAPRIL2017_06.jpg?itok=dGIX9tul" srcset="/sites/default/files/styles/article_img/public/image/2017/04/04/BT20170404_WEALTHAPRIL2017_06.jpg?itok=dGIX9tul 300w" alt="BT20170404_WEALTHAPRIL2017_02.png" title="BT20170404_WEALTHAPRIL2017_02.png" />
+</picture>
+        <figcaption></figcaption>
+      </figure>
+    <!-- END scald=105061 --></div>  </div>  
+          
+  <div class="field field-name-field-story-thread field-type-entityreference field-label-hidden">
+    <a href="/magazines/wealth-april-2017">Wealth (April 2017)</a>  </div>
+    
+  <div>        <h2 class="kicker">SPOTLIGHT: G S SAREEN</h2>  </div>  
+  <div>        <span><a href="/magazines/wealth-april-2017/core-driving-force"><div class="premium-False"><h2 class="headline"><a href="/magazines/wealth-april-2017/core-driving-force">Core driving force</a></h2></div></a></span>  </div>  
+  <div>        <div class="blurb">Omni United&#039;s founder G S Sareen believes business success lies in persistence - and a set of non-negotiable values.
+</div>  </div>  
+  <div>        <div class="magazine-pdf-download"></div>  </div>    </div>
+  </div>
+<div class="views-limit-grouping-group" data-vr-contentbox>
+      <h3>
+  <div class="field field-name-field-story-thread field-type-entityreference field-label-hidden">
+    <a href="/magazines/property-march-2017">PROPERTY MARCH 2017</a>  </div>
+</h3>
+        <div class="views-row views-row-even views-limit-grouping">
+        
+  <div>        <div class="visible-md visible-lg visible-sm"><!-- scald=104789:section_listing_page_featured -->
+      <figure class="scald-atom scald-atom-image ">
+        <picture   title="BT-Supp-Pty-Apr2017-UK-Housing.jpg" class="img-responsive">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/03/31/BT-Supp-Pty-Apr2017-UK-Housing.jpg?itok=E_fq5jL7 1x" media="(min-width: 960px)" />
+<source srcset="/sites/default/files/styles/article_img_retina/public/image/2017/03/31/BT-Supp-Pty-Apr2017-UK-Housing.jpg?itok=GAnQpw7N 1x" media="(min-width: 768px)" />
+<source srcset="/sites/default/files/styles/article_img/public/image/2017/03/31/BT-Supp-Pty-Apr2017-UK-Housing.jpg?itok=FtV7G2ZU 1x" media="(min-width: 480px)" />
+<source srcset="/sites/default/files/styles/hp_featured/public/image/2017/03/31/BT-Supp-Pty-Apr2017-UK-Housing.jpg?itok=E_fq5jL7 1x" media="(min-width: 100px)" />
+<!--[if IE 9]></video><![endif]-->
+<img class="img-responsive" src="/sites/default/files/styles/article_img/public/image/2017/03/31/BT-Supp-Pty-Apr2017-UK-Housing.jpg?itok=FtV7G2ZU" srcset="/sites/default/files/styles/article_img/public/image/2017/03/31/BT-Supp-Pty-Apr2017-UK-Housing.jpg?itok=FtV7G2ZU 300w" alt="BT-Supp-Pty-Apr2017-UK-Housing.jpg" title="BT-Supp-Pty-Apr2017-UK-Housing.jpg" />
+</picture>
+        <figcaption></figcaption>
+      </figure>
+    <!-- END scald=104789 --></div>  </div>  
+          
+  <div class="field field-name-field-story-thread field-type-entityreference field-label-hidden">
+    <a href="/magazines/property-march-2017">PROPERTY MARCH 2017</a>  </div>
+    
+  <div>        <span><a href="/magazines/property-april-2017/uk-housing-post-brexit-what-lies-ahead"><div class="premium-False"><h2 class="headline"><a href="/magazines/property-april-2017/uk-housing-post-brexit-what-lies-ahead">UK housing post-Brexit: what lies ahead</a></h2></div></a></span>  </div>  
+  <div>        <div class="blurb">A continuing structural demand-supply mismatch and discounts offered to foreign buyers due to a weak pound indicate there is room for growth.</div>  </div>  
+  <div>        <div class="magazine-pdf-download"></div>  </div>    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+    </div>
+  </div>
+  <div class="row row-19">
+    <div class="col-sm-12 pane-row19">
+          </div>
+  </div>
+  <div class="row row-20">
+    <div class="col-sm-12 pane-row20">
+          </div>
+  </div>
+  <div class="row footer">
+    <div class="col-sm-12 pane-footer">
+          </div>
+  </div>
+</div>
+</section>
+  </div>
+    </section>
+
+    
+  </div>
+
+
+
+
+  <div class="region region-footertop">
+    <section id="block-block-79" class="block block-block clearfix">
+
+      
+  
+
+	<div class="new-footer-wrapper margin-top-50 hidden-print">
+		<div class="top-wrap">
+			<div class="left-colm col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				<div class="footer-img-left pull-left"><img src="/sites/all/themes/custom/businesstimes/images/ls-placeholderL.png?a" border="0"></div>
+				<div>
+					<div class="footer-title">subscribe to</div>
+					<div class="footer-title bold">The Business Times</div>
+					<div class="footer-text visible-lg visible-md">
+						<div>Stay connected with The Business Times</div>
+						<div>premium content on your favourite platforms</div>
+					</div>
+					<div class="footer-text-call">CALL 6388 3838</div>
+					<div class="two-border-button-dark-blue find-out-more">
+					  <a href="http://www.sphsubscription.com.sg/eshop/?r=products/newsubscriptionpackages&pcode=BT">Find Out More</a>
+					</div>
+				</div>
+			</div>
+			<div class="right-colm col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				<div class="footer-img-right pull-right"><img src="/sites/all/themes/custom/businesstimes/images/ls-placeholder2.png" border="0"></div>
+				<div>
+					<div  class="footer-title">Download Our</div>
+					<div  class="footer-title bold">Apps</div>
+					<div class="footer-text">
+						<div>Stay up to date with <span class="nowrap">The Business Times</span> for</div>
+						<div>
+							<a class="app-store-link iphone-link" href="https://itunes.apple.com/sg/app/business-times-for-iphone/id531275824" target="blank">iPhone</a> |
+							<a class="app-store-link ipad-link" href="https://itunes.apple.com/sg/app/business-times-for-ipad/id531283825" target="blank">iPad</a> |
+							<a class="app-store-link" href="https://play.google.com/store/apps/details?id=com.ps.bt&amp;hl=en" target="blank">Android</a>
+						</div>
+					</div>
+					<div class="app-store-buttons">
+						<div class="iphone-app pull-left margin-right-10 app-store">
+							<a class="app-store-link iphone-link" href="https://itunes.apple.com/sg/app/business-times-for-iphone/id531275824" target="blank">
+								<img src="/sites/all/themes/custom/businesstimes/images/download-itunes.png" style="height:40px; width:125px" />
+							</a>
+							<a class="app-store-link ipad-link" href="https://itunes.apple.com/sg/app/business-times-for-ipad/id531283825" style="display:none" target="blank">
+								<img src="/sites/all/themes/custom/businesstimes/images/download-itunes.png" style="height:40px; width:125px" />
+							</a>
+						</div>
+
+						<div class="android-app pull-left margin-right-20">
+							<a class="app-store-link" href="https://play.google.com/store/apps/details?id=com.ps.bt&amp;hl=en" target="blank">
+								<img src="/sites/all/themes/custom/businesstimes/images/download-play.png" style="height:40px; width:125px" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-wrap">
+			<div class="right-colm col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+				<div class="footer-text2">
+					<div class="footer-title-blue bold margin-bottom-20">Stay Updated</div>
+					<div class="title">Get the latest news and information from <span><a href="http://www.businesstimes.com.sg/newsletter/sign-up">BT newsletters</a></span> for free:</div>
+					<table class="tbl">
+						<tr>
+							<td class="tdL"><div><strong>Breakfast Brief</strong><br/> every morning</div></td>
+							<td class="tdR"><div><strong>Daily Debrief</strong><br/> every evening</div></td>
+						</tr>
+					</table>
+				</div>
+				
+				<div class="newsletter-form footer-text2">
+					<div id="loading-image_2" class="margin-bottom-20 margin-top-20">Please wait<img style="width: 23px;" src="/sites/all/themes/custom/businesstimes/images/processing3.gif"></div>
+					<div id="newsetter_msg_2" class="margin-bottom-20 margin-top-20"></div>
+					<div id="sub_submission">
+						<div class="fields_wrapper">
+							<form action="" id="newsletter_submit_form_2" name="newsletter_submit_form_2">
+								<input type="text" value="" placeholder="YOUR EMAIL ADDRESS" id="email_footer" name="email" class="input-border-radius">  		
+								<input type="submit" value="SIGN UP" name="submit" id="newsletter_submit"  class="two-border-button-dark-blue" >
+							</form>
+						</div>
+						<!--<input type="checkbox" value="1" name="readtc" checked disabled>
+						<span class="readTc"> I have read the</span>-->
+						<span class="terms-condition"><a href="http://sph.com.sg/legal/website_tnc.html" target="_blank">Terms &amp; Conditions</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<style>
+.footer .seven-day-archive h3.category{
+  font-weight:bold;
+}
+</style>
+</section>
+  </div>
+</div>
+<!--##############################-->
+<div class="foot-nav container">
+  <div class="row">
+    <div class="panel-main-1 col-md-8">
+      <div class="row">
+        <div class="logo col-md-12"><a href="/"><img src="/sites/all/themes/custom/businesstimes/images/logo-business-times.png" border="0"></a></div>
+        <div class="col-md-4 visible-md visible-lg">
+          <ul class="main list-group">
+          <li class="list-group-item visible-xs visible-sm"><a href="http://www.businesstimes.com.sg" target="">News Home</a></li><li class="list-group-item "><a href="/breaking-news" target="">Breaking</a></li><li class="list-group-item "><a href="/todays-paper" target="">Today's Paper</a></li><li class="list-group-item "><a href="/opinion" target="">Opinion</a></li><li class="list-group-item "><a href="/sme" target="">SME</a></li><li class="list-group-item "><a href="/lifestyle" target="">Lifestyle</a></li><li class="list-group-item "><a href="/infographics" target="">Infographics</a></li><li class="list-group-item "><a href="/videos" target="">Videos</a></li><li class="list-group-item "><a href="/focus" target="">Focus</a></li><li class="list-group-item hidden-md hidden-lg blog_menu"><a href="/blogs" target="">Blogs</a></li><li class="list-group-item hidden-md"><a href="/magazines" target="">Mags</a></li><li class="list-group-item hidden-md"><a href="/hub" target="">Hub</a></li><li class="list-group-item "><a href="http://epaper.businesstimes.com.sg" target="_blank">E-Paper</a></li>          </ul>
+        </div>
+        <div class="col-md-4 visible-md visible-lg">
+          <ul class="list-group">
+            <li class="list-group-item li-label">News</li>
+                          <li class="list-group-item"><a href="/top-stories">Top Stories</a></li>
+                          <li class="list-group-item"><a href="/companies-markets">Companies & Markets</a></li>
+                          <li class="list-group-item"><a href="/stocks">Stocks</a></li>
+                          <li class="list-group-item"><a href="/real-estate">Real Estate</a></li>
+                          <li class="list-group-item"><a href="/banking-finance">Banking & Finance</a></li>
+                          <li class="list-group-item"><a href="/energy-commodities">Energy & Commodities</a></li>
+                          <li class="list-group-item"><a href="/technology">Technology</a></li>
+                          <li class="list-group-item"><a href="/consumer">Consumer</a></li>
+                          <li class="list-group-item"><a href="/transport">Transport</a></li>
+                          <li class="list-group-item"><a href="/government-economy">Government & Economy</a></li>
+                          <li class="list-group-item"><a href="/opinion">Opinion</a></li>
+                          <li class="list-group-item"><a href="/life-culture">Life & Culture</a></li>
+                      </ul>
+        </div>
+        <div class="col-md-4 visible-md visible-lg">
+          <ul class="list-group">
+            <li class="list-group-item li-label">Weekly</li>
+                          <li class="list-group-item"><a href="/views-from-the-top">Views From the Top</a></li>
+                          <li class="list-group-item"><a href="/young-investors-forum">Young Investors' Forum</a></li>
+                          <li class="list-group-item"><a href="/dining-out">Dining Out</a></li>
+                          <li class="list-group-item"><a href="/sme">SME</a></li>
+                          <li class="list-group-item"><a href="/executive-money">Executive Money</a></li>
+                          <li class="list-group-item"><a href="/the-raffles-conversation">The Raffles Conversation</a></li>
+                          <li class="list-group-item"><a href="/brunch">Brunch</a></li>
+                          <li class="list-group-item"><a href="/investing-wealth">Investing & Wealth</a></li>
+                    </ul>
+        </div>
+      </div>
+    </div>
+    <div class="panel-main-2 col-md-3 col-md-push-1">
+      <div class="row">
+        <div class="logo col-md-12"><a href="/lifestyle"><img src="/sites/all/themes/custom/businesstimes/images/logo_lifestyle.png" border="0"></a></div>
+        <div class="col-md-6 ls-1 visible-md visible-lg">
+          <ul class="list-group">
+            <li class="list-group-item li-label"><a href="/lifestyle">Lifestyle</a></li>
+                          <li class="list-group-item"><a href="/lifestyle">Lifestyle Home</a></li>
+                          <li class="list-group-item"><a href="/lifestyle/food-drink">F&B</a></li>
+                          <li class="list-group-item"><a href="/lifestyle/arts">Arts</a></li>
+                          <li class="list-group-item"><a href="/lifestyle/movies">Movies</a></li>
+                          <li class="list-group-item"><a href="/lifestyle/music">Music</a></li>
+                          <li class="list-group-item"><a href="/lifestyle/design">Design</a></li>
+                          <li class="list-group-item"><a href="/lifestyle/style">Style</a></li>
+                          <li class="list-group-item"><a href="/lifestyle/travel">Travel</a></li>
+                          <li class="list-group-item"><a href="/lifestyle/wellness">Wellness</a></li>
+                          <li class="list-group-item"><a href="/lifestyle/cars">Cars</a></li>
+                          <li class="list-group-item"><a href="/lifestyle/gadgets">Gadgets</a></li>
+                      </ul>
+        </div>
+        <div class="col-md-6 ls-2 visible-md visible-lg">
+          <ul class="list-group">
+                        <li class="list-group-item"><a href="/lifestyle/feature">Feature</a></li>
+                        <li class="list-group-item"><a href="/lifestyle/weekend-interview">Weekend Interview</a></li>
+                        <li class="list-group-item"><a href="/lifestyle/city-buzz">City Buzz</a></li>
+                        <li class="list-group-item"><a href="/lifestyle/reviews">Reviews</a></li>
+                        <li class="list-group-item"><a href="/lifestyle/jaimeeats">JaimEEats</a></li>
+                        <li class="list-group-item"><a href="/lifestyle/haunt">Haunt</a></li>
+                        <li class="list-group-item"><a href="/lifestyle/nostalgia">Nostalgia</a></li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--##############################-->
+<footer class="footer container">
+  <div class="row">
+    <div class="col-xs-12">
+      <ul class="social-icons-footer list-inline">
+        <li><a href="https://www.facebook.com/thebusinesstimes" target="_blank" class="fa fa-facebook"><span>Facebook</span></a></li>
+        <li><a href="https://twitter.com/businesstimes" target="_blank" class="fa fa-twitter"><span>Twitter</span></a></li>
+        <li><a href="https://www.instagram.com/btlifestyle/" target="_blank" class="fa fa-instagram"><span>Instagram</span></a></li>
+        <li><a href="https://www.linkedin.com/company/the-business-times" target="_blank" class="fa fa-linkedin"><span>Linkedin</span></a></li>
+        <li><a href="/rss-feeds" target="_blank" class="fa fa-rss"><span>RSS</span></a></li>
+        <li><a href="http://epaper.businesstimes.com.sg" target="_blank" class="fa fa-newspaper-o"><span>E-paper</span></a></li>
+      </ul>
+    </div>
+  </div>
+    <div class="region region-footer">
+    <section id="block-seven-day-archive-seven-day-archive" class="block block-seven-day-archive archive-block margin-bottom-20 clearfix">
+
+      
+  <div class='seven-day-archive'><h3 class='category'>PRINT ARCHIVE</h3><ul><li><a href='/todays-paper/20170403' class=''>Mon</a></li><li><a href='/todays-paper/20170328' class=''>Tue</a></li><li><a href='/todays-paper/20170329' class=''>Wed</a></li><li><a href='/todays-paper/20170330' class=''>Thu</a></li><li><a href='/todays-paper/20170331' class=''>Fri</a></li><li><a href='/todays-paper/20170401' class=''>Sat</a></li></ul></div>
+</section>
+<section id="block-block-53" class="block block-block col-lg-12 copyright-block clearfix">
+
+      
+  <div class="print_page"></div>
+<div class="copyright-text">
+<div class="text-center">
+<ul class="list-inline">
+  
+            <a href="/content/about-us">About Us</a>           
+      
+            <a href="/contact-us">Contact Us</a>           
+      
+            <a href="/help">Help</a>           
+              <a href="http://sph.com.sg/legal/website_tnc.html">Terms & Conditions</a>        
+      
+            <a href="/sph-websites">SPH Websites</a>           
+              <a href="http://www.sph.com.sg/legal/pdpa.html">Data Protection Policy</a>        
+    </ul >
+</div>
+<p class="text-center">SPH Digital News</p>
+<p class="text-center">&copy; 2017 SINGAPORE PRESS HOLDINGS LTD. REGN NO. 198402668E</p>
+</div>
+</section>
+<section id="block-block-23" class="block block-block ads pull-left clearfix">
+
+      
+  <script type="text/javascript" src="http://adtag.asiaone.com/tag/bt/js/gpt/bt_home_bottom.js"></script>
+</section>
+  </div>
+</footer>
+  <script src="http://www.businesstimes.com.sg/sites/default/files/js/js_etZEdIgv1JxR5JJ8pnWEtb-mqHPvAezLuE5zlDCyWfE.js"></script>
+<script src="http://www.businesstimes.com.sg/sites/default/files/js/js_g5QTRv0A9XIX8cXmH9RHqH31S5O8QWsYjQZvBVIMzgM.js"></script>
+<script src="http://www.businesstimes.com.sg/sites/default/files/js/js_L50O_PWoAuMOxVjnzZCkNSSmI0kFwhZsO1_KS8WnGKw.js"></script>
+
+            <div class="twintower-ads" style="position: relative; width: 1010px; margin: 0 auto; top: 0;">
+        <div class="twintower-ad-left" style="height: 800px; position: fixed; top: 98px; width: 138px; left: 50%; margin-left: -730px;">
+                      <!-- Twin tower ads for homepage. -->
+            <script type="text/javascript" language="JavaScript1.1" src="http://adtag.asiaone.com/tag/bt/js/gpt/bt_home_left_tower.js"></script>
+                  </div>
+        <div class="twintower-ad-right" style="height: 800px; position: fixed; top: 98px; width: 138px; right: 50%; margin-right: -730px;">
+                      <!-- Twin tower ads for homepage. -->
+            <script type="text/javascript" language="JavaScript1.1" src="http://adtag.asiaone.com/tag/bt/js/gpt/bt_home_right_tower.js"></script>
+                  </div>
+      </div>
+        <img src="//amplifypixel.outbrain.com/pixel?mid=00529a8e9e01c3bfad3c4bd7ec1ab148f6" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5d870fc25a","applicationID":"21981521","transactionName":"ZVVVbUcDW0JZWxYIV1wfdlpBC1pfF0gDBl1tXVZXVAVQQ2dIAwZdbVVPXFYXQVQ=","queueTime":0,"applicationTime":11610,"atts":"SRJWGw8ZSEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- DMP START -->
+<script type="text/javascript">
+  (function ($) {
+    jQuery.ajax({
+      type: 'POST',
+      url: '/ldap/details',
+      dataType: 'json',
+      cache: true,
+      async: false,
+      beforeSend: function (){},
+      success: function (data) {
+        var meta = document.createElement('meta');
+        meta.id = 'ldapw';
+        meta.name = 'ldapw';
+        meta.content = data.ldapw ? data.ldapw : '';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+
+      },
+      complete: function (){},
+      error: function (){
+        var meta = document.createElement('meta');
+        meta.id = 'ldapw';
+        meta.name = 'ldapw';
+        meta.content = '';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+      }
+    });
+  })(jQuery);
+</script>
+<!-- DMP END -->
+
+<!-- ATI Smarttag-->
+<script src="//tag.aticdn.net/538380/smarttag.js"></script>
+<script type="text/javascript">
+var aticonfig = {ClientSideUserId: {clientSideMode: 'required'}};  //to enable unique user id being generated for Safari, iOS devices
+var atitag = new ATInternet.Tracker.Tag(aticonfig);
+// ldapw
+var ldapw_value = document.getElementById('ldapw').content;
+var _data = window._data;
+
+var x6 = 1;
+if(ldapw_value){
+  x6 = 2;
+}
+//_data.ac = x6;
+_data.visitorcat = x6;
+_data.printcat = "";
+//identified visitor id
+if (_data.at !=null) {
+  //visitor login id
+  atitag.identifiedVisitor.set ({
+      id: _data.at,
+      category: ""
+  });
+}
+
+//Site custom variables
+atitag.customVars.set({
+  site: {
+    1: encodeURIComponent(_data.title),
+    2: encodeURIComponent(document.location.href),
+    3: _data.contenttype,  //content type, 1->article, 2->photo, 3->video
+    4: _data.pagination!=null?_data.pagination:"",  //pagination
+    5: _data.author,  //author
+    6: _data.visitorcat,  //visitor category, 1->free, 2->premium
+    7: _data.contentcat,  //content category, 1->free, 2->premium
+    8: _data.lotameid!=null?_data.lotameid:"",
+    9: _data.articleid!=null?_data.articleid:"",
+    10: "",
+    11: "",
+    12: "",
+    13: _data.adblocker,
+    14: _data.pubdate!=null?_data.pubdate:""
+  }
+});
+
+//internal search
+if (_data.mc !=null) {
+  atitag.internalSearch.set({
+    keyword:_data.mc,   //search term
+    resultPageNumber:_data.np //number of result page
+  });
+  atitag.page.set({name:'Search_result_page'});
+}
+
+//level 2 and pagename
+atitag.page.set({
+  level2:_data.level2,  
+  name: encodeURIComponent(_data.title.replace("&", "_"))
+});
+
+//chapter name
+if((_data.chapter1 !=null)  && (_data.chapter2 == null)) {
+  atitag.page.set({
+    chapter1: _data.chapter1
+  });
+} else if((_data.chapter1 !=null)  && (_data.chapter2 !=null)) {
+  atitag.page.set({
+    chapter1: _data.chapter1,
+    chapter2: _data.chapter2
+  });
+}
+
+// Dispatch
+atitag.dispatch();
+</script>
+<!-- END ATI Smarttag-->
+
+</html>

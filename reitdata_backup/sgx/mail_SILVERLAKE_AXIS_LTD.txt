@@ -1,0 +1,34 @@
+From: werner73test@gmail.com
+To: <tankangseng@gmail.com>
+Subject: Announcement SILVERLAKE_AXIS_LTD 16_11_2017
+<pre>[
+  {
+    "key": "http://infopub.sgx.com/Apps?A=COW_CorpAnnouncement_Content&B=AnnouncementToday&F=YDI5J0HPVR5XTVYE&H=3b0893575871e1e763a81827c67302f21cd21883a7eee84676e5377f83607748",
+    "Date": "16 Nov 2017",
+    "Time": "06:25:20 PM",
+    "IssuerName": "SILVERLAKE AXIS LTD",
+    "SecurityName": "SILVERLAKE AXIS LTD",
+    "GroupCode": "ANNC",
+    "CategoryCode": "ANNC13",
+    "CategoryName": "Share Buy Back-On Market",
+    "AnnTitle": "Share Buy Back - Daily Share Buy-Back Notice::Share Buy Back - Daily Share Buy-Back Notice",
+    "BroadcastDateTime": "11\/16\/2017 6:25:20 PM",
+    "Siblings": "2"
+  },
+  {
+    "key": "http://infopub.sgx.com/Apps?A=COW_CorpAnnouncement_Content&B=AnnouncementToday&F=KZO6CQ9PX1ZIH9SU&H=768b6caf6b35749a1135c858661c27f020715d30874978c5efce77af1d7b6dd3",
+    "Date": "16 Nov 2017",
+    "Time": "06:24:14 PM",
+    "IssuerName": "SILVERLAKE AXIS LTD",
+    "SecurityName": "SILVERLAKE AXIS LTD",
+    "GroupCode": "ANNC",
+    "CategoryCode": "ANNC14",
+    "CategoryName": "Disclosure of Interest\/ Changes in Interest",
+    "AnnTitle": "Disclosure of Interest\/ Changes in Interest of Substantial Shareholder(s)\/ Unitholder(s)::Cease to be Substantial Shareholder - HNA",
+    "BroadcastDateTime": "11\/16\/2017 6:24:14 PM",
+    "Siblings": "2"
+  },
+  {
+    
+  }
+]</pre>

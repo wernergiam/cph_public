@@ -1,0 +1,80 @@
+From: werner73test@gmail.com
+To: <ongsiewsiew78@gmail.com>
+Subject: Announcement IGB_REAL_ESTATE_INVESTMENT_TRUST_5227 16_11_2017
+
+
+
+<table summary="company announcements" class="bm_center bm_dataTable">
+  <col width="3%" />
+  <col width="15%" />
+  
+    <col width="25%" />
+    <col width="40%" />
+  
+  <col />
+  <thead>
+    <tr class="bm_col_hdr">
+      
+      
+      
+        
+        <th scope="col" type="numeric">No</th>
+      
+        
+        <th scope="col" type="string">Announcement Date</th>
+      
+        
+        <th scope="col" type="html">Company</th>
+      
+        
+        <th scope="col" type="html">Title</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+      
+
+  
+
+<tr class="bm_row2">
+  
+    
+  
+    <td class='bm_left'>1</td>
+   <!-- end of case-when -->
+
+    
+  
+        <td>16 Nov 2017</td>
+   <!-- end of case-when -->
+
+    
+  
+      
+      <td class="bm_left">
+      
+
+             <a href="http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5227" >IGB REAL ESTATE INVESTMENT TRUST</a>
+          
+      
+      </td>
+    
+   <!-- end of case-when -->
+
+    
+  
+      <td class="bm_left">
+      <a href="http://www.bursamalaysia.com/market/listed-companies/company-announcements/5604429" >Changes in Sub. S-hldr's Int (Section 138 of CA 2016) - EMPLOYEES PROVIDENT FUND BOARD ("EPF BOARD")</a>
+      
+      <div></div>
+    </td>
+   <!-- end of case-when -->
+ <!-- end of each-field -->
+</tr>
+ <!-- end of each-announcement -->
+
+    
+  </tbody>
+</table>
+"})

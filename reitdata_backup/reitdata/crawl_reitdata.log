@@ -1,0 +1,1812 @@
+--2016-11-08 11:37:13--  https://sg.finance.yahoo.com/q?s=O5RU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/O5RU_AIMSAMP_Cap_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 6.72M
+    50K                                                        37.3G=0.007s
+
+2016-11-08 11:37:14 (6.72 MB/s) - `data/O5RU_AIMSAMP_Cap_Reit.html' saved [51220]
+
+--2016-11-08 11:37:14--  https://sg.finance.yahoo.com/q?s=A17U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/A17U_Ascendas_Reit.html'
+
+     0K .......... .......... .......... .......... .........  3.08M=0.02s
+
+2016-11-08 11:37:14 (3.08 MB/s) - `data/A17U_Ascendas_Reit.html' saved [50464]
+
+--2016-11-08 11:37:14--  https://sg.finance.yahoo.com/q?s=A68U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/A68U_Ascott_Reit.html'
+
+     0K .......... .......... .......... .......... .........  12.1M=0.004s
+
+2016-11-08 11:37:14 (12.1 MB/s) - `data/A68U_Ascott_Reit.html' saved [50507]
+
+--2016-11-08 11:37:14--  https://sg.finance.yahoo.com/q?s=BMGU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BMGU_BHG_Retail_Reit.html'
+
+     0K .......... .......... .......... .......... .......    2.11M=0.02s
+
+2016-11-08 11:37:14 (2.11 MB/s) - `data/BMGU_BHG_Retail_Reit.html' saved [48272]
+
+--2016-11-08 11:37:14--  https://sg.finance.yahoo.com/q?s=K2LU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/K2LU_Cache_Log_Trust.html'
+
+     0K .......... .......... .......... .......... .........  2.79M=0.02s
+
+2016-11-08 11:37:14 (2.79 MB/s) - `data/K2LU_Cache_Log_Trust.html' saved [50677]
+
+--2016-11-08 11:37:14--  https://sg.finance.yahoo.com/q?s=J91U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/J91U_Cambridge_Ind_Tr.html'
+
+     0K .......... .......... .......... .......... .........  11.6M=0.004s
+
+2016-11-08 11:37:14 (11.6 MB/s) - `data/J91U_Cambridge_Ind_Tr.html' saved [50778]
+
+--2016-11-08 11:37:14--  https://sg.finance.yahoo.com/q?s=C61U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/C61U_CapitaCom_Trust.html'
+
+     0K .......... .......... .......... .......... .........  2.44M=0.02s
+
+2016-11-08 11:37:15 (2.44 MB/s) - `data/C61U_CapitaCom_Trust.html' saved [50359]
+
+--2016-11-08 11:37:15--  https://sg.finance.yahoo.com/q?s=C38U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/C38U_CapitaMall_Trust.html'
+
+     0K .......... .......... .......... .......... ........   7.95M=0.006s
+
+2016-11-08 11:37:15 (7.95 MB/s) - `data/C38U_CapitaMall_Trust.html' saved [49359]
+
+--2016-11-08 11:37:15--  https://sg.finance.yahoo.com/q?s=AU8U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/AU8U_CapitaR_China_Tr.html'
+
+     0K .......... .......... .......... .......... ........   11.5M=0.004s
+
+2016-11-08 11:37:15 (11.5 MB/s) - `data/AU8U_CapitaR_China_Tr.html' saved [50140]
+
+--2016-11-08 11:37:15--  https://sg.finance.yahoo.com/q?s=BWCU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BWCU_EC_World_Reit.html'
+
+     0K .......... .......... .......... .......... .....      11.7M=0.004s
+
+2016-11-08 11:37:15 (11.7 MB/s) - `data/BWCU_EC_World_Reit.html' saved [46296]
+
+--2016-11-08 11:37:15--  https://sg.finance.yahoo.com/q?s=AW9U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/AW9U_First_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 8.92M
+    50K                                                         365G=0.005s
+
+2016-11-08 11:37:15 (8.96 MB/s) - `data/AW9U_First_Reit.html' saved [51396]
+
+--2016-11-08 11:37:15--  https://sg.finance.yahoo.com/q?s=F25U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/F25U_Fortune_Reit_HKD.html'
+
+     0K .......... .......... .......... .......... .......... 9.43M
+    50K                                                        1015G=0.005s
+
+2016-11-08 11:37:15 (9.53 MB/s) - `data/F25U_Fortune_Reit_HKD.html' saved [51745]
+
+--2016-11-08 11:37:15--  https://sg.finance.yahoo.com/q?s=ND8U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/ND8U_Frasers_Com_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 10.5M
+    50K                                                         237G=0.005s
+
+2016-11-08 11:37:16 (10.5 MB/s) - `data/ND8U_Frasers_Com_Tr.html' saved [51327]
+
+--2016-11-08 11:37:16--  https://sg.finance.yahoo.com/q?s=J69U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/J69U_Frasers_Cpt_Tr.html'
+
+     0K .......... .......... .......... .......... .........  11.4M=0.004s
+
+2016-11-08 11:37:16 (11.4 MB/s) - `data/J69U_Frasers_Cpt_Tr.html' saved [51004]
+
+--2016-11-08 11:37:16--  https://sg.finance.yahoo.com/q?s=BUOU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BUOU_Frasers_L&I_Tr.html'
+
+     0K .......... .......... .......... .......... .......    4.05M=0.01s
+
+2016-11-08 11:37:16 (4.05 MB/s) - `data/BUOU_Frasers_L&I_Tr.html' saved [48857]
+
+--2016-11-08 11:37:16--  https://sg.finance.yahoo.com/q?s=BWQU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BWQU_Frasers_L&I_Tr_AUD.html'
+
+     0K .......... .......... .......... .......... .....      1.47M=0.03s
+
+2016-11-08 11:37:16 (1.47 MB/s) - `data/BWQU_Frasers_L&I_Tr_AUD.html' saved [46087]
+
+--2016-11-08 11:37:16--  https://sg.finance.yahoo.com/q?s=BESU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BESU_Indiabulls_Trust.html'
+
+     0K .......... .......... .......... .......... .......    11.4M=0.004s
+
+2016-11-08 11:37:16 (11.4 MB/s) - `data/BESU_Indiabulls_Trust.html' saved [48896]
+
+--2016-11-08 11:37:16--  https://sg.finance.yahoo.com/q?s=UD1U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/UD1U_IREIT_Global.html'
+
+     0K .......... .......... .......... .......... .........  7.92M=0.006s
+
+2016-11-08 11:37:17 (7.92 MB/s) - `data/UD1U_IREIT_Global.html' saved [50283]
+
+--2016-11-08 11:37:17--  https://sg.finance.yahoo.com/q?s=AJBU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/AJBU_Keppel_DC_Reit.html'
+
+     0K .......... .......... .......... .......... .........  8.51M=0.006s
+
+2016-11-08 11:37:17 (8.51 MB/s) - `data/AJBU_Keppel_DC_Reit.html' saved [50851]
+
+--2016-11-08 11:37:17--  https://sg.finance.yahoo.com/q?s=K71U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/K71U_Keppel_Reit.html'
+
+     0K .......... .......... .......... .......... .........  8.09M=0.006s
+
+2016-11-08 11:37:17 (8.09 MB/s) - `data/K71U_Keppel_Reit.html' saved [50978]
+
+--2016-11-08 11:37:17--  https://sg.finance.yahoo.com/q?s=D5IU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/D5IU_Lippo_Malls_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 8.07M
+    50K                                                        1371G=0.006s
+
+2016-11-08 11:37:17 (8.19 MB/s) - `data/D5IU_Lippo_Malls_Tr.html' saved [51936]
+
+--2016-11-08 11:37:17--  https://sg.finance.yahoo.com/q?s=BTOU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BTOU_ManulifeReit_USD.html'
+
+     0K .......... .......... .......... .......... .....      8.88M=0.005s
+
+2016-11-08 11:37:17 (8.88 MB/s) - `data/BTOU_ManulifeReit_USD.html' saved [46769]
+
+--2016-11-08 11:37:17--  https://sg.finance.yahoo.com/q?s=N2IU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/N2IU_Mapletree_Com_Tr.html'
+
+     0K .......... .......... .......... .......... .........  3.34M=0.01s
+
+2016-11-08 11:37:17 (3.34 MB/s) - `data/N2IU_Mapletree_Com_Tr.html' saved [51026]
+
+--2016-11-08 11:37:17--  https://sg.finance.yahoo.com/q?s=RW0U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/RW0U_Mapletree_GCC_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 8.55M
+    50K                                                        50.3G=0.006s
+
+2016-11-08 11:37:18 (8.55 MB/s) - `data/RW0U_Mapletree_GCC_Tr.html' saved [51227]
+
+--2016-11-08 11:37:18--  https://sg.finance.yahoo.com/q?s=ME8U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/ME8U_Mapletree_Ind_Tr.html'
+
+     0K .......... .......... .......... .......... .........  6.54M=0.007s
+
+2016-11-08 11:37:18 (6.54 MB/s) - `data/ME8U_Mapletree_Ind_Tr.html' saved [50985]
+
+--2016-11-08 11:37:18--  https://sg.finance.yahoo.com/q?s=M44U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/M44U_Mapletree_Log_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 9.52M
+    50K                                                        80.1G=0.005s
+
+2016-11-08 11:37:18 (9.53 MB/s) - `data/M44U_Mapletree_Log_Tr.html' saved [51243]
+
+--2016-11-08 11:37:18--  https://sg.finance.yahoo.com/q?s=TS0U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/TS0U_OUE_Com_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 3.98M
+    50K                                                        1453G=0.01s
+
+2016-11-08 11:37:18 (4.04 MB/s) - `data/TS0U_OUE_Com_Reit.html' saved [51980]
+
+--2016-11-08 11:37:18--  https://sg.finance.yahoo.com/q?s=C2PU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/C2PU_ParkwayLife_Reit.html'
+
+     0K .......... .......... .......... .......... .........  7.14M=0.007s
+
+2016-11-08 11:37:18 (7.14 MB/s) - `data/C2PU_ParkwayLife_Reit.html' saved [51119]
+
+--2016-11-08 11:37:18--  https://sg.finance.yahoo.com/q?s=M1GU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/M1GU_Sabana_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 3.36M
+    50K                                                         197G=0.01s
+
+2016-11-08 11:37:19 (3.37 MB/s) - `data/M1GU_Sabana_Reit.html' saved [51306]
+
+--2016-11-08 11:37:19--  https://sg.finance.yahoo.com/q?s=T8JU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/T8JU_Saizen_Reit.html'
+
+     0K .......... .......... .......... .......... ........   2.46M=0.02s
+
+2016-11-08 11:37:19 (2.46 MB/s) - `data/T8JU_Saizen_Reit.html' saved [49191]
+
+--2016-11-08 11:37:19--  https://sg.finance.yahoo.com/q?s=SV3U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/SV3U_SoilbuildBizReit.html'
+
+     0K .......... .......... .......... .......... .......... 2.04M
+    50K                                                         305G=0.02s
+
+2016-11-08 11:37:19 (2.05 MB/s) - `data/SV3U_SoilbuildBizReit.html' saved [51364]
+
+--2016-11-08 11:37:19--  https://sg.finance.yahoo.com/q?s=SK6U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/SK6U_SPHREIT.html'
+
+     0K .......... .......... .......... .......... .........  1.93M=0.02s
+
+2016-11-08 11:37:19 (1.93 MB/s) - `data/SK6U_SPHREIT.html' saved [50185]
+
+--2016-11-08 11:37:19--  https://sg.finance.yahoo.com/q?s=P40U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/P40U_StarhillGbl_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 9.98M
+    50K                                                         147G=0.005s
+
+2016-11-08 11:37:19 (9.99 MB/s) - `data/P40U_StarhillGbl_Reit.html' saved [51279]
+
+--2016-11-08 11:37:19--  https://sg.finance.yahoo.com/q?s=T82U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/T82U_Suntec_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 3.27M
+    50K                                                         184G=0.01s
+
+2016-11-08 11:37:19 (3.28 MB/s) - `data/T82U_Suntec_Reit.html' saved [51299]
+
+--2016-11-08 11:37:19--  https://sg.finance.yahoo.com/q?s=T8B.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/T8B_Viva_Ind_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 8.99M
+    50K                                                        54.0G=0.005s
+
+2016-11-08 11:37:20 (9.00 MB/s) - `data/T8B_Viva_Ind_Tr.html' saved [51229]
+
+--2016-11-08 11:37:20--  https://sg.finance.yahoo.com/q?s=ACV.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/ACV_Frasers_HTrust.html'
+
+     0K .......... .......... .......... .......... .......... 9.25M
+    50K                                                         371G=0.005s
+
+2016-11-08 11:37:20 (9.28 MB/s) - `data/ACV_Frasers_HTrust.html' saved [51399]
+
+--2016-11-08 11:37:20--  https://sg.finance.yahoo.com/q?s=Q5T.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/Q5T_Far_East_HTrust.html'
+
+     0K .......... .......... .......... .......... .........  5.13M=0.01s
+
+2016-11-08 11:37:20 (5.13 MB/s) - `data/Q5T_Far_East_HTrust.html' saved [51130]
+
+--2016-11-08 11:37:20--  https://sg.finance.yahoo.com/q?s=SK7.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/SK7_OUE_HTrust.html'
+
+     0K .......... .......... .......... .......... .........  4.77M=0.01s
+
+2016-11-08 11:37:20 (4.77 MB/s) - `data/SK7_OUE_HTrust.html' saved [50574]
+
+--2016-11-08 11:37:20--  https://sg.finance.yahoo.com/q?s=Q1P.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/Q1P_Ascendas-hTrust.html'
+
+     0K .......... .......... .......... .......... .........  10.7M=0.005s
+
+2016-11-08 11:37:20 (10.7 MB/s) - `data/Q1P_Ascendas-hTrust.html' saved [51194]
+
+--2016-11-08 11:37:20--  https://sg.finance.yahoo.com/q?s=J85.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/J85_CDL_HTrust.html'
+
+     0K .......... .......... .......... .......... .........  10.7M=0.005s
+
+2016-11-08 11:37:21 (10.7 MB/s) - `data/J85_CDL_HTrust.html' saved [50980]
+
+--2016-11-08 11:53:21--  https://sg.finance.yahoo.com/q?s=O5RU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/O5RU_AIMSAMP_Cap_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 3.16M
+    50K                                                        13.0G=0.02s
+
+2016-11-08 11:53:21 (3.16 MB/s) - `data/O5RU_AIMSAMP_Cap_Reit.html' saved [51207]
+
+--2016-11-08 11:53:21--  https://sg.finance.yahoo.com/q?s=A17U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/A17U_Ascendas_Reit.html'
+
+     0K .......... .......... .......... .......... .........  4.86M=0.01s
+
+2016-11-08 11:53:22 (4.86 MB/s) - `data/A17U_Ascendas_Reit.html' saved [50477]
+
+--2016-11-08 11:53:22--  https://sg.finance.yahoo.com/q?s=A68U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/A68U_Ascott_Reit.html'
+
+     0K .......... .......... .......... .......... .........  11.0M=0.004s
+
+2016-11-08 11:53:22 (11.0 MB/s) - `data/A68U_Ascott_Reit.html' saved [50680]
+
+--2016-11-08 11:53:22--  https://sg.finance.yahoo.com/q?s=BMGU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BMGU_BHG_Retail_Reit.html'
+
+     0K .......... .......... .......... .......... .......    2.59M=0.02s
+
+2016-11-08 11:53:22 (2.59 MB/s) - `data/BMGU_BHG_Retail_Reit.html' saved [48258]
+
+--2016-11-08 11:53:22--  https://sg.finance.yahoo.com/q?s=K2LU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/K2LU_Cache_Log_Trust.html'
+
+     0K .......... .......... .......... .......... .........  3.92M=0.01s
+
+2016-11-08 11:53:22 (3.92 MB/s) - `data/K2LU_Cache_Log_Trust.html' saved [50677]
+
+--2016-11-08 11:53:22--  https://sg.finance.yahoo.com/q?s=J91U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/J91U_Cambridge_Ind_Tr.html'
+
+     0K .......... .......... .......... .......... .........  12.5M=0.004s
+
+2016-11-08 11:53:22 (12.5 MB/s) - `data/J91U_Cambridge_Ind_Tr.html' saved [50765]
+
+--2016-11-08 11:53:22--  https://sg.finance.yahoo.com/q?s=C61U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/C61U_CapitaCom_Trust.html'
+
+     0K .......... .......... .......... .......... .........  8.79M=0.005s
+
+2016-11-08 11:53:22 (8.79 MB/s) - `data/C61U_CapitaCom_Trust.html' saved [50360]
+
+--2016-11-08 11:53:22--  https://sg.finance.yahoo.com/q?s=C38U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/C38U_CapitaMall_Trust.html'
+
+     0K .......... .......... .......... .......... ........   6.17M=0.008s
+
+2016-11-08 11:53:23 (6.17 MB/s) - `data/C38U_CapitaMall_Trust.html' saved [49360]
+
+--2016-11-08 11:53:23--  https://sg.finance.yahoo.com/q?s=AU8U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/AU8U_CapitaR_China_Tr.html'
+
+     0K .......... .......... .......... .......... ........   10.6M=0.005s
+
+2016-11-08 11:53:23 (10.6 MB/s) - `data/AU8U_CapitaR_China_Tr.html' saved [50139]
+
+--2016-11-08 11:53:23--  https://sg.finance.yahoo.com/q?s=BWCU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BWCU_EC_World_Reit.html'
+
+     0K .......... .......... .......... .......... .....      10.3M=0.004s
+
+2016-11-08 11:53:23 (10.3 MB/s) - `data/BWCU_EC_World_Reit.html' saved [46309]
+
+--2016-11-08 11:53:23--  https://sg.finance.yahoo.com/q?s=AW9U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/AW9U_First_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 5.40M
+    50K                                                         389G=0.009s
+
+2016-11-08 11:53:23 (5.42 MB/s) - `data/AW9U_First_Reit.html' saved [51409]
+
+--2016-11-08 11:53:23--  https://sg.finance.yahoo.com/q?s=F25U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/F25U_Fortune_Reit_HKD.html'
+
+     0K .......... .......... .......... .......... .......... 2.98M
+    50K                                                        1015G=0.02s
+
+2016-11-08 11:53:23 (3.02 MB/s) - `data/F25U_Fortune_Reit_HKD.html' saved [51745]
+
+--2016-11-08 11:53:23--  https://sg.finance.yahoo.com/q?s=ND8U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/ND8U_Frasers_Com_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 3.71M
+    50K                                                         212G=0.01s
+
+2016-11-08 11:53:24 (3.72 MB/s) - `data/ND8U_Frasers_Com_Tr.html' saved [51314]
+
+--2016-11-08 11:53:24--  https://sg.finance.yahoo.com/q?s=J69U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/J69U_Frasers_Cpt_Tr.html'
+
+     0K .......... .......... .......... .......... .........  3.12M=0.02s
+
+2016-11-08 11:53:24 (3.12 MB/s) - `data/J69U_Frasers_Cpt_Tr.html' saved [51003]
+
+--2016-11-08 11:53:24--  https://sg.finance.yahoo.com/q?s=BUOU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BUOU_Frasers_L&I_Tr.html'
+
+     0K .......... .......... .......... .......... .......    2.05M=0.02s
+
+2016-11-08 11:53:44 (2.05 MB/s) - `data/BUOU_Frasers_L&I_Tr.html' saved [48857]
+
+--2016-11-08 11:53:44--  https://sg.finance.yahoo.com/q?s=BWQU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BWQU_Frasers_L&I_Tr_AUD.html'
+
+     0K .......... .......... .......... .......... .....      2.97M=0.01s
+
+2016-11-08 11:53:44 (2.97 MB/s) - `data/BWQU_Frasers_L&I_Tr_AUD.html' saved [46088]
+
+--2016-11-08 11:53:44--  https://sg.finance.yahoo.com/q?s=BESU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BESU_Indiabulls_Trust.html'
+
+     0K .......... .......... .......... .......... .......    10.4M=0.005s
+
+2016-11-08 11:53:44 (10.4 MB/s) - `data/BESU_Indiabulls_Trust.html' saved [48909]
+
+--2016-11-08 11:53:44--  https://sg.finance.yahoo.com/q?s=UD1U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/UD1U_IREIT_Global.html'
+
+     0K .......... .......... .......... .......... .........  9.03M=0.005s
+
+2016-11-08 11:53:45 (9.03 MB/s) - `data/UD1U_IREIT_Global.html' saved [50295]
+
+--2016-11-08 11:53:45--  https://sg.finance.yahoo.com/q?s=AJBU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/AJBU_Keppel_DC_Reit.html'
+
+     0K .......... .......... .......... .......... .........  8.39M=0.006s
+
+2016-11-08 11:53:45 (8.39 MB/s) - `data/AJBU_Keppel_DC_Reit.html' saved [50851]
+
+--2016-11-08 11:53:45--  https://sg.finance.yahoo.com/q?s=K71U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/K71U_Keppel_Reit.html'
+
+     0K .......... .......... .......... .......... .........  2.78M=0.02s
+
+2016-11-08 11:53:45 (2.78 MB/s) - `data/K71U_Keppel_Reit.html' saved [50990]
+
+--2016-11-08 11:53:45--  https://sg.finance.yahoo.com/q?s=D5IU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/D5IU_Lippo_Malls_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 3.17M
+    50K                                                        1371G=0.02s
+
+2016-11-08 11:53:45 (3.22 MB/s) - `data/D5IU_Lippo_Malls_Tr.html' saved [51936]
+
+--2016-11-08 11:53:45--  https://sg.finance.yahoo.com/q?s=BTOU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BTOU_ManulifeReit_USD.html'
+
+     0K .......... .......... .......... .......... .....      6.56M=0.007s
+
+2016-11-08 11:53:45 (6.56 MB/s) - `data/BTOU_ManulifeReit_USD.html' saved [46947]
+
+--2016-11-08 11:53:45--  https://sg.finance.yahoo.com/q?s=N2IU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/N2IU_Mapletree_Com_Tr.html'
+
+     0K .......... .......... .......... .......... .........  4.57M=0.01s
+
+2016-11-08 11:53:45 (4.57 MB/s) - `data/N2IU_Mapletree_Com_Tr.html' saved [51026]
+
+--2016-11-08 11:53:45--  https://sg.finance.yahoo.com/q?s=RW0U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/RW0U_Mapletree_GCC_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 3.19M
+    50K                                                        22.4G=0.02s
+
+2016-11-08 11:53:46 (3.19 MB/s) - `data/RW0U_Mapletree_GCC_Tr.html' saved [51212]
+
+--2016-11-08 11:53:46--  https://sg.finance.yahoo.com/q?s=ME8U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/ME8U_Mapletree_Ind_Tr.html'
+
+     0K .......... .......... .......... .......... .........  11.0M=0.004s
+
+2016-11-08 11:53:46 (11.0 MB/s) - `data/ME8U_Mapletree_Ind_Tr.html' saved [50984]
+
+--2016-11-08 11:53:46--  https://sg.finance.yahoo.com/q?s=M44U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/M44U_Mapletree_Log_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 3.76M
+    50K                                                        78.2G=0.01s
+
+2016-11-08 11:53:46 (3.76 MB/s) - `data/M44U_Mapletree_Log_Tr.html' saved [51242]
+
+--2016-11-08 11:53:46--  https://sg.finance.yahoo.com/q?s=TS0U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/TS0U_OUE_Com_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 9.06M
+    50K                                                        1429G=0.005s
+
+2016-11-08 11:53:46 (9.20 MB/s) - `data/TS0U_OUE_Com_Reit.html' saved [51967]
+
+--2016-11-08 11:53:46--  https://sg.finance.yahoo.com/q?s=C2PU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/C2PU_ParkwayLife_Reit.html'
+
+     0K .......... .......... .......... .......... .........  6.75M=0.007s
+
+2016-11-08 11:53:46 (6.75 MB/s) - `data/C2PU_ParkwayLife_Reit.html' saved [51132]
+
+--2016-11-08 11:53:46--  https://sg.finance.yahoo.com/q?s=M1GU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/M1GU_Sabana_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 1.32M
+    50K                                                         197G=0.04s
+
+2016-11-08 11:53:46 (1.32 MB/s) - `data/M1GU_Sabana_Reit.html' saved [51306]
+
+--2016-11-08 11:53:47--  https://sg.finance.yahoo.com/q?s=T8JU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/T8JU_Saizen_Reit.html'
+
+     0K .......... .......... .......... .......... ........   7.08M=0.007s
+
+2016-11-08 11:53:47 (7.08 MB/s) - `data/T8JU_Saizen_Reit.html' saved [49204]
+
+--2016-11-08 11:53:47--  https://sg.finance.yahoo.com/q?s=SV3U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/SV3U_SoilbuildBizReit.html'
+
+     0K .......... .......... .......... .......... .........  10.6M=0.005s
+
+2016-11-08 11:53:47 (10.6 MB/s) - `data/SV3U_SoilbuildBizReit.html' saved [51178]
+
+--2016-11-08 11:53:47--  https://sg.finance.yahoo.com/q?s=SK6U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/SK6U_SPHREIT.html'
+
+     0K .......... .......... .......... .......... .........  11.4M=0.004s
+
+2016-11-08 11:53:47 (11.4 MB/s) - `data/SK6U_SPHREIT.html' saved [50185]
+
+--2016-11-08 11:53:47--  https://sg.finance.yahoo.com/q?s=P40U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/P40U_StarhillGbl_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 7.02M
+    50K                                                         495G=0.007s
+
+2016-11-08 11:53:47 (7.06 MB/s) - `data/P40U_StarhillGbl_Reit.html' saved [51466]
+
+--2016-11-08 11:53:47--  https://sg.finance.yahoo.com/q?s=T82U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/T82U_Suntec_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 7.37M
+    50K                                                         186G=0.007s
+
+2016-11-08 11:53:47 (7.39 MB/s) - `data/T82U_Suntec_Reit.html' saved [51300]
+
+--2016-11-08 11:53:47--  https://sg.finance.yahoo.com/q?s=T8B.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/T8B_Viva_Ind_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 5.74M
+    50K                                                        78.2G=0.009s
+
+2016-11-08 11:53:48 (5.74 MB/s) - `data/T8B_Viva_Ind_Tr.html' saved [51242]
+
+--2016-11-08 11:53:48--  https://sg.finance.yahoo.com/q?s=ACV.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/ACV_Frasers_HTrust.html'
+
+     0K .......... .......... .......... .......... .......... 10.3M
+    50K                                                         363G=0.005s
+
+2016-11-08 11:53:48 (10.3 MB/s) - `data/ACV_Frasers_HTrust.html' saved [51395]
+
+--2016-11-08 11:53:48--  https://sg.finance.yahoo.com/q?s=Q5T.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/Q5T_Far_East_HTrust.html'
+
+     0K .......... .......... .......... .......... .........  12.1M=0.004s
+
+2016-11-08 11:53:48 (12.1 MB/s) - `data/Q5T_Far_East_HTrust.html' saved [51143]
+
+--2016-11-08 11:53:48--  https://sg.finance.yahoo.com/q?s=SK7.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/SK7_OUE_HTrust.html'
+
+     0K .......... .......... .......... .......... .........  2.15M=0.02s
+
+2016-11-08 11:53:48 (2.15 MB/s) - `data/SK7_OUE_HTrust.html' saved [50587]
+
+--2016-11-08 11:53:48--  https://sg.finance.yahoo.com/q?s=Q1P.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/Q1P_Ascendas-hTrust.html'
+
+     0K .......... .......... .......... .......... .........  1.22M=0.04s
+
+2016-11-08 11:53:59 (1.22 MB/s) - `data/Q1P_Ascendas-hTrust.html' saved [51194]
+
+--2016-11-08 11:53:59--  https://sg.finance.yahoo.com/q?s=J85.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/J85_CDL_HTrust.html'
+
+     0K .......... .......... .......... .......... .........  2.77M=0.02s
+
+2016-11-08 11:53:59 (2.77 MB/s) - `data/J85_CDL_HTrust.html' saved [50966]
+
+--2016-11-08 20:00:01--  https://sg.finance.yahoo.com/q?s=O5RU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/O5RU_AIMSAMP_Cap_Reit.html'
+
+     0K .......... .......... .......... .......... .........  11.1M=0.004s
+
+2016-11-08 20:00:02 (11.1 MB/s) - `data/O5RU_AIMSAMP_Cap_Reit.html' saved [51024]
+
+--2016-11-08 20:00:02--  https://sg.finance.yahoo.com/q?s=A17U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/A17U_Ascendas_Reit.html'
+
+     0K .......... .......... .......... .......... .........  3.80M=0.01s
+
+2016-11-08 20:00:07 (3.80 MB/s) - `data/A17U_Ascendas_Reit.html' saved [50454]
+
+--2016-11-08 20:00:07--  https://sg.finance.yahoo.com/q?s=A68U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/A68U_Ascott_Reit.html'
+
+     0K .......... .......... .......... .......... .........  11.3M=0.004s
+
+2016-11-08 20:00:07 (11.3 MB/s) - `data/A68U_Ascott_Reit.html' saved [50655]
+
+--2016-11-08 20:00:07--  https://sg.finance.yahoo.com/q?s=BMGU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BMGU_BHG_Retail_Reit.html'
+
+     0K .......... .......... .......... .......... .......    11.0M=0.004s
+
+2016-11-08 20:00:07 (11.0 MB/s) - `data/BMGU_BHG_Retail_Reit.html' saved [48235]
+
+--2016-11-08 20:00:07--  https://sg.finance.yahoo.com/q?s=K2LU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/K2LU_Cache_Log_Trust.html'
+
+     0K .......... .......... .......... .......... .........  3.01M=0.02s
+
+2016-11-08 20:00:07 (3.01 MB/s) - `data/K2LU_Cache_Log_Trust.html' saved [50656]
+
+--2016-11-08 20:00:07--  https://sg.finance.yahoo.com/q?s=J91U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/J91U_Cambridge_Ind_Tr.html'
+
+     0K .......... .......... .......... .......... .........  4.85M=0.01s
+
+2016-11-08 20:00:07 (4.85 MB/s) - `data/J91U_Cambridge_Ind_Tr.html' saved [50929]
+
+--2016-11-08 20:00:07--  https://sg.finance.yahoo.com/q?s=C61U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/C61U_CapitaCom_Trust.html'
+
+     0K .......... .......... .......... .......... .........  11.9M=0.004s
+
+2016-11-08 20:00:08 (11.9 MB/s) - `data/C61U_CapitaCom_Trust.html' saved [50323]
+
+--2016-11-08 20:00:08--  https://sg.finance.yahoo.com/q?s=C38U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/C38U_CapitaMall_Trust.html'
+
+     0K .......... .......... .......... .......... ........   3.17M=0.01s
+
+2016-11-08 20:00:08 (3.17 MB/s) - `data/C38U_CapitaMall_Trust.html' saved [49336]
+
+--2016-11-08 20:00:08--  https://sg.finance.yahoo.com/q?s=AU8U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/AU8U_CapitaR_China_Tr.html'
+
+     0K .......... .......... .......... .......... .........  7.83M=0.006s
+
+2016-11-08 20:00:08 (7.83 MB/s) - `data/AU8U_CapitaR_China_Tr.html' saved [50295]
+
+--2016-11-08 20:00:08--  https://sg.finance.yahoo.com/q?s=BWCU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BWCU_EC_World_Reit.html'
+
+     0K .......... .......... .......... .......... .....      10.1M=0.004s
+
+2016-11-08 20:00:08 (10.1 MB/s) - `data/BWCU_EC_World_Reit.html' saved [46272]
+
+--2016-11-08 20:00:08--  https://sg.finance.yahoo.com/q?s=AW9U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/AW9U_First_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 2.96M
+    50K                                                         343G=0.02s
+
+2016-11-08 20:00:08 (2.97 MB/s) - `data/AW9U_First_Reit.html' saved [51384]
+
+--2016-11-08 20:00:08--  https://sg.finance.yahoo.com/q?s=F25U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/F25U_Fortune_Reit_HKD.html'
+
+     0K .......... .......... .......... .......... .......... 8.45M
+    50K                                                         972G=0.006s
+
+2016-11-08 20:00:09 (8.54 MB/s) - `data/F25U_Fortune_Reit_HKD.html' saved [51722]
+
+--2016-11-08 20:00:09--  https://sg.finance.yahoo.com/q?s=ND8U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/ND8U_Frasers_Com_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 3.36M
+    50K                                                         168G=0.01s
+
+2016-11-08 20:00:09 (3.36 MB/s) - `data/ND8U_Frasers_Com_Tr.html' saved [51290]
+
+--2016-11-08 20:00:09--  https://sg.finance.yahoo.com/q?s=J69U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/J69U_Frasers_Cpt_Tr.html'
+
+     0K .......... .......... .......... .......... .........  9.56M=0.005s
+
+2016-11-08 20:00:10 (9.56 MB/s) - `data/J69U_Frasers_Cpt_Tr.html' saved [51139]
+
+--2016-11-08 20:00:10--  https://sg.finance.yahoo.com/q?s=BUOU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BUOU_Frasers_L&I_Tr.html'
+
+     0K .......... .......... .......... .......... .......    3.69M=0.01s
+
+2016-11-08 20:00:10 (3.69 MB/s) - `data/BUOU_Frasers_L&I_Tr.html' saved [48823]
+
+--2016-11-08 20:00:10--  https://sg.finance.yahoo.com/q?s=BWQU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BWQU_Frasers_L&I_Tr_AUD.html'
+
+     0K .......... .......... .......... .......... ....       2.79M=0.02s
+
+2016-11-08 20:00:10 (2.79 MB/s) - `data/BWQU_Frasers_L&I_Tr_AUD.html' saved [46050]
+
+--2016-11-08 20:00:10--  https://sg.finance.yahoo.com/q?s=BESU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BESU_Indiabulls_Trust.html'
+
+     0K .......... .......... .......... .......... .......    3.15M=0.01s
+
+2016-11-08 20:00:10 (3.15 MB/s) - `data/BESU_Indiabulls_Trust.html' saved [48883]
+
+--2016-11-08 20:00:11--  https://sg.finance.yahoo.com/q?s=UD1U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/UD1U_IREIT_Global.html'
+
+     0K .......... .......... .......... .......... ........   10.5M=0.005s
+
+2016-11-08 20:00:11 (10.5 MB/s) - `data/UD1U_IREIT_Global.html' saved [50087]
+
+--2016-11-08 20:00:11--  https://sg.finance.yahoo.com/q?s=AJBU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/AJBU_Keppel_DC_Reit.html'
+
+     0K .......... .......... .......... .......... .........  6.40M=0.008s
+
+2016-11-08 20:00:11 (6.40 MB/s) - `data/AJBU_Keppel_DC_Reit.html' saved [50829]
+
+--2016-11-08 20:00:11--  https://sg.finance.yahoo.com/q?s=K71U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/K71U_Keppel_Reit.html'
+
+     0K .......... .......... .......... .......... .........  3.30M=0.01s
+
+2016-11-08 20:00:11 (3.30 MB/s) - `data/K71U_Keppel_Reit.html' saved [50968]
+
+--2016-11-08 20:00:11--  https://sg.finance.yahoo.com/q?s=D5IU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/D5IU_Lippo_Malls_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 9.58M
+    50K                                                        1302G=0.005s
+
+2016-11-08 20:00:11 (9.71 MB/s) - `data/D5IU_Lippo_Malls_Tr.html' saved [51899]
+
+--2016-11-08 20:00:11--  https://sg.finance.yahoo.com/q?s=BTOU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BTOU_ManulifeReit_USD.html'
+
+     0K .......... .......... .......... .......... .....      3.78M=0.01s
+
+2016-11-08 20:00:21 (3.78 MB/s) - `data/BTOU_ManulifeReit_USD.html' saved [46735]
+
+--2016-11-08 20:00:21--  https://sg.finance.yahoo.com/q?s=N2IU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/N2IU_Mapletree_Com_Tr.html'
+
+     0K .......... .......... .......... .......... .........  10.9M=0.004s
+
+2016-11-08 20:00:21 (10.9 MB/s) - `data/N2IU_Mapletree_Com_Tr.html' saved [51002]
+
+--2016-11-08 20:00:21--  https://sg.finance.yahoo.com/q?s=RW0U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/RW0U_Mapletree_GCC_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 2.89M
+    50K                                                         302G=0.02s
+
+2016-11-08 20:00:22 (2.90 MB/s) - `data/RW0U_Mapletree_GCC_Tr.html' saved [51362]
+
+--2016-11-08 20:00:22--  https://sg.finance.yahoo.com/q?s=ME8U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/ME8U_Mapletree_Ind_Tr.html'
+
+     0K .......... .......... .......... .......... .........  2.03M=0.02s
+
+2016-11-08 20:00:22 (2.03 MB/s) - `data/ME8U_Mapletree_Ind_Tr.html' saved [50963]
+
+--2016-11-08 20:00:22--  https://sg.finance.yahoo.com/q?s=M44U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/M44U_Mapletree_Log_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 12.4M
+    50K                                                        39.1G=0.004s
+
+2016-11-08 20:00:22 (12.4 MB/s) - `data/M44U_Mapletree_Log_Tr.html' saved [51221]
+
+--2016-11-08 20:00:22--  https://sg.finance.yahoo.com/q?s=TS0U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/TS0U_OUE_Com_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 3.26M
+    50K                                                        1386G=0.01s
+
+2016-11-08 20:00:22 (3.31 MB/s) - `data/TS0U_OUE_Com_Reit.html' saved [51944]
+
+--2016-11-08 20:00:22--  https://sg.finance.yahoo.com/q?s=C2PU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/C2PU_ParkwayLife_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 4.04M
+    50K                                                         151G=0.01s
+
+2016-11-08 20:00:22 (4.05 MB/s) - `data/C2PU_ParkwayLife_Reit.html' saved [51281]
+
+--2016-11-08 20:00:22--  https://sg.finance.yahoo.com/q?s=M1GU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/M1GU_Sabana_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 10.4M
+    50K                                                         153G=0.005s
+
+2016-11-08 20:00:23 (10.4 MB/s) - `data/M1GU_Sabana_Reit.html' saved [51282]
+
+--2016-11-08 20:00:23--  https://sg.finance.yahoo.com/q?s=T8JU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/T8JU_Saizen_Reit.html'
+
+     0K .......... .......... .......... .......... ........   3.21M=0.01s
+
+2016-11-08 20:00:23 (3.21 MB/s) - `data/T8JU_Saizen_Reit.html' saved [49168]
+
+--2016-11-08 20:00:23--  https://sg.finance.yahoo.com/q?s=SV3U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/SV3U_SoilbuildBizReit.html'
+
+     0K .......... .......... .......... .......... .........  3.21M=0.02s
+
+2016-11-08 20:00:23 (3.21 MB/s) - `data/SV3U_SoilbuildBizReit.html' saved [51168]
+
+--2016-11-08 20:00:23--  https://sg.finance.yahoo.com/q?s=SK6U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/SK6U_SPHREIT.html'
+
+     0K .......... .......... .......... .......... .........  12.0M=0.004s
+
+2016-11-08 20:00:23 (12.0 MB/s) - `data/SK6U_SPHREIT.html' saved [50335]
+
+--2016-11-08 20:00:23--  https://sg.finance.yahoo.com/q?s=P40U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/P40U_StarhillGbl_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 3.26M
+    50K                                                         104G=0.02s
+
+2016-11-08 20:00:23 (3.26 MB/s) - `data/P40U_StarhillGbl_Reit.html' saved [51256]
+
+--2016-11-08 20:00:23--  https://sg.finance.yahoo.com/q?s=T82U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:108:2::1001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/T82U_Suntec_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 9.15M
+    50K                                                         145G=0.005s
+
+2016-11-08 20:00:23 (9.17 MB/s) - `data/T82U_Suntec_Reit.html' saved [51278]
+
+--2016-11-08 20:00:23--  https://sg.finance.yahoo.com/q?s=T8B.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/T8B_Viva_Ind_Tr.html'
+
+     0K .......... .......... .......... .......... .........  2.32M=0.02s
+
+2016-11-08 20:00:24 (2.32 MB/s) - `data/T8B_Viva_Ind_Tr.html' saved [51033]
+
+--2016-11-08 20:00:24--  https://sg.finance.yahoo.com/q?s=ACV.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/ACV_Frasers_HTrust.html'
+
+     0K .......... .......... .......... .......... .......... 9.49M
+    50K                                                         324G=0.005s
+
+2016-11-08 20:00:24 (9.52 MB/s) - `data/ACV_Frasers_HTrust.html' saved [51374]
+
+--2016-11-08 20:00:24--  https://sg.finance.yahoo.com/q?s=Q5T.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/Q5T_Far_East_HTrust.html'
+
+     0K .......... .......... .......... .......... .........  11.1M=0.004s
+
+2016-11-08 20:00:24 (11.1 MB/s) - `data/Q5T_Far_East_HTrust.html' saved [51108]
+
+--2016-11-08 20:00:24--  https://sg.finance.yahoo.com/q?s=SK7.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/SK7_OUE_HTrust.html'
+
+     0K .......... .......... .......... .......... .........  9.64M=0.005s
+
+2016-11-08 20:00:24 (9.64 MB/s) - `data/SK7_OUE_HTrust.html' saved [50553]
+
+--2016-11-08 20:00:24--  https://sg.finance.yahoo.com/q?s=Q1P.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/Q1P_Ascendas-hTrust.html'
+
+     0K .......... .......... .......... .......... .........  7.13M=0.007s
+
+2016-11-08 20:00:24 (7.13 MB/s) - `data/Q1P_Ascendas-hTrust.html' saved [51158]
+
+--2016-11-08 20:00:24--  https://sg.finance.yahoo.com/q?s=J85.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/J85_CDL_HTrust.html'
+
+     0K .......... .......... .......... .......... .........  3.77M=0.01s
+
+2016-11-08 20:00:30 (3.77 MB/s) - `data/J85_CDL_HTrust.html' saved [50957]
+
+--2016-11-09 20:00:02--  https://sg.finance.yahoo.com/q?s=O5RU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/O5RU_AIMSAMP_Cap_Reit.html'
+
+     0K .......... .......... .......... .......... .........  6.00M=0.008s
+
+2016-11-09 20:00:02 (6.00 MB/s) - `data/O5RU_AIMSAMP_Cap_Reit.html' saved [50994]
+
+--2016-11-09 20:00:02--  https://sg.finance.yahoo.com/q?s=A17U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/A17U_Ascendas_Reit.html'
+
+     0K .......... .......... .......... .......... .........  3.31M=0.01s
+
+2016-11-09 20:00:02 (3.31 MB/s) - `data/A17U_Ascendas_Reit.html' saved [50274]
+
+--2016-11-09 20:00:02--  https://sg.finance.yahoo.com/q?s=A68U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/A68U_Ascott_Reit.html'
+
+     0K .......... .......... .......... .......... .........  3.59M=0.01s
+
+2016-11-09 20:00:02 (3.59 MB/s) - `data/A68U_Ascott_Reit.html' saved [50664]
+
+--2016-11-09 20:00:02--  https://sg.finance.yahoo.com/q?s=BMGU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BMGU_BHG_Retail_Reit.html'
+
+     0K .......... .......... .......... .......... ......     10.9M=0.004s
+
+2016-11-09 20:00:02 (10.9 MB/s) - `data/BMGU_BHG_Retail_Reit.html' saved [48067]
+
+--2016-11-09 20:00:02--  https://sg.finance.yahoo.com/q?s=K2LU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/K2LU_Cache_Log_Trust.html'
+
+     0K .......... .......... .......... .......... .........  11.5M=0.004s
+
+2016-11-09 20:00:03 (11.5 MB/s) - `data/K2LU_Cache_Log_Trust.html' saved [50852]
+
+--2016-11-09 20:00:03--  https://sg.finance.yahoo.com/q?s=J91U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/J91U_Cambridge_Ind_Tr.html'
+
+     0K .......... .......... .......... .......... .........  8.30M=0.006s
+
+2016-11-09 20:00:03 (8.30 MB/s) - `data/J91U_Cambridge_Ind_Tr.html' saved [50925]
+
+--2016-11-09 20:00:03--  https://sg.finance.yahoo.com/q?s=C61U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/C61U_CapitaCom_Trust.html'
+
+     0K .......... .......... .......... .......... .........  12.6M=0.004s
+
+2016-11-09 20:00:03 (12.6 MB/s) - `data/C61U_CapitaCom_Trust.html' saved [50272]
+
+--2016-11-09 20:00:03--  https://sg.finance.yahoo.com/q?s=C38U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/C38U_CapitaMall_Trust.html'
+
+     0K .......... .......... .......... .......... ........   10.9M=0.004s
+
+2016-11-09 20:00:03 (10.9 MB/s) - `data/C38U_CapitaMall_Trust.html' saved [49168]
+
+--2016-11-09 20:00:03--  https://sg.finance.yahoo.com/q?s=AU8U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/AU8U_CapitaR_China_Tr.html'
+
+     0K .......... .......... .......... .......... .........  3.93M=0.01s
+
+2016-11-09 20:00:03 (3.93 MB/s) - `data/AU8U_CapitaR_China_Tr.html' saved [50312]
+
+--2016-11-09 20:00:03--  https://sg.finance.yahoo.com/q?s=BWCU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BWCU_EC_World_Reit.html'
+
+     0K .......... .......... .......... .......... .....      3.10M=0.01s
+
+2016-11-09 20:00:03 (3.10 MB/s) - `data/BWCU_EC_World_Reit.html' saved [46283]
+
+--2016-11-09 20:00:03--  https://sg.finance.yahoo.com/q?s=AW9U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/AW9U_First_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 3.33M
+    50K                                                         345G=0.01s
+
+2016-11-09 20:00:04 (3.35 MB/s) - `data/AW9U_First_Reit.html' saved [51385]
+
+--2016-11-09 20:00:04--  https://sg.finance.yahoo.com/q?s=F25U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/F25U_Fortune_Reit_HKD.html'
+
+     0K .......... .......... .......... .......... .......... 2.68M
+    50K                                                         956G=0.02s
+
+2016-11-09 20:00:04 (2.71 MB/s) - `data/F25U_Fortune_Reit_HKD.html' saved [51713]
+
+--2016-11-09 20:00:04--  https://sg.finance.yahoo.com/q?s=ND8U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/ND8U_Frasers_Com_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 3.29M
+    50K                                                         190G=0.01s
+
+2016-11-09 20:00:04 (3.29 MB/s) - `data/ND8U_Frasers_Com_Tr.html' saved [51302]
+
+--2016-11-09 20:00:04--  https://sg.finance.yahoo.com/q?s=J69U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/J69U_Frasers_Cpt_Tr.html'
+
+     0K .......... .......... .......... .......... .........  11.9M=0.004s
+
+2016-11-09 20:00:04 (11.9 MB/s) - `data/J69U_Frasers_Cpt_Tr.html' saved [51163]
+
+--2016-11-09 20:00:04--  https://sg.finance.yahoo.com/q?s=BUOU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BUOU_Frasers_L&I_Tr.html'
+
+     0K .......... .......... .......... .......... ........   1.90M=0.02s
+
+2016-11-09 20:00:04 (1.90 MB/s) - `data/BUOU_Frasers_L&I_Tr.html' saved [49219]
+
+--2016-11-09 20:00:04--  https://sg.finance.yahoo.com/q?s=BWQU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BWQU_Frasers_L&I_Tr_AUD.html'
+
+     0K .......... .......... .......... .......... .....      11.7M=0.004s
+
+2016-11-09 20:00:04 (11.7 MB/s) - `data/BWQU_Frasers_L&I_Tr_AUD.html' saved [46103]
+
+--2016-11-09 20:00:04--  https://sg.finance.yahoo.com/q?s=BESU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BESU_Indiabulls_Trust.html'
+
+     0K .......... .......... .......... .......... .......    8.41M=0.006s
+
+2016-11-09 20:00:05 (8.41 MB/s) - `data/BESU_Indiabulls_Trust.html' saved [48876]
+
+--2016-11-09 20:00:05--  https://sg.finance.yahoo.com/q?s=UD1U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/UD1U_IREIT_Global.html'
+
+     0K .......... .......... .......... .......... .........  3.27M=0.01s
+
+2016-11-09 20:00:05 (3.27 MB/s) - `data/UD1U_IREIT_Global.html' saved [50278]
+
+--2016-11-09 20:00:05--  https://sg.finance.yahoo.com/q?s=AJBU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/AJBU_Keppel_DC_Reit.html'
+
+     0K .......... .......... .......... .......... .........  9.21M=0.005s
+
+2016-11-09 20:00:05 (9.21 MB/s) - `data/AJBU_Keppel_DC_Reit.html' saved [50768]
+
+--2016-11-09 20:00:05--  https://sg.finance.yahoo.com/q?s=K71U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/K71U_Keppel_Reit.html'
+
+     0K .......... .......... .......... .......... .........  3.18M=0.02s
+
+2016-11-09 20:00:05 (3.18 MB/s) - `data/K71U_Keppel_Reit.html' saved [50977]
+
+--2016-11-09 20:00:05--  https://sg.finance.yahoo.com/q?s=D5IU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/D5IU_Lippo_Malls_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 12.7M
+    50K                                                        1309G=0.004s
+
+2016-11-09 20:00:05 (12.8 MB/s) - `data/D5IU_Lippo_Malls_Tr.html' saved [51903]
+
+--2016-11-09 20:00:05--  https://sg.finance.yahoo.com/q?s=BTOU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/BTOU_ManulifeReit_USD.html'
+
+     0K .......... .......... .......... .......... .....      8.79M=0.005s
+
+2016-11-09 20:00:05 (8.79 MB/s) - `data/BTOU_ManulifeReit_USD.html' saved [46929]
+
+--2016-11-09 20:00:05--  https://sg.finance.yahoo.com/q?s=N2IU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/N2IU_Mapletree_Com_Tr.html'
+
+     0K .......... .......... .......... .......... .........  3.36M=0.01s
+
+2016-11-09 20:00:06 (3.36 MB/s) - `data/N2IU_Mapletree_Com_Tr.html' saved [51007]
+
+--2016-11-09 20:00:06--  https://sg.finance.yahoo.com/q?s=RW0U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/RW0U_Mapletree_GCC_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 9.86M
+    50K                                                         214G=0.005s
+
+2016-11-09 20:00:06 (9.89 MB/s) - `data/RW0U_Mapletree_GCC_Tr.html' saved [51315]
+
+--2016-11-09 20:00:06--  https://sg.finance.yahoo.com/q?s=ME8U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/ME8U_Mapletree_Ind_Tr.html'
+
+     0K .......... .......... .......... .......... .........  2.18M=0.02s
+
+2016-11-09 20:00:06 (2.18 MB/s) - `data/ME8U_Mapletree_Ind_Tr.html' saved [50980]
+
+--2016-11-09 20:00:06--  https://sg.finance.yahoo.com/q?s=M44U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/M44U_Mapletree_Log_Tr.html'
+
+     0K .......... .......... .......... .......... .......... 11.1M
+    50K                                                        76.4G=0.004s
+
+2016-11-09 20:00:06 (11.1 MB/s) - `data/M44U_Mapletree_Log_Tr.html' saved [51241]
+
+--2016-11-09 20:00:06--  https://sg.finance.yahoo.com/q?s=TS0U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/TS0U_OUE_Com_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 10.1M
+    50K                                                        1090G=0.005s
+
+2016-11-09 20:00:06 (10.2 MB/s) - `data/TS0U_OUE_Com_Reit.html' saved [51785]
+
+--2016-11-09 20:00:06--  https://sg.finance.yahoo.com/q?s=C2PU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/C2PU_ParkwayLife_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 14.1M
+    50K                                                         168G=0.003s
+
+2016-11-09 20:00:07 (14.1 MB/s) - `data/C2PU_ParkwayLife_Reit.html' saved [51290]
+
+--2016-11-09 20:00:07--  https://sg.finance.yahoo.com/q?s=M1GU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/M1GU_Sabana_Reit.html'
+
+     0K .......... .......... .......... .......... .........  9.53M=0.005s
+
+2016-11-09 20:00:07 (9.53 MB/s) - `data/M1GU_Sabana_Reit.html' saved [51111]
+
+--2016-11-09 20:00:07--  https://sg.finance.yahoo.com/q?s=T8JU.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/T8JU_Saizen_Reit.html'
+
+     0K .......... .......... .......... .......... .......    9.42M=0.005s
+
+2016-11-09 20:00:07 (9.42 MB/s) - `data/T8JU_Saizen_Reit.html' saved [48997]
+
+--2016-11-09 20:00:07--  https://sg.finance.yahoo.com/q?s=SV3U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/SV3U_SoilbuildBizReit.html'
+
+     0K .......... .......... .......... .......... .......... 4.22M
+    50K                                                         125G=0.01s
+
+2016-11-09 20:00:07 (4.23 MB/s) - `data/SV3U_SoilbuildBizReit.html' saved [51267]
+
+--2016-11-09 20:00:07--  https://sg.finance.yahoo.com/q?s=SK6U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/SK6U_SPHREIT.html'
+
+     0K .......... .......... .......... .......... ........   3.22M=0.01s
+
+2016-11-09 20:00:07 (3.22 MB/s) - `data/SK6U_SPHREIT.html' saved [50132]
+
+--2016-11-09 20:00:07--  https://sg.finance.yahoo.com/q?s=P40U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/P40U_StarhillGbl_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 10.3M
+    50K                                                         140G=0.005s
+
+2016-11-09 20:00:07 (10.3 MB/s) - `data/P40U_StarhillGbl_Reit.html' saved [51275]
+
+--2016-11-09 20:00:07--  https://sg.finance.yahoo.com/q?s=T82U.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/T82U_Suntec_Reit.html'
+
+     0K .......... .......... .......... .......... .......... 11.0M
+    50K                                                        24.2G=0.004s
+
+2016-11-09 20:00:08 (11.0 MB/s) - `data/T82U_Suntec_Reit.html' saved [51213]
+
+--2016-11-09 20:00:08--  https://sg.finance.yahoo.com/q?s=T8B.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:e4:1a::2000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/T8B_Viva_Ind_Tr.html'
+
+     0K .......... .......... .......... .......... .........  3.38M=0.01s
+
+2016-11-09 20:00:08 (3.38 MB/s) - `data/T8B_Viva_Ind_Tr.html' saved [51176]
+
+--2016-11-09 20:00:08--  https://sg.finance.yahoo.com/q?s=ACV.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/ACV_Frasers_HTrust.html'
+
+     0K .......... .......... .......... .......... .......... 3.33M
+    50K                                                         274G=0.01s
+
+2016-11-09 20:00:08 (3.34 MB/s) - `data/ACV_Frasers_HTrust.html' saved [51347]
+
+--2016-11-09 20:00:08--  https://sg.finance.yahoo.com/q?s=Q5T.SI
+Resolving sg.finance.yahoo.com... 106.10.199.11, 106.10.199.10, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/Q5T_Far_East_HTrust.html'
+
+     0K .......... .......... .......... .......... .......... 3.25M
+    50K                                                         194G=0.02s
+
+2016-11-09 20:00:08 (3.26 MB/s) - `data/Q5T_Far_East_HTrust.html' saved [51304]
+
+--2016-11-09 20:00:08--  https://sg.finance.yahoo.com/q?s=SK7.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/SK7_OUE_HTrust.html'
+
+     0K .......... .......... .......... .......... .........  10.5M=0.005s
+
+2016-11-09 20:00:08 (10.5 MB/s) - `data/SK7_OUE_HTrust.html' saved [50362]
+
+--2016-11-09 20:00:08--  https://sg.finance.yahoo.com/q?s=Q1P.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:f016:1fe::3000, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/Q1P_Ascendas-hTrust.html'
+
+     0K .......... .......... .......... .......... .........  4.04M=0.01s
+
+2016-11-09 20:00:09 (4.04 MB/s) - `data/Q1P_Ascendas-hTrust.html' saved [51169]
+
+--2016-11-09 20:00:09--  https://sg.finance.yahoo.com/q?s=J85.SI
+Resolving sg.finance.yahoo.com... 106.10.199.10, 106.10.199.11, 2406:2000:e4:1a::2001, ...
+Connecting to sg.finance.yahoo.com|106.10.199.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `data/J85_CDL_HTrust.html'
+
+     0K .......... .......... .......... .......... .........  3.09M=0.02s
+
+2016-11-09 20:00:09 (3.09 MB/s) - `data/J85_CDL_HTrust.html' saved [50953]
+
