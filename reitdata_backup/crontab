@@ -22,3 +22,23 @@ SHELL="/bin/bash"
 */30 8-21 * * 1-5 cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_si.sh -d >> /home/reitdat1/public_html/sgx/crawl_si_debug.log 2>&1
 0 * * * 0,6 cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_si.sh -d >> /home/reitdat1/public_html/sgx/crawl_si_debug.log 2>&1
 0 23 * * 1-5 cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/wp_republish_post.sh
+
+
+0	0	*	*	*	cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_sgx_announcement.sh	 Edit      Delete
+0	20	*	*	1-5	cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh	 Edit      Delete
+*/30	8,9,10,11,12,13,14,15,16,17,18,19,20,21	*	*	1-5	find /home/reitdat1/public_html/sgx -name 'crawl_sgx_debug.log' -daystart -mtime 1 -exec rm \{\} \; && cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_sgx.sh -d >> /home/reitdat1/public_html/sgx/crawl_sgx_debug.log 2>&1	 Edit      Delete
+0	23	*	*	1-5	find /home/reitdat1/public_html/sgx -name 'crawl_sgx_debug.log' -daystart -mtime 1 -exec rm \{\} \; && cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_sgx.sh -d >> /home/reitdat1/public_html/sgx/crawl_sgx_debug.log 2>&1	 Edit      Delete
+0	*	*	*	0,6	find /home/reitdat1/public_html/sgx -name 'crawl_sgx_debug.log' -daystart -mtime 1 -exec rm \{\} \; && cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_sgx.sh -d >> /home/reitdat1/public_html/sgx/crawl_sgx_debug.log 2>&1	 Edit      Delete
+0	20	*	*	1-5	cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -o	 Edit      Delete
+0	20	*	*	1-5	cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -s	 Edit      Delete
+0	20	*	*	1-5	cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -i	 Edit      Delete
+0	20	*	*	1-5	cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -a	 Edit      Delete
+0	20	*	*	1-5	cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -t	 Edit      Delete
+0	20	*	*	1-5	cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -e	 Edit      Delete
+0	20	*	*	1-5	cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -f	 Edit      Delete
+0	20	*	*	1-5	cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/crawl_reitdata.sh -n	 Edit      Delete
+0	8-21	*	*	1-5	find /home/reitdat1/public_html/sgx -name 'crawl_bursa_debug.log' -daystart -mtime 1 -exec rm \{\} \; && cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_bursa.sh -d >> /home/reitdat1/public_html/sgx/crawl_bursa_debug.log 2>&1	 Edit      Delete
+0	*	*	*	0,6	find /home/reitdat1/public_html/sgx -name 'crawl_bursa_debug.log' -daystart -mtime 1 -exec rm \{\} \; && cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_bursa.sh -d >> /home/reitdat1/public_html/sgx/crawl_bursa_debug.log 2>&1	 Edit      Delete
+*/30	8-21	*	*	1-5	cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_si.sh -d >> /home/reitdat1/public_html/sgx/crawl_si_debug.log 2>&1	 Edit      Delete
+0	*	*	*	0,6	cd /home/reitdat1/public_html/sgx && /home/reitdat1/public_html/sgx/crawl_si.sh -d >> /home/reitdat1/public_html/sgx/crawl_si_debug.log 2>&1	 Edit      Delete
+0	23	*	*	1-5	cd /home/reitdat1/public_html/reitdata && /home/reitdat1/public_html/reitdata/wp_republish_post.sh	 Edit      Delete
